@@ -1,0 +1,220 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/leaderboard-lightning.glb",
+  "approved_glb_size_bytes": 8868,
+  "asset": "energy-system/leaderboard-lightning",
+  "checks": {
+    "approved_glb_materials_valid": true,
+    "approved_glb_reimports": true,
+    "approved_structure_assets_present": true,
+    "delivery_style_matches_spec": true,
+    "file_budget": true,
+    "ground_veins": true,
+    "hard_endpoint_meets_lightning_intake": true,
+    "jagged_bolt_not_straight": true,
+    "lightning_count": true,
+    "material_named_energy": true,
+    "prior_faint_thread_asset_present": true,
+    "prior_hard_pipeline_asset_present": true,
+    "prior_hard_route_arced": true,
+    "prior_warm_mist_asset_present": true,
+    "prior_waterfall_asset_present": true,
+    "strikes_leaderboard_apex": true,
+    "technical_budget": true
+  },
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/drafts/leaderboard-lightning-session53.glb",
+  "hard_pipeline_metrics": {
+    "arc_lift_over_linear_mid": 20.2829,
+    "arc_peak_z": 44.3,
+    "distance_xy": 41.2056,
+    "end": [
+      -8.0,
+      -45.0,
+      11.2342
+    ],
+    "ground_vein_center": [
+      -8.0,
+      -45.0,
+      0.075
+    ],
+    "label": "Leaderboard & Competition",
+    "linear_mid_z": 24.0171,
+    "object_count": 21,
+    "special_delivery_later": "lightning bolt entry",
+    "start": [
+      -0.7877,
+      -4.4305,
+      36.8
+    ],
+    "tris": 1464
+  },
+  "import_check": {
+    "file_size_bytes": 8868,
+    "materials": [
+      "energy"
+    ],
+    "materials_valid": true,
+    "mesh_count": 1,
+    "object_count": 2,
+    "tris": 866
+  },
+  "leaderboard_bbox": {
+    "center": [
+      -8.0,
+      -45.0,
+      5.3421
+    ],
+    "max": [
+      1.2,
+      -31.75,
+      10.6842
+    ],
+    "min": [
+      -17.2,
+      -58.25,
+      0.0
+    ],
+    "size": [
+      18.4,
+      26.5,
+      10.6842
+    ]
+  },
+  "lightning_materials": [
+    "energy"
+  ],
+  "lightning_metrics": {
+    "Leaderboard": {
+      "branch_count": 12,
+      "branch_endpoints": [
+        [
+          -7.1668,
+          -44.7955,
+          10.0362
+        ],
+        [
+          -7.0601,
+          -44.2094,
+          9.5946
+        ],
+        [
+          -7.4536,
+          -44.3215,
+          9.148
+        ],
+        [
+          -8.3358,
+          -44.1754,
+          9.0063
+        ],
+        [
+          -8.7153,
+          -44.0916,
+          8.5792
+        ],
+        [
+          -8.3793,
+          -44.8817,
+          10.3178
+        ],
+        [
+          -8.9876,
+          -45.0507,
+          9.8762
+        ],
+        [
+          -8.7847,
+          -45.6305,
+          9.7546
+        ],
+        [
+          -7.9669,
+          -45.6585,
+          9.308
+        ],
+        [
+          -7.8932,
+          -45.9574,
+          8.8463
+        ],
+        [
+          -7.2288,
+          -45.7579,
+          8.4192
+        ],
+        [
+          -7.0106,
+          -45.3238,
+          10.4778
+        ]
+      ],
+      "delivery_style": "lightning",
+      "drop_height": 2.79,
+      "ground_vein_count": 8,
+      "hard_pipeline_endpoint": [
+        -8.0,
+        -45.0,
+        11.2342
+      ],
+      "impact": [
+        -8.0,
+        -45.0,
+        8.4442
+      ],
+      "impact_ring_count": 2,
+      "intake": [
+        -8.0,
+        -45.0,
+        11.2342
+      ],
+      "main_bolt_segment_count": 6,
+      "max_lateral_jag": 0.3367,
+      "pillar_jump_count": 4,
+      "pillar_jump_endpoints": [
+        [
+          -2.9,
+          -45.0,
+          8.7242
+        ],
+        [
+          -8.0,
+          -39.9,
+          8.7242
+        ],
+        [
+          -13.1,
+          -45.0,
+          8.7242
+        ],
+        [
+          -8.0,
+          -50.1,
+          8.7242
+        ]
+      ],
+      "prior_hard_pipeline_start": [
+        -0.7877,
+        -4.4305,
+        36.8
+      ],
+      "receptor": "Leaderboard open-apex strike socket",
+      "tris": 866
+    }
+  },
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "scope": {
+    "lightning_count": 1,
+    "note": "Builds the Leaderboard special delivery as a jagged lightning strike at the open arena apex. The existing hard pipeline remains the long-distance SIA feed; this asset adds the intake halo, main bolt, branch forks, rim flash, pillar jumpers, and endpoint ground veins.",
+    "targets": [
+      "Leaderboard"
+    ]
+  },
+  "screenshots": {
+    "citywide": "screenshots/s53-leaderboard-lightning-citywide.png",
+    "leaderboard_receptor": "screenshots/s53-leaderboard-lightning-receptor.png",
+    "route": "screenshots/s53-sia-leaderboard-lightning-route.png"
+  },
+  "session": 53,
+  "source_layout_report": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/integration-session-48-report.json",
+  "total_tris": 866
+}

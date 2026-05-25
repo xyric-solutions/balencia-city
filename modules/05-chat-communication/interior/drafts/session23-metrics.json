@@ -1,0 +1,72 @@
+{
+  "blend_file": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/05-chat-communication/interior/drafts/chat-communication-int-session23.blend",
+  "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/05-chat-communication/interior/drafts/chat-int-draft-s23.glb",
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "glb_size_bytes": 196232,
+  "material_issues": [],
+  "mesh_objects": 167,
+  "module": "05-chat-communication",
+  "object_groups": {
+    "calling_booth": {
+      "count": 36,
+      "tris": 2384
+    },
+    "ceiling_lattice": {
+      "count": 21,
+      "tris": 984
+    },
+    "central": {
+      "count": 2,
+      "tris": 216
+    },
+    "circular": {
+      "count": 2,
+      "tris": 376
+    },
+    "conversation_web": {
+      "count": 17,
+      "tris": 2768
+    },
+    "floor": {
+      "count": 9,
+      "tris": 1092
+    },
+    "room_shell": {
+      "count": 34,
+      "tris": 408
+    },
+    "seat_pods": {
+      "count": 24,
+      "tris": 288
+    },
+    "table": {
+      "count": 1,
+      "tris": 432
+    },
+    "whiteboard": {
+      "count": 21,
+      "tris": 252
+    }
+  },
+  "screenshots": [
+    "screenshots/s23-int-overview.png",
+    "screenshots/s23-int-from-entrance.png",
+    "screenshots/s23-int-topdown.png",
+    "screenshots/s23-int-dark-first.png"
+  ],
+  "session": 23,
+  "slot_tris": {
+    "accent": 2280,
+    "base": 672,
+    "detail": 1732,
+    "emissive": 2468,
+    "energy": 1584,
+    "glass": 464
+  },
+  "total_tris": 9200
+}

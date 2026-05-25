@@ -1,0 +1,95 @@
+{
+  "approved_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/interior/approved/relationships-int.glb",
+  "bbox": {
+    "max": [
+      6.349999904632568,
+      5.150000095367432,
+      5.51233434677124
+    ],
+    "min": [
+      -6.349999904632568,
+      -5.150000095367432,
+      0.0
+    ]
+  },
+  "camera_objects": 0,
+  "checks": {
+    "gate3_energy_holo_usage_pass": true,
+    "gate3_material_names_pass": true,
+    "gate5_file_size_pass": true,
+    "gate5_no_cameras_lights_pass": true,
+    "gate5_origin_bottom_pass": true,
+    "gate5_transforms_pass": true,
+    "gate5_triangle_budget_pass": true,
+    "gate7_focal_point_pass": true,
+    "gate7_props_present_pass": true,
+    "gate7_required_empties_pass": true
+  },
+  "dark_first_screenshot": "screenshots/s35-int-dark-first.png",
+  "empty_objects": 5,
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      -0.42,
+      1.34
+    ],
+    "light_0": [
+      0.0,
+      0.0,
+      1.55
+    ],
+    "light_1": [
+      -4.2,
+      2.16,
+      2.25
+    ],
+    "light_2": [
+      0.0,
+      0.18,
+      4.9
+    ],
+    "relationships-int": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "file_size_bytes": 74204,
+  "glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/interior/drafts/relationships-int-draft-s35.glb",
+  "invalid_materials": [],
+  "light_objects": 0,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "materials_ok_by_export_pipeline": true,
+  "mesh_objects": 29,
+  "missing_empties": [],
+  "non_identity_mesh_transforms": [],
+  "prop_counts": {
+    "ai_insight_benches": 4,
+    "empathy_alcoves": 4,
+    "family_bonding_dome": 5,
+    "low_planter_beds": 3,
+    "memory_timeline": 4,
+    "room_shell": 4,
+    "rose_energy_paths": 2,
+    "trust_vines": 3
+  },
+  "qa_pass": true,
+  "slot_tris": {
+    "accent": 1224,
+    "base": 616,
+    "detail": 1830,
+    "emissive": 1698,
+    "energy": 200,
+    "glass": 844
+  },
+  "total_tris": 6412,
+  "uses_energy": true,
+  "uses_holo": false
+}

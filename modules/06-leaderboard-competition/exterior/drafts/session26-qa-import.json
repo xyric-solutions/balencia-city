@@ -1,0 +1,32 @@
+{
+  "mesh_objects": 180,
+  "empty_objects": 1,
+  "tris": 17424,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "rogue_materials": [],
+  "uses_energy": true,
+  "uses_holo": false,
+  "cameras": 0,
+  "lights": 0,
+  "bbox": {
+    "min": [
+      -9.2,
+      -13.25,
+      0.0
+    ],
+    "max": [
+      9.2,
+      13.25,
+      10.6842
+    ]
+  },
+  "non_identity_mesh_transforms": [],
+  "glb_bytes": 278620
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia QA"
+  short_description: "Run Balencia quality review workflows."
+  default_prompt: "Use this skill when the user asks for /balencia-qa, module QA, city cohesion QA, or energy QA."

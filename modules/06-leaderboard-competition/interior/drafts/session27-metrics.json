@@ -1,0 +1,876 @@
+{
+  "blend_file": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/interior/drafts/leaderboard-competition-int-session27.blend",
+  "blender_version": "5.1.1",
+  "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/interior/drafts/leaderboard-int-draft-s27.glb",
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      0.0,
+      3.25
+    ],
+    "light_0": [
+      0.0,
+      0.0,
+      6.92
+    ],
+    "light_1": [
+      0.0,
+      1.85,
+      3.52
+    ],
+    "light_2": [
+      3.95,
+      2.75,
+      2.35
+    ]
+  },
+  "glb_size_bytes": 198908,
+  "material_issues": [],
+  "mesh_objects": 131,
+  "module": "06-leaderboard-competition",
+  "object_groups": {
+    "Achievement towers": {
+      "count": 30,
+      "tris": 1240
+    },
+    "Central holographic leaderboard focal": {
+      "count": 12,
+      "tris": 2280
+    },
+    "Head-to-head competition zones": {
+      "count": 6,
+      "tris": 632
+    },
+    "Milestone light bloom emitters": {
+      "count": 6,
+      "tris": 816
+    },
+    "Orbiting challenge cards": {
+      "count": 12,
+      "tris": 144
+    },
+    "Progression monuments": {
+      "count": 12,
+      "tris": 160
+    },
+    "Room shell, tiered seating, and open-sky rim": {
+      "count": 29,
+      "tris": 3888
+    },
+    "Team challenge platforms and seats": {
+      "count": 24,
+      "tris": 288
+    }
+  },
+  "objects": [
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_00_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_00_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "energy",
+      "name": "achievement_tower_00_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_01_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_01_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "accent",
+      "name": "achievement_tower_01_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_02_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_02_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "accent",
+      "name": "achievement_tower_02_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_03_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_03_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "energy",
+      "name": "achievement_tower_03_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_04_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_04_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "accent",
+      "name": "achievement_tower_04_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_05_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_05_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "accent",
+      "name": "achievement_tower_05_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_06_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_06_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "energy",
+      "name": "achievement_tower_06_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_07_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_07_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "accent",
+      "name": "achievement_tower_07_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_08_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_08_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "accent",
+      "name": "achievement_tower_08_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Achievement towers",
+      "material": "emissive",
+      "name": "achievement_tower_09_glow_cap",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "detail",
+      "name": "achievement_tower_09_pillar",
+      "tris": 52
+    },
+    {
+      "group": "Achievement towers",
+      "material": "energy",
+      "name": "achievement_tower_09_vertical_energy_strip",
+      "tris": 20
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "base",
+      "name": "arena_interior_curved_wall_panels_with_front_gap",
+      "tris": 144
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "glass",
+      "name": "arena_interior_inactive_display_slits",
+      "tris": 72
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "accent",
+      "name": "ceiling_inner_rank_orbit_track",
+      "tris": 192
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "central_competition_platform",
+      "tris": 140
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "glass",
+      "name": "central_holographic_leaderboard_cylinder",
+      "tris": 188
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "base",
+      "name": "competition_floor_disc",
+      "tris": 188
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "energy",
+      "name": "floor_energy_target_ring",
+      "tris": 192
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "accent",
+      "name": "floor_inner_challenge_ring",
+      "tris": 192
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "floor_outer_service_ring",
+      "tris": 240
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "accent",
+      "name": "front_open_wall_coral_threshold",
+      "tris": 28
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "front_open_wall_left_guard_rail",
+      "tris": 28
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "front_open_wall_right_guard_rail",
+      "tris": 28
+    },
+    {
+      "group": "Head-to-head competition zones",
+      "material": "energy",
+      "name": "head_to_head_zone_north_challenge_line",
+      "tris": 28
+    },
+    {
+      "group": "Head-to-head competition zones",
+      "material": "accent",
+      "name": "head_to_head_zone_north_left_circle",
+      "tris": 144
+    },
+    {
+      "group": "Head-to-head competition zones",
+      "material": "accent",
+      "name": "head_to_head_zone_north_right_circle",
+      "tris": 144
+    },
+    {
+      "group": "Head-to-head competition zones",
+      "material": "energy",
+      "name": "head_to_head_zone_south_challenge_line",
+      "tris": 28
+    },
+    {
+      "group": "Head-to-head competition zones",
+      "material": "accent",
+      "name": "head_to_head_zone_south_left_circle",
+      "tris": 144
+    },
+    {
+      "group": "Head-to-head competition zones",
+      "material": "accent",
+      "name": "head_to_head_zone_south_right_circle",
+      "tris": 144
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "emissive",
+      "name": "leaderboard_cylindrical_rank_ring_00",
+      "tris": 192
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "energy",
+      "name": "leaderboard_cylindrical_rank_ring_01",
+      "tris": 192
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "emissive",
+      "name": "leaderboard_cylindrical_rank_ring_02",
+      "tris": 192
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "energy",
+      "name": "leaderboard_cylindrical_rank_ring_03",
+      "tris": 192
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "emissive",
+      "name": "leaderboard_cylindrical_rank_ring_04",
+      "tris": 192
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "energy",
+      "name": "leaderboard_cylindrical_rank_ring_05",
+      "tris": 192
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "base",
+      "name": "leaderboard_dark_inner_core_shadow",
+      "tris": 60
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "emissive",
+      "name": "leaderboard_downward_rank_arrow",
+      "tris": 8
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "emissive",
+      "name": "leaderboard_rank_position_glyph_columns",
+      "tris": 480
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "accent",
+      "name": "leaderboard_score_shift_bar_geometry",
+      "tris": 384
+    },
+    {
+      "group": "Central holographic leaderboard focal",
+      "material": "energy",
+      "name": "leaderboard_upward_rank_arrow",
+      "tris": 8
+    },
+    {
+      "group": "Milestone light bloom emitters",
+      "material": "energy",
+      "name": "milestone_light_bloom_north_west_core",
+      "tris": 120
+    },
+    {
+      "group": "Milestone light bloom emitters",
+      "material": "emissive",
+      "name": "milestone_light_bloom_north_west_outer_wave",
+      "tris": 144
+    },
+    {
+      "group": "Milestone light bloom emitters",
+      "material": "accent",
+      "name": "milestone_light_bloom_north_west_tilted_wave",
+      "tris": 144
+    },
+    {
+      "group": "Milestone light bloom emitters",
+      "material": "energy",
+      "name": "milestone_light_bloom_south_east_core",
+      "tris": 120
+    },
+    {
+      "group": "Milestone light bloom emitters",
+      "material": "emissive",
+      "name": "milestone_light_bloom_south_east_outer_wave",
+      "tris": 144
+    },
+    {
+      "group": "Milestone light bloom emitters",
+      "material": "accent",
+      "name": "milestone_light_bloom_south_east_tilted_wave",
+      "tris": 144
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "open_sky_ceiling_rim_aperture",
+      "tris": 240
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "glass",
+      "name": "orbiting_challenge_card_00",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "emissive",
+      "name": "orbiting_challenge_card_00_coral_header",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "glass",
+      "name": "orbiting_challenge_card_01",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "emissive",
+      "name": "orbiting_challenge_card_01_coral_header",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "glass",
+      "name": "orbiting_challenge_card_02",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "emissive",
+      "name": "orbiting_challenge_card_02_coral_header",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "glass",
+      "name": "orbiting_challenge_card_03",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "emissive",
+      "name": "orbiting_challenge_card_03_coral_header",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "glass",
+      "name": "orbiting_challenge_card_04",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "emissive",
+      "name": "orbiting_challenge_card_04_coral_header",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "glass",
+      "name": "orbiting_challenge_card_05",
+      "tris": 12
+    },
+    {
+      "group": "Orbiting challenge cards",
+      "material": "emissive",
+      "name": "orbiting_challenge_card_05_coral_header",
+      "tris": 12
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "overhead_open_sky_truss_00",
+      "tris": 28
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "overhead_open_sky_truss_01",
+      "tris": 28
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "overhead_open_sky_truss_02",
+      "tris": 28
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "overhead_open_sky_truss_03",
+      "tris": 28
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "overhead_open_sky_truss_04",
+      "tris": 28
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "overhead_open_sky_truss_05",
+      "tris": 28
+    },
+    {
+      "group": "Progression monuments",
+      "material": "detail",
+      "name": "progression_monument_left_ascending_step_0",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "detail",
+      "name": "progression_monument_left_ascending_step_1",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "detail",
+      "name": "progression_monument_left_ascending_step_2",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "accent",
+      "name": "progression_monument_left_ascending_step_3",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "accent",
+      "name": "progression_monument_left_ascending_step_4",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "energy",
+      "name": "progression_monument_left_energy_spine",
+      "tris": 20
+    },
+    {
+      "group": "Progression monuments",
+      "material": "detail",
+      "name": "progression_monument_right_ascending_step_0",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "detail",
+      "name": "progression_monument_right_ascending_step_1",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "detail",
+      "name": "progression_monument_right_ascending_step_2",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "accent",
+      "name": "progression_monument_right_ascending_step_3",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "accent",
+      "name": "progression_monument_right_ascending_step_4",
+      "tris": 12
+    },
+    {
+      "group": "Progression monuments",
+      "material": "energy",
+      "name": "progression_monument_right_energy_spine",
+      "tris": 20
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "base",
+      "name": "rear_partial_ceiling_canopy_back_half",
+      "tris": 196
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "emissive",
+      "name": "team_challenge_platform_east_center_score_strip",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "detail",
+      "name": "team_challenge_platform_east_raised_deck",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_a_0",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_a_1",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_a_2",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_a_3",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_a_4",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_b_0",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_b_1",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_b_2",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_b_3",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_east_seat_b_4",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "emissive",
+      "name": "team_challenge_platform_west_center_score_strip",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "detail",
+      "name": "team_challenge_platform_west_raised_deck",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_a_0",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_a_1",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_a_2",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_a_3",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_a_4",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_b_0",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_b_1",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_b_2",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_b_3",
+      "tris": 12
+    },
+    {
+      "group": "Team challenge platforms and seats",
+      "material": "base",
+      "name": "team_challenge_platform_west_seat_b_4",
+      "tris": 12
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "tiered_seating_row_00_concentric_bowl",
+      "tris": 224
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "accent",
+      "name": "tiered_seating_row_00_seat_markers",
+      "tris": 144
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "tiered_seating_row_01_concentric_bowl",
+      "tris": 224
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "tiered_seating_row_01_seat_markers",
+      "tris": 144
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "tiered_seating_row_02_concentric_bowl",
+      "tris": 224
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "accent",
+      "name": "tiered_seating_row_02_seat_markers",
+      "tris": 144
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "tiered_seating_row_03_concentric_bowl",
+      "tris": 224
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "tiered_seating_row_03_seat_markers",
+      "tris": 144
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "detail",
+      "name": "tiered_seating_row_04_concentric_bowl",
+      "tris": 224
+    },
+    {
+      "group": "Room shell, tiered seating, and open-sky rim",
+      "material": "accent",
+      "name": "tiered_seating_row_04_seat_markers",
+      "tris": 144
+    }
+  ],
+  "screenshots": [
+    "screenshots/s27-int-overview.png",
+    "screenshots/s27-int-from-entry.png",
+    "screenshots/s27-int-topdown.png",
+    "screenshots/s27-int-focal-leaderboard.png",
+    "screenshots/s27-int-dark-first.png"
+  ],
+  "session": 27,
+  "slot_tris": {
+    "accent": 2260,
+    "base": 828,
+    "detail": 2868,
+    "emissive": 1968,
+    "energy": 1192,
+    "glass": 332
+  },
+  "total_tris": 9448
+}

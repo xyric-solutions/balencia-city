@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia Build"
+  short_description: "Run the Balencia build loop workflow."
+  default_prompt: "Use this skill when the user asks for /balencia-build, build next, continue Balencia, or generate the next build session."

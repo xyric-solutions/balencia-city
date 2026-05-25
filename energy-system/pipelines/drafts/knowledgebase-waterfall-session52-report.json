@@ -1,0 +1,109 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/knowledgebase-waterfall.glb",
+  "approved_glb_size_bytes": 12620,
+  "asset": "energy-system/knowledgebase-waterfall",
+  "checks": {
+    "approved_glb_materials_valid": true,
+    "approved_glb_reimports": true,
+    "approved_structure_assets_present": true,
+    "cascades_down_facade": true,
+    "delivery_style_matches_spec": true,
+    "file_budget": true,
+    "ground_veins": true,
+    "material_named_energy": true,
+    "prior_faint_thread_asset_present": true,
+    "prior_hard_pipeline_asset_present": true,
+    "prior_warm_mist_asset_present": true,
+    "starts_above_knowledgebase_crown": true,
+    "technical_budget": true,
+    "waterfall_count": true
+  },
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/drafts/knowledgebase-waterfall-session52.glb",
+  "import_check": {
+    "file_size_bytes": 12620,
+    "materials": [
+      "energy"
+    ],
+    "materials_valid": true,
+    "mesh_count": 1,
+    "object_count": 2,
+    "tris": 1484
+  },
+  "knowledgebase_bbox": {
+    "center": [
+      31.0,
+      -22.825,
+      6.205
+    ],
+    "max": [
+      33.6888,
+      -19.8,
+      12.5
+    ],
+    "min": [
+      28.3113,
+      -25.85,
+      -0.09
+    ],
+    "size": [
+      5.3775,
+      6.05,
+      12.59
+    ]
+  },
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "scope": {
+    "note": "Builds the Knowledgebase special delivery as a downward liquid-light cascade on the SIA-facing facade. The existing hard pipeline remains the long-distance feed; this asset adds the crown lip, vertical streams, facade curtain, reservoir pool, and endpoint ground veins.",
+    "targets": [
+      "Knowledgebase"
+    ],
+    "waterfall_count": 1
+  },
+  "screenshots": {
+    "citywide": "screenshots/s52-knowledgebase-waterfall-citywide.png",
+    "knowledgebase_receptor": "screenshots/s52-knowledgebase-waterfall-receptor.png",
+    "route": "screenshots/s52-sia-knowledgebase-waterfall-route.png"
+  },
+  "session": 52,
+  "source_layout_report": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/integration-session-48-report.json",
+  "total_tris": 1484,
+  "waterfall_materials": [
+    "energy"
+  ],
+  "waterfall_metrics": {
+    "Knowledgebase": {
+      "base": [
+        28.2581,
+        -20.8061,
+        0.078
+      ],
+      "curtain_strip_count": 5,
+      "delivery_style": "waterfall",
+      "drop_height": 12.8,
+      "droplet_count": 7,
+      "facade_half_width": 1.8284,
+      "front_facade_center": [
+        28.2581,
+        -20.8061,
+        0.0
+      ],
+      "ground_vein_count": 8,
+      "has_downward_curtain": true,
+      "has_reservoir_pool": true,
+      "lip": [
+        28.2581,
+        -20.8061,
+        13.02
+      ],
+      "receptor": "SIA-facing Knowledgebase crown lip",
+      "stream_count": 7,
+      "top": [
+        28.2581,
+        -20.8061,
+        14.75
+      ],
+      "tris": 1484
+    }
+  }
+}

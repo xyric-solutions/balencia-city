@@ -1,0 +1,521 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/cross-connections/approved/cross-district-gold.glb",
+  "approved_glb_size_bytes": 15464,
+  "asset": "energy-system/cross-connections",
+  "checks": {
+    "approved_glb_anchor_count": true,
+    "approved_glb_materials_valid": true,
+    "approved_glb_reimports": true,
+    "approved_structure_assets_present": true,
+    "arced_paths": true,
+    "connection_count": true,
+    "connection_pairs_match_spec": true,
+    "endpoints_clear_roofs": true,
+    "file_budget": true,
+    "material_named_energy": true,
+    "midpoint_anchors": true,
+    "prior_energy_assets_present": true,
+    "technical_budget": true
+  },
+  "connection_materials": [
+    "energy"
+  ],
+  "connection_metrics": {
+    "chat_relationships": {
+      "arc_lift_over_linear_mid": 12.0999,
+      "arc_peak_z": 24.0899,
+      "distance_xy": 25.4859,
+      "end": [
+        8.0,
+        -58.9998,
+        8.3901
+      ],
+      "endpoint_clearance": {
+        "from": 1.05,
+        "to": 1.05
+      },
+      "from": "Chat & Communication",
+      "from_key": "Chat",
+      "insight": "You haven't spoken to [name] in 14 days",
+      "linear_mid_z": 11.99,
+      "midpoint_anchor": [
+        10.9742,
+        -46.2964,
+        24.0899
+      ],
+      "start": [
+        19.0,
+        -36.01,
+        15.5899
+      ],
+      "to": "Relationships",
+      "to_key": "Relationships",
+      "tris": 200
+    },
+    "finance_career": {
+      "arc_lift_over_linear_mid": 10.155,
+      "arc_peak_z": 29.41,
+      "distance_xy": 70.7743,
+      "end": [
+        -30.0,
+        -34.0,
+        19.41
+      ],
+      "endpoint_clearance": {
+        "from": 1.05,
+        "to": 1.05
+      },
+      "from": "Finance",
+      "from_key": "Finance",
+      "insight": "Spending increases 40% during high-stress work weeks",
+      "linear_mid_z": 19.255,
+      "midpoint_anchor": [
+        0.9966,
+        -16.51,
+        29.41
+      ],
+      "start": [
+        35.0,
+        -6.0,
+        19.1
+      ],
+      "to": "Career",
+      "to_key": "Career",
+      "tris": 200
+    },
+    "fitness_recovery": {
+      "arc_lift_over_linear_mid": 15.2677,
+      "arc_peak_z": 27.05,
+      "distance_xy": 76.4447,
+      "end": [
+        -43.0,
+        -8.0001,
+        9.0145
+      ],
+      "endpoint_clearance": {
+        "from": 1.05,
+        "to": 1.05
+      },
+      "from": "Fitness",
+      "from_key": "Fitness",
+      "insight": "Recovery score impacts tomorrow's workout capacity",
+      "linear_mid_z": 11.7822,
+      "midpoint_anchor": [
+        -10.7384,
+        13.1464,
+        27.05
+      ],
+      "start": [
+        26.0,
+        24.9057,
+        14.55
+      ],
+      "to": "Recovery & Sleep",
+      "to_key": "Recovery",
+      "tris": 200
+    },
+    "nutrition_career": {
+      "arc_lift_over_linear_mid": 19.8824,
+      "arc_peak_z": 34.41,
+      "distance_xy": 75.1816,
+      "end": [
+        -30.0,
+        -34.0,
+        19.41
+      ],
+      "endpoint_clearance": {
+        "from": 1.05,
+        "to": 1.05
+      },
+      "from": "Nutrition",
+      "from_key": "Nutrition",
+      "insight": "Skipped meals on meeting days reduce afternoon focus 31%",
+      "linear_mid_z": 14.5276,
+      "midpoint_anchor": [
+        -16.6309,
+        1.4201,
+        34.41
+      ],
+      "start": [
+        -12.0,
+        38.995,
+        9.6452
+      ],
+      "to": "Career",
+      "to_key": "Career",
+      "tris": 200
+    },
+    "recovery_analytics": {
+      "arc_lift_over_linear_mid": 13.3727,
+      "arc_peak_z": 26.76,
+      "distance_xy": 25.0599,
+      "end": [
+        -31.0002,
+        14.0,
+        17.76
+      ],
+      "endpoint_clearance": {
+        "from": 1.05,
+        "to": 1.05
+      },
+      "from": "Recovery & Sleep",
+      "from_key": "Recovery",
+      "insight": "Evening meditation correlates with next-day focus scores",
+      "linear_mid_z": 13.3872,
+      "midpoint_anchor": [
+        -39.8094,
+        4.5323,
+        26.76
+      ],
+      "start": [
+        -43.0,
+        -8.0001,
+        9.0145
+      ],
+      "to": "AI Analytics",
+      "to_key": "Analytics",
+      "tris": 200
+    },
+    "relationships_yoga": {
+      "arc_lift_over_linear_mid": 12.4199,
+      "arc_peak_z": 19.8901,
+      "distance_xy": 74.4647,
+      "end": [
+        36.0,
+        10.0001,
+        6.5503
+      ],
+      "endpoint_clearance": {
+        "from": 1.05,
+        "to": 1.05
+      },
+      "from": "Relationships",
+      "from_key": "Relationships",
+      "insight": "Social connection improves recovery scores by 24%",
+      "linear_mid_z": 7.4702,
+      "midpoint_anchor": [
+        15.1431,
+        -21.7173,
+        19.8901
+      ],
+      "start": [
+        8.0,
+        -58.9998,
+        8.3901
+      ],
+      "to": "Yoga & Wellbeing",
+      "to_key": "Yoga",
+      "tris": 200
+    }
+  },
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/cross-connections/drafts/cross-connections-session54.glb",
+  "emission_strength": 0.8,
+  "gold_hex": "#F59E0B",
+  "import_check": {
+    "anchor_count": 6,
+    "empty_count": 7,
+    "file_size_bytes": 15464,
+    "materials": [
+      "energy"
+    ],
+    "materials_valid": true,
+    "mesh_count": 6,
+    "object_count": 13,
+    "tris": 1200
+  },
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "prior_energy_assets": {
+    "faint_thread": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/faint-thread.glb",
+    "hard_pipelines": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/hard-pipelines.glb",
+    "knowledgebase_waterfall": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/knowledgebase-waterfall.glb",
+    "leaderboard_lightning": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/leaderboard-lightning.glb",
+    "warm_mist": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/warm-mist.glb"
+  },
+  "scope": {
+    "connection_count": 6,
+    "note": "Builds the minimum six cross-district intelligence links as thin gold #F59E0B emissive geometry. The material is intentionally named energy for runtime override compatibility, with midpoint empties for floating insight cards.",
+    "targets": [
+      "fitness_recovery",
+      "nutrition_career",
+      "relationships_yoga",
+      "finance_career",
+      "recovery_analytics",
+      "chat_relationships"
+    ]
+  },
+  "screenshots": {
+    "citywide": "screenshots/s54-cross-connections-citywide.png",
+    "north_south_span": "screenshots/s54-cross-connections-north-south.png",
+    "southwest_cluster": "screenshots/s54-cross-connections-southwest.png"
+  },
+  "session": 54,
+  "source_layout_report": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/integration-session-48-report.json",
+  "structure_scales": {
+    "Analytics": {
+      "center": [
+        -31.0002,
+        14.0,
+        8.355
+      ],
+      "max": [
+        -25.3718,
+        22.0,
+        16.71
+      ],
+      "min": [
+        -36.6286,
+        6.0,
+        0.0
+      ],
+      "size": [
+        11.2568,
+        16.0,
+        16.71
+      ]
+    },
+    "Career": {
+      "center": [
+        -30.0,
+        -34.0,
+        9.18
+      ],
+      "max": [
+        -22.1,
+        -27.395,
+        18.36
+      ],
+      "min": [
+        -37.9,
+        -40.605,
+        0.0
+      ],
+      "size": [
+        15.8,
+        13.21,
+        18.36
+      ]
+    },
+    "Chat": {
+      "center": [
+        19.0,
+        -36.01,
+        7.27
+      ],
+      "max": [
+        25.3045,
+        -30.94,
+        14.5399
+      ],
+      "min": [
+        12.6955,
+        -41.0799,
+        0.0
+      ],
+      "size": [
+        12.609,
+        10.1399,
+        14.5399
+      ]
+    },
+    "Finance": {
+      "center": [
+        35.0,
+        -6.0,
+        9.02
+      ],
+      "max": [
+        41.2,
+        0.2,
+        18.05
+      ],
+      "min": [
+        28.8,
+        -12.2,
+        -0.01
+      ],
+      "size": [
+        12.4,
+        12.4,
+        18.06
+      ]
+    },
+    "Fitness": {
+      "center": [
+        26.0,
+        24.9057,
+        6.75
+      ],
+      "max": [
+        34.6,
+        33.5866,
+        13.5
+      ],
+      "min": [
+        17.4,
+        16.2248,
+        -0.0
+      ],
+      "size": [
+        17.2,
+        17.3618,
+        13.5
+      ]
+    },
+    "Knowledgebase": {
+      "center": [
+        31.0,
+        -22.825,
+        6.205
+      ],
+      "max": [
+        33.6888,
+        -19.8,
+        12.5
+      ],
+      "min": [
+        28.3113,
+        -25.85,
+        -0.09
+      ],
+      "size": [
+        5.3775,
+        6.05,
+        12.59
+      ]
+    },
+    "Leaderboard": {
+      "center": [
+        -8.0,
+        -45.0,
+        5.3421
+      ],
+      "max": [
+        1.2,
+        -31.75,
+        10.6842
+      ],
+      "min": [
+        -17.2,
+        -58.25,
+        0.0
+      ],
+      "size": [
+        18.4,
+        26.5,
+        10.6842
+      ]
+    },
+    "Nutrition": {
+      "center": [
+        -12.0,
+        38.995,
+        4.2976
+      ],
+      "max": [
+        -6.4,
+        45.61,
+        8.5952
+      ],
+      "min": [
+        -17.6,
+        32.38,
+        0.0
+      ],
+      "size": [
+        11.2,
+        13.23,
+        8.5952
+      ]
+    },
+    "Recovery": {
+      "center": [
+        -43.0,
+        -8.0001,
+        3.9823
+      ],
+      "max": [
+        -32.1424,
+        -1.4517,
+        7.9645
+      ],
+      "min": [
+        -53.8576,
+        -14.5486,
+        0.0
+      ],
+      "size": [
+        21.7151,
+        13.0969,
+        7.9645
+      ]
+    },
+    "Relationships": {
+      "center": [
+        8.0,
+        -58.9998,
+        3.67
+      ],
+      "max": [
+        22.8072,
+        -48.3086,
+        7.3401
+      ],
+      "min": [
+        -6.8072,
+        -69.691,
+        0.0
+      ],
+      "size": [
+        29.6145,
+        21.3824,
+        7.3401
+      ]
+    },
+    "SIA_Tower": {
+      "center": [
+        0.0,
+        -0.0,
+        21.0
+      ],
+      "max": [
+        13.0129,
+        12.3909,
+        42.0
+      ],
+      "min": [
+        -13.0129,
+        -12.391,
+        0.0
+      ],
+      "size": [
+        26.0258,
+        24.7819,
+        42.0
+      ]
+    },
+    "Yoga": {
+      "center": [
+        36.0,
+        10.0001,
+        2.6352
+      ],
+      "max": [
+        45.0,
+        16.3,
+        5.5003
+      ],
+      "min": [
+        27.0,
+        3.7001,
+        -0.23
+      ],
+      "size": [
+        18.0,
+        12.5999,
+        5.7303
+      ]
+    }
+  },
+  "total_tris": 1200
+}

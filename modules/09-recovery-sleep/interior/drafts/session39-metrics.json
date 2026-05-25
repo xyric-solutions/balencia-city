@@ -1,0 +1,281 @@
+{
+  "approved_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/interior/approved/recovery-int.glb",
+  "blend_file": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/interior/drafts/recovery-int-session39.blend",
+  "blender_version": "5.1.1",
+  "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/interior/drafts/recovery-int-draft-s39.glb",
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      -0.02,
+      2.28
+    ],
+    "light_0": [
+      0.0,
+      -0.02,
+      4.35
+    ],
+    "light_1": [
+      -3.3,
+      1.92,
+      2.34
+    ],
+    "light_2": [
+      0.0,
+      -0.1,
+      0.46
+    ]
+  },
+  "glb_size_bytes": 82700,
+  "import_qa": {
+    "bbox_max": [
+      6.55,
+      5.1,
+      5.4447
+    ],
+    "bbox_min": [
+      -6.55,
+      -5.0998,
+      0.0
+    ],
+    "camera_count": 0,
+    "empty_names": [
+      "camera_target",
+      "light_0",
+      "light_1",
+      "light_2",
+      "recovery-int"
+    ],
+    "glb_size_bytes": 82700,
+    "has_energy": true,
+    "has_holo": false,
+    "imported_tris": 6764,
+    "invalid_materials": [],
+    "light_count": 0,
+    "material_names": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "mesh_objects": 26,
+    "non_identity_mesh_transforms": [],
+    "session": 39
+  },
+  "material_issues": [],
+  "mesh_objects": 26,
+  "module": "09-recovery-sleep",
+  "object_groups": {
+    "Biometric data symbols above pods": {
+      "count": 3,
+      "tris": 380
+    },
+    "Dream particles": {
+      "count": 3,
+      "tris": 240
+    },
+    "Emotional reset nooks": {
+      "count": 4,
+      "tris": 592
+    },
+    "Orbiting nook light points": {
+      "count": 1,
+      "tris": 192
+    },
+    "Recovery pod perimeter": {
+      "count": 4,
+      "tris": 1120
+    },
+    "Room shell, breathing walls, and gradient floor": {
+      "count": 6,
+      "tris": 2460
+    },
+    "Sleep brain hologram focal": {
+      "count": 5,
+      "tris": 1780
+    }
+  },
+  "objects": [
+    {
+      "group": "Biometric data symbols above pods",
+      "material": "accent",
+      "name": "biometric_symbol_accent_joined",
+      "tris": 300
+    },
+    {
+      "group": "Biometric data symbols above pods",
+      "material": "emissive",
+      "name": "biometric_symbol_emissive_joined",
+      "tris": 60
+    },
+    {
+      "group": "Biometric data symbols above pods",
+      "material": "energy",
+      "name": "biometric_symbol_energy_joined",
+      "tris": 20
+    },
+    {
+      "group": "Dream particles",
+      "material": "accent",
+      "name": "dream_particle_accent_joined",
+      "tris": 24
+    },
+    {
+      "group": "Dream particles",
+      "material": "emissive",
+      "name": "dream_particle_emissive_joined",
+      "tris": 72
+    },
+    {
+      "group": "Dream particles",
+      "material": "glass",
+      "name": "dream_particle_glass_joined",
+      "tris": 144
+    },
+    {
+      "group": "Emotional reset nooks",
+      "material": "accent",
+      "name": "emotional_reset_nook_accent_joined",
+      "tris": 168
+    },
+    {
+      "group": "Emotional reset nooks",
+      "material": "base",
+      "name": "emotional_reset_nook_base_joined",
+      "tris": 104
+    },
+    {
+      "group": "Emotional reset nooks",
+      "material": "detail",
+      "name": "emotional_reset_nook_detail_joined",
+      "tris": 160
+    },
+    {
+      "group": "Emotional reset nooks",
+      "material": "glass",
+      "name": "emotional_reset_nook_glass_joined",
+      "tris": 160
+    },
+    {
+      "group": "Room shell, breathing walls, and gradient floor",
+      "material": "energy",
+      "name": "floor_gradient_deep_to_light_sleep_ring_inner",
+      "tris": 144
+    },
+    {
+      "group": "Room shell, breathing walls, and gradient floor",
+      "material": "accent",
+      "name": "neural_recovery_room_shell_accent_joined",
+      "tris": 332
+    },
+    {
+      "group": "Room shell, breathing walls, and gradient floor",
+      "material": "base",
+      "name": "neural_recovery_room_shell_base_joined",
+      "tris": 636
+    },
+    {
+      "group": "Room shell, breathing walls, and gradient floor",
+      "material": "detail",
+      "name": "neural_recovery_room_shell_detail_joined",
+      "tris": 464
+    },
+    {
+      "group": "Room shell, breathing walls, and gradient floor",
+      "material": "emissive",
+      "name": "neural_recovery_room_shell_emissive_joined",
+      "tris": 392
+    },
+    {
+      "group": "Room shell, breathing walls, and gradient floor",
+      "material": "glass",
+      "name": "neural_recovery_room_shell_glass_joined",
+      "tris": 492
+    },
+    {
+      "group": "Orbiting nook light points",
+      "material": "emissive",
+      "name": "orbiting_light_point_emissive_joined",
+      "tris": 192
+    },
+    {
+      "group": "Recovery pod perimeter",
+      "material": "accent",
+      "name": "recovery_pod_accent_joined",
+      "tris": 80
+    },
+    {
+      "group": "Recovery pod perimeter",
+      "material": "detail",
+      "name": "recovery_pod_detail_joined",
+      "tris": 220
+    },
+    {
+      "group": "Recovery pod perimeter",
+      "material": "emissive",
+      "name": "recovery_pod_emissive_joined",
+      "tris": 420
+    },
+    {
+      "group": "Recovery pod perimeter",
+      "material": "glass",
+      "name": "recovery_pod_glass_joined",
+      "tris": 400
+    },
+    {
+      "group": "Sleep brain hologram focal",
+      "material": "accent",
+      "name": "sleep_brain_hologram_accent_joined",
+      "tris": 152
+    },
+    {
+      "group": "Sleep brain hologram focal",
+      "material": "detail",
+      "name": "sleep_brain_hologram_dark_floating_plinth",
+      "tris": 124
+    },
+    {
+      "group": "Sleep brain hologram focal",
+      "material": "emissive",
+      "name": "sleep_brain_hologram_emissive_joined",
+      "tris": 280
+    },
+    {
+      "group": "Sleep brain hologram focal",
+      "material": "energy",
+      "name": "sleep_brain_hologram_energy_joined",
+      "tris": 344
+    },
+    {
+      "group": "Sleep brain hologram focal",
+      "material": "glass",
+      "name": "sleep_brain_hologram_glass_joined",
+      "tris": 880
+    }
+  ],
+  "qa_import_file": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/interior/drafts/session39-qa-import.json",
+  "screenshots": [
+    "screenshots/s39-int-overview.png",
+    "screenshots/s39-int-from-entry.png",
+    "screenshots/s39-int-focal-sleep-brain.png",
+    "screenshots/s39-int-topdown.png",
+    "screenshots/s39-int-dark-first.png"
+  ],
+  "session": 39,
+  "slot_tris": {
+    "accent": 1056,
+    "base": 740,
+    "detail": 968,
+    "emissive": 1416,
+    "energy": 508,
+    "glass": 2076
+  },
+  "total_tris": 6764
+}

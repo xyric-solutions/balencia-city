@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia Structure Team"
+  short_description: "Build and QA one Balencia structure lifecycle."
+  default_prompt: "Use this skill for Balencia structure exterior, interior, integration, and QA orchestration."

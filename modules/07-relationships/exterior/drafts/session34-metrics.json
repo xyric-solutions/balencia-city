@@ -1,0 +1,2575 @@
+{
+  "session": 34,
+  "module": "07-relationships",
+  "blender_version": "5.1.1",
+  "source_blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/exterior/drafts/relationships-s33-major-forms.blend",
+  "blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/exterior/drafts/relationships-s34-detail-export.blend",
+  "before_mesh_objects": 159,
+  "before_tris": 8782,
+  "after_detail_mesh_objects": 396,
+  "after_detail_tris": 14986,
+  "detail_added_tris": 6204,
+  "category_metrics": [
+    {
+      "category": "Bridges, walkways, and rail articulation",
+      "objects": 111,
+      "tris": 2068
+    },
+    {
+      "category": "Curved welcoming entrances",
+      "objects": 40,
+      "tris": 768
+    },
+    {
+      "category": "Garden terraces, planters, and vegetation",
+      "objects": 96,
+      "tris": 3916
+    },
+    {
+      "category": "Glass roof domes and warm gathering glow",
+      "objects": 42,
+      "tris": 1770
+    },
+    {
+      "category": "Low curved pavilion body",
+      "objects": 1,
+      "tris": 524
+    },
+    {
+      "category": "Low pavilion facade articulation",
+      "objects": 34,
+      "tris": 2784
+    },
+    {
+      "category": "Warm mist roof receiver",
+      "objects": 20,
+      "tris": 564
+    },
+    {
+      "category": "Water moat and edge polish",
+      "objects": 52,
+      "tris": 2592
+    }
+  ],
+  "material_tris": {
+    "accent": 4628,
+    "base": 2788,
+    "detail": 3508,
+    "emissive": 1726,
+    "energy": 564,
+    "glass": 1772
+  },
+  "material_percentages": {
+    "accent": 30.88,
+    "base": 18.6,
+    "detail": 23.41,
+    "emissive": 11.52,
+    "energy": 3.76,
+    "glass": 11.82
+  },
+  "material_surface_area": {
+    "total": 1546.734,
+    "areas": {
+      "accent": 155.632,
+      "base": 825.784,
+      "detail": 236.286,
+      "emissive": 48.271,
+      "energy": 3.858,
+      "glass": 276.903
+    },
+    "percentages": {
+      "accent": 10.06,
+      "base": 53.39,
+      "detail": 15.28,
+      "emissive": 3.12,
+      "energy": 0.25,
+      "glass": 17.9
+    }
+  },
+  "bbox": {
+    "min": [
+      -13.45,
+      -12.825,
+      0.015
+    ],
+    "max": [
+      16.1645,
+      8.5578,
+      7.355
+    ]
+  },
+  "screenshots": [
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s34_front_elevation.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s34_three_quarter.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s34_distance_view.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s34_dark_first.png"
+  ],
+  "objects": [
+    {
+      "name": "adjacent_connection_bridge_left_intimate_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_left_intimate_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_left_intimate_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_left_intimate_post_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_recessed_paver_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_recessed_paver_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_recessed_paver_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_recessed_paver_03",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_right_intimate_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_right_intimate_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_right_intimate_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "adjacent_connection_bridge_right_intimate_post_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "central_family_dome_dark_base_frame_ring",
+      "tris": 144,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_00_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_00_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_00_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_00_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_01_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_01_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_01_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_dome_soft_structural_rib_01_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_gathering_transparent_roof_dome",
+      "tris": 252,
+      "material": "glass",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_gathering_warm_gathering_glow_under_dome",
+      "tris": 18,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_visible_warm_room_glow_thread_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_visible_warm_room_glow_thread_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "central_family_visible_warm_room_glow_thread_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "connection_bridge_left_warm_edge",
+      "tris": 28,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "connection_bridge_right_warm_edge",
+      "tris": 28,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "dark_curved_facade_recess_panel_floor_01",
+      "tris": 96,
+      "material": "base",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "dark_curved_facade_recess_panel_floor_03",
+      "tris": 96,
+      "material": "base",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "dark_curved_facade_recess_panel_floor_05",
+      "tris": 96,
+      "material": "base",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "dark_curved_facade_recess_panel_floor_07",
+      "tris": 96,
+      "material": "base",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "dark_curved_facade_recess_panel_floor_09",
+      "tris": 96,
+      "material": "base",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "dark_curved_facade_recess_panel_floor_11",
+      "tris": 96,
+      "material": "base",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "dark_curved_facade_recess_panel_floor_13",
+      "tris": 96,
+      "material": "base",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "east_bridge_dark_paver_joint_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_bridge_dark_paver_joint_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_bridge_left_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_bridge_left_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_bridge_left_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_bridge_right_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_bridge_right_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_bridge_right_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_dome_dark_base_frame_ring",
+      "tris": 144,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_00_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_00_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_00_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_00_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_01_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_01_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_01_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_dome_soft_structural_rib_01_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_gathering_transparent_roof_dome",
+      "tris": 252,
+      "material": "glass",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_gathering_warm_gathering_glow_under_dome",
+      "tris": 18,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_visible_warm_room_glow_thread_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_visible_warm_room_glow_thread_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_visible_warm_room_glow_thread_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "east_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "east_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "entrance_rose_garden_00_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_00_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_01_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_01_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_02_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_02_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_03_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_03_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_04_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_04_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_05_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entrance_rose_garden_05_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_00_00",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_00_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_00_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_00_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_01_00",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_01_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_01_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_01_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_02_00",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_02_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_02_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_02_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_03_00",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_03_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_03_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_03_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_04_00",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_04_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_04_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_04_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_05_00",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_05_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_05_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "entry_planter_visible_rose_bud_05_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "front_south_bridge_dark_paver_joint_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_bridge_dark_paver_joint_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_bridge_left_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_bridge_left_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_bridge_left_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_bridge_right_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_bridge_right_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_bridge_right_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "garden_terrace_cascade_lower_rounded_planter_shelf",
+      "tris": 160,
+      "material": "base",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_lower_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_high_rounded_planter_shelf",
+      "tris": 160,
+      "material": "base",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_high_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_low_rounded_planter_shelf",
+      "tris": 160,
+      "material": "base",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_low_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_roof_base_rounded_planter_shelf",
+      "tris": 160,
+      "material": "base",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_roof_base_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_top_garden_rounded_planter_shelf",
+      "tris": 160,
+      "material": "base",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "garden_terrace_cascade_top_garden_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "inner_island_waterline_soft_shadow_trim",
+      "tris": 336,
+      "material": "detail",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "low_curved_15_floor_relationships_pavilion_body",
+      "tris": 524,
+      "material": "base",
+      "category": "Low curved pavilion body"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_01",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_02",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_03",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_04",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_05",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_06",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_07",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_08",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_09",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_10",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_11",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_12",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_13",
+      "tris": 128,
+      "material": "accent",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_14",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_15",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "low_dark_island_plinth_inside_moat",
+      "tris": 288,
+      "material": "base",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "low_rose_wayfinding_thread_moat_edge_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "low_rose_wayfinding_thread_moat_edge_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "low_rose_wayfinding_thread_moat_edge_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "low_rose_wayfinding_thread_moat_edge_03",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "north_west_bridge_dark_paver_joint_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_bridge_dark_paver_joint_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_bridge_left_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_bridge_left_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_bridge_left_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_bridge_right_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_bridge_right_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_bridge_right_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "outer_moat_obsidian_ground_apron",
+      "tris": 288,
+      "material": "base",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "outer_moat_pedestrian_shadow_walkway",
+      "tris": 288,
+      "material": "detail",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "outer_still_water_dark_shoreline_trim",
+      "tris": 336,
+      "material": "detail",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_00",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_01",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_02",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_03",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_04",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_05",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_06",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_mist_diffuser_fine_spoke_07",
+      "tris": 16,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_warm_mist_reception_diffuser_ring",
+      "tris": 192,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_warm_mist_soft_receiver_core",
+      "tris": 44,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "single_extended_connection_bridge_to_adjacent_district",
+      "tris": 12,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_primary_portal_dark_threshold_paver",
+      "tris": 12,
+      "material": "base",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_portal_thick_outer_left_return",
+      "tris": 20,
+      "material": "detail",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_portal_thick_outer_right_return",
+      "tris": 20,
+      "material": "detail",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_07",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_08",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_09",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_10",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_11",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_12",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_13",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_dark_recessed_entry_shadow",
+      "tris": 12,
+      "material": "glass",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_left_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_right_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_west_bridge_dark_paver_joint_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_bridge_dark_paver_joint_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_bridge_left_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_bridge_left_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_bridge_left_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_bridge_right_warm_post_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_bridge_right_warm_post_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_bridge_right_warm_post_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Bridges, walkways, and rail articulation"
+    },
+    {
+      "name": "still_reflective_water_moat_surrounding_garden",
+      "tris": 320,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_00",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_01",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_02",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_03",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_04",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_05",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_06",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_07",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_08",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_09",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_10",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_11",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_12",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_13",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_14",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_15",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_16",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_17",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_18",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_inner_19",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_00",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_01",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_02",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_03",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_04",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_05",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_06",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_07",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_08",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_09",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_10",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_11",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_12",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_13",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_14",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_15",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_16",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_17",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_18",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_19",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_20",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_reflective_moat_ripple_outer_21",
+      "tris": 16,
+      "material": "glass",
+      "category": "Water moat and edge polish"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_06",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_07",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_08",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_09",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_10",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "subtle_vertical_facade_mullion_11",
+      "tris": 16,
+      "material": "detail",
+      "category": "Low pavilion facade articulation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_06",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_07",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_08",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_09",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_10",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_11",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_12",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_13",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_14",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_15",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_16",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_17",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_18",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_19",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_20",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_21",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_22",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_23",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_dark_leaf_fan_24",
+      "tris": 16,
+      "material": "detail",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_07",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_08",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_09",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_10",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_11",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_12",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_13",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_14",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_15",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_16",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_17",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_18",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_19",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_20",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_21",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_22",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_23",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "terrace_rose_bloom_cluster_24",
+      "tris": 20,
+      "material": "accent",
+      "category": "Garden terraces, planters, and vegetation"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_00_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_00_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_01_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_01_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_02_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_02_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_03_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_03_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_04_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_04_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "west_intimate_dome_dark_base_frame_ring",
+      "tris": 144,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_00_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_00_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_00_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_00_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_01_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_01_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_01_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_dome_soft_structural_rib_01_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_gathering_transparent_roof_dome",
+      "tris": 252,
+      "material": "glass",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_gathering_warm_gathering_glow_under_dome",
+      "tris": 18,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_visible_warm_room_glow_thread_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_visible_warm_room_glow_thread_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_intimate_visible_warm_room_glow_thread_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Glass roof domes and warm gathering glow"
+    },
+    {
+      "name": "west_secondary_portal_dark_threshold_paver",
+      "tris": 12,
+      "material": "base",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_portal_thick_outer_left_return",
+      "tris": 20,
+      "material": "detail",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_portal_thick_outer_right_return",
+      "tris": 20,
+      "material": "detail",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_07",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_08",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_09",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_10",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_11",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_12",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_13",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_dark_recessed_entry_shadow",
+      "tris": 12,
+      "material": "glass",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_left_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_right_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    }
+  ],
+  "export": {
+    "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/exterior/drafts/relationships-ext-draft-s34.glb",
+    "approved_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/exterior/approved/relationships-ext.glb",
+    "packed_blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/exterior/drafts/relationships-s34-export-packed.blend",
+    "glb_bytes": 114636,
+    "tris": 14986,
+    "mesh_objects": 6,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "material_tris": {
+      "accent": 4628,
+      "base": 2788,
+      "detail": 3508,
+      "emissive": 1726,
+      "energy": 564,
+      "glass": 1772
+    },
+    "material_percentages": {
+      "accent": 30.88,
+      "base": 18.6,
+      "detail": 23.41,
+      "emissive": 11.52,
+      "energy": 3.76,
+      "glass": 11.82
+    },
+    "bbox": {
+      "min": [
+        -14.8072,
+        -10.6914,
+        0.0
+      ],
+      "max": [
+        14.8072,
+        10.6914,
+        7.34
+      ]
+    }
+  },
+  "qa_import": {
+    "mesh_objects": 6,
+    "empty_objects": 1,
+    "tris": 14986,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "rogue_materials": [],
+    "uses_energy": true,
+    "uses_holo": false,
+    "cameras": 0,
+    "lights": 0,
+    "bbox": {
+      "min": [
+        -14.8072,
+        -10.691,
+        0.0
+      ],
+      "max": [
+        14.8072,
+        10.6914,
+        7.3401
+      ]
+    },
+    "non_identity_mesh_transforms": [],
+    "glb_bytes": 114636
+  },
+  "cohesion": {
+    "screenshot": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s34_cohesion_all9.png",
+    "imported": [
+      "sia",
+      "fitness",
+      "yoga",
+      "finance",
+      "knowledgebase",
+      "chat",
+      "leaderboard",
+      "career",
+      "relationships"
+    ]
+  }
+}

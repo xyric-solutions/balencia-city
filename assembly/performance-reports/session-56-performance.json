@@ -1,0 +1,95 @@
+{
+  "active_scene": {
+    "budget": "180K-250K",
+    "energy_tris": 19202,
+    "environment_tris": 1568,
+    "result": "PASS",
+    "structure_exterior_tris": 162345,
+    "total_tris": 183115
+  },
+  "blend_file": "assembly/drafts/full-city-assembly.blend",
+  "blend_file_size_bytes": 6461370,
+  "energy_tris": {
+    "ai_pulse": 444,
+    "cross_district_gold": 1200,
+    "faint_thread": 1136,
+    "hard_pipelines": 11796,
+    "knowledgebase_waterfall": 1484,
+    "leaderboard_lightning": 866,
+    "warm_mist": 2276
+  },
+  "loaded_for_verification": {
+    "interior_tris_hidden_by_default": 86184,
+    "note": "Interiors are imported for scroll verification and hidden by default; app phase should load interiors on demand.",
+    "total_tris_with_all_interiors": 269299
+  },
+  "session": 56,
+  "source_glb_bytes": {
+    "active_budget_bytes": 5242880,
+    "active_exteriors_and_energy": 2481388,
+    "interiors_on_demand": 1562980,
+    "result": "PASS"
+  },
+  "structure_tris": {
+    "Analytics": {
+      "combined": 24577,
+      "exterior": 16259,
+      "interior": 8318
+    },
+    "Career": {
+      "combined": 26976,
+      "exterior": 19692,
+      "interior": 7284
+    },
+    "Chat": {
+      "combined": 27780,
+      "exterior": 18580,
+      "interior": 9200
+    },
+    "Finance": {
+      "combined": 9800,
+      "exterior": 3602,
+      "interior": 6198
+    },
+    "Fitness": {
+      "combined": 17976,
+      "exterior": 12066,
+      "interior": 5910
+    },
+    "Knowledgebase": {
+      "combined": 13372,
+      "exterior": 7532,
+      "interior": 5840
+    },
+    "Leaderboard": {
+      "combined": 26872,
+      "exterior": 17424,
+      "interior": 9448
+    },
+    "Nutrition": {
+      "combined": 27260,
+      "exterior": 17964,
+      "interior": 9296
+    },
+    "Recovery": {
+      "combined": 21252,
+      "exterior": 14488,
+      "interior": 6764
+    },
+    "Relationships": {
+      "combined": 21398,
+      "exterior": 14986,
+      "interior": 6412
+    },
+    "SIA_Tower": {
+      "combined": 9582,
+      "exterior": 6956,
+      "interior": 2626
+    },
+    "Yoga": {
+      "combined": 21684,
+      "exterior": 12796,
+      "interior": 8888
+    }
+  }
+}

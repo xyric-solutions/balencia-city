@@ -1,0 +1,1244 @@
+{
+  "session": 30,
+  "module": "08-career",
+  "blender_version": "5.1.1",
+  "source_blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/exterior/drafts/career-s29-major-forms.blend",
+  "blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/exterior/drafts/career-s30-detail-export.blend",
+  "before_mesh_objects": 80,
+  "before_tris": 4940,
+  "after_detail_mesh_objects": 175,
+  "after_detail_tris": 19692,
+  "detail_added_tris": 14752,
+  "category_metrics": {
+    "Corporate glass window rhythm": {
+      "objects": 1,
+      "tris": 1824
+    },
+    "Crown hardpoint refinement": {
+      "objects": 7,
+      "tris": 348
+    },
+    "Dark floor-plate ledges and spandrel panels": {
+      "objects": 2,
+      "tris": 7536
+    },
+    "Electric-blue ascent trim": {
+      "objects": 1,
+      "tris": 1056
+    },
+    "Executive observation deck and lobby polish": {
+      "objects": 21,
+      "tris": 548
+    },
+    "Exterior elevator tube hardware": {
+      "objects": 34,
+      "tris": 1360
+    },
+    "Facade mullions and professional rails": {
+      "objects": 1,
+      "tris": 816
+    },
+    "Networking plaza detail": {
+      "objects": 7,
+      "tris": 264
+    },
+    "Session 29 retained ascent edges, floor bands, and roof fins": {
+      "objects": 27,
+      "tris": 492
+    },
+    "Session 29 retained crown SIA energy hardpoint": {
+      "objects": 3,
+      "tris": 456
+    },
+    "Session 29 retained exterior elevator tubes": {
+      "objects": 6,
+      "tris": 248
+    },
+    "Session 29 retained glass skybridge system": {
+      "objects": 12,
+      "tris": 144
+    },
+    "Session 29 retained main 40-floor tower and crown": {
+      "objects": 11,
+      "tris": 1144
+    },
+    "Session 29 retained networking plaza and lobby": {
+      "objects": 8,
+      "tris": 96
+    },
+    "Session 29 retained secondary tower bodies": {
+      "objects": 31,
+      "tris": 2712
+    },
+    "Skybridge enclosure hardware and underbraces": {
+      "objects": 3,
+      "tris": 648
+    }
+  },
+  "material_tris": {
+    "accent": 2436,
+    "base": 9824,
+    "detail": 3492,
+    "emissive": 1120,
+    "energy": 656,
+    "glass": 2164
+  },
+  "material_percentages": {
+    "accent": 12.37,
+    "base": 49.89,
+    "detail": 17.73,
+    "emissive": 5.69,
+    "energy": 3.33,
+    "glass": 10.99
+  },
+  "bbox": {
+    "min": [
+      -7.9,
+      -6.605,
+      0.0
+    ],
+    "max": [
+      7.9,
+      6.605,
+      18.36
+    ]
+  },
+  "screenshots": [
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s30_front_elevation.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s30_three_quarter.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s30_distance_view.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s30_dark_first.png"
+  ],
+  "objects": [
+    {
+      "name": "main_tower_crown_energy_hardpoint_ring",
+      "tris": 384,
+      "material": "energy",
+      "category": "Session 29 retained crown SIA energy hardpoint"
+    },
+    {
+      "name": "main_tower_crown_pipeline_socket_core",
+      "tris": 44,
+      "material": "energy",
+      "category": "Session 29 retained crown SIA energy hardpoint"
+    },
+    {
+      "name": "main_tower_crown_upward_pipeline_receiver",
+      "tris": 28,
+      "material": "energy",
+      "category": "Session 29 retained crown SIA energy hardpoint"
+    },
+    {
+      "name": "main_tower_double_height_entry_lobby_glass",
+      "tris": 12,
+      "material": "glass",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_electric_blue_floor_joint_bands",
+      "tris": 320,
+      "material": "emissive",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_entry_lobby_blue_threshold",
+      "tris": 12,
+      "material": "accent",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_entry_lobby_dark_header",
+      "tris": 12,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_executive_observation_deck_glass_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_exterior_left_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained exterior elevator tubes"
+    },
+    {
+      "name": "main_tower_exterior_right_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained exterior elevator tubes"
+    },
+    {
+      "name": "main_tower_exterior_transparent_elevator_tube",
+      "tris": 68,
+      "material": "glass",
+      "category": "Session 29 retained exterior elevator tubes"
+    },
+    {
+      "name": "main_tower_exterior_visible_ascending_cab_marker",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_observation_deck_front_rail",
+      "tris": 12,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_observation_deck_left_rail",
+      "tris": 12,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_observation_deck_left_underbrace",
+      "tris": 28,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_observation_deck_right_rail",
+      "tris": 12,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_observation_deck_right_underbrace",
+      "tris": 28,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "main_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "main_tower_tapered_40_floor_body",
+      "tris": 652,
+      "material": "base",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained main 40-floor tower and crown"
+    },
+    {
+      "name": "networking_plaza_blue_central_path",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "networking_plaza_cross_connection_path",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "networking_plaza_dark_connector_slab",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "networking_plaza_front_arrival_step",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "s30_career_blue_ascent_trim_ticks",
+      "tris": 1056,
+      "material": "accent",
+      "category": "Electric-blue ascent trim"
+    },
+    {
+      "name": "s30_career_dark_floor_plate_ledge_system",
+      "tris": 6288,
+      "material": "base",
+      "category": "Dark floor-plate ledges and spandrel panels"
+    },
+    {
+      "name": "s30_career_dark_spandrel_facade_panels",
+      "tris": 1248,
+      "material": "base",
+      "category": "Dark floor-plate ledges and spandrel panels"
+    },
+    {
+      "name": "s30_career_recessed_glass_window_panel_rhythm",
+      "tris": 1824,
+      "material": "glass",
+      "category": "Corporate glass window rhythm"
+    },
+    {
+      "name": "s30_career_skybridge_blue_status_ticks",
+      "tris": 252,
+      "material": "accent",
+      "category": "Skybridge enclosure hardware and underbraces"
+    },
+    {
+      "name": "s30_career_skybridge_recessed_glass_panes",
+      "tris": 144,
+      "material": "glass",
+      "category": "Skybridge enclosure hardware and underbraces"
+    },
+    {
+      "name": "s30_career_skybridge_vertical_rib_frames",
+      "tris": 252,
+      "material": "detail",
+      "category": "Skybridge enclosure hardware and underbraces"
+    },
+    {
+      "name": "s30_career_vertical_mullion_rail_segments",
+      "tris": 816,
+      "material": "detail",
+      "category": "Facade mullions and professional rails"
+    },
+    {
+      "name": "s30_crown_dark_mechanical_mount_collar",
+      "tris": 120,
+      "material": "detail",
+      "category": "Crown hardpoint refinement"
+    },
+    {
+      "name": "s30_crown_energy_socket_outer_orange_collar",
+      "tris": 120,
+      "material": "energy",
+      "category": "Crown hardpoint refinement"
+    },
+    {
+      "name": "s30_crown_energy_socket_splayed_brace_00",
+      "tris": 20,
+      "material": "energy",
+      "category": "Crown hardpoint refinement"
+    },
+    {
+      "name": "s30_crown_energy_socket_splayed_brace_01",
+      "tris": 20,
+      "material": "energy",
+      "category": "Crown hardpoint refinement"
+    },
+    {
+      "name": "s30_crown_energy_socket_splayed_brace_02",
+      "tris": 20,
+      "material": "energy",
+      "category": "Crown hardpoint refinement"
+    },
+    {
+      "name": "s30_crown_energy_socket_splayed_brace_03",
+      "tris": 20,
+      "material": "energy",
+      "category": "Crown hardpoint refinement"
+    },
+    {
+      "name": "s30_crown_upward_blue_professional_fin",
+      "tris": 28,
+      "material": "accent",
+      "category": "Crown hardpoint refinement"
+    },
+    {
+      "name": "s30_main_lobby_blue_arrival_marker",
+      "tris": 12,
+      "material": "accent",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_main_lobby_executive_entry_canopy",
+      "tris": 12,
+      "material": "base",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_main_lobby_glass_mullion_frame",
+      "tris": 84,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_main_to_east_mid_diagonal_enclosure_brace_+1_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_diagonal_enclosure_brace_+1_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_diagonal_enclosure_brace_+1_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_diagonal_enclosure_brace_-1_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_diagonal_enclosure_brace_-1_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_diagonal_enclosure_brace_-1_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_lower_structural_spine_reinforcement",
+      "tris": 12,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_side_tension_cable_+1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_east_mid_side_tension_cable_-1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_diagonal_enclosure_brace_+1_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_diagonal_enclosure_brace_+1_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_diagonal_enclosure_brace_+1_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_diagonal_enclosure_brace_-1_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_diagonal_enclosure_brace_-1_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_diagonal_enclosure_brace_-1_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_lower_structural_spine_reinforcement",
+      "tris": 12,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_side_tension_cable_+1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_north_executive_side_tension_cable_-1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_diagonal_enclosure_brace_+1_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_diagonal_enclosure_brace_+1_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_diagonal_enclosure_brace_+1_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_diagonal_enclosure_brace_-1_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_diagonal_enclosure_brace_-1_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_diagonal_enclosure_brace_-1_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_lower_structural_spine_reinforcement",
+      "tris": 12,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_side_tension_cable_+1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_to_west_upper_side_tension_cable_-1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Session 29 retained ascent edges, floor bands, and roof fins"
+    },
+    {
+      "name": "s30_main_tower_elevator_base_docking_frame",
+      "tris": 12,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_blue_floor_call_marker_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_blue_floor_call_marker_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_blue_floor_call_marker_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_blue_floor_call_marker_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_blue_floor_call_marker_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_blue_floor_call_marker_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_blue_floor_call_marker_06",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_outer_service_ladder_+1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_outer_service_ladder_-1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_top_docking_frame",
+      "tris": 12,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_tube_metal_collar_00",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_tube_metal_collar_01",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_tube_metal_collar_02",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_tube_metal_collar_03",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_tube_metal_collar_04",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_tube_metal_collar_05",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_main_tower_elevator_tube_metal_collar_06",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_networking_plaza_blue_node_core_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Networking plaza detail"
+    },
+    {
+      "name": "s30_networking_plaza_blue_node_core_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Networking plaza detail"
+    },
+    {
+      "name": "s30_networking_plaza_blue_node_core_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Networking plaza detail"
+    },
+    {
+      "name": "s30_networking_plaza_blue_node_core_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Networking plaza detail"
+    },
+    {
+      "name": "s30_networking_plaza_blue_node_core_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Networking plaza detail"
+    },
+    {
+      "name": "s30_networking_plaza_career_node_pads",
+      "tris": 60,
+      "material": "base",
+      "category": "Networking plaza detail"
+    },
+    {
+      "name": "s30_networking_plaza_subtle_tile_grid",
+      "tris": 144,
+      "material": "detail",
+      "category": "Networking plaza detail"
+    },
+    {
+      "name": "s30_observation_deck_blue_floor_marker_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_blue_floor_marker_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_blue_floor_marker_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_blue_floor_marker_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_blue_floor_marker_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_detail_rail_posts",
+      "tris": 180,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_underside_v_brace_+0.00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_underside_v_brace_+0.92",
+      "tris": 20,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_observation_deck_underside_v_brace_-0.92",
+      "tris": 20,
+      "material": "detail",
+      "category": "Executive observation deck and lobby polish"
+    },
+    {
+      "name": "s30_secondary_west_elevator_base_docking_frame",
+      "tris": 12,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_blue_floor_call_marker_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_blue_floor_call_marker_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_blue_floor_call_marker_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_blue_floor_call_marker_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_blue_floor_call_marker_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_blue_floor_call_marker_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_outer_service_ladder_+1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_outer_service_ladder_-1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_top_docking_frame",
+      "tris": 12,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_tube_metal_collar_00",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_tube_metal_collar_01",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_tube_metal_collar_02",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_tube_metal_collar_03",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_tube_metal_collar_04",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "s30_secondary_west_elevator_tube_metal_collar_05",
+      "tris": 84,
+      "material": "detail",
+      "category": "Exterior elevator tube hardware"
+    },
+    {
+      "name": "secondary_east_tower_electric_blue_floor_joint_bands",
+      "tris": 240,
+      "material": "emissive",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "secondary_east_tower_tapered_30_floor_body",
+      "tris": 492,
+      "material": "base",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_electric_blue_floor_joint_bands",
+      "tris": 216,
+      "material": "emissive",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "secondary_north_tower_tapered_27_floor_body",
+      "tris": 444,
+      "material": "base",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_exterior_left_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained exterior elevator tubes"
+    },
+    {
+      "name": "secondary_west_exterior_right_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained exterior elevator tubes"
+    },
+    {
+      "name": "secondary_west_exterior_transparent_elevator_tube",
+      "tris": 68,
+      "material": "glass",
+      "category": "Session 29 retained exterior elevator tubes"
+    },
+    {
+      "name": "secondary_west_exterior_visible_ascending_cab_marker",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_electric_blue_floor_joint_bands",
+      "tris": 272,
+      "material": "emissive",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 29 retained networking plaza and lobby"
+    },
+    {
+      "name": "secondary_west_tower_tapered_34_floor_body",
+      "tris": 556,
+      "material": "base",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained secondary tower bodies"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_blue_lower_edge",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_blue_upper_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_dark_floor_spine",
+      "tris": 12,
+      "material": "detail",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_glass_enclosure",
+      "tris": 12,
+      "material": "glass",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_blue_lower_edge",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_blue_upper_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_dark_floor_spine",
+      "tris": 12,
+      "material": "detail",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_glass_enclosure",
+      "tris": 12,
+      "material": "glass",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_blue_lower_edge",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_blue_upper_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_dark_floor_spine",
+      "tris": 12,
+      "material": "detail",
+      "category": "Session 29 retained glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_glass_enclosure",
+      "tris": 12,
+      "material": "glass",
+      "category": "Session 29 retained glass skybridge system"
+    }
+  ],
+  "export": {
+    "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/exterior/drafts/career-ext-draft-s30.glb",
+    "approved_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/exterior/approved/career-ext.glb",
+    "glb_bytes": 245296,
+    "tris": 19692,
+    "mesh_objects": 175,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "material_tris": {
+      "accent": 2436,
+      "base": 9824,
+      "detail": 3492,
+      "emissive": 1120,
+      "energy": 656,
+      "glass": 2164
+    },
+    "bbox": {
+      "min": [
+        -7.9,
+        -6.605,
+        0.0
+      ],
+      "max": [
+        7.9,
+        6.605,
+        18.36
+      ]
+    }
+  },
+  "qa_import": {
+    "mesh_objects": 175,
+    "empty_objects": 1,
+    "tris": 19692,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "rogue_materials": [],
+    "uses_energy": true,
+    "uses_holo": false,
+    "cameras": 0,
+    "lights": 0,
+    "bbox": {
+      "min": [
+        -7.9,
+        -6.605,
+        0.0
+      ],
+      "max": [
+        7.9,
+        6.605,
+        18.36
+      ]
+    },
+    "non_identity_mesh_transforms": [],
+    "glb_bytes": 245296
+  },
+  "cohesion": {
+    "screenshot": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s30_cohesion_all8.png",
+    "imported": [
+      "sia",
+      "fitness",
+      "yoga",
+      "finance",
+      "knowledgebase",
+      "chat",
+      "leaderboard",
+      "career"
+    ]
+  }
+}

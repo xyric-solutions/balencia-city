@@ -1,0 +1,467 @@
+{
+  "alignment": {
+    "interior_fits_exterior_cluster_envelope": {
+      "note": "Career interior is checked against the full tower-cluster/plaza envelope; the command hub stays inside the exterior footprint and below the tower crown.",
+      "result": "PASS",
+      "tolerance": 0.75
+    },
+    "open_wall_orientation": {
+      "note": "Interior front/open threshold is native -Y. At the southwest Career position, -Y faces the outer ring Scene 11 approach, matching the ascending elevator/push-in camera path.",
+      "result": "PASS"
+    },
+    "origin_alignment": {
+      "center_delta": [
+        0.0,
+        0.0002,
+        -6.3801
+      ],
+      "result": "PASS",
+      "z_delta": 0.0
+    },
+    "runtime_empties": {
+      "checks": {
+        "camera_target": [
+          {
+            "inside": true,
+            "name": "camera_target.007",
+            "world_location": [
+              -28.0,
+              -31.28,
+              2.82
+            ]
+          }
+        ],
+        "light_0": [
+          {
+            "inside": true,
+            "name": "light_0.007",
+            "world_location": [
+              -28.0,
+              -34.2,
+              5.22
+            ]
+          }
+        ],
+        "light_1": [
+          {
+            "inside": true,
+            "name": "light_1.007",
+            "world_location": [
+              -28.0,
+              -30.46,
+              3.18
+            ]
+          }
+        ],
+        "light_2": [
+          {
+            "inside": true,
+            "name": "light_2.007",
+            "world_location": [
+              -28.0,
+              -31.82,
+              2.05
+            ]
+          }
+        ]
+      },
+      "result": "PASS"
+    },
+    "scale_match": {
+      "note": "Interior remains 1:1 and intentionally occupies the ground-floor command hub inside the taller Career tower cluster.",
+      "ratios": {
+        "x": 0.7177,
+        "y": 0.651,
+        "z": 0.305
+      },
+      "result": "PASS"
+    },
+    "transforms": {
+      "non_identity_mesh_count": 0,
+      "result": "PASS",
+      "sample": []
+    }
+  },
+  "blend_file": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/integration-session-32.blend",
+  "blender_version": "5.1.1",
+  "career_bboxes": {
+    "combined": {
+      "center": [
+        -28.0,
+        -34.0,
+        9.18
+      ],
+      "max": [
+        -20.1,
+        -27.395,
+        18.36
+      ],
+      "min": [
+        -35.9,
+        -40.605,
+        0.0
+      ],
+      "size": [
+        15.8,
+        13.21,
+        18.36
+      ]
+    },
+    "exterior": {
+      "center": [
+        -28.0,
+        -34.0,
+        9.18
+      ],
+      "max": [
+        -20.1,
+        -27.395,
+        18.36
+      ],
+      "min": [
+        -35.9,
+        -40.605,
+        0.0
+      ],
+      "size": [
+        15.8,
+        13.21,
+        18.36
+      ]
+    },
+    "interior": {
+      "center": [
+        -28.0,
+        -33.9998,
+        2.7999
+      ],
+      "max": [
+        -22.33,
+        -29.7,
+        5.5997
+      ],
+      "min": [
+        -33.67,
+        -38.2997,
+        0.0
+      ],
+      "size": [
+        11.34,
+        8.5997,
+        5.5997
+      ]
+    }
+  },
+  "cohesion": {
+    "architectural_variety": "PASS - Career's clean professional tower-cluster silhouette is distinct from Chat's antenna pods and Leaderboard's arena.",
+    "detail_density": "PASS - Career's facade ledges, bridges, elevator hardware, and interior command hub density match the current middle-phase standard.",
+    "material_darkness": "PASS - imported approved assets share the Balencia 7-slot dark-first material language.",
+    "overall_city_fit": "PASS - all eight structures read as one dark premium cinematic city.",
+    "scale_relationships": "PASS - SIA remains dominant; Career is the tallest district but below SIA, matching the approved city hierarchy."
+  },
+  "import_results": {
+    "Career": {
+      "empty_objects": 6,
+      "exterior_objects": 176,
+      "interior_objects": 36,
+      "mesh_objects": 206,
+      "position": [
+        -28,
+        -34,
+        0
+      ],
+      "tris": 26976
+    },
+    "Chat": {
+      "empty_objects": 6,
+      "exterior_objects": 193,
+      "interior_objects": 172,
+      "mesh_objects": 359,
+      "position": [
+        18,
+        -34,
+        0
+      ],
+      "tris": 27780
+    },
+    "Finance": {
+      "empty_objects": 5,
+      "exterior_objects": 199,
+      "interior_objects": 255,
+      "mesh_objects": 449,
+      "position": [
+        35,
+        -5,
+        0
+      ],
+      "tris": 9800
+    },
+    "Fitness": {
+      "empty_objects": 7,
+      "exterior_objects": 42,
+      "interior_objects": 11,
+      "mesh_objects": 46,
+      "position": [
+        25,
+        25,
+        0
+      ],
+      "tris": 17976
+    },
+    "Knowledgebase": {
+      "empty_objects": 4,
+      "exterior_objects": 357,
+      "interior_objects": 157,
+      "mesh_objects": 510,
+      "position": [
+        30,
+        -20,
+        0
+      ],
+      "tris": 13372
+    },
+    "Leaderboard": {
+      "empty_objects": 6,
+      "exterior_objects": 181,
+      "interior_objects": 136,
+      "mesh_objects": 311,
+      "position": [
+        -8,
+        -44,
+        0
+      ],
+      "tris": 26872
+    },
+    "SIA_Tower": {
+      "empty_objects": 7,
+      "exterior_objects": 14,
+      "interior_objects": 86,
+      "mesh_objects": 93,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "tris": 9582
+    },
+    "Yoga": {
+      "empty_objects": 4,
+      "exterior_objects": 151,
+      "interior_objects": 117,
+      "mesh_objects": 264,
+      "position": [
+        35,
+        10,
+        0
+      ],
+      "tris": 21684
+    }
+  },
+  "missing_assets": [],
+  "module": "08-career",
+  "overall_verdict": "PASS",
+  "scene_scores": {
+    "scene11_ascending_elevator_view": {
+      "note": "The clean tower cluster, floor-joint bands, elevator tubes, skybridges, and crown observation deck are framed as an upward professional ascent.",
+      "result": "PASS"
+    },
+    "scene11_command_hub_push": {
+      "note": "The open-front command hub view reads toward the growth chart wall, AI advisor workstations, strategy table, skill trees, and upper skybridge.",
+      "result": "PASS"
+    },
+    "sia_to_career_pipeline_route": {
+      "note": "A clear future hard-pipeline corridor remains from the SIA crown to the Career crown hardpoint without blocking the Leaderboard or Chat districts.",
+      "result": "PASS"
+    },
+    "skyline_all8": {
+      "note": "All eight approved modules are visible; Career reads as the tallest district while SIA remains dominant.",
+      "result": "PASS"
+    }
+  },
+  "screenshots": {
+    "career_threequarter": "screenshots/s32-career-threequarter.png",
+    "scene11_ascending_elevator_view": "screenshots/s32-scene11-ascending-elevator-view.png",
+    "scene11_command_hub_push": "screenshots/s32-scene11-command-hub-push.png",
+    "sia_to_career_pipeline_route": "screenshots/s32-sia-career-pipeline-route.png",
+    "skyline_all8": "screenshots/s32-skyline-all8.png"
+  },
+  "session": 32,
+  "structure_scales": {
+    "Career": {
+      "center": [
+        -28.0,
+        -34.0,
+        9.18
+      ],
+      "max": [
+        -20.1,
+        -27.395,
+        18.36
+      ],
+      "min": [
+        -35.9,
+        -40.605,
+        0.0
+      ],
+      "size": [
+        15.8,
+        13.21,
+        18.36
+      ]
+    },
+    "Chat": {
+      "center": [
+        18.0,
+        -34.01,
+        7.27
+      ],
+      "max": [
+        24.3045,
+        -28.94,
+        14.5399
+      ],
+      "min": [
+        11.6955,
+        -39.0799,
+        0.0
+      ],
+      "size": [
+        12.609,
+        10.1399,
+        14.5399
+      ]
+    },
+    "Finance": {
+      "center": [
+        35.0,
+        -5.0,
+        9.02
+      ],
+      "max": [
+        41.2,
+        1.2,
+        18.05
+      ],
+      "min": [
+        28.8,
+        -11.2,
+        -0.01
+      ],
+      "size": [
+        12.4,
+        12.4,
+        18.06
+      ]
+    },
+    "Fitness": {
+      "center": [
+        25.0,
+        24.9057,
+        6.75
+      ],
+      "max": [
+        33.6,
+        33.5866,
+        13.5
+      ],
+      "min": [
+        16.4,
+        16.2248,
+        -0.0
+      ],
+      "size": [
+        17.2,
+        17.3618,
+        13.5
+      ]
+    },
+    "Knowledgebase": {
+      "center": [
+        30.0,
+        -20.825,
+        6.205
+      ],
+      "max": [
+        32.6888,
+        -17.8,
+        12.5
+      ],
+      "min": [
+        27.3113,
+        -23.85,
+        -0.09
+      ],
+      "size": [
+        5.3775,
+        6.05,
+        12.59
+      ]
+    },
+    "Leaderboard": {
+      "center": [
+        -8.0,
+        -44.0,
+        5.3421
+      ],
+      "max": [
+        1.2,
+        -30.75,
+        10.6842
+      ],
+      "min": [
+        -17.2,
+        -57.25,
+        0.0
+      ],
+      "size": [
+        18.4,
+        26.5,
+        10.6842
+      ]
+    },
+    "SIA_Tower": {
+      "center": [
+        0.0,
+        -0.0,
+        21.0
+      ],
+      "max": [
+        13.0129,
+        12.3909,
+        42.0
+      ],
+      "min": [
+        -13.0129,
+        -12.391,
+        0.0
+      ],
+      "size": [
+        26.0258,
+        24.7819,
+        42.0
+      ]
+    },
+    "Yoga": {
+      "center": [
+        35.0,
+        10.0001,
+        2.6352
+      ],
+      "max": [
+        44.0,
+        16.3,
+        5.5003
+      ],
+      "min": [
+        26.0,
+        3.7001,
+        -0.23
+      ],
+      "size": [
+        18.0,
+        12.5999,
+        5.7303
+      ]
+    }
+  }
+}

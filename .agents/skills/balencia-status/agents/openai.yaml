@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia Status"
+  short_description: "Read-only Balencia project dashboard."
+  default_prompt: "Use this skill when the user asks for /balencia-status, Balencia status, current progress, or what is next."

@@ -1,0 +1,1040 @@
+{
+  "session": 33,
+  "module": "07-relationships",
+  "blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/exterior/drafts/relationships-s33-major-forms.blend",
+  "screenshots": [
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s33_front_elevation.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s33_three_quarter.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/screenshots/s33_distance_view.png"
+  ],
+  "mesh_objects": 159,
+  "triangles": 8782,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "material_tris": {
+    "accent": 2616,
+    "base": 860,
+    "detail": 1220,
+    "emissive": 2550,
+    "energy": 436,
+    "glass": 1100
+  },
+  "category_metrics": [
+    {
+      "category": "15-floor facade scale markers",
+      "objects": 15,
+      "tris": 1920
+    },
+    {
+      "category": "Cascading gardens and rose planters",
+      "objects": 22,
+      "tris": 2536
+    },
+    {
+      "category": "Curved welcoming entrances",
+      "objects": 34,
+      "tris": 664
+    },
+    {
+      "category": "Glass roof gathering domes",
+      "objects": 6,
+      "tris": 810
+    },
+    {
+      "category": "Intimate water crossings and district bridge",
+      "objects": 67,
+      "tris": 1284
+    },
+    {
+      "category": "Low curved pavilion body",
+      "objects": 1,
+      "tris": 524
+    },
+    {
+      "category": "Still water moat",
+      "objects": 2,
+      "tris": 608
+    },
+    {
+      "category": "Warm mist roof receiver",
+      "objects": 12,
+      "tris": 436
+    }
+  ],
+  "objects": [
+    {
+      "name": "central_family_gathering_transparent_roof_dome",
+      "tris": 252,
+      "material": "glass",
+      "category": "Glass roof gathering domes"
+    },
+    {
+      "name": "central_family_gathering_warm_gathering_glow_under_dome",
+      "tris": 18,
+      "material": "emissive",
+      "category": "Glass roof gathering domes"
+    },
+    {
+      "name": "connection_bridge_left_warm_edge",
+      "tris": 28,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "connection_bridge_right_warm_edge",
+      "tris": 28,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_gathering_transparent_roof_dome",
+      "tris": 252,
+      "material": "glass",
+      "category": "Glass roof gathering domes"
+    },
+    {
+      "name": "east_intimate_gathering_warm_gathering_glow_under_dome",
+      "tris": 18,
+      "material": "emissive",
+      "category": "Glass roof gathering domes"
+    },
+    {
+      "name": "east_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "east_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "entrance_rose_garden_00_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_00_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_01_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_01_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_02_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_02_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_03_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_03_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_04_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_04_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_05_rose_planter_glow_rim",
+      "tris": 96,
+      "material": "emissive",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "entrance_rose_garden_05_rounded_planter_bed",
+      "tris": 60,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "front_south_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "garden_terrace_cascade_lower_rounded_planter_shelf",
+      "tris": 160,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_lower_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_high_rounded_planter_shelf",
+      "tris": 160,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_high_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_low_rounded_planter_shelf",
+      "tris": 160,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_mid_low_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_roof_base_rounded_planter_shelf",
+      "tris": 160,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_roof_base_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_top_garden_rounded_planter_shelf",
+      "tris": 160,
+      "material": "detail",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "garden_terrace_cascade_top_garden_warm_rose_lip",
+      "tris": 160,
+      "material": "accent",
+      "category": "Cascading gardens and rose planters"
+    },
+    {
+      "name": "low_curved_15_floor_relationships_pavilion_body",
+      "tris": 524,
+      "material": "base",
+      "category": "Low curved pavilion body"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_01",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_02",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_03",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_04",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_05",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_06",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_07",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_08",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_09",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_10",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_11",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_12",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_13",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_14",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_curved_pavilion_rose_floor_indicator_band_15",
+      "tris": 128,
+      "material": "emissive",
+      "category": "15-floor facade scale markers"
+    },
+    {
+      "name": "low_dark_island_plinth_inside_moat",
+      "tris": 288,
+      "material": "base",
+      "category": "Still water moat"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "north_west_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "roof_warm_mist_reception_diffuser_ring",
+      "tris": 192,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "roof_warm_mist_soft_receiver_core",
+      "tris": 44,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "single_extended_connection_bridge_to_adjacent_district",
+      "tris": 12,
+      "material": "detail",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_07",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_08",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_09",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_10",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_11",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_12",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_curved_soft_portal_arch_13",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_dark_recessed_entry_shadow",
+      "tris": 12,
+      "material": "glass",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_left_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_primary_welcoming_right_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_arrival_landing_outer",
+      "tris": 12,
+      "material": "base",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_left_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_right_rose_arch_rail_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "south_west_intimate_water_crossing_soft_arch_bridge_deck",
+      "tris": 12,
+      "material": "detail",
+      "category": "Intimate water crossings and district bridge"
+    },
+    {
+      "name": "still_reflective_water_moat_surrounding_garden",
+      "tris": 320,
+      "material": "glass",
+      "category": "Still water moat"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_00_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_00_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_01_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_01_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_02_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_02_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_03_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_03_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_04_a",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "warm_mist_rising_diffuse_wisp_04_b",
+      "tris": 20,
+      "material": "energy",
+      "category": "Warm mist roof receiver"
+    },
+    {
+      "name": "west_intimate_gathering_transparent_roof_dome",
+      "tris": 252,
+      "material": "glass",
+      "category": "Glass roof gathering domes"
+    },
+    {
+      "name": "west_intimate_gathering_warm_gathering_glow_under_dome",
+      "tris": 18,
+      "material": "emissive",
+      "category": "Glass roof gathering domes"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_01",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_02",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_03",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_04",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_05",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_06",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_07",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_08",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_09",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_10",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_11",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_12",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_curved_soft_portal_arch_13",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_dark_recessed_entry_shadow",
+      "tris": 12,
+      "material": "glass",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_left_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    },
+    {
+      "name": "west_secondary_welcoming_right_soft_portal_leg",
+      "tris": 20,
+      "material": "accent",
+      "category": "Curved welcoming entrances"
+    }
+  ],
+  "lights": 3,
+  "cameras": 4,
+  "bbox": {
+    "min": [
+      -11.8,
+      -12.825,
+      0.02
+    ],
+    "max": [
+      16.1645,
+      8.5578,
+      7.355
+    ]
+  }
+}

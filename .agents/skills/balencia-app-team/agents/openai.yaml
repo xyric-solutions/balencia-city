@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia App Team"
+  short_description: "Build the Balencia R3F scroll experience."
+  default_prompt: "Use this skill for the Balencia React Three Fiber app, 17-scene scroll journey, shaders, and performance QA."

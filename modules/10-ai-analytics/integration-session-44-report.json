@@ -1,0 +1,736 @@
+{
+  "alignment": {
+    "interior_exterior_envelope": {
+      "height_fits": true,
+      "nave_y_extension": 6.5699,
+      "note": "Data Sanctum width and height fit the cathedral envelope. The 16u full-length nave extends beyond the compact exterior depth as a documented cinematic cutaway exception for Scene 13 fly-through readability.",
+      "result": "PASS",
+      "tolerance": 0.5,
+      "width_fits": true
+    },
+    "open_wall_orientation": {
+      "note": "Interior front/open threshold remains native -Y; Scene 13 Data Sanctum push uses the northwestern approach into the timeline nave.",
+      "result": "PASS"
+    },
+    "origin_alignment": {
+      "center_delta": [
+        0.0001,
+        0.0,
+        -5.285
+      ],
+      "result": "PASS",
+      "z_delta": 0.0
+    },
+    "runtime_empties": {
+      "checks": {
+        "camera_target": [
+          {
+            "inside": true,
+            "name": "camera_target.010",
+            "world_location": [
+              -31.0,
+              13.65,
+              1.55
+            ]
+          }
+        ],
+        "light_0": [
+          {
+            "inside": true,
+            "name": "light_0.010",
+            "world_location": [
+              -31.0,
+              14.0,
+              4.28
+            ]
+          }
+        ],
+        "light_1": [
+          {
+            "inside": true,
+            "name": "light_1.010",
+            "world_location": [
+              -27.95,
+              15.1,
+              3.25
+            ]
+          }
+        ],
+        "light_2": [
+          {
+            "inside": true,
+            "name": "light_2.010",
+            "world_location": [
+              -31.0,
+              14.0,
+              5.82
+            ]
+          }
+        ]
+      },
+      "result": "PASS"
+    },
+    "scale_match": {
+      "note": "Interior imports 1:1 with no rescale. Its long Y ratio is intentional for the full-length life-analytics timeline; width and height stay subordinate to the exterior cathedral.",
+      "ratios": {
+        "x": 0.6947,
+        "y": 1.6967,
+        "z": 0.3674
+      },
+      "result": "PASS"
+    },
+    "transforms": {
+      "non_identity_mesh_count": 0,
+      "result": "PASS",
+      "sample": []
+    }
+  },
+  "analytics_bboxes": {
+    "combined": {
+      "center": [
+        -31.0002,
+        14.0,
+        8.355
+      ],
+      "max": [
+        -25.3718,
+        22.0,
+        16.71
+      ],
+      "min": [
+        -36.6286,
+        6.0,
+        0.0
+      ],
+      "size": [
+        11.2568,
+        16.0,
+        16.71
+      ]
+    },
+    "exterior": {
+      "center": [
+        -31.0002,
+        14.0,
+        8.355
+      ],
+      "max": [
+        -25.3718,
+        18.715,
+        16.71
+      ],
+      "min": [
+        -36.6286,
+        9.2849,
+        0.0
+      ],
+      "size": [
+        11.2568,
+        9.4301,
+        16.71
+      ]
+    },
+    "interior": {
+      "center": [
+        -31.0001,
+        14.0,
+        3.07
+      ],
+      "max": [
+        -27.0902,
+        22.0,
+        6.14
+      ],
+      "min": [
+        -34.91,
+        6.0,
+        0.0
+      ],
+      "size": [
+        7.8198,
+        16.0,
+        6.14
+      ]
+    }
+  },
+  "blend_file": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/integration-session-44.blend",
+  "blender_version": "5.1.2",
+  "cohesion": {
+    "architectural_variety": "PASS - Analytics' pointed data-cathedral silhouette and buttress lattice are distinct from Knowledgebase's library, Career towers, and Recovery cloud.",
+    "detail_density": "PASS - Analytics is intentionally data-dense, but the dark cathedral mass, lattice, buttresses, interior timeline, and data props remain comparable to late-phase district quality.",
+    "material_darkness": "PASS - imported approved assets share the Balencia 7-slot dark-first material language.",
+    "overall_city_fit": "PASS - all eleven structures read as one dark premium cinematic city with varied district identities.",
+    "scale_relationships": "PASS - SIA remains dominant, Career remains the tallest district, and Analytics reads as a 30-floor data cathedral below SIA."
+  },
+  "import_results": {
+    "Analytics": {
+      "empty_objects": 6,
+      "exterior_objects": 8,
+      "interior_objects": 44,
+      "materials": [
+        "accent.019",
+        "accent.020",
+        "base.020",
+        "base.021",
+        "detail.020",
+        "detail.021",
+        "emissive.020",
+        "emissive.021",
+        "energy.019",
+        "energy.020",
+        "glass.020",
+        "glass.021",
+        "holo.006",
+        "holo.007"
+      ],
+      "mesh_objects": 46,
+      "position": [
+        -31,
+        14,
+        0
+      ],
+      "tris": 24577
+    },
+    "Career": {
+      "empty_objects": 6,
+      "exterior_objects": 176,
+      "interior_objects": 36,
+      "materials": [
+        "accent.015",
+        "accent.016",
+        "base.016",
+        "base.017",
+        "detail.016",
+        "detail.017",
+        "emissive.016",
+        "emissive.017",
+        "energy.015",
+        "energy.016",
+        "glass.016",
+        "glass.017"
+      ],
+      "mesh_objects": 206,
+      "position": [
+        -30,
+        -34,
+        0
+      ],
+      "tris": 26976
+    },
+    "Chat": {
+      "empty_objects": 6,
+      "exterior_objects": 193,
+      "interior_objects": 172,
+      "materials": [
+        "accent.009",
+        "accent.010",
+        "base.010",
+        "base.011",
+        "detail.010",
+        "detail.011",
+        "emissive.010",
+        "emissive.011",
+        "energy.009",
+        "energy.010",
+        "glass.010",
+        "glass.011"
+      ],
+      "mesh_objects": 359,
+      "position": [
+        19,
+        -36,
+        0
+      ],
+      "tris": 27780
+    },
+    "Finance": {
+      "empty_objects": 5,
+      "exterior_objects": 199,
+      "interior_objects": 255,
+      "materials": [
+        "accent.005",
+        "accent.006",
+        "base.006",
+        "base.007",
+        "detail.006",
+        "detail.007",
+        "emissive.006",
+        "emissive.007",
+        "energy.005",
+        "energy.006",
+        "glass.006",
+        "glass.007"
+      ],
+      "mesh_objects": 449,
+      "position": [
+        35,
+        -6,
+        0
+      ],
+      "tris": 9800
+    },
+    "Fitness": {
+      "empty_objects": 7,
+      "exterior_objects": 42,
+      "interior_objects": 11,
+      "materials": [
+        "accent.001",
+        "accent.002",
+        "base.002",
+        "base.003",
+        "detail.002",
+        "detail.003",
+        "emissive.002",
+        "emissive.003",
+        "energy.001",
+        "energy.002",
+        "glass.002",
+        "glass.003"
+      ],
+      "mesh_objects": 46,
+      "position": [
+        26,
+        25,
+        0
+      ],
+      "tris": 17976
+    },
+    "Knowledgebase": {
+      "empty_objects": 4,
+      "exterior_objects": 357,
+      "interior_objects": 157,
+      "materials": [
+        "accent.007",
+        "accent.008",
+        "base.008",
+        "base.009",
+        "detail.008",
+        "detail.009",
+        "emissive.008",
+        "emissive.009",
+        "energy.007",
+        "energy.008",
+        "glass.008",
+        "glass.009",
+        "holo.004",
+        "holo.005"
+      ],
+      "mesh_objects": 510,
+      "position": [
+        31,
+        -22,
+        0
+      ],
+      "tris": 13372
+    },
+    "Leaderboard": {
+      "empty_objects": 6,
+      "exterior_objects": 181,
+      "interior_objects": 136,
+      "materials": [
+        "accent.011",
+        "accent.012",
+        "base.012",
+        "base.013",
+        "detail.012",
+        "detail.013",
+        "emissive.012",
+        "emissive.013",
+        "energy.011",
+        "energy.012",
+        "glass.012",
+        "glass.013"
+      ],
+      "mesh_objects": 311,
+      "position": [
+        -8,
+        -45,
+        0
+      ],
+      "tris": 26872
+    },
+    "Recovery": {
+      "empty_objects": 6,
+      "exterior_objects": 7,
+      "interior_objects": 31,
+      "materials": [
+        "accent.017",
+        "accent.018",
+        "base.018",
+        "base.019",
+        "detail.018",
+        "detail.019",
+        "emissive.018",
+        "emissive.019",
+        "energy.017",
+        "energy.018",
+        "glass.018",
+        "glass.019"
+      ],
+      "mesh_objects": 32,
+      "position": [
+        -43,
+        -8,
+        0
+      ],
+      "tris": 21252
+    },
+    "Relationships": {
+      "empty_objects": 6,
+      "exterior_objects": 7,
+      "interior_objects": 34,
+      "materials": [
+        "accent.013",
+        "accent.014",
+        "base.014",
+        "base.015",
+        "detail.014",
+        "detail.015",
+        "emissive.014",
+        "emissive.015",
+        "energy.013",
+        "energy.014",
+        "glass.014",
+        "glass.015"
+      ],
+      "mesh_objects": 35,
+      "position": [
+        8,
+        -59,
+        0
+      ],
+      "tris": 21398
+    },
+    "SIA_Tower": {
+      "empty_objects": 7,
+      "exterior_objects": 14,
+      "interior_objects": 86,
+      "materials": [
+        "accent",
+        "base",
+        "base.001",
+        "detail",
+        "detail.001",
+        "emissive",
+        "emissive.001",
+        "energy",
+        "glass",
+        "glass.001",
+        "holo",
+        "holo.001"
+      ],
+      "mesh_objects": 93,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "tris": 9582
+    },
+    "Yoga": {
+      "empty_objects": 4,
+      "exterior_objects": 151,
+      "interior_objects": 117,
+      "materials": [
+        "accent.003",
+        "accent.004",
+        "base.004",
+        "base.005",
+        "detail.004",
+        "detail.005",
+        "emissive.004",
+        "emissive.005",
+        "energy.003",
+        "energy.004",
+        "glass.004",
+        "glass.005",
+        "holo.002",
+        "holo.003"
+      ],
+      "mesh_objects": 264,
+      "position": [
+        36,
+        10,
+        0
+      ],
+      "tris": 21684
+    }
+  },
+  "missing_assets": [],
+  "module": "10-ai-analytics",
+  "overall_verdict": "PASS",
+  "scene_scores": {
+    "analytics_threequarter": {
+      "note": "Close verification preserves the data cathedral silhouette and differentiates it from Knowledgebase's library and Career's tower cluster.",
+      "result": "PASS"
+    },
+    "scene13_data_sanctum_push": {
+      "note": "Interior cutaway reads toward the full-length life-analytics timeline, floating charts, heatmap panels, and neural graph wall.",
+      "result": "PASS"
+    },
+    "scene13_exterior_flythrough": {
+      "note": "Pointed roof/spire, teal living-wall facade, flying buttress lattice, and stained data windows frame as the northwest data cathedral.",
+      "result": "PASS"
+    },
+    "sia_to_analytics_hard_pipeline_route": {
+      "note": "A clear future hard-pipeline corridor remains from SIA toward the orange Analytics receiver without adding Phase 5 pipe geometry.",
+      "result": "PASS"
+    },
+    "skyline_all11": {
+      "note": "All eleven approved modules are visible; Analytics sits northwest as a teal data cathedral while SIA dominates and Career remains tallest district.",
+      "result": "PASS"
+    }
+  },
+  "screenshots": {
+    "analytics_threequarter": "screenshots/s44-analytics-threequarter.png",
+    "scene13_data_sanctum_push": "screenshots/s44-scene13-data-sanctum-push.png",
+    "scene13_exterior_flythrough": "screenshots/s44-scene13-exterior-flythrough.png",
+    "sia_to_analytics_hard_pipeline_route": "screenshots/s44-sia-analytics-hard-pipeline-route.png",
+    "skyline_all11": "screenshots/s44-skyline-all11.png"
+  },
+  "session": 44,
+  "structure_scales": {
+    "Analytics": {
+      "center": [
+        -31.0002,
+        14.0,
+        8.355
+      ],
+      "max": [
+        -25.3718,
+        22.0,
+        16.71
+      ],
+      "min": [
+        -36.6286,
+        6.0,
+        0.0
+      ],
+      "size": [
+        11.2568,
+        16.0,
+        16.71
+      ]
+    },
+    "Career": {
+      "center": [
+        -30.0,
+        -34.0,
+        9.18
+      ],
+      "max": [
+        -22.1,
+        -27.395,
+        18.36
+      ],
+      "min": [
+        -37.9,
+        -40.605,
+        0.0
+      ],
+      "size": [
+        15.8,
+        13.21,
+        18.36
+      ]
+    },
+    "Chat": {
+      "center": [
+        19.0,
+        -36.01,
+        7.27
+      ],
+      "max": [
+        25.3045,
+        -30.94,
+        14.5399
+      ],
+      "min": [
+        12.6955,
+        -41.0799,
+        0.0
+      ],
+      "size": [
+        12.609,
+        10.1399,
+        14.5399
+      ]
+    },
+    "Finance": {
+      "center": [
+        35.0,
+        -6.0,
+        9.02
+      ],
+      "max": [
+        41.2,
+        0.2,
+        18.05
+      ],
+      "min": [
+        28.8,
+        -12.2,
+        -0.01
+      ],
+      "size": [
+        12.4,
+        12.4,
+        18.06
+      ]
+    },
+    "Fitness": {
+      "center": [
+        26.0,
+        24.9057,
+        6.75
+      ],
+      "max": [
+        34.6,
+        33.5866,
+        13.5
+      ],
+      "min": [
+        17.4,
+        16.2248,
+        -0.0
+      ],
+      "size": [
+        17.2,
+        17.3618,
+        13.5
+      ]
+    },
+    "Knowledgebase": {
+      "center": [
+        31.0,
+        -22.825,
+        6.205
+      ],
+      "max": [
+        33.6888,
+        -19.8,
+        12.5
+      ],
+      "min": [
+        28.3113,
+        -25.85,
+        -0.09
+      ],
+      "size": [
+        5.3775,
+        6.05,
+        12.59
+      ]
+    },
+    "Leaderboard": {
+      "center": [
+        -8.0,
+        -45.0,
+        5.3421
+      ],
+      "max": [
+        1.2,
+        -31.75,
+        10.6842
+      ],
+      "min": [
+        -17.2,
+        -58.25,
+        0.0
+      ],
+      "size": [
+        18.4,
+        26.5,
+        10.6842
+      ]
+    },
+    "Recovery": {
+      "center": [
+        -43.0,
+        -8.0001,
+        3.9823
+      ],
+      "max": [
+        -32.1424,
+        -1.4517,
+        7.9645
+      ],
+      "min": [
+        -53.8576,
+        -14.5486,
+        0.0
+      ],
+      "size": [
+        21.7151,
+        13.0969,
+        7.9645
+      ]
+    },
+    "Relationships": {
+      "center": [
+        8.0,
+        -58.9998,
+        3.67
+      ],
+      "max": [
+        22.8072,
+        -48.3086,
+        7.3401
+      ],
+      "min": [
+        -6.8072,
+        -69.691,
+        0.0
+      ],
+      "size": [
+        29.6145,
+        21.3824,
+        7.3401
+      ]
+    },
+    "SIA_Tower": {
+      "center": [
+        0.0,
+        -0.0,
+        21.0
+      ],
+      "max": [
+        13.0129,
+        12.3909,
+        42.0
+      ],
+      "min": [
+        -13.0129,
+        -12.391,
+        0.0
+      ],
+      "size": [
+        26.0258,
+        24.7819,
+        42.0
+      ]
+    },
+    "Yoga": {
+      "center": [
+        36.0,
+        10.0001,
+        2.6352
+      ],
+      "max": [
+        45.0,
+        16.3,
+        5.5003
+      ],
+      "min": [
+        27.0,
+        3.7001,
+        -0.23
+      ],
+      "size": [
+        18.0,
+        12.5999,
+        5.7303
+      ]
+    }
+  }
+}

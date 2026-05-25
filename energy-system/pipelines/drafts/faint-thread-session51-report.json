@@ -1,0 +1,85 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/faint-thread.glb",
+  "approved_glb_size_bytes": 8888,
+  "asset": "energy-system/faint-thread",
+  "checks": {
+    "approved_glb_materials_valid": true,
+    "approved_glb_reimports": true,
+    "approved_structure_assets_present": true,
+    "arced_thread_path": true,
+    "connects_from_sia_crown": true,
+    "delivery_style_matches_spec": true,
+    "faint_thread_count": true,
+    "file_budget": true,
+    "ground_veins": true,
+    "material_named_energy": true,
+    "prior_hard_pipeline_asset_present": true,
+    "prior_warm_mist_asset_present": true,
+    "reaches_recovery_receiver": true,
+    "technical_budget": true
+  },
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/drafts/faint-thread-session51.glb",
+  "import_check": {
+    "file_size_bytes": 8888,
+    "materials": [
+      "energy"
+    ],
+    "materials_valid": true,
+    "mesh_count": 1,
+    "object_count": 2,
+    "tris": 1136
+  },
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "scope": {
+    "faint_thread_count": 1,
+    "note": "Builds the Recovery & Sleep delivery as the lightest SIA feed: an ultra-thin translucent energy thread with sparse shimmer points, a quiet top-wisp receptor, and endpoint ground veins.",
+    "targets": [
+      "Recovery"
+    ]
+  },
+  "screenshots": {
+    "citywide": "screenshots/s51-faint-thread-citywide.png",
+    "recovery_receptor": "screenshots/s51-faint-thread-recovery.png",
+    "route": "screenshots/s51-faint-thread-route.png"
+  },
+  "session": 51,
+  "source_layout_report": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/integration-session-48-report.json",
+  "thread_materials": [
+    "energy"
+  ],
+  "thread_metrics": {
+    "Recovery": {
+      "arc_lift_over_linear_mid": 19.4706,
+      "arc_peak_z": 42.0628,
+      "delivery_style": "faint_thread",
+      "distance_xy": 39.2379,
+      "end": [
+        -43.0,
+        -8.0001,
+        8.3845
+      ],
+      "ground_vein_center": [
+        -43.0,
+        -8.0001,
+        0.075
+      ],
+      "ground_vein_count": 8,
+      "has_hard_tube": false,
+      "is_continuous_core": true,
+      "label": "Recovery & Sleep",
+      "linear_mid_z": 22.5922,
+      "material_alpha": 0.22,
+      "receptor": "barely visible top wisp receiver above the cloud shell",
+      "shimmer_point_count": 7,
+      "start": [
+        -4.4241,
+        -0.8231,
+        36.8
+      ],
+      "thread_radius": 0.018,
+      "tris": 1136
+    }
+  },
+  "total_tris": 1136
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia Energy Team"
+  short_description: "Build and review Balencia energy pipelines and connections."
+  default_prompt: "Use this skill for Balencia neural pipelines, pulse ring, cross-district energy, and shader handoff."

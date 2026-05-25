@@ -1,0 +1,546 @@
+{
+  "session": 29,
+  "module": "08-career",
+  "blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/exterior/drafts/career-s29-major-forms.blend",
+  "screenshots": [
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s29_front_elevation.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s29_three_quarter.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/screenshots/s29_distance_view.png"
+  ],
+  "mesh_objects": 80,
+  "triangles": 4940,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "material_tris": {
+    "accent": 812,
+    "base": 2216,
+    "detail": 140,
+    "emissive": 1120,
+    "energy": 456,
+    "glass": 196
+  },
+  "category_metrics": [
+    {
+      "category": "Glass skybridge system",
+      "objects": 12,
+      "tris": 144
+    },
+    {
+      "category": "Main 40-floor tower and crown",
+      "objects": 23,
+      "tris": 1828
+    },
+    {
+      "category": "Networking plaza, footprints, and lobby",
+      "objects": 11,
+      "tris": 132
+    },
+    {
+      "category": "Secondary tower bodies",
+      "objects": 34,
+      "tris": 2836
+    }
+  ],
+  "objects": [
+    {
+      "name": "main_tower_crown_energy_hardpoint_ring",
+      "tris": 384,
+      "material": "energy",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_crown_pipeline_socket_core",
+      "tris": 44,
+      "material": "energy",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_crown_upward_pipeline_receiver",
+      "tris": 28,
+      "material": "energy",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_double_height_entry_lobby_glass",
+      "tris": 12,
+      "material": "glass",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "main_tower_electric_blue_floor_joint_bands",
+      "tris": 320,
+      "material": "emissive",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_entry_lobby_blue_threshold",
+      "tris": 12,
+      "material": "accent",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "main_tower_entry_lobby_dark_header",
+      "tris": 12,
+      "material": "detail",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "main_tower_executive_observation_deck_glass_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_exterior_left_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_exterior_right_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_exterior_transparent_elevator_tube",
+      "tris": 68,
+      "material": "glass",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_exterior_visible_ascending_cab_marker",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_observation_deck_front_rail",
+      "tris": 12,
+      "material": "detail",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_observation_deck_left_rail",
+      "tris": 12,
+      "material": "detail",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_observation_deck_left_underbrace",
+      "tris": 28,
+      "material": "detail",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_observation_deck_right_rail",
+      "tris": 12,
+      "material": "detail",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_observation_deck_right_underbrace",
+      "tris": 28,
+      "material": "detail",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "main_tower_tapered_40_floor_body",
+      "tris": 652,
+      "material": "base",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "main_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Main 40-floor tower and crown"
+    },
+    {
+      "name": "networking_plaza_blue_central_path",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "networking_plaza_cross_connection_path",
+      "tris": 12,
+      "material": "accent",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "networking_plaza_dark_connector_slab",
+      "tris": 12,
+      "material": "base",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "networking_plaza_front_arrival_step",
+      "tris": 12,
+      "material": "base",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "secondary_east_tower_electric_blue_floor_joint_bands",
+      "tris": 240,
+      "material": "emissive",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "secondary_east_tower_tapered_30_floor_body",
+      "tris": 492,
+      "material": "base",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_east_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_electric_blue_floor_joint_bands",
+      "tris": 216,
+      "material": "emissive",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "secondary_north_tower_tapered_27_floor_body",
+      "tris": 444,
+      "material": "base",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_north_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_exterior_left_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_exterior_right_blue_elevator_rail",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_exterior_transparent_elevator_tube",
+      "tris": 68,
+      "material": "glass",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_exterior_visible_ascending_cab_marker",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_electric_blue_floor_joint_bands",
+      "tris": 272,
+      "material": "emissive",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_raised_footprint_plinth",
+      "tris": 12,
+      "material": "base",
+      "category": "Networking plaza, footprints, and lobby"
+    },
+    {
+      "name": "secondary_west_tower_tapered_34_floor_body",
+      "tris": 556,
+      "material": "base",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_corner_edge_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "secondary_west_tower_upward_roof_fin_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Secondary tower bodies"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_blue_lower_edge",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_blue_upper_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_dark_floor_spine",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_east_mid_glass_enclosure",
+      "tris": 12,
+      "material": "glass",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_blue_lower_edge",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_blue_upper_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_dark_floor_spine",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_north_executive_glass_enclosure",
+      "tris": 12,
+      "material": "glass",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_blue_lower_edge",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_blue_upper_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_dark_floor_spine",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass skybridge system"
+    },
+    {
+      "name": "skybridge_main_to_west_upper_glass_enclosure",
+      "tris": 12,
+      "material": "glass",
+      "category": "Glass skybridge system"
+    }
+  ],
+  "lights": 3,
+  "cameras": 4,
+  "bbox": {
+    "min": [
+      -7.9,
+      -5.81,
+      0.0
+    ],
+    "max": [
+      7.9,
+      7.4,
+      18.04
+    ]
+  }
+}

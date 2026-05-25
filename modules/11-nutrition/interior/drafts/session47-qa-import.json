@@ -1,0 +1,92 @@
+{
+  "approved": true,
+  "bbox_max": [
+    4.2698,
+    6.61,
+    5.1174
+  ],
+  "bbox_min": [
+    -4.27,
+    -6.62,
+    0.0
+  ],
+  "camera_count": 0,
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2",
+    "nutrition-int"
+  ],
+  "gate_checks": {
+    "gate_3_materials": true,
+    "gate_5_budget": true,
+    "gate_5_hygiene": true,
+    "gate_7_empties": true,
+    "gate_7_focal": true,
+    "gate_7_props": true,
+    "gate_7_room_shell": true
+  },
+  "glb_size_bytes": 85356,
+  "has_categories": {
+    "adaptive_calorie_wall": true,
+    "ai_scan_station": true,
+    "chef_prep": true,
+    "communal_tables": true,
+    "hydration": true,
+    "living_market": true,
+    "nutrition_breakdowns": true,
+    "room_shell": true
+  },
+  "has_energy": false,
+  "has_holo": true,
+  "imported_tris": 9296,
+  "invalid_materials": [],
+  "light_count": 0,
+  "material_names": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "glass",
+    "holo"
+  ],
+  "mesh_names": [
+    "adaptive_calorie_wall_accent_joined",
+    "adaptive_calorie_wall_detail_joined",
+    "adaptive_calorie_wall_emissive_joined",
+    "adaptive_calorie_wall_glass_joined",
+    "adaptive_calorie_wall_holo_joined",
+    "ai_scan_station_detail_joined",
+    "ai_scan_station_emissive_joined",
+    "ai_scan_station_glass_joined",
+    "ai_scan_station_holo_joined",
+    "chef_prep_accent_joined",
+    "chef_prep_base_joined",
+    "chef_prep_detail_joined",
+    "chef_prep_emissive_joined",
+    "chef_prep_holo_joined",
+    "communal_tables_base_joined",
+    "communal_tables_detail_joined",
+    "communal_tables_emissive_joined",
+    "communal_tables_glass_joined",
+    "hydration_detail_joined",
+    "hydration_emissive_joined",
+    "hydration_glass_joined",
+    "hydration_holo_joined",
+    "living_market_accent_joined",
+    "living_market_detail_joined",
+    "living_market_emissive_joined",
+    "living_market_glass_joined",
+    "living_market_holo_joined",
+    "nutrition_breakdowns_emissive_joined",
+    "nutrition_breakdowns_holo_joined",
+    "room_shell_base_joined",
+    "room_shell_detail_joined",
+    "room_shell_emissive_joined"
+  ],
+  "mesh_objects": 32,
+  "non_identity_mesh_transforms": [],
+  "required_empties_present": true,
+  "session": 47
+}

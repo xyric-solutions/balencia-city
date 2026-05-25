@@ -1,0 +1,1553 @@
+{
+  "session": 41,
+  "module": "10-ai-analytics",
+  "blender_version": "5.1.2",
+  "blend": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/exterior/drafts/analytics-s41-major-forms.blend",
+  "screenshots": [
+    "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s41_front_elevation.png",
+    "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s41_three_quarter.png",
+    "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s41_distance_view.png"
+  ],
+  "mesh_objects": 244,
+  "triangles": 5251,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "material_tris": {
+    "accent": 36,
+    "base": 624,
+    "detail": 2304,
+    "emissive": 1876,
+    "energy": 324,
+    "glass": 60,
+    "holo": 27
+  },
+  "category_metrics": [
+    {
+      "category": "Analytics cathedral major forms",
+      "objects": 1,
+      "tris": 12
+    },
+    {
+      "category": "Buttress observation platforms",
+      "objects": 12,
+      "tris": 144
+    },
+    {
+      "category": "Cathedral body and foundation",
+      "objects": 7,
+      "tris": 552
+    },
+    {
+      "category": "Central spire, beacon, and SIA hardpoint",
+      "objects": 5,
+      "tris": 636
+    },
+    {
+      "category": "Data-waterfall entrance",
+      "objects": 14,
+      "tris": 168
+    },
+    {
+      "category": "Flying buttress data conduits and anchors",
+      "objects": 76,
+      "tris": 2064
+    },
+    {
+      "category": "Living facade data displays",
+      "objects": 84,
+      "tris": 1008
+    },
+    {
+      "category": "Pointed holographic data windows",
+      "objects": 45,
+      "tris": 667
+    }
+  ],
+  "objects": [
+    {
+      "name": "cathedral_foundation_dark_plaza_slab",
+      "tris": 12,
+      "material": "base",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "central_spire_dark_pinnacle_taper",
+      "tris": 44,
+      "material": "detail",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "central_spire_teal_beacon_ring",
+      "tris": 224,
+      "material": "emissive",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "central_spire_teal_data_beacon_core",
+      "tris": 44,
+      "material": "emissive",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_main_vertical_cascade",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_main_vertical_cascade",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "front_analytics_arrival_axis_dark_stone",
+      "tris": 12,
+      "material": "base",
+      "category": "Analytics cathedral major forms"
+    },
+    {
+      "name": "front_entry_cathedral_threshold_slab",
+      "tris": 12,
+      "material": "base",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "front_entry_dark_recessed_doorway",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_dashboard_trend_line_high",
+      "tris": 12,
+      "material": "accent",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_dashboard_trend_line_low",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_lower_center_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_dashboard_trend_line_high",
+      "tris": 12,
+      "material": "accent",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_dashboard_trend_line_low",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_left_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_dashboard_trend_line_high",
+      "tris": 12,
+      "material": "accent",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_dashboard_trend_line_low",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_right_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_aisle_small_pointed_roof",
+      "tris": 8,
+      "material": "detail",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "left_data_buttress_foundation_pin_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_data_buttress_foundation_pin_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_data_buttress_foundation_pin_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_ground_anchor_block_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_ground_anchor_block_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_ground_anchor_block_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_lower_cathedral_side_aisle_mass",
+      "tris": 12,
+      "material": "base",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "left_observation_platform_flat_extension_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "left_observation_platform_flat_extension_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "left_observation_platform_flat_extension_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "left_observation_platform_teal_edge_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "left_observation_platform_teal_edge_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "left_observation_platform_teal_edge_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_00_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_00_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_00_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_01_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_01_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_01_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_02_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_02_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_02_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_14",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_18",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_22",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_26",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_30",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_14",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_18",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_22",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_26",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_30",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "pointed_cathedral_nave_roof_dark_data_shed",
+      "tris": 8,
+      "material": "detail",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "rear_roof_orange_pipeline_receiver_core",
+      "tris": 44,
+      "material": "energy",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "rear_roof_orange_sia_pipeline_receiver_hard_socket",
+      "tris": 280,
+      "material": "energy",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "right_aisle_small_pointed_roof",
+      "tris": 8,
+      "material": "detail",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "right_data_buttress_foundation_pin_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_data_buttress_foundation_pin_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_data_buttress_foundation_pin_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_ground_anchor_block_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_ground_anchor_block_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_ground_anchor_block_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_lower_cathedral_side_aisle_mass",
+      "tris": 12,
+      "material": "base",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "right_observation_platform_flat_extension_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "right_observation_platform_flat_extension_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "right_observation_platform_flat_extension_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "right_observation_platform_teal_edge_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "right_observation_platform_teal_edge_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "right_observation_platform_teal_edge_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Buttress observation platforms"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_00_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_00_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_00_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_01_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_01_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_01_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_02_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_02_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_02_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and anchors"
+    },
+    {
+      "name": "thirty_floor_data_cathedral_main_body",
+      "tris": 492,
+      "material": "base",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "vertical_teal_data_stream_back_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_back_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_back_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    }
+  ],
+  "lights": 3,
+  "cameras": 4,
+  "bbox": {
+    "min": [
+      -5.46,
+      -5.38,
+      0.0
+    ],
+    "max": [
+      5.46,
+      4.05,
+      16.7
+    ]
+  }
+}

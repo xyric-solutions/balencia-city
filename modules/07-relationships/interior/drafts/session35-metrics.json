@@ -1,0 +1,264 @@
+{
+  "blend_file": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/interior/drafts/relationships-int-session35.blend",
+  "blender_version": "5.1.1",
+  "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/07-relationships/interior/drafts/relationships-int-draft-s35.glb",
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      -0.42,
+      1.34
+    ],
+    "light_0": [
+      0.0,
+      0.0,
+      1.55
+    ],
+    "light_1": [
+      -4.2,
+      2.16,
+      2.25
+    ],
+    "light_2": [
+      0.0,
+      0.18,
+      4.9
+    ]
+  },
+  "glb_size_bytes": 74204,
+  "material_issues": [],
+  "mesh_objects": 29,
+  "module": "07-relationships",
+  "object_groups": {
+    "AI relationship insight benches": {
+      "count": 4,
+      "tris": 512
+    },
+    "Empathy space alcoves": {
+      "count": 4,
+      "tris": 304
+    },
+    "Family bonding dome focal": {
+      "count": 5,
+      "tris": 1408
+    },
+    "Low planter beds and rose vegetation": {
+      "count": 3,
+      "tris": 840
+    },
+    "Memory timeline hologram moments": {
+      "count": 4,
+      "tris": 688
+    },
+    "Room shell and garden canopy": {
+      "count": 4,
+      "tris": 1384
+    },
+    "Trust vines on walls and ceiling": {
+      "count": 3,
+      "tris": 960
+    },
+    "Walking paths with rose energy threads": {
+      "count": 2,
+      "tris": 316
+    }
+  },
+  "objects": [
+    {
+      "group": "AI relationship insight benches",
+      "material": "base",
+      "name": "ai_insight_bench_base_joined",
+      "tris": 48
+    },
+    {
+      "group": "AI relationship insight benches",
+      "material": "detail",
+      "name": "ai_insight_bench_detail_joined",
+      "tris": 272
+    },
+    {
+      "group": "AI relationship insight benches",
+      "material": "emissive",
+      "name": "ai_insight_bench_emissive_joined",
+      "tris": 144
+    },
+    {
+      "group": "AI relationship insight benches",
+      "material": "glass",
+      "name": "ai_insight_bench_glass_joined",
+      "tris": 48
+    },
+    {
+      "group": "Room shell and garden canopy",
+      "material": "accent",
+      "name": "connection_garden_room_shell_accent_joined",
+      "tris": 204
+    },
+    {
+      "group": "Room shell and garden canopy",
+      "material": "base",
+      "name": "connection_garden_room_shell_base_joined",
+      "tris": 544
+    },
+    {
+      "group": "Room shell and garden canopy",
+      "material": "detail",
+      "name": "connection_garden_room_shell_detail_joined",
+      "tris": 412
+    },
+    {
+      "group": "Room shell and garden canopy",
+      "material": "glass",
+      "name": "connection_garden_room_shell_glass_joined",
+      "tris": 224
+    },
+    {
+      "group": "Empathy space alcoves",
+      "material": "base",
+      "name": "empathy_alcove_base_joined",
+      "tris": 24
+    },
+    {
+      "group": "Empathy space alcoves",
+      "material": "detail",
+      "name": "empathy_alcove_detail_joined",
+      "tris": 48
+    },
+    {
+      "group": "Empathy space alcoves",
+      "material": "emissive",
+      "name": "empathy_alcove_emissive_joined",
+      "tris": 40
+    },
+    {
+      "group": "Empathy space alcoves",
+      "material": "glass",
+      "name": "empathy_alcove_glass_joined",
+      "tris": 192
+    },
+    {
+      "group": "Family bonding dome focal",
+      "material": "detail",
+      "name": "family_bonding_dome_detail_joined",
+      "tris": 280
+    },
+    {
+      "group": "Family bonding dome focal",
+      "material": "emissive",
+      "name": "family_bonding_dome_emissive_joined",
+      "tris": 572
+    },
+    {
+      "group": "Family bonding dome focal",
+      "material": "energy",
+      "name": "family_bonding_dome_energy_joined",
+      "tris": 128
+    },
+    {
+      "group": "Family bonding dome focal",
+      "material": "glass",
+      "name": "family_bonding_dome_transparent_glass_shell",
+      "tris": 308
+    },
+    {
+      "group": "Family bonding dome focal",
+      "material": "accent",
+      "name": "family_bonding_dome_upper_soft_crown_ring",
+      "tris": 120
+    },
+    {
+      "group": "Low planter beds and rose vegetation",
+      "material": "accent",
+      "name": "low_planter_beds_accent_joined",
+      "tris": 380
+    },
+    {
+      "group": "Low planter beds and rose vegetation",
+      "material": "detail",
+      "name": "low_planter_beds_detail_joined",
+      "tris": 300
+    },
+    {
+      "group": "Low planter beds and rose vegetation",
+      "material": "emissive",
+      "name": "low_planter_beds_emissive_joined",
+      "tris": 160
+    },
+    {
+      "group": "Memory timeline hologram moments",
+      "material": "accent",
+      "name": "memory_timeline_accent_joined",
+      "tris": 72
+    },
+    {
+      "group": "Memory timeline hologram moments",
+      "material": "emissive",
+      "name": "memory_timeline_emissive_joined",
+      "tris": 472
+    },
+    {
+      "group": "Memory timeline hologram moments",
+      "material": "energy",
+      "name": "memory_timeline_energy_joined",
+      "tris": 72
+    },
+    {
+      "group": "Memory timeline hologram moments",
+      "material": "glass",
+      "name": "memory_timeline_glass_joined",
+      "tris": 72
+    },
+    {
+      "group": "Walking paths with rose energy threads",
+      "material": "detail",
+      "name": "rose_energy_path_detail_joined",
+      "tris": 198
+    },
+    {
+      "group": "Walking paths with rose energy threads",
+      "material": "emissive",
+      "name": "rose_energy_path_emissive_joined",
+      "tris": 118
+    },
+    {
+      "group": "Trust vines on walls and ceiling",
+      "material": "accent",
+      "name": "trust_vines_accent_joined",
+      "tris": 448
+    },
+    {
+      "group": "Trust vines on walls and ceiling",
+      "material": "detail",
+      "name": "trust_vines_detail_joined",
+      "tris": 320
+    },
+    {
+      "group": "Trust vines on walls and ceiling",
+      "material": "emissive",
+      "name": "trust_vines_emissive_joined",
+      "tris": 192
+    }
+  ],
+  "screenshots": [
+    "screenshots/s35-int-overview.png",
+    "screenshots/s35-int-from-entry.png",
+    "screenshots/s35-int-focal-bonding-dome.png",
+    "screenshots/s35-int-topdown.png",
+    "screenshots/s35-int-dark-first.png"
+  ],
+  "session": 35,
+  "slot_tris": {
+    "accent": 1224,
+    "base": 616,
+    "detail": 1830,
+    "emissive": 1698,
+    "energy": 200,
+    "glass": 844
+  },
+  "total_tris": 6412
+}

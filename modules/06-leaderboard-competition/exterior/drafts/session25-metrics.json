@@ -1,0 +1,494 @@
+{
+  "session": 25,
+  "module": "06-leaderboard-competition",
+  "blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/exterior/drafts/leaderboard-competition-s25-major-forms.blend",
+  "screenshots": [
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s25_front_elevation.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s25_three_quarter.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s25_distance_view.png"
+  ],
+  "mesh_objects": 90,
+  "triangles": 10720,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "material_tris": {
+    "accent": 1892,
+    "base": 2020,
+    "detail": 3584,
+    "emissive": 324,
+    "energy": 840,
+    "glass": 2060
+  },
+  "objects": [
+    {
+      "name": "apex_lightning_major_form_segment_00",
+      "tris": 28,
+      "material": "energy"
+    },
+    {
+      "name": "apex_lightning_major_form_segment_01",
+      "tris": 28,
+      "material": "energy"
+    },
+    {
+      "name": "apex_lightning_major_form_segment_02",
+      "tris": 28,
+      "material": "energy"
+    },
+    {
+      "name": "apex_lightning_receiver_ring",
+      "tris": 320,
+      "material": "energy"
+    },
+    {
+      "name": "apex_radial_brace_00",
+      "tris": 28,
+      "material": "detail"
+    },
+    {
+      "name": "apex_radial_brace_01",
+      "tris": 28,
+      "material": "detail"
+    },
+    {
+      "name": "apex_radial_brace_02",
+      "tris": 28,
+      "material": "detail"
+    },
+    {
+      "name": "apex_radial_brace_03",
+      "tris": 28,
+      "material": "detail"
+    },
+    {
+      "name": "apex_strike_socket_core",
+      "tris": 36,
+      "material": "energy"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_00",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_01",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_02",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_03",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_04",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_05",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_06",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_ground_plinth_outer_disc",
+      "tris": 320,
+      "material": "base"
+    },
+    {
+      "name": "arena_inner_floor_void_shadow",
+      "tris": 256,
+      "material": "glass"
+    },
+    {
+      "name": "arena_lower_service_podium",
+      "tris": 320,
+      "material": "base"
+    },
+    {
+      "name": "arena_outer_tier_band_00_with_entrance_gap",
+      "tris": 260,
+      "material": "base"
+    },
+    {
+      "name": "arena_outer_tier_band_01_with_entrance_gap",
+      "tris": 260,
+      "material": "base"
+    },
+    {
+      "name": "arena_outer_tier_band_02_with_entrance_gap",
+      "tris": 260,
+      "material": "base"
+    },
+    {
+      "name": "arena_outer_tier_band_03_with_entrance_gap",
+      "tris": 260,
+      "material": "base"
+    },
+    {
+      "name": "arena_outer_tier_band_04",
+      "tris": 288,
+      "material": "detail"
+    },
+    {
+      "name": "arena_outer_tier_band_05",
+      "tris": 288,
+      "material": "detail"
+    },
+    {
+      "name": "arena_outer_tier_band_06",
+      "tris": 288,
+      "material": "detail"
+    },
+    {
+      "name": "arena_outer_tier_band_07",
+      "tris": 288,
+      "material": "detail"
+    },
+    {
+      "name": "competition_floor_energy_target_ring",
+      "tris": 256,
+      "material": "energy"
+    },
+    {
+      "name": "competition_floor_major_disc",
+      "tris": 256,
+      "material": "base"
+    },
+    {
+      "name": "competitor_walkway_entry_step",
+      "tris": 12,
+      "material": "base"
+    },
+    {
+      "name": "competitor_walkway_left_coral_edge",
+      "tris": 12,
+      "material": "accent"
+    },
+    {
+      "name": "competitor_walkway_main_slab",
+      "tris": 12,
+      "material": "base"
+    },
+    {
+      "name": "competitor_walkway_right_coral_edge",
+      "tris": 12,
+      "material": "accent"
+    },
+    {
+      "name": "curved_leaderboard_display_main_panel",
+      "tris": 148,
+      "material": "emissive"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_00",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_01",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_02",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_03",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_04",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_05",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_06",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_07",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_08",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_09",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_10",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_11",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_12",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_13",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_14",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_15",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_16",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_17",
+      "tris": 28,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_left_pillar",
+      "tris": 12,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_right_pillar",
+      "tris": 12,
+      "material": "accent"
+    },
+    {
+      "name": "grand_entrance_shadow_opening",
+      "tris": 12,
+      "material": "glass"
+    },
+    {
+      "name": "grand_entrance_threshold_block",
+      "tris": 12,
+      "material": "base"
+    },
+    {
+      "name": "inner_bowl_guard_rim",
+      "tris": 440,
+      "material": "accent"
+    },
+    {
+      "name": "leaderboard_rank_bar_01",
+      "tris": 52,
+      "material": "accent"
+    },
+    {
+      "name": "leaderboard_rank_bar_02",
+      "tris": 52,
+      "material": "accent"
+    },
+    {
+      "name": "leaderboard_rank_bar_03",
+      "tris": 52,
+      "material": "accent"
+    },
+    {
+      "name": "leaderboard_rank_bar_04",
+      "tris": 52,
+      "material": "accent"
+    },
+    {
+      "name": "leaderboard_rank_bar_05",
+      "tris": 52,
+      "material": "accent"
+    },
+    {
+      "name": "structural_top_rim_ring_open_roof",
+      "tris": 576,
+      "material": "detail"
+    },
+    {
+      "name": "victory_pillar_north_east_beacon_collar",
+      "tris": 160,
+      "material": "accent"
+    },
+    {
+      "name": "victory_pillar_north_east_energy_flame",
+      "tris": 44,
+      "material": "emissive"
+    },
+    {
+      "name": "victory_pillar_north_east_footing",
+      "tris": 12,
+      "material": "base"
+    },
+    {
+      "name": "victory_pillar_north_east_orange_core",
+      "tris": 36,
+      "material": "energy"
+    },
+    {
+      "name": "victory_pillar_north_east_shaft",
+      "tris": 44,
+      "material": "detail"
+    },
+    {
+      "name": "victory_pillar_north_west_beacon_collar",
+      "tris": 160,
+      "material": "accent"
+    },
+    {
+      "name": "victory_pillar_north_west_energy_flame",
+      "tris": 44,
+      "material": "emissive"
+    },
+    {
+      "name": "victory_pillar_north_west_footing",
+      "tris": 12,
+      "material": "base"
+    },
+    {
+      "name": "victory_pillar_north_west_orange_core",
+      "tris": 36,
+      "material": "energy"
+    },
+    {
+      "name": "victory_pillar_north_west_shaft",
+      "tris": 44,
+      "material": "detail"
+    },
+    {
+      "name": "victory_pillar_south_east_beacon_collar",
+      "tris": 160,
+      "material": "accent"
+    },
+    {
+      "name": "victory_pillar_south_east_energy_flame",
+      "tris": 44,
+      "material": "emissive"
+    },
+    {
+      "name": "victory_pillar_south_east_footing",
+      "tris": 12,
+      "material": "base"
+    },
+    {
+      "name": "victory_pillar_south_east_orange_core",
+      "tris": 36,
+      "material": "energy"
+    },
+    {
+      "name": "victory_pillar_south_east_shaft",
+      "tris": 44,
+      "material": "detail"
+    },
+    {
+      "name": "victory_pillar_south_west_beacon_collar",
+      "tris": 160,
+      "material": "accent"
+    },
+    {
+      "name": "victory_pillar_south_west_energy_flame",
+      "tris": 44,
+      "material": "emissive"
+    },
+    {
+      "name": "victory_pillar_south_west_footing",
+      "tris": 12,
+      "material": "base"
+    },
+    {
+      "name": "victory_pillar_south_west_orange_core",
+      "tris": 36,
+      "material": "energy"
+    },
+    {
+      "name": "victory_pillar_south_west_shaft",
+      "tris": 44,
+      "material": "detail"
+    },
+    {
+      "name": "visible_stepped_seating_ring_00",
+      "tris": 224,
+      "material": "detail"
+    },
+    {
+      "name": "visible_stepped_seating_ring_01",
+      "tris": 224,
+      "material": "detail"
+    },
+    {
+      "name": "visible_stepped_seating_ring_02",
+      "tris": 224,
+      "material": "detail"
+    },
+    {
+      "name": "visible_stepped_seating_ring_03",
+      "tris": 224,
+      "material": "detail"
+    },
+    {
+      "name": "visible_stepped_seating_ring_04",
+      "tris": 224,
+      "material": "detail"
+    },
+    {
+      "name": "visible_stepped_seating_ring_05",
+      "tris": 224,
+      "material": "detail"
+    },
+    {
+      "name": "visible_stepped_seating_ring_06",
+      "tris": 224,
+      "material": "detail"
+    }
+  ],
+  "lights": 3,
+  "cameras": 4,
+  "bbox": {
+    "min": [
+      -9.2,
+      -17.3,
+      0.0
+    ],
+    "max": [
+      9.2,
+      9.2,
+      10.6842
+    ]
+  }
+}

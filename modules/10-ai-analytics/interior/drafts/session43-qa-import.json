@@ -1,0 +1,48 @@
+{
+  "approved": true,
+  "bbox_max": [
+    3.9098,
+    8.0,
+    6.14
+  ],
+  "bbox_min": [
+    -3.91,
+    -8.0,
+    0.0
+  ],
+  "camera_count": 0,
+  "empty_names": [
+    "analytics-int",
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "gate_checks": {
+    "gate_3_materials": true,
+    "gate_5_budget": true,
+    "gate_5_hygiene": true,
+    "gate_7_empties": true,
+    "gate_7_props": true,
+    "gate_7_room_shell": true
+  },
+  "glb_size_bytes": 90632,
+  "has_energy": true,
+  "has_holo": true,
+  "imported_tris": 8318,
+  "invalid_materials": [],
+  "light_count": 0,
+  "material_names": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "mesh_objects": 39,
+  "non_identity_mesh_transforms": [],
+  "required_empties_present": true,
+  "session": 43
+}

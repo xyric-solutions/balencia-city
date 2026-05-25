@@ -1,0 +1,378 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/interior/approved/nutrition-int.glb",
+  "approved_glb_size_bytes": 85356,
+  "approved_promoted": true,
+  "blend_file": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/interior/drafts/nutrition-int-session47.blend",
+  "blender_version": "5.1.2",
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/interior/drafts/nutrition-int-draft-s47.glb",
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      3.42,
+      1.62
+    ],
+    "light_0": [
+      0.0,
+      -1.2,
+      3.25
+    ],
+    "light_1": [
+      0.0,
+      4.35,
+      3.75
+    ],
+    "light_2": [
+      -3.88,
+      0.65,
+      2.85
+    ]
+  },
+  "glb_size_bytes": 85356,
+  "import_qa": {
+    "approved": true,
+    "bbox_max": [
+      4.2698,
+      6.61,
+      5.1174
+    ],
+    "bbox_min": [
+      -4.27,
+      -6.62,
+      0.0
+    ],
+    "camera_count": 0,
+    "empty_names": [
+      "camera_target",
+      "light_0",
+      "light_1",
+      "light_2",
+      "nutrition-int"
+    ],
+    "gate_checks": {
+      "gate_3_materials": true,
+      "gate_5_budget": true,
+      "gate_5_hygiene": true,
+      "gate_7_empties": true,
+      "gate_7_focal": true,
+      "gate_7_props": true,
+      "gate_7_room_shell": true
+    },
+    "glb_size_bytes": 85356,
+    "has_categories": {
+      "adaptive_calorie_wall": true,
+      "ai_scan_station": true,
+      "chef_prep": true,
+      "communal_tables": true,
+      "hydration": true,
+      "living_market": true,
+      "nutrition_breakdowns": true,
+      "room_shell": true
+    },
+    "has_energy": false,
+    "has_holo": true,
+    "imported_tris": 9296,
+    "invalid_materials": [],
+    "light_count": 0,
+    "material_names": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "glass",
+      "holo"
+    ],
+    "mesh_names": [
+      "adaptive_calorie_wall_accent_joined",
+      "adaptive_calorie_wall_detail_joined",
+      "adaptive_calorie_wall_emissive_joined",
+      "adaptive_calorie_wall_glass_joined",
+      "adaptive_calorie_wall_holo_joined",
+      "ai_scan_station_detail_joined",
+      "ai_scan_station_emissive_joined",
+      "ai_scan_station_glass_joined",
+      "ai_scan_station_holo_joined",
+      "chef_prep_accent_joined",
+      "chef_prep_base_joined",
+      "chef_prep_detail_joined",
+      "chef_prep_emissive_joined",
+      "chef_prep_holo_joined",
+      "communal_tables_base_joined",
+      "communal_tables_detail_joined",
+      "communal_tables_emissive_joined",
+      "communal_tables_glass_joined",
+      "hydration_detail_joined",
+      "hydration_emissive_joined",
+      "hydration_glass_joined",
+      "hydration_holo_joined",
+      "living_market_accent_joined",
+      "living_market_detail_joined",
+      "living_market_emissive_joined",
+      "living_market_glass_joined",
+      "living_market_holo_joined",
+      "nutrition_breakdowns_emissive_joined",
+      "nutrition_breakdowns_holo_joined",
+      "room_shell_base_joined",
+      "room_shell_detail_joined",
+      "room_shell_emissive_joined"
+    ],
+    "mesh_objects": 32,
+    "non_identity_mesh_transforms": [],
+    "required_empties_present": true,
+    "session": 47
+  },
+  "material_issues": [],
+  "mesh_objects": 32,
+  "module": "11-nutrition",
+  "object_groups": {
+    "adaptive_calorie_wall": {
+      "count": 5,
+      "tris": 384
+    },
+    "ai_scan_station": {
+      "count": 4,
+      "tris": 572
+    },
+    "chef_prep": {
+      "count": 5,
+      "tris": 432
+    },
+    "communal_tables": {
+      "count": 4,
+      "tris": 1140
+    },
+    "hydration": {
+      "count": 4,
+      "tris": 836
+    },
+    "living_market": {
+      "count": 5,
+      "tris": 2456
+    },
+    "nutrition_breakdowns": {
+      "count": 2,
+      "tris": 2928
+    },
+    "room_shell": {
+      "count": 3,
+      "tris": 548
+    }
+  },
+  "objects": [
+    {
+      "group": "adaptive_calorie_wall",
+      "material": "accent",
+      "name": "adaptive_calorie_wall_accent_joined",
+      "tris": 48
+    },
+    {
+      "group": "adaptive_calorie_wall",
+      "material": "detail",
+      "name": "adaptive_calorie_wall_detail_joined",
+      "tris": 12
+    },
+    {
+      "group": "adaptive_calorie_wall",
+      "material": "emissive",
+      "name": "adaptive_calorie_wall_emissive_joined",
+      "tris": 72
+    },
+    {
+      "group": "adaptive_calorie_wall",
+      "material": "glass",
+      "name": "adaptive_calorie_wall_glass_joined",
+      "tris": 12
+    },
+    {
+      "group": "adaptive_calorie_wall",
+      "material": "holo",
+      "name": "adaptive_calorie_wall_holo_joined",
+      "tris": 240
+    },
+    {
+      "group": "ai_scan_station",
+      "material": "detail",
+      "name": "ai_scan_station_detail_joined",
+      "tris": 12
+    },
+    {
+      "group": "ai_scan_station",
+      "material": "emissive",
+      "name": "ai_scan_station_emissive_joined",
+      "tris": 96
+    },
+    {
+      "group": "ai_scan_station",
+      "material": "glass",
+      "name": "ai_scan_station_glass_joined",
+      "tris": 88
+    },
+    {
+      "group": "ai_scan_station",
+      "material": "holo",
+      "name": "ai_scan_station_holo_joined",
+      "tris": 376
+    },
+    {
+      "group": "chef_prep",
+      "material": "accent",
+      "name": "chef_prep_accent_joined",
+      "tris": 224
+    },
+    {
+      "group": "chef_prep",
+      "material": "base",
+      "name": "chef_prep_base_joined",
+      "tris": 24
+    },
+    {
+      "group": "chef_prep",
+      "material": "detail",
+      "name": "chef_prep_detail_joined",
+      "tris": 24
+    },
+    {
+      "group": "chef_prep",
+      "material": "emissive",
+      "name": "chef_prep_emissive_joined",
+      "tris": 40
+    },
+    {
+      "group": "chef_prep",
+      "material": "holo",
+      "name": "chef_prep_holo_joined",
+      "tris": 120
+    },
+    {
+      "group": "communal_tables",
+      "material": "base",
+      "name": "communal_tables_base_joined",
+      "tris": 36
+    },
+    {
+      "group": "communal_tables",
+      "material": "detail",
+      "name": "communal_tables_detail_joined",
+      "tris": 408
+    },
+    {
+      "group": "communal_tables",
+      "material": "emissive",
+      "name": "communal_tables_emissive_joined",
+      "tris": 72
+    },
+    {
+      "group": "communal_tables",
+      "material": "glass",
+      "name": "communal_tables_glass_joined",
+      "tris": 624
+    },
+    {
+      "group": "hydration",
+      "material": "detail",
+      "name": "hydration_detail_joined",
+      "tris": 24
+    },
+    {
+      "group": "hydration",
+      "material": "emissive",
+      "name": "hydration_emissive_joined",
+      "tris": 24
+    },
+    {
+      "group": "hydration",
+      "material": "glass",
+      "name": "hydration_glass_joined",
+      "tris": 244
+    },
+    {
+      "group": "hydration",
+      "material": "holo",
+      "name": "hydration_holo_joined",
+      "tris": 544
+    },
+    {
+      "group": "living_market",
+      "material": "accent",
+      "name": "living_market_accent_joined",
+      "tris": 960
+    },
+    {
+      "group": "living_market",
+      "material": "detail",
+      "name": "living_market_detail_joined",
+      "tris": 312
+    },
+    {
+      "group": "living_market",
+      "material": "emissive",
+      "name": "living_market_emissive_joined",
+      "tris": 732
+    },
+    {
+      "group": "living_market",
+      "material": "glass",
+      "name": "living_market_glass_joined",
+      "tris": 72
+    },
+    {
+      "group": "living_market",
+      "material": "holo",
+      "name": "living_market_holo_joined",
+      "tris": 380
+    },
+    {
+      "group": "nutrition_breakdowns",
+      "material": "emissive",
+      "name": "nutrition_breakdowns_emissive_joined",
+      "tris": 144
+    },
+    {
+      "group": "nutrition_breakdowns",
+      "material": "holo",
+      "name": "nutrition_breakdowns_holo_joined",
+      "tris": 2784
+    },
+    {
+      "group": "room_shell",
+      "material": "base",
+      "name": "room_shell_base_joined",
+      "tris": 96
+    },
+    {
+      "group": "room_shell",
+      "material": "detail",
+      "name": "room_shell_detail_joined",
+      "tris": 344
+    },
+    {
+      "group": "room_shell",
+      "material": "emissive",
+      "name": "room_shell_emissive_joined",
+      "tris": 108
+    }
+  ],
+  "screenshots": [
+    "screenshots/s47-int-overview.png",
+    "screenshots/s47-int-from-entry.png",
+    "screenshots/s47-int-focal-market.png",
+    "screenshots/s47-int-topdown.png",
+    "screenshots/s47-int-dark-first.png"
+  ],
+  "session": 47,
+  "slot_tris": {
+    "accent": 1232,
+    "base": 156,
+    "detail": 1136,
+    "emissive": 1288,
+    "glass": 1040,
+    "holo": 4444
+  },
+  "title": "Nutrition Interior - Nourishment Hall",
+  "total_tris": 9296
+}

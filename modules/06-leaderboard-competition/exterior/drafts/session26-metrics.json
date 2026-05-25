@@ -1,0 +1,1229 @@
+{
+  "session": 26,
+  "module": "06-leaderboard-competition",
+  "blender_version": "5.1.1",
+  "source_blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/exterior/drafts/leaderboard-competition-s25-major-forms.blend",
+  "blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/exterior/drafts/leaderboard-competition-s26-detail-export.blend",
+  "before_mesh_objects": 90,
+  "before_tris": 10720,
+  "after_detail_mesh_objects": 180,
+  "after_detail_tris": 17424,
+  "detail_added_tris": 6704,
+  "category_metrics": {
+    "Entry portal and competitor walkway": {
+      "objects": 20,
+      "tris": 816
+    },
+    "Facade rhythm and panelization": {
+      "objects": 4,
+      "tris": 1440
+    },
+    "Leaderboard display graphics": {
+      "objects": 5,
+      "tris": 864
+    },
+    "Rim engineering and apex receiver polish": {
+      "objects": 30,
+      "tris": 1500
+    },
+    "Seating and aisle articulation": {
+      "objects": 3,
+      "tris": 1092
+    },
+    "Session 25 retained major forms": {
+      "objects": 90,
+      "tris": 10720
+    },
+    "Victory pillar hardware": {
+      "objects": 28,
+      "tris": 992
+    }
+  },
+  "material_tris": {
+    "accent": 4476,
+    "base": 2644,
+    "detail": 5900,
+    "emissive": 564,
+    "energy": 1444,
+    "glass": 2396
+  },
+  "bbox": {
+    "min": [
+      -9.2,
+      -17.3,
+      0.0
+    ],
+    "max": [
+      9.2,
+      9.2,
+      10.6842
+    ]
+  },
+  "screenshots": [
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s26_front_elevation.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s26_three_quarter.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s26_distance_view.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s26_dark_first.png"
+  ],
+  "objects": [
+    {
+      "name": "apex_lightning_major_form_segment_00",
+      "tris": 28,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_lightning_major_form_segment_01",
+      "tris": 28,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_lightning_major_form_segment_02",
+      "tris": 28,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_lightning_receiver_ring",
+      "tris": 320,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_radial_brace_00",
+      "tris": 28,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_radial_brace_01",
+      "tris": 28,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_radial_brace_02",
+      "tris": 28,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_radial_brace_03",
+      "tris": 28,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "apex_strike_socket_core",
+      "tris": 36,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_00",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_01",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_02",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_03",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_04",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_05",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_dark_facade_gap_band_06",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_ground_plinth_outer_disc",
+      "tris": 320,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_inner_floor_void_shadow",
+      "tris": 256,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_lower_service_podium",
+      "tris": 320,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_00_with_entrance_gap",
+      "tris": 260,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_01_with_entrance_gap",
+      "tris": 260,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_02_with_entrance_gap",
+      "tris": 260,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_03_with_entrance_gap",
+      "tris": 260,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_04",
+      "tris": 288,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_05",
+      "tris": 288,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_06",
+      "tris": 288,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "arena_outer_tier_band_07",
+      "tris": 288,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "competition_floor_energy_target_ring",
+      "tris": 256,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "competition_floor_major_disc",
+      "tris": 256,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "competitor_walkway_entry_step",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "competitor_walkway_left_coral_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "competitor_walkway_main_slab",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "competitor_walkway_right_coral_edge",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "curved_leaderboard_display_main_panel",
+      "tris": 148,
+      "material": "emissive",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_00",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_01",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_02",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_03",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_04",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_05",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_06",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_07",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_08",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_09",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_10",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_11",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_12",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_13",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_14",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_15",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_16",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_curved_arch_segment_17",
+      "tris": 28,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_left_pillar",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_right_pillar",
+      "tris": 12,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_shadow_opening",
+      "tris": 12,
+      "material": "glass",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "grand_entrance_threshold_block",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "inner_bowl_guard_rim",
+      "tris": 440,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "leaderboard_rank_bar_01",
+      "tris": 52,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "leaderboard_rank_bar_02",
+      "tris": 52,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "leaderboard_rank_bar_03",
+      "tris": 52,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "leaderboard_rank_bar_04",
+      "tris": 52,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "leaderboard_rank_bar_05",
+      "tris": 52,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "s26_apex_receiver_inner_gold_collar",
+      "tris": 132,
+      "material": "accent",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_receiver_outer_detail_collar",
+      "tris": 156,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_receiver_splayed_rod_00",
+      "tris": 28,
+      "material": "energy",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_receiver_splayed_rod_01",
+      "tris": 28,
+      "material": "energy",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_receiver_splayed_rod_02",
+      "tris": 28,
+      "material": "energy",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_receiver_splayed_rod_03",
+      "tris": 28,
+      "material": "energy",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_receiver_splayed_rod_04",
+      "tris": 28,
+      "material": "energy",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_receiver_splayed_rod_05",
+      "tris": 28,
+      "material": "energy",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_apex_strike_micro_spire",
+      "tris": 36,
+      "material": "energy",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_competitor_walkway_coral_chevrons",
+      "tris": 192,
+      "material": "accent",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_competitor_walkway_lane_tick_blocks",
+      "tris": 192,
+      "material": "detail",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_coral_floor_index_ticks",
+      "tris": 288,
+      "material": "accent",
+      "category": "Facade rhythm and panelization"
+    },
+    {
+      "name": "s26_entry_turnstile_crossbar_+0.00",
+      "tris": 20,
+      "material": "accent",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_entry_turnstile_crossbar_+0.62",
+      "tris": 20,
+      "material": "accent",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_entry_turnstile_crossbar_-0.62",
+      "tris": 20,
+      "material": "accent",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_entry_turnstile_post_+0.00",
+      "tris": 28,
+      "material": "detail",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_entry_turnstile_post_+0.62",
+      "tris": 28,
+      "material": "detail",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_entry_turnstile_post_-0.62",
+      "tris": 28,
+      "material": "detail",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_facade_shadow_glass_slit_breaks",
+      "tris": 336,
+      "material": "glass",
+      "category": "Facade rhythm and panelization"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_00",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_01",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_02",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_03",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_04",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_05",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_06",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_07",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_arch_inner_energy_trace_08",
+      "tris": 28,
+      "material": "energy",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_entry_keystone_block",
+      "tris": 12,
+      "material": "accent",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_entry_left_buttress_plinth",
+      "tris": 12,
+      "material": "detail",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_grand_entry_right_buttress_plinth",
+      "tris": 12,
+      "material": "detail",
+      "category": "Entry portal and competitor walkway"
+    },
+    {
+      "name": "s26_inner_bowl_radial_aisle_lines",
+      "tris": 132,
+      "material": "detail",
+      "category": "Seating and aisle articulation"
+    },
+    {
+      "name": "s26_leaderboard_lower_frame_arc",
+      "tris": 148,
+      "material": "accent",
+      "category": "Leaderboard display graphics"
+    },
+    {
+      "name": "s26_leaderboard_mid_scanline",
+      "tris": 148,
+      "material": "energy",
+      "category": "Leaderboard display graphics"
+    },
+    {
+      "name": "s26_leaderboard_rank_number_glyphs",
+      "tris": 240,
+      "material": "emissive",
+      "category": "Leaderboard display graphics"
+    },
+    {
+      "name": "s26_leaderboard_score_tick_geometry",
+      "tris": 180,
+      "material": "accent",
+      "category": "Leaderboard display graphics"
+    },
+    {
+      "name": "s26_leaderboard_upper_frame_arc",
+      "tris": 148,
+      "material": "accent",
+      "category": "Leaderboard display graphics"
+    },
+    {
+      "name": "s26_north_east_beacon_cage_rod_0",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_east_beacon_cage_rod_1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_east_beacon_cage_rod_2",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_east_beacon_heat_fins",
+      "tris": 48,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_east_diagonal_base_brace_+1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_east_diagonal_base_brace_-1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_east_upper_victory_collar",
+      "tris": 96,
+      "material": "accent",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_west_beacon_cage_rod_0",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_west_beacon_cage_rod_1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_west_beacon_cage_rod_2",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_west_beacon_heat_fins",
+      "tris": 48,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_west_diagonal_base_brace_+1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_west_diagonal_base_brace_-1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_north_west_upper_victory_collar",
+      "tris": 96,
+      "material": "accent",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_outer_armored_facade_base_panels",
+      "tris": 624,
+      "material": "base",
+      "category": "Facade rhythm and panelization"
+    },
+    {
+      "name": "s26_outer_vertical_pilaster_rhythm",
+      "tris": 192,
+      "material": "detail",
+      "category": "Facade rhythm and panelization"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_00",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_01",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_02",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_03",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_04",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_05",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_06",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_07",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_08",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_09",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_10",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_11",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_12",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_13",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_14",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_rim_underbrace_truss_15",
+      "tris": 28,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_seating_row_coral_markers",
+      "tris": 768,
+      "material": "accent",
+      "category": "Seating and aisle articulation"
+    },
+    {
+      "name": "s26_seating_section_break_blocks",
+      "tris": 192,
+      "material": "detail",
+      "category": "Seating and aisle articulation"
+    },
+    {
+      "name": "s26_south_east_beacon_cage_rod_0",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_east_beacon_cage_rod_1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_east_beacon_cage_rod_2",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_east_beacon_heat_fins",
+      "tris": 48,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_east_diagonal_base_brace_+1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_east_diagonal_base_brace_-1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_east_upper_victory_collar",
+      "tris": 96,
+      "material": "accent",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_west_beacon_cage_rod_0",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_west_beacon_cage_rod_1",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_west_beacon_cage_rod_2",
+      "tris": 16,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_west_beacon_heat_fins",
+      "tris": 48,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_west_diagonal_base_brace_+1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_west_diagonal_base_brace_-1",
+      "tris": 28,
+      "material": "detail",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_south_west_upper_victory_collar",
+      "tris": 96,
+      "material": "accent",
+      "category": "Victory pillar hardware"
+    },
+    {
+      "name": "s26_top_rim_segmented_bolt_blocks",
+      "tris": 288,
+      "material": "detail",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_upper_coral_rim_lip_000",
+      "tris": 68,
+      "material": "accent",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_upper_coral_rim_lip_090",
+      "tris": 68,
+      "material": "accent",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_upper_coral_rim_lip_180",
+      "tris": 68,
+      "material": "accent",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "s26_upper_coral_rim_lip_270",
+      "tris": 68,
+      "material": "accent",
+      "category": "Rim engineering and apex receiver polish"
+    },
+    {
+      "name": "structural_top_rim_ring_open_roof",
+      "tris": 576,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_east_beacon_collar",
+      "tris": 160,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_east_energy_flame",
+      "tris": 44,
+      "material": "emissive",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_east_footing",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_east_orange_core",
+      "tris": 36,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_east_shaft",
+      "tris": 44,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_west_beacon_collar",
+      "tris": 160,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_west_energy_flame",
+      "tris": 44,
+      "material": "emissive",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_west_footing",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_west_orange_core",
+      "tris": 36,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_north_west_shaft",
+      "tris": 44,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_east_beacon_collar",
+      "tris": 160,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_east_energy_flame",
+      "tris": 44,
+      "material": "emissive",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_east_footing",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_east_orange_core",
+      "tris": 36,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_east_shaft",
+      "tris": 44,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_west_beacon_collar",
+      "tris": 160,
+      "material": "accent",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_west_energy_flame",
+      "tris": 44,
+      "material": "emissive",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_west_footing",
+      "tris": 12,
+      "material": "base",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_west_orange_core",
+      "tris": 36,
+      "material": "energy",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "victory_pillar_south_west_shaft",
+      "tris": 44,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "visible_stepped_seating_ring_00",
+      "tris": 224,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "visible_stepped_seating_ring_01",
+      "tris": 224,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "visible_stepped_seating_ring_02",
+      "tris": 224,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "visible_stepped_seating_ring_03",
+      "tris": 224,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "visible_stepped_seating_ring_04",
+      "tris": 224,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "visible_stepped_seating_ring_05",
+      "tris": 224,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    },
+    {
+      "name": "visible_stepped_seating_ring_06",
+      "tris": 224,
+      "material": "detail",
+      "category": "Session 25 retained major forms"
+    }
+  ],
+  "export": {
+    "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-draft-s26.glb",
+    "approved_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+    "glb_bytes": 278620,
+    "tris": 17424,
+    "mesh_objects": 180,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "material_tris": {
+      "accent": 4476,
+      "base": 2644,
+      "detail": 5900,
+      "emissive": 564,
+      "energy": 1444,
+      "glass": 2396
+    },
+    "bbox": {
+      "min": [
+        -9.2,
+        -13.25,
+        0.0
+      ],
+      "max": [
+        9.2,
+        13.25,
+        10.6842
+      ]
+    }
+  },
+  "qa_import": {
+    "mesh_objects": 180,
+    "empty_objects": 1,
+    "tris": 17424,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "rogue_materials": [],
+    "uses_energy": true,
+    "uses_holo": false,
+    "cameras": 0,
+    "lights": 0,
+    "bbox": {
+      "min": [
+        -9.2,
+        -13.25,
+        0.0
+      ],
+      "max": [
+        9.2,
+        13.25,
+        10.6842
+      ]
+    },
+    "non_identity_mesh_transforms": [],
+    "glb_bytes": 278620
+  },
+  "cohesion": {
+    "screenshot": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/06-leaderboard-competition/screenshots/s26_cohesion_all7.png",
+    "imported": [
+      "sia",
+      "fitness",
+      "yoga",
+      "finance",
+      "knowledgebase",
+      "chat",
+      "leaderboard"
+    ]
+  }
+}

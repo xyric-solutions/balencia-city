@@ -1,0 +1,784 @@
+{
+  "alignment": {
+    "interior_exterior_envelope": {
+      "hall_y_extension": 5.0298,
+      "height_fits": true,
+      "note": "Nourishment Hall width and height fit inside the vertical-farm envelope. Its longer communal-market axis extends beyond the compact exterior depth as a documented cinematic cutaway/readability exception for the Scene 14 push into the living market.",
+      "result": "PASS",
+      "tolerance": 0.5,
+      "width_fits": true
+    },
+    "open_wall_orientation": {
+      "note": "Interior front/open threshold remains native -Y; Scene 14 hall push begins from the city-facing market threshold and looks toward the living market.",
+      "result": "PASS"
+    },
+    "origin_alignment": {
+      "center_delta": [
+        -0.0001,
+        -0.0049,
+        -1.7389
+      ],
+      "result": "PASS",
+      "z_delta": 0.0
+    },
+    "runtime_empties": {
+      "checks": {
+        "camera_target": [
+          {
+            "inside": true,
+            "name": "camera_target.011",
+            "world_location": [
+              -12.0,
+              42.42,
+              1.62
+            ]
+          }
+        ],
+        "light_0": [
+          {
+            "inside": true,
+            "name": "light_0.011",
+            "world_location": [
+              -12.0,
+              37.8,
+              3.25
+            ]
+          }
+        ],
+        "light_1": [
+          {
+            "inside": true,
+            "name": "light_1.011",
+            "world_location": [
+              -12.0,
+              43.35,
+              3.75
+            ]
+          }
+        ],
+        "light_2": [
+          {
+            "inside": true,
+            "name": "light_2.011",
+            "world_location": [
+              -15.88,
+              39.65,
+              2.85
+            ]
+          }
+        ]
+      },
+      "result": "PASS"
+    },
+    "scale_match": {
+      "note": "Interior imports 1:1 with no rescale. The long Y ratio is intentional for the dining axis and living-market reveal; width and height stay subordinate to the exterior farm.",
+      "ratios": {
+        "x": 0.7625,
+        "y": 1.6134,
+        "z": 0.5954
+      },
+      "result": "PASS"
+    },
+    "transforms": {
+      "non_identity_mesh_count": 0,
+      "result": "PASS",
+      "sample": []
+    }
+  },
+  "blend_file": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/integration-session-48.blend",
+  "blender_version": "5.1.2",
+  "cohesion": {
+    "architectural_variety": "PASS - Nutrition's stepped vertical-farm silhouette and plant curtains are distinct from Relationships' garden pavilion, Yoga's sanctuary, and Analytics' data cathedral.",
+    "detail_density": "PASS - Nutrition's dense terrace foliage, greenhouse detail, market props, hall displays, and warm food-market interior match late-phase quality without overpowering neighbors.",
+    "material_darkness": "PASS - imported approved assets share the Balencia 7-slot dark-first material language.",
+    "overall_city_fit": "PASS - all twelve structures read as one dark premium cinematic city with varied district identities.",
+    "scale_relationships": "PASS - SIA remains dominant, Career remains the tallest district, and Nutrition reads as a lower tiered farm-structure by design."
+  },
+  "import_results": {
+    "Analytics": {
+      "empty_objects": 6,
+      "exterior_objects": 8,
+      "interior_objects": 44,
+      "materials": [
+        "accent.019",
+        "accent.020",
+        "base.020",
+        "base.021",
+        "detail.020",
+        "detail.021",
+        "emissive.020",
+        "emissive.021",
+        "energy.019",
+        "energy.020",
+        "glass.020",
+        "glass.021",
+        "holo.006",
+        "holo.007"
+      ],
+      "mesh_objects": 46,
+      "position": [
+        -31,
+        14,
+        0
+      ],
+      "tris": 24577
+    },
+    "Career": {
+      "empty_objects": 6,
+      "exterior_objects": 176,
+      "interior_objects": 36,
+      "materials": [
+        "accent.015",
+        "accent.016",
+        "base.016",
+        "base.017",
+        "detail.016",
+        "detail.017",
+        "emissive.016",
+        "emissive.017",
+        "energy.015",
+        "energy.016",
+        "glass.016",
+        "glass.017"
+      ],
+      "mesh_objects": 206,
+      "position": [
+        -30,
+        -34,
+        0
+      ],
+      "tris": 26976
+    },
+    "Chat": {
+      "empty_objects": 6,
+      "exterior_objects": 193,
+      "interior_objects": 172,
+      "materials": [
+        "accent.009",
+        "accent.010",
+        "base.010",
+        "base.011",
+        "detail.010",
+        "detail.011",
+        "emissive.010",
+        "emissive.011",
+        "energy.009",
+        "energy.010",
+        "glass.010",
+        "glass.011"
+      ],
+      "mesh_objects": 359,
+      "position": [
+        19,
+        -36,
+        0
+      ],
+      "tris": 27780
+    },
+    "Finance": {
+      "empty_objects": 5,
+      "exterior_objects": 199,
+      "interior_objects": 255,
+      "materials": [
+        "accent.005",
+        "accent.006",
+        "base.006",
+        "base.007",
+        "detail.006",
+        "detail.007",
+        "emissive.006",
+        "emissive.007",
+        "energy.005",
+        "energy.006",
+        "glass.006",
+        "glass.007"
+      ],
+      "mesh_objects": 449,
+      "position": [
+        35,
+        -6,
+        0
+      ],
+      "tris": 9800
+    },
+    "Fitness": {
+      "empty_objects": 7,
+      "exterior_objects": 42,
+      "interior_objects": 11,
+      "materials": [
+        "accent.001",
+        "accent.002",
+        "base.002",
+        "base.003",
+        "detail.002",
+        "detail.003",
+        "emissive.002",
+        "emissive.003",
+        "energy.001",
+        "energy.002",
+        "glass.002",
+        "glass.003"
+      ],
+      "mesh_objects": 46,
+      "position": [
+        26,
+        25,
+        0
+      ],
+      "tris": 17976
+    },
+    "Knowledgebase": {
+      "empty_objects": 4,
+      "exterior_objects": 357,
+      "interior_objects": 157,
+      "materials": [
+        "accent.007",
+        "accent.008",
+        "base.008",
+        "base.009",
+        "detail.008",
+        "detail.009",
+        "emissive.008",
+        "emissive.009",
+        "energy.007",
+        "energy.008",
+        "glass.008",
+        "glass.009",
+        "holo.004",
+        "holo.005"
+      ],
+      "mesh_objects": 510,
+      "position": [
+        31,
+        -22,
+        0
+      ],
+      "tris": 13372
+    },
+    "Leaderboard": {
+      "empty_objects": 6,
+      "exterior_objects": 181,
+      "interior_objects": 136,
+      "materials": [
+        "accent.011",
+        "accent.012",
+        "base.012",
+        "base.013",
+        "detail.012",
+        "detail.013",
+        "emissive.012",
+        "emissive.013",
+        "energy.011",
+        "energy.012",
+        "glass.012",
+        "glass.013"
+      ],
+      "mesh_objects": 311,
+      "position": [
+        -8,
+        -45,
+        0
+      ],
+      "tris": 26872
+    },
+    "Nutrition": {
+      "empty_objects": 6,
+      "exterior_objects": 7,
+      "interior_objects": 37,
+      "materials": [
+        "accent.021",
+        "accent.022",
+        "base.022",
+        "base.023",
+        "detail.022",
+        "detail.023",
+        "emissive.022",
+        "emissive.023",
+        "energy.021",
+        "glass.022",
+        "glass.023",
+        "holo.008"
+      ],
+      "mesh_objects": 38,
+      "position": [
+        -12,
+        39,
+        0
+      ],
+      "tris": 27260
+    },
+    "Recovery": {
+      "empty_objects": 6,
+      "exterior_objects": 7,
+      "interior_objects": 31,
+      "materials": [
+        "accent.017",
+        "accent.018",
+        "base.018",
+        "base.019",
+        "detail.018",
+        "detail.019",
+        "emissive.018",
+        "emissive.019",
+        "energy.017",
+        "energy.018",
+        "glass.018",
+        "glass.019"
+      ],
+      "mesh_objects": 32,
+      "position": [
+        -43,
+        -8,
+        0
+      ],
+      "tris": 21252
+    },
+    "Relationships": {
+      "empty_objects": 6,
+      "exterior_objects": 7,
+      "interior_objects": 34,
+      "materials": [
+        "accent.013",
+        "accent.014",
+        "base.014",
+        "base.015",
+        "detail.014",
+        "detail.015",
+        "emissive.014",
+        "emissive.015",
+        "energy.013",
+        "energy.014",
+        "glass.014",
+        "glass.015"
+      ],
+      "mesh_objects": 35,
+      "position": [
+        8,
+        -59,
+        0
+      ],
+      "tris": 21398
+    },
+    "SIA_Tower": {
+      "empty_objects": 7,
+      "exterior_objects": 14,
+      "interior_objects": 86,
+      "materials": [
+        "accent",
+        "base",
+        "base.001",
+        "detail",
+        "detail.001",
+        "emissive",
+        "emissive.001",
+        "energy",
+        "glass",
+        "glass.001",
+        "holo",
+        "holo.001"
+      ],
+      "mesh_objects": 93,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "tris": 9582
+    },
+    "Yoga": {
+      "empty_objects": 4,
+      "exterior_objects": 151,
+      "interior_objects": 117,
+      "materials": [
+        "accent.003",
+        "accent.004",
+        "base.004",
+        "base.005",
+        "detail.004",
+        "detail.005",
+        "emissive.004",
+        "emissive.005",
+        "energy.003",
+        "energy.004",
+        "glass.004",
+        "glass.005",
+        "holo.002",
+        "holo.003"
+      ],
+      "mesh_objects": 264,
+      "position": [
+        36,
+        10,
+        0
+      ],
+      "tris": 21684
+    }
+  },
+  "missing_assets": [],
+  "module": "11-nutrition",
+  "nutrition_bboxes": {
+    "combined": {
+      "center": [
+        -12.0,
+        38.995,
+        4.2976
+      ],
+      "max": [
+        -6.4,
+        45.61,
+        8.5952
+      ],
+      "min": [
+        -17.6,
+        32.38,
+        0.0
+      ],
+      "size": [
+        11.2,
+        13.23,
+        8.5952
+      ]
+    },
+    "exterior": {
+      "center": [
+        -12.0,
+        38.9999,
+        4.2976
+      ],
+      "max": [
+        -6.4,
+        43.1,
+        8.5952
+      ],
+      "min": [
+        -17.6,
+        34.8998,
+        0.0
+      ],
+      "size": [
+        11.2,
+        8.2002,
+        8.5952
+      ]
+    },
+    "interior": {
+      "center": [
+        -12.0001,
+        38.995,
+        2.5587
+      ],
+      "max": [
+        -7.7302,
+        45.61,
+        5.1174
+      ],
+      "min": [
+        -16.27,
+        32.38,
+        0.0
+      ],
+      "size": [
+        8.5398,
+        13.23,
+        5.1174
+      ]
+    }
+  },
+  "overall_verdict": "PASS",
+  "scene_scores": {
+    "nutrition_threequarter": {
+      "note": "Close verification preserves the living-farm silhouette and differentiates it from Relationships garden, Yoga sanctuary, and Analytics data cathedral.",
+      "result": "PASS"
+    },
+    "scene14_farm_tier_approach": {
+      "note": "Stepped pyramid tiers, cascading green plant curtains, amber grow bands, greenhouse inserts, and market base frame as the north-side vertical farm.",
+      "result": "PASS"
+    },
+    "scene14_nourishment_hall_push": {
+      "note": "Interior cutaway reads down the communal dining axis toward the living market shelves, nutrition holograms, scan station, and warm amber food hall.",
+      "result": "PASS"
+    },
+    "sia_to_nutrition_hard_pipeline_route": {
+      "note": "A clear future hard-pipeline corridor remains from SIA toward the Nutrition receiver without adding Phase 5 pipe geometry.",
+      "result": "PASS"
+    },
+    "skyline_all12": {
+      "note": "All twelve approved modules are visible; Nutrition completes the north/northwest ring while SIA dominates and Career remains tallest district.",
+      "result": "PASS"
+    }
+  },
+  "screenshots": {
+    "nutrition_threequarter": "screenshots/s48-nutrition-threequarter.png",
+    "scene14_farm_tier_approach": "screenshots/s48-scene14-farm-tier-approach.png",
+    "scene14_nourishment_hall_push": "screenshots/s48-scene14-nourishment-hall-push.png",
+    "sia_to_nutrition_hard_pipeline_route": "screenshots/s48-sia-nutrition-hard-pipeline-route.png",
+    "skyline_all12": "screenshots/s48-skyline-all12.png"
+  },
+  "session": 48,
+  "structure_scales": {
+    "Analytics": {
+      "center": [
+        -31.0002,
+        14.0,
+        8.355
+      ],
+      "max": [
+        -25.3718,
+        22.0,
+        16.71
+      ],
+      "min": [
+        -36.6286,
+        6.0,
+        0.0
+      ],
+      "size": [
+        11.2568,
+        16.0,
+        16.71
+      ]
+    },
+    "Career": {
+      "center": [
+        -30.0,
+        -34.0,
+        9.18
+      ],
+      "max": [
+        -22.1,
+        -27.395,
+        18.36
+      ],
+      "min": [
+        -37.9,
+        -40.605,
+        0.0
+      ],
+      "size": [
+        15.8,
+        13.21,
+        18.36
+      ]
+    },
+    "Chat": {
+      "center": [
+        19.0,
+        -36.01,
+        7.27
+      ],
+      "max": [
+        25.3045,
+        -30.94,
+        14.5399
+      ],
+      "min": [
+        12.6955,
+        -41.0799,
+        0.0
+      ],
+      "size": [
+        12.609,
+        10.1399,
+        14.5399
+      ]
+    },
+    "Finance": {
+      "center": [
+        35.0,
+        -6.0,
+        9.02
+      ],
+      "max": [
+        41.2,
+        0.2,
+        18.05
+      ],
+      "min": [
+        28.8,
+        -12.2,
+        -0.01
+      ],
+      "size": [
+        12.4,
+        12.4,
+        18.06
+      ]
+    },
+    "Fitness": {
+      "center": [
+        26.0,
+        24.9057,
+        6.75
+      ],
+      "max": [
+        34.6,
+        33.5866,
+        13.5
+      ],
+      "min": [
+        17.4,
+        16.2248,
+        -0.0
+      ],
+      "size": [
+        17.2,
+        17.3618,
+        13.5
+      ]
+    },
+    "Knowledgebase": {
+      "center": [
+        31.0,
+        -22.825,
+        6.205
+      ],
+      "max": [
+        33.6888,
+        -19.8,
+        12.5
+      ],
+      "min": [
+        28.3113,
+        -25.85,
+        -0.09
+      ],
+      "size": [
+        5.3775,
+        6.05,
+        12.59
+      ]
+    },
+    "Leaderboard": {
+      "center": [
+        -8.0,
+        -45.0,
+        5.3421
+      ],
+      "max": [
+        1.2,
+        -31.75,
+        10.6842
+      ],
+      "min": [
+        -17.2,
+        -58.25,
+        0.0
+      ],
+      "size": [
+        18.4,
+        26.5,
+        10.6842
+      ]
+    },
+    "Nutrition": {
+      "center": [
+        -12.0,
+        38.995,
+        4.2976
+      ],
+      "max": [
+        -6.4,
+        45.61,
+        8.5952
+      ],
+      "min": [
+        -17.6,
+        32.38,
+        0.0
+      ],
+      "size": [
+        11.2,
+        13.23,
+        8.5952
+      ]
+    },
+    "Recovery": {
+      "center": [
+        -43.0,
+        -8.0001,
+        3.9823
+      ],
+      "max": [
+        -32.1424,
+        -1.4517,
+        7.9645
+      ],
+      "min": [
+        -53.8576,
+        -14.5486,
+        0.0
+      ],
+      "size": [
+        21.7151,
+        13.0969,
+        7.9645
+      ]
+    },
+    "Relationships": {
+      "center": [
+        8.0,
+        -58.9998,
+        3.67
+      ],
+      "max": [
+        22.8072,
+        -48.3086,
+        7.3401
+      ],
+      "min": [
+        -6.8072,
+        -69.691,
+        0.0
+      ],
+      "size": [
+        29.6145,
+        21.3824,
+        7.3401
+      ]
+    },
+    "SIA_Tower": {
+      "center": [
+        0.0,
+        -0.0,
+        21.0
+      ],
+      "max": [
+        13.0129,
+        12.3909,
+        42.0
+      ],
+      "min": [
+        -13.0129,
+        -12.391,
+        0.0
+      ],
+      "size": [
+        26.0258,
+        24.7819,
+        42.0
+      ]
+    },
+    "Yoga": {
+      "center": [
+        36.0,
+        10.0001,
+        2.6352
+      ],
+      "max": [
+        45.0,
+        16.3,
+        5.5003
+      ],
+      "min": [
+        27.0,
+        3.7001,
+        -0.23
+      ],
+      "size": [
+        18.0,
+        12.5999,
+        5.7303
+      ]
+    }
+  }
+}

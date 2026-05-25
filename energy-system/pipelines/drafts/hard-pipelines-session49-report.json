@@ -1,0 +1,258 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/hard-pipelines.glb",
+  "approved_glb_size_bytes": 205408,
+  "asset": "energy-system/hard-pipelines",
+  "checks": {
+    "approved_glb_materials_valid": true,
+    "approved_glb_reimports": true,
+    "approved_structure_assets_present": true,
+    "arced_paths": true,
+    "connects_from_sia_crown": true,
+    "connects_to_district_roofs": true,
+    "file_budget": true,
+    "ground_veins": true,
+    "material_named_energy": true,
+    "pipeline_count": true,
+    "technical_budget": true
+  },
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/drafts/hard-pipelines-session49.glb",
+  "import_check": {
+    "file_size_bytes": 205408,
+    "materials": [
+      "energy"
+    ],
+    "materials_valid": true,
+    "mesh_count": 177,
+    "object_count": 178,
+    "tris": 11796
+  },
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "pipeline_materials": [
+    "energy"
+  ],
+  "pipeline_metrics": {
+    "Analytics": {
+      "arc_lift_over_linear_mid": 17.27,
+      "arc_peak_z": 44.3,
+      "distance_xy": 29.5149,
+      "end": [
+        -31.0002,
+        14.0,
+        17.26
+      ],
+      "ground_vein_center": [
+        -31.0002,
+        14.0,
+        0.075
+      ],
+      "label": "AI Analytics",
+      "linear_mid_z": 27.03,
+      "object_count": 21,
+      "special_delivery_later": null,
+      "start": [
+        -4.1012,
+        1.8521,
+        36.8
+      ],
+      "tris": 1464
+    },
+    "Career": {
+      "arc_lift_over_linear_mid": 16.445,
+      "arc_peak_z": 44.3,
+      "distance_xy": 40.8431,
+      "end": [
+        -30.0,
+        -34.0,
+        18.91
+      ],
+      "ground_vein_center": [
+        -30.0,
+        -34.0,
+        0.075
+      ],
+      "label": "Career",
+      "linear_mid_z": 27.855,
+      "object_count": 21,
+      "special_delivery_later": null,
+      "start": [
+        -2.9773,
+        -3.3743,
+        36.8
+      ],
+      "tris": 1464
+    },
+    "Chat": {
+      "arc_lift_over_linear_mid": 18.355,
+      "arc_peak_z": 44.3,
+      "distance_xy": 36.2151,
+      "end": [
+        19.0,
+        -36.01,
+        15.0899
+      ],
+      "ground_vein_center": [
+        19.0,
+        -36.01,
+        0.075
+      ],
+      "label": "Chat & Communication",
+      "linear_mid_z": 25.9449,
+      "object_count": 21,
+      "special_delivery_later": null,
+      "start": [
+        2.1,
+        -3.98,
+        36.8
+      ],
+      "tris": 1464
+    },
+    "Finance": {
+      "arc_lift_over_linear_mid": 16.6,
+      "arc_peak_z": 44.3,
+      "distance_xy": 31.0106,
+      "end": [
+        35.0,
+        -6.0,
+        18.6
+      ],
+      "ground_vein_center": [
+        35.0,
+        -6.0,
+        0.075
+      ],
+      "label": "Finance",
+      "linear_mid_z": 27.7,
+      "object_count": 21,
+      "special_delivery_later": null,
+      "start": [
+        4.4353,
+        -0.7603,
+        36.8
+      ],
+      "tris": 1464
+    },
+    "Fitness": {
+      "arc_lift_over_linear_mid": 18.875,
+      "arc_peak_z": 44.3,
+      "distance_xy": 31.5041,
+      "end": [
+        26.0,
+        24.9057,
+        14.05
+      ],
+      "ground_vein_center": [
+        26.0,
+        24.9057,
+        0.075
+      ],
+      "label": "Fitness",
+      "linear_mid_z": 25.425,
+      "object_count": 21,
+      "special_delivery_later": null,
+      "start": [
+        3.2496,
+        3.1129,
+        36.8
+      ],
+      "tris": 1464
+    },
+    "Knowledgebase": {
+      "arc_lift_over_linear_mid": 19.375,
+      "arc_peak_z": 44.3,
+      "distance_xy": 33.9965,
+      "end": [
+        31.0,
+        -22.825,
+        13.05
+      ],
+      "ground_vein_center": [
+        31.0,
+        -22.825,
+        0.075
+      ],
+      "label": "Knowledgebase",
+      "linear_mid_z": 24.925,
+      "object_count": 21,
+      "special_delivery_later": "cascading energy waterfall",
+      "start": [
+        3.6237,
+        -2.6681,
+        36.8
+      ],
+      "tris": 1464
+    },
+    "Leaderboard": {
+      "arc_lift_over_linear_mid": 20.2829,
+      "arc_peak_z": 44.3,
+      "distance_xy": 41.2056,
+      "end": [
+        -8.0,
+        -45.0,
+        11.2342
+      ],
+      "ground_vein_center": [
+        -8.0,
+        -45.0,
+        0.075
+      ],
+      "label": "Leaderboard & Competition",
+      "linear_mid_z": 24.0171,
+      "object_count": 21,
+      "special_delivery_later": "lightning bolt entry",
+      "start": [
+        -0.7877,
+        -4.4305,
+        36.8
+      ],
+      "tris": 1464
+    },
+    "Nutrition": {
+      "arc_lift_over_linear_mid": 21.3274,
+      "arc_peak_z": 44.3,
+      "distance_xy": 36.2996,
+      "end": [
+        -12.0,
+        38.995,
+        9.1452
+      ],
+      "ground_vein_center": [
+        -12.0,
+        38.995,
+        0.075
+      ],
+      "label": "Nutrition",
+      "linear_mid_z": 22.9726,
+      "object_count": 21,
+      "special_delivery_later": null,
+      "start": [
+        -1.3235,
+        4.301,
+        36.8
+      ],
+      "tris": 1464
+    }
+  },
+  "scope": {
+    "hard_pipeline_count": 8,
+    "note": "Builds the hard-tube feed for all module specs that request hard delivery. Knowledgebase waterfall and Leaderboard lightning stylization remain separate Phase 5 special-delivery passes.",
+    "targets": [
+      "Fitness",
+      "Finance",
+      "Knowledgebase",
+      "Chat",
+      "Leaderboard",
+      "Career",
+      "Analytics",
+      "Nutrition"
+    ]
+  },
+  "screenshots": {
+    "citywide": "screenshots/s49-hard-pipelines-citywide.png",
+    "east_ring": "screenshots/s49-hard-pipelines-east-ring.png",
+    "west_ring": "screenshots/s49-hard-pipelines-west-ring.png"
+  },
+  "session": 49,
+  "source_layout_report": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/integration-session-48-report.json",
+  "total_tris": 11796
+}

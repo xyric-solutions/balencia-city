@@ -1,0 +1,272 @@
+{
+  "blend_file": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/interior/drafts/career-int-session31.blend",
+  "blender_version": "5.1.1",
+  "draft_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/interior/drafts/career-int-draft-s31.glb",
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      2.72,
+      2.82
+    ],
+    "light_0": [
+      0.0,
+      -0.2,
+      5.22
+    ],
+    "light_1": [
+      0.0,
+      3.54,
+      3.18
+    ],
+    "light_2": [
+      0.0,
+      2.18,
+      2.05
+    ]
+  },
+  "glb_size_bytes": 71036,
+  "material_issues": [],
+  "mesh_objects": 31,
+  "module": "08-career",
+  "object_groups": {
+    "AI career advisor workstations": {
+      "count": 5,
+      "tris": 640
+    },
+    "Deep-focus productivity booths": {
+      "count": 4,
+      "tris": 468
+    },
+    "Growth chart wall focal": {
+      "count": 5,
+      "tris": 2236
+    },
+    "Room shell and floor guidance": {
+      "count": 4,
+      "tris": 312
+    },
+    "Skill growth trees": {
+      "count": 4,
+      "tris": 2604
+    },
+    "Strategy table and market terrain": {
+      "count": 5,
+      "tris": 776
+    },
+    "Upper skybridge interior": {
+      "count": 4,
+      "tris": 248
+    }
+  },
+  "objects": [
+    {
+      "group": "AI career advisor workstations",
+      "material": "accent",
+      "name": "ai_career_advisor_accent_joined",
+      "tris": 220
+    },
+    {
+      "group": "AI career advisor workstations",
+      "material": "base",
+      "name": "ai_career_advisor_base_joined",
+      "tris": 60
+    },
+    {
+      "group": "AI career advisor workstations",
+      "material": "detail",
+      "name": "ai_career_advisor_detail_joined",
+      "tris": 60
+    },
+    {
+      "group": "AI career advisor workstations",
+      "material": "emissive",
+      "name": "ai_career_advisor_emissive_joined",
+      "tris": 240
+    },
+    {
+      "group": "AI career advisor workstations",
+      "material": "glass",
+      "name": "ai_career_advisor_glass_joined",
+      "tris": 60
+    },
+    {
+      "group": "Deep-focus productivity booths",
+      "material": "base",
+      "name": "deep_focus_productivity_booth_base_joined",
+      "tris": 72
+    },
+    {
+      "group": "Deep-focus productivity booths",
+      "material": "detail",
+      "name": "deep_focus_productivity_booth_detail_joined",
+      "tris": 72
+    },
+    {
+      "group": "Deep-focus productivity booths",
+      "material": "emissive",
+      "name": "deep_focus_productivity_booth_emissive_joined",
+      "tris": 288
+    },
+    {
+      "group": "Deep-focus productivity booths",
+      "material": "glass",
+      "name": "deep_focus_productivity_booth_glass_joined",
+      "tris": 36
+    },
+    {
+      "group": "Room shell and floor guidance",
+      "material": "base",
+      "name": "executive_command_room_shell_base_joined",
+      "tris": 60
+    },
+    {
+      "group": "Room shell and floor guidance",
+      "material": "emissive",
+      "name": "floor_embedded_directional_blue_path_strips",
+      "tris": 120
+    },
+    {
+      "group": "Growth chart wall focal",
+      "material": "detail",
+      "name": "growth_chart_wall_detail_joined",
+      "tris": 180
+    },
+    {
+      "group": "Growth chart wall focal",
+      "material": "emissive",
+      "name": "growth_chart_wall_emissive_joined",
+      "tris": 712
+    },
+    {
+      "group": "Growth chart wall focal",
+      "material": "energy",
+      "name": "growth_chart_wall_energy_joined",
+      "tris": 1320
+    },
+    {
+      "group": "Growth chart wall focal",
+      "material": "glass",
+      "name": "growth_chart_wall_glass_display_surface",
+      "tris": 12
+    },
+    {
+      "group": "Growth chart wall focal",
+      "material": "accent",
+      "name": "growth_chart_wall_upper_header_track",
+      "tris": 12
+    },
+    {
+      "group": "Room shell and floor guidance",
+      "material": "accent",
+      "name": "open_front_threshold_blue_floor_line",
+      "tris": 12
+    },
+    {
+      "group": "Room shell and floor guidance",
+      "material": "glass",
+      "name": "side_wall_vertical_inactive_glass_panels",
+      "tris": 120
+    },
+    {
+      "group": "Skill growth trees",
+      "material": "accent",
+      "name": "skill_growth_tree_accent_joined",
+      "tris": 660
+    },
+    {
+      "group": "Skill growth trees",
+      "material": "detail",
+      "name": "skill_growth_tree_detail_joined",
+      "tris": 336
+    },
+    {
+      "group": "Skill growth trees",
+      "material": "emissive",
+      "name": "skill_growth_tree_emissive_joined",
+      "tris": 1440
+    },
+    {
+      "group": "Skill growth trees",
+      "material": "energy",
+      "name": "skill_growth_tree_energy_joined",
+      "tris": 168
+    },
+    {
+      "group": "Strategy table and market terrain",
+      "material": "accent",
+      "name": "strategy_room_accent_joined",
+      "tris": 120
+    },
+    {
+      "group": "Strategy table and market terrain",
+      "material": "emissive",
+      "name": "strategy_room_emissive_joined",
+      "tris": 368
+    },
+    {
+      "group": "Strategy table and market terrain",
+      "material": "energy",
+      "name": "strategy_room_energy_joined",
+      "tris": 40
+    },
+    {
+      "group": "Strategy table and market terrain",
+      "material": "glass",
+      "name": "strategy_room_interactive_map_table_glass_surface",
+      "tris": 124
+    },
+    {
+      "group": "Strategy table and market terrain",
+      "material": "detail",
+      "name": "strategy_room_interactive_map_table_round_base",
+      "tris": 124
+    },
+    {
+      "group": "Upper skybridge interior",
+      "material": "detail",
+      "name": "upper_networking_skybridge_detail_joined",
+      "tris": 164
+    },
+    {
+      "group": "Upper skybridge interior",
+      "material": "emissive",
+      "name": "upper_networking_skybridge_emissive_joined",
+      "tris": 36
+    },
+    {
+      "group": "Upper skybridge interior",
+      "material": "energy",
+      "name": "upper_networking_skybridge_energy_joined",
+      "tris": 36
+    },
+    {
+      "group": "Upper skybridge interior",
+      "material": "glass",
+      "name": "upper_networking_skybridge_glass_walkway",
+      "tris": 12
+    }
+  ],
+  "screenshots": [
+    "screenshots/s31-int-overview.png",
+    "screenshots/s31-int-from-entry.png",
+    "screenshots/s31-int-focal-growth-chart.png",
+    "screenshots/s31-int-topdown.png",
+    "screenshots/s31-int-dark-first.png"
+  ],
+  "session": 31,
+  "slot_tris": {
+    "accent": 1024,
+    "base": 192,
+    "detail": 936,
+    "emissive": 3204,
+    "energy": 1564,
+    "glass": 364
+  },
+  "total_tris": 7284
+}

@@ -1,0 +1,73 @@
+{
+  "bbox": {
+    "max": [
+      5.059929370880127,
+      5.059999942779541,
+      6.469779014587402
+    ],
+    "min": [
+      -5.059999942779541,
+      -5.079913139343262,
+      0.0
+    ]
+  },
+  "budget_pass": true,
+  "camera_objects": 0,
+  "empty_objects": 5,
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      0.0,
+      3.18
+    ],
+    "chat-int": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "light_0": [
+      0.0,
+      0.0,
+      5.45
+    ],
+    "light_1": [
+      0.0,
+      3.95,
+      2.55
+    ],
+    "light_2": [
+      0.0,
+      0.0,
+      0.65
+    ]
+  },
+  "file_size_bytes": 196232,
+  "glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/05-chat-communication/interior/drafts/chat-int-draft-s23.glb",
+  "invalid_materials": [],
+  "light_objects": 0,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "materials_ok_by_export_pipeline": true,
+  "mesh_objects": 167,
+  "missing_empties": [],
+  "non_identity_mesh_transforms": [],
+  "origin_bottom_center_pass": true,
+  "size_pass": true,
+  "slot_tris": {
+    "accent": 2280,
+    "base": 672,
+    "detail": 1732,
+    "emissive": 2468,
+    "energy": 1584,
+    "glass": 464
+  },
+  "total_tris": 9200,
+  "uses_energy": true,
+  "uses_holo": false
+}

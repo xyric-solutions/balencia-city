@@ -1,0 +1,316 @@
+{
+  "session": 58,
+  "sourceOfTruth": {
+    "assemblyBlend": "assembly/drafts/full-city-assembly.blend",
+    "assemblyAudit": "assembly/AUDIT.md",
+    "scrollJourney": "SCROLL-JOURNEY.md",
+    "shaderParams": "energy-system/SHADER-PARAMS.md"
+  },
+  "structures": [
+    {
+      "id": "sia-tower",
+      "assemblyName": "SIA_Tower",
+      "label": "SIA Tower",
+      "hex": "#FF5E00",
+      "blenderPosition": [0, 0, 0],
+      "position": [0, 0, 0],
+      "exterior": {
+        "name": "sia-tower-ext",
+        "sourcePath": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+        "publicPath": "models/structures/00-sia-tower/sia-tower-ext.glb",
+        "runtimePath": "/models/structures/00-sia-tower/sia-tower-ext.glb"
+      },
+      "interior": {
+        "name": "sia-tower-int",
+        "sourcePath": "modules/00-sia-tower/interior/approved/sia-tower-int.glb",
+        "publicPath": "models/structures/00-sia-tower/sia-tower-int.glb",
+        "runtimePath": "/models/structures/00-sia-tower/sia-tower-int.glb"
+      }
+    },
+    {
+      "id": "fitness",
+      "assemblyName": "Fitness",
+      "label": "Fitness",
+      "hex": "#34A853",
+      "blenderPosition": [26, 25, 0],
+      "position": [26, 0, -25],
+      "exterior": {
+        "name": "fitness-ext",
+        "sourcePath": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+        "publicPath": "models/structures/01-fitness/fitness-ext.glb",
+        "runtimePath": "/models/structures/01-fitness/fitness-ext.glb"
+      },
+      "interior": {
+        "name": "fitness-int",
+        "sourcePath": "modules/01-fitness/interior/approved/fitness-int.glb",
+        "publicPath": "models/structures/01-fitness/fitness-int.glb",
+        "runtimePath": "/models/structures/01-fitness/fitness-int.glb"
+      }
+    },
+    {
+      "id": "yoga",
+      "assemblyName": "Yoga",
+      "label": "Yoga and wellbeing",
+      "hex": "#6EE7B7",
+      "blenderPosition": [36, 10, 0],
+      "position": [36, 0, -10],
+      "exterior": {
+        "name": "yoga-ext",
+        "sourcePath": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+        "publicPath": "models/structures/02-yoga-wellbeing/yoga-ext.glb",
+        "runtimePath": "/models/structures/02-yoga-wellbeing/yoga-ext.glb"
+      },
+      "interior": {
+        "name": "yoga-int",
+        "sourcePath": "modules/02-yoga-wellbeing/interior/approved/yoga-int.glb",
+        "publicPath": "models/structures/02-yoga-wellbeing/yoga-int.glb",
+        "runtimePath": "/models/structures/02-yoga-wellbeing/yoga-int.glb"
+      }
+    },
+    {
+      "id": "finance",
+      "assemblyName": "Finance",
+      "label": "Finance",
+      "hex": "#F59E0B",
+      "blenderPosition": [35, -6, 0],
+      "position": [35, 0, 6],
+      "exterior": {
+        "name": "finance-ext",
+        "sourcePath": "modules/03-finance/exterior/approved/finance-ext.glb",
+        "publicPath": "models/structures/03-finance/finance-ext.glb",
+        "runtimePath": "/models/structures/03-finance/finance-ext.glb"
+      },
+      "interior": {
+        "name": "finance-int-approved-s15",
+        "sourcePath": "modules/03-finance/interior/approved/finance-int-approved-s15.glb",
+        "publicPath": "models/structures/03-finance/finance-int-approved-s15.glb",
+        "runtimePath": "/models/structures/03-finance/finance-int-approved-s15.glb"
+      }
+    },
+    {
+      "id": "knowledgebase",
+      "assemblyName": "Knowledgebase",
+      "label": "Knowledgebase",
+      "hex": "#7F24FF",
+      "blenderPosition": [31, -22, 0],
+      "position": [31, 0, 22],
+      "exterior": {
+        "name": "knowledgebase-ext",
+        "sourcePath": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+        "publicPath": "models/structures/04-knowledgebase/knowledgebase-ext.glb",
+        "runtimePath": "/models/structures/04-knowledgebase/knowledgebase-ext.glb"
+      },
+      "interior": {
+        "name": "knowledgebase-int",
+        "sourcePath": "modules/04-knowledgebase/interior/approved/knowledgebase-int.glb",
+        "publicPath": "models/structures/04-knowledgebase/knowledgebase-int.glb",
+        "runtimePath": "/models/structures/04-knowledgebase/knowledgebase-int.glb"
+      }
+    },
+    {
+      "id": "chat",
+      "assemblyName": "Chat",
+      "label": "Chat and communication",
+      "hex": "#FF5E00",
+      "blenderPosition": [19, -36, 0],
+      "position": [19, 0, 36],
+      "exterior": {
+        "name": "chat-ext",
+        "sourcePath": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+        "publicPath": "models/structures/05-chat-communication/chat-ext.glb",
+        "runtimePath": "/models/structures/05-chat-communication/chat-ext.glb"
+      },
+      "interior": {
+        "name": "chat-int",
+        "sourcePath": "modules/05-chat-communication/interior/approved/chat-int.glb",
+        "publicPath": "models/structures/05-chat-communication/chat-int.glb",
+        "runtimePath": "/models/structures/05-chat-communication/chat-int.glb"
+      }
+    },
+    {
+      "id": "leaderboard",
+      "assemblyName": "Leaderboard",
+      "label": "Leaderboard and competition",
+      "hex": "#FB7185",
+      "blenderPosition": [-8, -45, 0],
+      "position": [-8, 0, 45],
+      "exterior": {
+        "name": "leaderboard-ext",
+        "sourcePath": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+        "publicPath": "models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+        "runtimePath": "/models/structures/06-leaderboard-competition/leaderboard-ext.glb"
+      },
+      "interior": {
+        "name": "leaderboard-int",
+        "sourcePath": "modules/06-leaderboard-competition/interior/approved/leaderboard-int.glb",
+        "publicPath": "models/structures/06-leaderboard-competition/leaderboard-int.glb",
+        "runtimePath": "/models/structures/06-leaderboard-competition/leaderboard-int.glb"
+      }
+    },
+    {
+      "id": "relationships",
+      "assemblyName": "Relationships",
+      "label": "Relationships",
+      "hex": "#F43F5E",
+      "blenderPosition": [8, -59, 0],
+      "position": [8, 0, 59],
+      "exterior": {
+        "name": "relationships-ext",
+        "sourcePath": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+        "publicPath": "models/structures/07-relationships/relationships-ext.glb",
+        "runtimePath": "/models/structures/07-relationships/relationships-ext.glb"
+      },
+      "interior": {
+        "name": "relationships-int",
+        "sourcePath": "modules/07-relationships/interior/approved/relationships-int.glb",
+        "publicPath": "models/structures/07-relationships/relationships-int.glb",
+        "runtimePath": "/models/structures/07-relationships/relationships-int.glb"
+      }
+    },
+    {
+      "id": "career",
+      "assemblyName": "Career",
+      "label": "Career",
+      "hex": "#3B82F6",
+      "blenderPosition": [-30, -34, 0],
+      "position": [-30, 0, 34],
+      "exterior": {
+        "name": "career-ext",
+        "sourcePath": "modules/08-career/exterior/approved/career-ext.glb",
+        "publicPath": "models/structures/08-career/career-ext.glb",
+        "runtimePath": "/models/structures/08-career/career-ext.glb"
+      },
+      "interior": {
+        "name": "career-int",
+        "sourcePath": "modules/08-career/interior/approved/career-int.glb",
+        "publicPath": "models/structures/08-career/career-int.glb",
+        "runtimePath": "/models/structures/08-career/career-int.glb"
+      }
+    },
+    {
+      "id": "recovery",
+      "assemblyName": "Recovery",
+      "label": "Recovery and sleep",
+      "hex": "#6366F1",
+      "blenderPosition": [-43, -8, 0],
+      "position": [-43, 0, 8],
+      "exterior": {
+        "name": "recovery-ext",
+        "sourcePath": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+        "publicPath": "models/structures/09-recovery-sleep/recovery-ext.glb",
+        "runtimePath": "/models/structures/09-recovery-sleep/recovery-ext.glb"
+      },
+      "interior": {
+        "name": "recovery-int",
+        "sourcePath": "modules/09-recovery-sleep/interior/approved/recovery-int.glb",
+        "publicPath": "models/structures/09-recovery-sleep/recovery-int.glb",
+        "runtimePath": "/models/structures/09-recovery-sleep/recovery-int.glb"
+      }
+    },
+    {
+      "id": "analytics",
+      "assemblyName": "Analytics",
+      "label": "AI analytics",
+      "hex": "#14B8A6",
+      "blenderPosition": [-31, 14, 0],
+      "position": [-31, 0, -14],
+      "exterior": {
+        "name": "analytics-ext",
+        "sourcePath": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+        "publicPath": "models/structures/10-ai-analytics/analytics-ext.glb",
+        "runtimePath": "/models/structures/10-ai-analytics/analytics-ext.glb"
+      },
+      "interior": {
+        "name": "analytics-int",
+        "sourcePath": "modules/10-ai-analytics/interior/approved/analytics-int.glb",
+        "publicPath": "models/structures/10-ai-analytics/analytics-int.glb",
+        "runtimePath": "/models/structures/10-ai-analytics/analytics-int.glb"
+      }
+    },
+    {
+      "id": "nutrition",
+      "assemblyName": "Nutrition",
+      "label": "Nutrition",
+      "hex": "#D97706",
+      "blenderPosition": [-12, 39, 0],
+      "position": [-12, 0, -39],
+      "exterior": {
+        "name": "nutrition-ext",
+        "sourcePath": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+        "publicPath": "models/structures/11-nutrition/nutrition-ext.glb",
+        "runtimePath": "/models/structures/11-nutrition/nutrition-ext.glb"
+      },
+      "interior": {
+        "name": "nutrition-int",
+        "sourcePath": "modules/11-nutrition/interior/approved/nutrition-int.glb",
+        "publicPath": "models/structures/11-nutrition/nutrition-int.glb",
+        "runtimePath": "/models/structures/11-nutrition/nutrition-int.glb"
+      }
+    }
+  ],
+  "energyAssets": [
+    {
+      "id": "hard-pipelines",
+      "label": "Hard pipelines",
+      "materialKey": "energy",
+      "displayColor": "#FF5E00",
+      "sourcePath": "energy-system/pipelines/approved/hard-pipelines.glb",
+      "publicPath": "models/energy/hard-pipelines.glb",
+      "runtimePath": "/models/energy/hard-pipelines.glb"
+    },
+    {
+      "id": "warm-mist",
+      "label": "Warm mist",
+      "materialKey": "energy",
+      "displayColor": "#FF5E00",
+      "sourcePath": "energy-system/pipelines/approved/warm-mist.glb",
+      "publicPath": "models/energy/warm-mist.glb",
+      "runtimePath": "/models/energy/warm-mist.glb"
+    },
+    {
+      "id": "faint-thread",
+      "label": "Faint thread",
+      "materialKey": "energy",
+      "displayColor": "#FF5E00",
+      "sourcePath": "energy-system/pipelines/approved/faint-thread.glb",
+      "publicPath": "models/energy/faint-thread.glb",
+      "runtimePath": "/models/energy/faint-thread.glb"
+    },
+    {
+      "id": "knowledgebase-waterfall",
+      "label": "Knowledgebase waterfall",
+      "materialKey": "energy",
+      "displayColor": "#FF5E00",
+      "sourcePath": "energy-system/pipelines/approved/knowledgebase-waterfall.glb",
+      "publicPath": "models/energy/knowledgebase-waterfall.glb",
+      "runtimePath": "/models/energy/knowledgebase-waterfall.glb"
+    },
+    {
+      "id": "leaderboard-lightning",
+      "label": "Leaderboard lightning",
+      "materialKey": "energy",
+      "displayColor": "#FF5E00",
+      "sourcePath": "energy-system/pipelines/approved/leaderboard-lightning.glb",
+      "publicPath": "models/energy/leaderboard-lightning.glb",
+      "runtimePath": "/models/energy/leaderboard-lightning.glb"
+    },
+    {
+      "id": "cross-district-gold",
+      "label": "Cross-district gold",
+      "materialKey": "energy",
+      "displayColor": "#F59E0B",
+      "sourcePath": "energy-system/cross-connections/approved/cross-district-gold.glb",
+      "publicPath": "models/energy/cross-district-gold.glb",
+      "runtimePath": "/models/energy/cross-district-gold.glb"
+    },
+    {
+      "id": "ai-pulse",
+      "label": "AI pulse",
+      "materialKey": "energy",
+      "displayColor": "#FF5E00",
+      "sourcePath": "energy-system/pulse/approved/ai-pulse.glb",
+      "publicPath": "models/energy/ai-pulse.glb",
+      "runtimePath": "/models/energy/ai-pulse.glb"
+    }
+  ]
+}

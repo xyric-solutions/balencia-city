@@ -1,0 +1,111 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/approved/warm-mist.glb",
+  "approved_glb_size_bytes": 19336,
+  "asset": "energy-system/warm-mist",
+  "checks": {
+    "approved_glb_materials_valid": true,
+    "approved_glb_reimports": true,
+    "approved_structure_assets_present": true,
+    "arced_mist_paths": true,
+    "connects_from_sia_crown": true,
+    "delivery_style_matches_spec": true,
+    "file_budget": true,
+    "ground_veins": true,
+    "material_named_energy": true,
+    "particle_cloud_density": true,
+    "prior_hard_pipeline_asset_present": true,
+    "reaches_target_receptors": true,
+    "technical_budget": true,
+    "warm_mist_count": true
+  },
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/energy-system/pipelines/drafts/warm-mist-session50.glb",
+  "import_check": {
+    "file_size_bytes": 19336,
+    "materials": [
+      "energy"
+    ],
+    "materials_valid": true,
+    "mesh_count": 2,
+    "object_count": 3,
+    "tris": 2276
+  },
+  "missing_assets": [],
+  "mist_materials": [
+    "energy"
+  ],
+  "mist_metrics": {
+    "Relationships": {
+      "arc_lift_over_linear_mid": 22.1613,
+      "arc_peak_z": 44.8064,
+      "delivery_style": "warm_mist",
+      "distance_xy": 55.0397,
+      "end": [
+        8.0,
+        -58.9998,
+        8.4901
+      ],
+      "ground_vein_center": [
+        8.0,
+        -58.9998,
+        0.075
+      ],
+      "ground_vein_count": 8,
+      "has_hard_tube": false,
+      "label": "Relationships",
+      "linear_mid_z": 22.645,
+      "mist_puff_count": 26,
+      "receptor": "diffused roof garden mist receiver",
+      "start": [
+        0.6046,
+        -4.4592,
+        36.8
+      ],
+      "tris": 1138
+    },
+    "Yoga": {
+      "arc_lift_over_linear_mid": 19.5329,
+      "arc_peak_z": 41.2581,
+      "delivery_style": "warm_mist",
+      "distance_xy": 32.8631,
+      "end": [
+        36.0,
+        10.0001,
+        6.6503
+      ],
+      "ground_vein_center": [
+        36.0,
+        10.0001,
+        0.075
+      ],
+      "ground_vein_count": 8,
+      "has_hard_tube": false,
+      "label": "Yoga & Wellbeing",
+      "linear_mid_z": 21.7251,
+      "mist_puff_count": 26,
+      "receptor": "largest dome apex soft opening",
+      "start": [
+        4.3358,
+        1.2044,
+        36.8
+      ],
+      "tris": 1138
+    }
+  },
+  "overall_verdict": "APPROVED",
+  "scope": {
+    "note": "Builds diffuse SIA warm-mist delivery for Yoga & Wellbeing and Relationships. Geometry is separated particle-cloud mesh plus endpoint receiver halos and ground veins; no hard tube is present.",
+    "targets": [
+      "Yoga",
+      "Relationships"
+    ],
+    "warm_mist_count": 2
+  },
+  "screenshots": {
+    "citywide": "screenshots/s50-warm-mist-citywide.png",
+    "relationships_receptor": "screenshots/s50-warm-mist-relationships.png",
+    "yoga_receptor": "screenshots/s50-warm-mist-yoga.png"
+  },
+  "session": 50,
+  "source_layout_report": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/integration-session-48-report.json",
+  "total_tris": 2276
+}

@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Sora", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f7efe5;
+  background: #0a0a0f;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #0a0a0f;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #0a0a0f;
+  color: #f7efe5;
+  overflow-x: hidden;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  position: relative;
+  min-height: 100vh;
+  background: #0a0a0f;
+}
+
+.canvas-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: #0a0a0f;
+}
+
+.city-canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.brand-mark {
+  position: fixed;
+  top: 24px;
+  left: 28px;
+  z-index: 2;
+  color: #fff3e9;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  text-shadow: 0 0 26px rgba(255, 94, 0, 0.32);
+}
+
+.scene-overlay {
+  position: fixed;
+  left: 28px;
+  bottom: 28px;
+  z-index: 2;
+  width: min(420px, calc(100vw - 56px));
+  padding: 20px;
+  color: #fff6ed;
+  background: rgba(12, 12, 18, 0.64);
+  border: 1px solid rgba(255, 94, 0, 0.26);
+  border-radius: 8px;
+  box-shadow: 0 24px 80px rgba(5, 5, 8, 0.42);
+  backdrop-filter: blur(18px);
+  overflow-wrap: anywhere;
+}
+
+.scene-overlay__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+  color: rgba(255, 224, 204, 0.72);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.scene-overlay__focus {
+  margin: 0 0 8px;
+  color: #ffb066;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.scene-overlay h1 {
+  margin: 0;
+  color: #fff6ed;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.scene-overlay__body {
+  max-width: 36rem;
+  margin: 14px 0 0;
+  color: rgba(255, 246, 237, 0.82);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+.scene-overlay__progress {
+  height: 2px;
+  margin-top: 18px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+}
+
+.scene-overlay__progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #ff5e00, #34a853 68%, #7f24ff);
+  transform-origin: left center;
+}
+
+.scene-overlay__local {
+  height: 1px;
+  margin-top: 7px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+
+.scene-overlay__local span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 176, 102, 0.72);
+  transform-origin: left center;
+}
+
+.scene-overlay__nav {
+  display: grid;
+  grid-template-columns: repeat(17, minmax(0, 1fr));
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.scene-overlay__nav button {
+  width: 100%;
+  aspect-ratio: 1;
+  min-width: 8px;
+  min-height: 8px;
+  padding: 0;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.22);
+  border: 0;
+  border-radius: 999px;
+  transition:
+    background-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.scene-overlay__nav button:hover,
+.scene-overlay__nav button:focus-visible {
+  background: rgba(255, 176, 102, 0.72);
+  outline: none;
+}
+
+.scene-overlay__nav button.is-active {
+  background: #ff5e00;
+  box-shadow: 0 0 18px rgba(255, 94, 0, 0.62);
+  transform: scale(1.22);
+}
+
+.scroll-stage {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 1700vh;
+  pointer-events: none;
+}
+
+.scroll-stage__marker {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+  .brand-mark {
+    top: 18px;
+    left: 18px;
+    font-size: 0.95rem;
+  }
+
+  .scene-overlay {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    width: auto;
+    padding: 16px;
+  }
+
+  .scene-overlay h1 {
+    font-size: 1.5rem;
+    line-height: 1.14;
+  }
+
+  .scene-overlay__body {
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .scene-overlay__nav {
+    gap: 4px;
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia Assembly Team"
+  short_description: "Assemble and verify the full Balencia city."
+  default_prompt: "Use this skill for full-city assembly, orbital layout, energy placement, scroll camera checks, and assembly QA."

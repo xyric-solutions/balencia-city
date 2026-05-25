@@ -1,0 +1,95 @@
+{
+  "approved_glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/interior/approved/career-int.glb",
+  "bbox": {
+    "max": [
+      5.670000076293945,
+      4.300000190734863,
+      5.599743843078613
+    ],
+    "min": [
+      -5.670000076293945,
+      -4.299655914306641,
+      0.0
+    ]
+  },
+  "camera_objects": 0,
+  "checks": {
+    "gate3_energy_holo_usage_pass": true,
+    "gate3_material_names_pass": true,
+    "gate5_file_size_pass": true,
+    "gate5_no_cameras_lights_pass": true,
+    "gate5_origin_bottom_pass": true,
+    "gate5_transforms_pass": true,
+    "gate5_triangle_budget_pass": true,
+    "gate7_focal_point_pass": true,
+    "gate7_props_present_pass": true,
+    "gate7_required_empties_pass": true
+  },
+  "dark_first_screenshot": "screenshots/s31-int-dark-first.png",
+  "empty_objects": 5,
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      2.72,
+      2.82
+    ],
+    "career-int": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "light_0": [
+      0.0,
+      -0.2,
+      5.22
+    ],
+    "light_1": [
+      0.0,
+      3.54,
+      3.18
+    ],
+    "light_2": [
+      0.0,
+      2.18,
+      2.05
+    ]
+  },
+  "file_size_bytes": 71036,
+  "glb": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/08-career/interior/drafts/career-int-draft-s31.glb",
+  "invalid_materials": [],
+  "light_objects": 0,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "materials_ok_by_export_pipeline": true,
+  "mesh_objects": 31,
+  "missing_empties": [],
+  "non_identity_mesh_transforms": [],
+  "prop_counts": {
+    "advisor_workstations": 5,
+    "floor_paths": 1,
+    "focus_booths": 4,
+    "growth_chart_focal": 5,
+    "room_shell": 4,
+    "skill_growth_trees": 4,
+    "strategy_table": 5,
+    "upper_skybridge": 4
+  },
+  "qa_pass": true,
+  "slot_tris": {
+    "accent": 1024,
+    "base": 192,
+    "detail": 936,
+    "emissive": 3204,
+    "energy": 1564,
+    "glass": 364
+  },
+  "total_tris": 7284,
+  "uses_energy": true,
+  "uses_holo": false
+}

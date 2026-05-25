@@ -1,0 +1,5270 @@
+{
+  "session": 42,
+  "module": "10-ai-analytics",
+  "blender_version": "5.1.2",
+  "source_blend": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/exterior/drafts/analytics-s41-major-forms.blend",
+  "blend": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/exterior/drafts/analytics-s42-detail-export.blend",
+  "before_mesh_objects": 244,
+  "before_tris": 5251,
+  "after_detail_mesh_objects": 836,
+  "after_detail_tris": 16259,
+  "detail_added_tris": 11008,
+  "category_metrics": [
+    {
+      "category": "Analytics cathedral exterior detail",
+      "objects": 1,
+      "tris": 12
+    },
+    {
+      "category": "Analytics plaza and ground data lattice",
+      "objects": 1,
+      "tris": 12
+    },
+    {
+      "category": "Cathedral body and foundation",
+      "objects": 3,
+      "tris": 516
+    },
+    {
+      "category": "Cathedral roof and ridge polish",
+      "objects": 3,
+      "tris": 24
+    },
+    {
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish",
+      "objects": 27,
+      "tris": 540
+    },
+    {
+      "category": "Central spire, beacon, and SIA hardpoint",
+      "objects": 5,
+      "tris": 636
+    },
+    {
+      "category": "Dark gothic data lattice overlay",
+      "objects": 55,
+      "tris": 880
+    },
+    {
+      "category": "Data waterfall entry and analytics plaza lattice",
+      "objects": 36,
+      "tris": 432
+    },
+    {
+      "category": "Data-waterfall entrance",
+      "objects": 14,
+      "tris": 168
+    },
+    {
+      "category": "Dense living-wall chart articulation",
+      "objects": 266,
+      "tris": 3192
+    },
+    {
+      "category": "Facade panel depth and cathedral scale ribs",
+      "objects": 56,
+      "tris": 672
+    },
+    {
+      "category": "Flying buttress collars, braces, sockets, and railings",
+      "objects": 60,
+      "tris": 3144
+    },
+    {
+      "category": "Flying buttress data conduits and observation hardware",
+      "objects": 88,
+      "tris": 2208
+    },
+    {
+      "category": "Living facade data displays",
+      "objects": 84,
+      "tris": 1008
+    },
+    {
+      "category": "Pointed arch mullions and holographic scan detail",
+      "objects": 73,
+      "tris": 1020
+    },
+    {
+      "category": "Pointed holographic data windows",
+      "objects": 45,
+      "tris": 667
+    },
+    {
+      "category": "Spire beacon rings and data crown polish",
+      "objects": 19,
+      "tris": 1128
+    }
+  ],
+  "material_tris": {
+    "accent": 864,
+    "base": 816,
+    "detail": 7256,
+    "emissive": 6212,
+    "energy": 532,
+    "glass": 168,
+    "holo": 411
+  },
+  "material_percentages": {
+    "accent": 5.31,
+    "base": 5.02,
+    "detail": 44.63,
+    "emissive": 38.21,
+    "energy": 3.27,
+    "glass": 1.03,
+    "holo": 2.53
+  },
+  "material_surface_area": {
+    "total": 1345.781,
+    "areas": {
+      "accent": 18.951,
+      "base": 312.933,
+      "detail": 294.654,
+      "emissive": 642.831,
+      "energy": 1.937,
+      "glass": 59.845,
+      "holo": 14.629
+    },
+    "percentages": {
+      "accent": 1.41,
+      "base": 23.25,
+      "detail": 21.89,
+      "emissive": 47.77,
+      "energy": 0.14,
+      "glass": 4.45,
+      "holo": 1.09
+    }
+  },
+  "bbox": {
+    "min": [
+      -5.6286,
+      -5.38,
+      -0.01
+    ],
+    "max": [
+      5.6286,
+      4.05,
+      16.7
+    ]
+  },
+  "screenshots": [
+    "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s42_front_elevation.png",
+    "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s42_three_quarter.png",
+    "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s42_distance_view.png",
+    "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s42_dark_first.png"
+  ],
+  "objects": [
+    {
+      "name": "arrival_axis_lengthwise_dark_cable_channel_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "arrival_axis_lengthwise_dark_cable_channel_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "arrival_axis_lengthwise_dark_cable_channel_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "arrival_axis_lengthwise_dark_cable_channel_03",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "arrival_axis_transverse_teal_data_trace_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "arrival_axis_transverse_teal_data_trace_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "arrival_axis_transverse_teal_data_trace_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "cathedral_foundation_dark_plaza_slab",
+      "tris": 12,
+      "material": "base",
+      "category": "Analytics plaza and ground data lattice"
+    },
+    {
+      "name": "central_crown_dark_data_fin_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_crown_dark_data_fin_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_crown_dark_data_fin_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_crown_dark_data_fin_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_crown_dark_data_fin_04",
+      "tris": 20,
+      "material": "detail",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_crown_dark_data_fin_05",
+      "tris": 20,
+      "material": "detail",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_dark_pinnacle_taper",
+      "tris": 44,
+      "material": "detail",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "central_spire_nested_teal_beacon_halo_00",
+      "tris": 176,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_nested_teal_beacon_halo_01",
+      "tris": 176,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_nested_teal_beacon_halo_02",
+      "tris": 176,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_nested_teal_beacon_halo_03",
+      "tris": 176,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_teal_beacon_ring",
+      "tris": 224,
+      "material": "emissive",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "central_spire_teal_data_beacon_core",
+      "tris": 44,
+      "material": "emissive",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "central_spire_teal_micro_lattice_rod_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_teal_micro_lattice_rod_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_teal_micro_lattice_rod_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_teal_micro_lattice_rod_03",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_teal_micro_lattice_rod_04",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "central_spire_teal_micro_lattice_rod_05",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_falling_teal_block_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_left_main_vertical_cascade",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_falling_teal_block_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "data_waterfall_right_main_vertical_cascade",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "entry_left_dark_cathedral_jamb_outer_frame",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_falling_data_packet_cluster_07",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_left_thin_teal_waterfall_side_channel",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_dark_cathedral_jamb_outer_frame",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_falling_data_packet_cluster_07",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "entry_right_thin_teal_waterfall_side_channel",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "front_analytics_arrival_axis_dark_stone",
+      "tris": 12,
+      "material": "base",
+      "category": "Analytics cathedral exterior detail"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_03",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_06",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_09",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_12",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_15",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_18",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_21",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_24",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_27",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_dark_floor_plate_shadow_ledge_30",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_entry_cathedral_threshold_slab",
+      "tris": 12,
+      "material": "base",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "front_entry_dark_recessed_doorway",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data-waterfall entrance"
+    },
+    {
+      "name": "front_entry_deep_shadow_threshold_lip",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_dashboard_trend_line_high",
+      "tris": 12,
+      "material": "accent",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_dashboard_trend_line_low",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_left_broad_dashboard_data_wall_teal_chart_bar_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_lower_center_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_holo_window_horizontal_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_holo_window_horizontal_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_holo_window_horizontal_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_holo_window_horizontal_scanline_03",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_center_secondary_left_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_secondary_right_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_center_upper_arch_shoulder_crossbar",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_dark_recessed_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_dashboard_trend_microline_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_dashboard_trend_microline_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_dashboard_trend_microline_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_00_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_01_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_01_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_02_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_02_06",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_03_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_03_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_04_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_05_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_05_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_05_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_05_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_dense_analytics_wall_heatmap_cell_05_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_left_holo_window_horizontal_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_holo_window_horizontal_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_holo_window_horizontal_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_holo_window_horizontal_scanline_03",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_left_secondary_left_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_secondary_right_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_left_upper_arch_shoulder_crossbar",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_dark_recessed_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_dashboard_trend_microline_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_dashboard_trend_microline_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_dashboard_trend_microline_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_00_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_01_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_01_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_02_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_02_06",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_03_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_03_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_04_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_05_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_05_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_05_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_05_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_dense_analytics_wall_heatmap_cell_05_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_lower_right_holo_window_horizontal_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_holo_window_horizontal_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_holo_window_horizontal_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_holo_window_horizontal_scanline_03",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_lower_right_secondary_left_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_secondary_right_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_lower_right_upper_arch_shoulder_crossbar",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_recessed_vertical_cathedral_panel_rib_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_recessed_vertical_cathedral_panel_rib_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_recessed_vertical_cathedral_panel_rib_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_recessed_vertical_cathedral_panel_rib_03",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_dashboard_trend_line_high",
+      "tris": 12,
+      "material": "accent",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_dashboard_trend_line_low",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_right_broad_dashboard_data_wall_teal_chart_bar_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_dark_gothic_diagonal_lattice_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_diagonal_lattice_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_diagonal_lattice_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_diagonal_lattice_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_diagonal_lattice_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_diagonal_lattice_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_lattice_crossbar_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_lattice_crossbar_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_lattice_crossbar_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_lattice_crossbar_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_lattice_crossbar_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_lattice_crossbar_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_lattice_crossbar_06",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_06",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_dark_gothic_vertical_lattice_rod_07",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "front_upper_left_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_holo_window_horizontal_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_holo_window_horizontal_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_holo_window_horizontal_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_holo_window_horizontal_scanline_03",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_left_secondary_left_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_secondary_right_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_left_upper_arch_shoulder_crossbar",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_dashboard_trend_line_high",
+      "tris": 12,
+      "material": "accent",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_dashboard_trend_line_low",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_metric_dashboard_teal_chart_bar_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_dark_recessed_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_dashboard_trend_microline_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_dashboard_trend_microline_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_dashboard_trend_microline_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_00_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_01_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_01_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_02_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_02_06",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_03_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_03_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_04_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_nave_prediction_wall_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "front_upper_right_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_holo_window_horizontal_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_holo_window_horizontal_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_holo_window_horizontal_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_holo_window_horizontal_scanline_03",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_left_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_left_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_right_dark_arch_jamb",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_right_pointed_arch_frame",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "front_upper_right_secondary_left_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_secondary_right_arch_lancet",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "front_upper_right_upper_arch_shoulder_crossbar",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_aisle_roof_dark_outer_ridge_line",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "left_aisle_roof_short_gothic_rib_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "left_aisle_roof_short_gothic_rib_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "left_aisle_roof_short_gothic_rib_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "left_aisle_roof_short_gothic_rib_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "left_aisle_roof_short_gothic_rib_04",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "left_aisle_small_pointed_roof",
+      "tris": 8,
+      "material": "detail",
+      "category": "Cathedral roof and ridge polish"
+    },
+    {
+      "name": "left_buttress_anchor_collar_ring_00",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_anchor_collar_ring_01",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_anchor_collar_ring_02",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_dark_crossbrace_a_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_dark_crossbrace_a_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_dark_crossbrace_a_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_dark_crossbrace_b_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_dark_crossbrace_b_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_dark_crossbrace_b_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_lower_tension_cable_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_lower_tension_cable_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_lower_tension_cable_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_mid_data_collar_ring_00",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_mid_data_collar_ring_01",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_mid_data_collar_ring_02",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_upper_tension_cable_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_upper_tension_cable_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_upper_tension_cable_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_wall_socket_collar_ring_00",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_wall_socket_collar_ring_01",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_buttress_wall_socket_collar_ring_02",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_data_buttress_foundation_pin_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_data_buttress_foundation_pin_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_data_buttress_foundation_pin_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_00_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_01_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_flying_buttress_data_conduit_segment_02_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_dark_side_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_01_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_02_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_03_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_04_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_forward_buttress_data_wall_side_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_ground_anchor_block_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_ground_anchor_block_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_ground_anchor_block_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_lower_cathedral_side_aisle_mass",
+      "tris": 12,
+      "material": "base",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "left_observation_platform_flat_extension_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_observation_platform_flat_extension_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_observation_platform_flat_extension_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_observation_platform_front_guardrail_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_front_guardrail_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_front_guardrail_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_outer_guardrail_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_outer_guardrail_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_outer_guardrail_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_rear_guardrail_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_rear_guardrail_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_rear_guardrail_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "left_observation_platform_teal_edge_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_observation_platform_teal_edge_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_observation_platform_teal_edge_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_dark_side_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_01_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_02_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_03_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_04_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_rear_buttress_data_wall_side_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_forward_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_arch_window_rear_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_side_buttress_metric_dashboard_side_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_side_dark_data_lattice_crossbar_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_crossbar_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_crossbar_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_crossbar_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_crossbar_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_crossbar_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_diagonal_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_diagonal_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_diagonal_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_diagonal_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_vertical_rod_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_vertical_rod_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_vertical_rod_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_vertical_rod_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_vertical_rod_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_vertical_rod_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_dark_data_lattice_vertical_rod_06",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "left_side_deep_panel_shadow_rib_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_deep_panel_shadow_rib_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_deep_panel_shadow_rib_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_deep_panel_shadow_rib_03",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_03",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_06",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_09",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_12",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_15",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_18",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_21",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_24",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_27",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_floor_plate_shadow_ledge_30",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "left_side_forward_side_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_forward_side_holo_window_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_forward_side_holo_window_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_forward_side_holo_window_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_forward_side_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_forward_side_secondary_lancet_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_forward_side_secondary_lancet_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_rear_side_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_rear_side_holo_window_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_rear_side_holo_window_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_rear_side_holo_window_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_rear_side_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_rear_side_secondary_lancet_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_side_rear_side_secondary_lancet_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_00_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_00_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_00_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_01_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_01_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_01_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_02_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_02_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "left_teal_buttress_edge_stream_02_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_14",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_18",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_22",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_26",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_back_30",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_14",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_18",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_22",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_26",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_front_30",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_left_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_16",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_20",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_24",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "living_facade_teal_floor_band_right_28",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_04",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_05",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_06",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_mirror_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_mirror_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_mirror_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_mirror_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_mirror_04",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_mirror_05",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_dark_transverse_ridge_rib_mirror_06",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "nave_roof_teal_data_ridge_line",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_monolith_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_monolith_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_monolith_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_monolith_03",
+      "tris": 12,
+      "material": "detail",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_teal_strip_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_teal_strip_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_teal_strip_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "plaza_low_analytics_wayfinding_teal_strip_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Data waterfall entry and analytics plaza lattice"
+    },
+    {
+      "name": "pointed_cathedral_nave_roof_dark_data_shed",
+      "tris": 8,
+      "material": "detail",
+      "category": "Cathedral roof and ridge polish"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_03",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_06",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_09",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_12",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_15",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_18",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_21",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_24",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_27",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_dark_floor_plate_shadow_ledge_30",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_dark_recessed_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_dashboard_trend_microline_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_dashboard_trend_microline_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_dashboard_trend_microline_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_00_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_01_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_01_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_02_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_02_06",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_03_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_03_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_04_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_left_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_dark_recessed_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_dashboard_trend_microline_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_dashboard_trend_microline_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_dashboard_trend_microline_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_01_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_02_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_03_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_04_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_live_city_status_wall_right_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "rear_orange_hard_socket_locking_pin_00",
+      "tris": 16,
+      "material": "energy",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "rear_orange_hard_socket_locking_pin_01",
+      "tris": 16,
+      "material": "energy",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "rear_orange_hard_socket_secondary_receiver_ring",
+      "tris": 176,
+      "material": "energy",
+      "category": "Spire beacon rings and data crown polish"
+    },
+    {
+      "name": "rear_recessed_vertical_cathedral_panel_rib_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_recessed_vertical_cathedral_panel_rib_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_recessed_vertical_cathedral_panel_rib_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_recessed_vertical_cathedral_panel_rib_03",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "rear_roof_orange_pipeline_receiver_core",
+      "tris": 44,
+      "material": "energy",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "rear_roof_orange_sia_pipeline_receiver_hard_socket",
+      "tris": 280,
+      "material": "energy",
+      "category": "Central spire, beacon, and SIA hardpoint"
+    },
+    {
+      "name": "right_aisle_roof_dark_outer_ridge_line",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "right_aisle_roof_short_gothic_rib_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "right_aisle_roof_short_gothic_rib_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "right_aisle_roof_short_gothic_rib_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "right_aisle_roof_short_gothic_rib_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "right_aisle_roof_short_gothic_rib_04",
+      "tris": 20,
+      "material": "detail",
+      "category": "Cathedral roof ridge ribs and dark-first silhouette polish"
+    },
+    {
+      "name": "right_aisle_small_pointed_roof",
+      "tris": 8,
+      "material": "detail",
+      "category": "Cathedral roof and ridge polish"
+    },
+    {
+      "name": "right_buttress_anchor_collar_ring_00",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_anchor_collar_ring_01",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_anchor_collar_ring_02",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_dark_crossbrace_a_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_dark_crossbrace_a_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_dark_crossbrace_a_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_dark_crossbrace_b_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_dark_crossbrace_b_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_dark_crossbrace_b_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_lower_tension_cable_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_lower_tension_cable_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_lower_tension_cable_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_mid_data_collar_ring_00",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_mid_data_collar_ring_01",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_mid_data_collar_ring_02",
+      "tris": 128,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_upper_tension_cable_00",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_upper_tension_cable_01",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_upper_tension_cable_02",
+      "tris": 16,
+      "material": "emissive",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_wall_socket_collar_ring_00",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_wall_socket_collar_ring_01",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_buttress_wall_socket_collar_ring_02",
+      "tris": 144,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_data_buttress_foundation_pin_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_data_buttress_foundation_pin_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_data_buttress_foundation_pin_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_00_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_01_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_00",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_01",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_02",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_03",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_04",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_flying_buttress_data_conduit_segment_02_05",
+      "tris": 36,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_dark_side_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_01_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_02_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_03_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_04_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_forward_buttress_data_wall_side_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_ground_anchor_block_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_ground_anchor_block_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_ground_anchor_block_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_lower_cathedral_side_aisle_mass",
+      "tris": 12,
+      "material": "base",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "right_observation_platform_flat_extension_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_observation_platform_flat_extension_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_observation_platform_flat_extension_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_observation_platform_front_guardrail_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_front_guardrail_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_front_guardrail_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_outer_guardrail_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_outer_guardrail_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_outer_guardrail_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_rear_guardrail_00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_rear_guardrail_01",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_rear_guardrail_02",
+      "tris": 12,
+      "material": "detail",
+      "category": "Flying buttress collars, braces, sockets, and railings"
+    },
+    {
+      "name": "right_observation_platform_teal_edge_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_observation_platform_teal_edge_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_observation_platform_teal_edge_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_dark_side_data_screen_backer",
+      "tris": 12,
+      "material": "glass",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_00_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_00_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_00_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_00_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_01_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_01_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_01_02",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_01_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_01_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_02_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_02_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_02_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_02_04",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_02_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_03_00",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_03_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_03_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_03_03",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_03_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_04_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_04_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_04_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_04_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_rear_buttress_data_wall_side_heatmap_cell_04_05",
+      "tris": 12,
+      "material": "accent",
+      "category": "Dense living-wall chart articulation"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_forward_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_lower_jamb_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_lower_jamb_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_peak_frame_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_arch_peak_frame_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_arch_window_rear_side_holographic_pointed_arch_window",
+      "tris": 3,
+      "material": "holo",
+      "category": "Pointed holographic data windows"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_dark_display_slab",
+      "tris": 12,
+      "material": "glass",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_side_buttress_metric_dashboard_side_teal_chart_bar_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_side_dark_data_lattice_crossbar_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_crossbar_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_crossbar_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_crossbar_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_crossbar_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_crossbar_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_diagonal_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_diagonal_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_diagonal_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_diagonal_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_vertical_rod_00",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_vertical_rod_01",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_vertical_rod_02",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_vertical_rod_03",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_vertical_rod_04",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_vertical_rod_05",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_dark_data_lattice_vertical_rod_06",
+      "tris": 16,
+      "material": "detail",
+      "category": "Dark gothic data lattice overlay"
+    },
+    {
+      "name": "right_side_deep_panel_shadow_rib_00",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_deep_panel_shadow_rib_01",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_deep_panel_shadow_rib_02",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_deep_panel_shadow_rib_03",
+      "tris": 12,
+      "material": "base",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_03",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_06",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_09",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_12",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_15",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_18",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_21",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_24",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_27",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_floor_plate_shadow_ledge_30",
+      "tris": 12,
+      "material": "detail",
+      "category": "Facade panel depth and cathedral scale ribs"
+    },
+    {
+      "name": "right_side_forward_side_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_forward_side_holo_window_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_forward_side_holo_window_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_forward_side_holo_window_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_forward_side_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_forward_side_secondary_lancet_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_forward_side_secondary_lancet_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_rear_side_central_dark_arch_mullion",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_rear_side_holo_window_scanline_00",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_rear_side_holo_window_scanline_01",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_rear_side_holo_window_scanline_02",
+      "tris": 12,
+      "material": "holo",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_rear_side_lower_arch_sill_shadow",
+      "tris": 12,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_rear_side_secondary_lancet_a",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_side_rear_side_secondary_lancet_b",
+      "tris": 20,
+      "material": "detail",
+      "category": "Pointed arch mullions and holographic scan detail"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_00_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_00_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_00_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_01_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_01_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_01_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_02_01",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_02_03",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "right_teal_buttress_edge_stream_02_05",
+      "tris": 20,
+      "material": "emissive",
+      "category": "Flying buttress data conduits and observation hardware"
+    },
+    {
+      "name": "thirty_floor_data_cathedral_main_body",
+      "tris": 492,
+      "material": "base",
+      "category": "Cathedral body and foundation"
+    },
+    {
+      "name": "vertical_teal_data_stream_back_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_back_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_back_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_front_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_left_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    },
+    {
+      "name": "vertical_teal_data_stream_right_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Living facade data displays"
+    }
+  ],
+  "export": {
+    "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/exterior/drafts/analytics-ext-draft-s42.glb",
+    "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+    "packed_blend": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/exterior/drafts/analytics-s42-export-packed.blend",
+    "glb_bytes": 104200,
+    "tris": 16259,
+    "mesh_objects": 7,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "material_tris": {
+      "accent": 864,
+      "base": 816,
+      "detail": 7256,
+      "emissive": 6212,
+      "energy": 532,
+      "glass": 168,
+      "holo": 411
+    },
+    "material_percentages": {
+      "accent": 5.31,
+      "base": 5.02,
+      "detail": 44.63,
+      "emissive": 38.21,
+      "energy": 3.27,
+      "glass": 1.03,
+      "holo": 2.53
+    },
+    "bbox": {
+      "min": [
+        -5.6286,
+        -4.715,
+        0.0
+      ],
+      "max": [
+        5.6286,
+        4.715,
+        16.71
+      ]
+    }
+  },
+  "qa_import": {
+    "mesh_objects": 7,
+    "empty_objects": 1,
+    "tris": 16259,
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "rogue_materials": [],
+    "uses_energy": true,
+    "uses_holo": true,
+    "cameras": 0,
+    "lights": 0,
+    "bbox": {
+      "min": [
+        -5.6286,
+        -4.7151,
+        0.0
+      ],
+      "max": [
+        5.6282,
+        4.715,
+        16.71
+      ]
+    },
+    "non_identity_mesh_transforms": [],
+    "glb_bytes": 104200
+  },
+  "cohesion": {
+    "screenshot": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/screenshots/s42_cohesion_all11.png",
+    "imported": [
+      "sia",
+      "fitness",
+      "yoga",
+      "finance",
+      "knowledgebase",
+      "chat",
+      "leaderboard",
+      "relationships",
+      "career",
+      "recovery",
+      "analytics"
+    ]
+  }
+}

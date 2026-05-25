@@ -1,0 +1,381 @@
+{
+  "approved_glb": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/interior/approved/analytics-int.glb",
+  "approved_glb_size_bytes": 90632,
+  "approved_promoted": true,
+  "blend_file": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/interior/drafts/analytics-int-session43.blend",
+  "blender_version": "5.1.2",
+  "draft_glb": "/Users/hamza/Desktop/balencia-city-v3/modules/10-ai-analytics/interior/drafts/analytics-int-draft-s43.glb",
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2"
+  ],
+  "empty_positions": {
+    "camera_target": [
+      0.0,
+      -0.35,
+      1.55
+    ],
+    "light_0": [
+      0.0,
+      0.0,
+      4.28
+    ],
+    "light_1": [
+      3.05,
+      1.1,
+      3.25
+    ],
+    "light_2": [
+      0.0,
+      0.0,
+      5.82
+    ]
+  },
+  "glb_size_bytes": 90632,
+  "import_qa": {
+    "approved": true,
+    "bbox_max": [
+      3.9098,
+      8.0,
+      6.14
+    ],
+    "bbox_min": [
+      -3.91,
+      -8.0,
+      0.0
+    ],
+    "camera_count": 0,
+    "empty_names": [
+      "analytics-int",
+      "camera_target",
+      "light_0",
+      "light_1",
+      "light_2"
+    ],
+    "gate_checks": {
+      "gate_3_materials": true,
+      "gate_5_budget": true,
+      "gate_5_hygiene": true,
+      "gate_7_empties": true,
+      "gate_7_props": true,
+      "gate_7_room_shell": true
+    },
+    "glb_size_bytes": 90632,
+    "has_energy": true,
+    "has_holo": true,
+    "imported_tris": 8318,
+    "invalid_materials": [],
+    "light_count": 0,
+    "material_names": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "mesh_objects": 39,
+    "non_identity_mesh_transforms": [],
+    "required_empties_present": true,
+    "session": 43
+  },
+  "material_issues": [],
+  "mesh_objects": 39,
+  "module": "10-ai-analytics",
+  "object_groups": {
+    "ceiling_city_map": {
+      "count": 6,
+      "tris": 724
+    },
+    "emotional_waves": {
+      "count": 4,
+      "tris": 588
+    },
+    "floating_charts": {
+      "count": 5,
+      "tris": 764
+    },
+    "habit_heatmaps": {
+      "count": 4,
+      "tris": 1224
+    },
+    "interaction_pedestals": {
+      "count": 3,
+      "tris": 492
+    },
+    "life_timeline": {
+      "count": 6,
+      "tris": 2094
+    },
+    "neural_wall": {
+      "count": 4,
+      "tris": 944
+    },
+    "prediction_trees": {
+      "count": 4,
+      "tris": 684
+    },
+    "room_shell": {
+      "count": 3,
+      "tris": 804
+    }
+  },
+  "objects": [
+    {
+      "group": "ceiling_city_map",
+      "material": "accent",
+      "name": "ceiling_city_map_accent_joined",
+      "tris": 84
+    },
+    {
+      "group": "ceiling_city_map",
+      "material": "detail",
+      "name": "ceiling_city_map_detail_joined",
+      "tris": 316
+    },
+    {
+      "group": "ceiling_city_map",
+      "material": "emissive",
+      "name": "ceiling_city_map_emissive_joined",
+      "tris": 40
+    },
+    {
+      "group": "ceiling_city_map",
+      "material": "energy",
+      "name": "ceiling_city_map_energy_joined",
+      "tris": 48
+    },
+    {
+      "group": "ceiling_city_map",
+      "material": "glass",
+      "name": "ceiling_city_map_glass_joined",
+      "tris": 12
+    },
+    {
+      "group": "ceiling_city_map",
+      "material": "holo",
+      "name": "ceiling_city_map_holo_joined",
+      "tris": 224
+    },
+    {
+      "group": "emotional_waves",
+      "material": "accent",
+      "name": "emotional_waves_accent_joined",
+      "tris": 192
+    },
+    {
+      "group": "emotional_waves",
+      "material": "energy",
+      "name": "emotional_waves_energy_joined",
+      "tris": 192
+    },
+    {
+      "group": "emotional_waves",
+      "material": "glass",
+      "name": "emotional_waves_glass_joined",
+      "tris": 12
+    },
+    {
+      "group": "emotional_waves",
+      "material": "holo",
+      "name": "emotional_waves_holo_joined",
+      "tris": 192
+    },
+    {
+      "group": "floating_charts",
+      "material": "accent",
+      "name": "floating_charts_accent_joined",
+      "tris": 108
+    },
+    {
+      "group": "floating_charts",
+      "material": "detail",
+      "name": "floating_charts_detail_joined",
+      "tris": 156
+    },
+    {
+      "group": "floating_charts",
+      "material": "emissive",
+      "name": "floating_charts_emissive_joined",
+      "tris": 212
+    },
+    {
+      "group": "floating_charts",
+      "material": "glass",
+      "name": "floating_charts_glass_joined",
+      "tris": 36
+    },
+    {
+      "group": "floating_charts",
+      "material": "holo",
+      "name": "floating_charts_holo_joined",
+      "tris": 252
+    },
+    {
+      "group": "habit_heatmaps",
+      "material": "accent",
+      "name": "habit_heatmaps_accent_joined",
+      "tris": 384
+    },
+    {
+      "group": "habit_heatmaps",
+      "material": "detail",
+      "name": "habit_heatmaps_detail_joined",
+      "tris": 432
+    },
+    {
+      "group": "habit_heatmaps",
+      "material": "emissive",
+      "name": "habit_heatmaps_emissive_joined",
+      "tris": 384
+    },
+    {
+      "group": "habit_heatmaps",
+      "material": "glass",
+      "name": "habit_heatmaps_glass_joined",
+      "tris": 24
+    },
+    {
+      "group": "interaction_pedestals",
+      "material": "detail",
+      "name": "interaction_pedestals_detail_joined",
+      "tris": 180
+    },
+    {
+      "group": "interaction_pedestals",
+      "material": "emissive",
+      "name": "interaction_pedestals_emissive_joined",
+      "tris": 36
+    },
+    {
+      "group": "interaction_pedestals",
+      "material": "holo",
+      "name": "interaction_pedestals_holo_joined",
+      "tris": 276
+    },
+    {
+      "group": "life_timeline",
+      "material": "accent",
+      "name": "life_timeline_accent_joined",
+      "tris": 228
+    },
+    {
+      "group": "life_timeline",
+      "material": "detail",
+      "name": "life_timeline_detail_joined",
+      "tris": 56
+    },
+    {
+      "group": "life_timeline",
+      "material": "emissive",
+      "name": "life_timeline_emissive_joined",
+      "tris": 370
+    },
+    {
+      "group": "life_timeline",
+      "material": "energy",
+      "name": "life_timeline_energy_joined",
+      "tris": 228
+    },
+    {
+      "group": "life_timeline",
+      "material": "glass",
+      "name": "life_timeline_glass_joined",
+      "tris": 264
+    },
+    {
+      "group": "life_timeline",
+      "material": "holo",
+      "name": "life_timeline_holo_joined",
+      "tris": 948
+    },
+    {
+      "group": "neural_wall",
+      "material": "detail",
+      "name": "neural_wall_detail_joined",
+      "tris": 120
+    },
+    {
+      "group": "neural_wall",
+      "material": "emissive",
+      "name": "neural_wall_emissive_joined",
+      "tris": 752
+    },
+    {
+      "group": "neural_wall",
+      "material": "glass",
+      "name": "neural_wall_glass_joined",
+      "tris": 12
+    },
+    {
+      "group": "neural_wall",
+      "material": "holo",
+      "name": "neural_wall_holo_joined",
+      "tris": 60
+    },
+    {
+      "group": "prediction_trees",
+      "material": "accent",
+      "name": "prediction_trees_accent_joined",
+      "tris": 296
+    },
+    {
+      "group": "prediction_trees",
+      "material": "detail",
+      "name": "prediction_trees_detail_joined",
+      "tris": 56
+    },
+    {
+      "group": "prediction_trees",
+      "material": "emissive",
+      "name": "prediction_trees_emissive_joined",
+      "tris": 184
+    },
+    {
+      "group": "prediction_trees",
+      "material": "holo",
+      "name": "prediction_trees_holo_joined",
+      "tris": 148
+    },
+    {
+      "group": "room_shell",
+      "material": "base",
+      "name": "room_shell_base_joined",
+      "tris": 108
+    },
+    {
+      "group": "room_shell",
+      "material": "detail",
+      "name": "room_shell_detail_joined",
+      "tris": 612
+    },
+    {
+      "group": "room_shell",
+      "material": "emissive",
+      "name": "room_shell_emissive_joined",
+      "tris": 84
+    }
+  ],
+  "screenshots": [
+    "screenshots/s43-int-overview.png",
+    "screenshots/s43-int-from-entry.png",
+    "screenshots/s43-int-focal-timeline.png",
+    "screenshots/s43-int-topdown.png",
+    "screenshots/s43-int-dark-first.png"
+  ],
+  "session": 43,
+  "slot_tris": {
+    "accent": 1292,
+    "base": 108,
+    "detail": 1928,
+    "emissive": 2062,
+    "energy": 468,
+    "glass": 360,
+    "holo": 2100
+  },
+  "title": "AI Analytics Interior - Data Sanctum",
+  "total_tris": 8318
+}

@@ -1,0 +1,441 @@
+{
+  "session": 37,
+  "module": "09-recovery-sleep",
+  "blender_version": "5.1.1",
+  "blend": "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/exterior/drafts/recovery-s37-major-forms.blend",
+  "screenshots": [
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/screenshots/s37_front_elevation.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/screenshots/s37_three_quarter.png",
+    "/Users/hamza/Xyric Wiki/PLAYGROUND/balencia-city-v3/modules/09-recovery-sleep/screenshots/s37_distance_view.png"
+  ],
+  "mesh_objects": 59,
+  "triangles": 8288,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "material_tris": {
+    "accent": 360,
+    "base": 1024,
+    "detail": 456,
+    "emissive": 2852,
+    "energy": 228,
+    "glass": 3368
+  },
+  "category_metrics": [
+    {
+      "category": "Barely visible SIA thread receiver",
+      "objects": 4,
+      "tris": 228
+    },
+    {
+      "category": "Faint star-like surface lights",
+      "objects": 12,
+      "tris": 576
+    },
+    {
+      "category": "Indigo light pillar support system",
+      "objects": 10,
+      "tris": 940
+    },
+    {
+      "category": "Mirror-still lake and reflection setting",
+      "objects": 8,
+      "tris": 1472
+    },
+    {
+      "category": "Nested inner shell and aurora glow",
+      "objects": 4,
+      "tris": 1232
+    },
+    {
+      "category": "Outer translucent cloud shell",
+      "objects": 4,
+      "tris": 2640
+    },
+    {
+      "category": "Smooth concave underside and shell gap",
+      "objects": 2,
+      "tris": 840
+    },
+    {
+      "category": "Trailing edge wisps",
+      "objects": 15,
+      "tris": 360
+    }
+  ],
+  "objects": [
+    {
+      "name": "aurora_interior_glow_silver_phase_band",
+      "tris": 308,
+      "material": "emissive",
+      "category": "Nested inner shell and aurora glow"
+    },
+    {
+      "name": "aurora_interior_glow_soft_indigo_core",
+      "tris": 308,
+      "material": "emissive",
+      "category": "Nested inner shell and aurora glow"
+    },
+    {
+      "name": "barely_visible_sia_thread_receiver_top_ring_energy",
+      "tris": 144,
+      "material": "energy",
+      "category": "Barely visible SIA thread receiver"
+    },
+    {
+      "name": "central_outer_shell_cloud_lobe_organic_mass",
+      "tris": 660,
+      "material": "glass",
+      "category": "Outer translucent cloud shell"
+    },
+    {
+      "name": "dark_nested_shell_gap_between_outer_and_inner_cloud",
+      "tris": 392,
+      "material": "detail",
+      "category": "Smooth concave underside and shell gap"
+    },
+    {
+      "name": "dark_silent_shoreline_frame_around_lake",
+      "tris": 576,
+      "material": "base",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "east_low_trailing_edge_soft_tapering_wisp_segment_00",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "east_low_trailing_edge_soft_tapering_wisp_segment_01",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "east_low_trailing_edge_soft_tapering_wisp_segment_02",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "east_outer_shell_cloud_lobe_organic_mass",
+      "tris": 660,
+      "material": "glass",
+      "category": "Outer translucent cloud shell"
+    },
+    {
+      "name": "faint_star_like_surface_light_00",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_01",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_02",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_03",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_04",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_05",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_06",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_07",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_08",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_09",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_10",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "faint_star_like_surface_light_11",
+      "tris": 48,
+      "material": "emissive",
+      "category": "Faint star-like surface lights"
+    },
+    {
+      "name": "indigo_light_pillar_beam_00",
+      "tris": 68,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_beam_01",
+      "tris": 68,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_beam_02",
+      "tris": 68,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_beam_03",
+      "tris": 68,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_beam_04",
+      "tris": 68,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_cloud_contact_halo_00",
+      "tris": 120,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_cloud_contact_halo_01",
+      "tris": 120,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_cloud_contact_halo_02",
+      "tris": 120,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_cloud_contact_halo_03",
+      "tris": 120,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_cloud_contact_halo_04",
+      "tris": 120,
+      "material": "emissive",
+      "category": "Indigo light pillar support system"
+    },
+    {
+      "name": "indigo_light_pillar_lake_ripple_ring_00",
+      "tris": 144,
+      "material": "emissive",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "indigo_light_pillar_lake_ripple_ring_01",
+      "tris": 144,
+      "material": "emissive",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "indigo_light_pillar_lake_ripple_ring_02",
+      "tris": 144,
+      "material": "emissive",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "indigo_light_pillar_lake_ripple_ring_03",
+      "tris": 144,
+      "material": "emissive",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "indigo_light_pillar_lake_ripple_ring_04",
+      "tris": 144,
+      "material": "emissive",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "inner_shell_dream_cocoon_visible_through_cloud",
+      "tris": 308,
+      "material": "glass",
+      "category": "Nested inner shell and aurora glow"
+    },
+    {
+      "name": "inner_shell_secondary_sleep_lobe_visible_gap",
+      "tris": 308,
+      "material": "glass",
+      "category": "Nested inner shell and aurora glow"
+    },
+    {
+      "name": "minimal_orange_energy_thread_receiver_wisp_core",
+      "tris": 36,
+      "material": "energy",
+      "category": "Barely visible SIA thread receiver"
+    },
+    {
+      "name": "minimal_sia_thread_receiver_wisp_curve_00",
+      "tris": 24,
+      "material": "energy",
+      "category": "Barely visible SIA thread receiver"
+    },
+    {
+      "name": "minimal_sia_thread_receiver_wisp_curve_01",
+      "tris": 24,
+      "material": "energy",
+      "category": "Barely visible SIA thread receiver"
+    },
+    {
+      "name": "mirror_still_lake_flat_reflective_plane",
+      "tris": 112,
+      "material": "glass",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "north_silver_trailing_edge_soft_tapering_wisp_segment_00",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "north_silver_trailing_edge_soft_tapering_wisp_segment_01",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "north_silver_trailing_edge_soft_tapering_wisp_segment_02",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "rear_upper_outer_shell_cloud_lobe_organic_mass",
+      "tris": 660,
+      "material": "glass",
+      "category": "Outer translucent cloud shell"
+    },
+    {
+      "name": "smooth_concave_underside_dark_cloud_belly",
+      "tris": 448,
+      "material": "base",
+      "category": "Smooth concave underside and shell gap"
+    },
+    {
+      "name": "soft_cloud_reflection_shadow_on_lake",
+      "tris": 64,
+      "material": "detail",
+      "category": "Mirror-still lake and reflection setting"
+    },
+    {
+      "name": "south_soft_trailing_edge_soft_tapering_wisp_segment_00",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "south_soft_trailing_edge_soft_tapering_wisp_segment_01",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "south_soft_trailing_edge_soft_tapering_wisp_segment_02",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "west_lower_trailing_edge_soft_tapering_wisp_segment_00",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "west_lower_trailing_edge_soft_tapering_wisp_segment_01",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "west_lower_trailing_edge_soft_tapering_wisp_segment_02",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "west_outer_shell_cloud_lobe_organic_mass",
+      "tris": 660,
+      "material": "glass",
+      "category": "Outer translucent cloud shell"
+    },
+    {
+      "name": "west_upper_trailing_edge_soft_tapering_wisp_segment_00",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "west_upper_trailing_edge_soft_tapering_wisp_segment_01",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    },
+    {
+      "name": "west_upper_trailing_edge_soft_tapering_wisp_segment_02",
+      "tris": 24,
+      "material": "accent",
+      "category": "Trailing edge wisps"
+    }
+  ],
+  "lights": 3,
+  "cameras": 4,
+  "bbox": {
+    "min": [
+      -10.2506,
+      -6.2422,
+      0.01
+    ],
+    "max": [
+      10.2506,
+      6.0578,
+      7.9295
+    ]
+  }
+}

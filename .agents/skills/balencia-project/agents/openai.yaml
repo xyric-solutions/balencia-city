@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balencia Project"
+  short_description: "Project context for Balencia City v3 workflows."
+  default_prompt: "Use this skill for Balencia City v3 project context, status orientation, conventions, and current build state."

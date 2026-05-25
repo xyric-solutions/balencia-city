@@ -1,0 +1,37 @@
+{
+  "bbox_max": [
+    6.55,
+    5.1,
+    5.4447
+  ],
+  "bbox_min": [
+    -6.55,
+    -5.0998,
+    0.0
+  ],
+  "camera_count": 0,
+  "empty_names": [
+    "camera_target",
+    "light_0",
+    "light_1",
+    "light_2",
+    "recovery-int"
+  ],
+  "glb_size_bytes": 82700,
+  "has_energy": true,
+  "has_holo": false,
+  "imported_tris": 6764,
+  "invalid_materials": [],
+  "light_count": 0,
+  "material_names": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "mesh_objects": 26,
+  "non_identity_mesh_transforms": [],
+  "session": 39
+}

@@ -1,0 +1,1262 @@
+{
+  "session": 45,
+  "module": "11-nutrition",
+  "blender_version": "5.1.2",
+  "blend": "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/exterior/drafts/nutrition-s45-major-forms.blend",
+  "screenshots": [
+    "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/screenshots/s45_front_elevation.png",
+    "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/screenshots/s45_three_quarter.png",
+    "/Users/hamza/Desktop/balencia-city-v3/modules/11-nutrition/screenshots/s45_distance_view.png"
+  ],
+  "mesh_objects": 195,
+  "triangles": 10552,
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "material_tris": {
+    "accent": 5076,
+    "base": 1588,
+    "detail": 2456,
+    "emissive": 776,
+    "energy": 332,
+    "glass": 324
+  },
+  "category_metrics": [
+    {
+      "category": "Amber grow-light bands",
+      "objects": 57,
+      "tris": 1484
+    },
+    {
+      "category": "Cascading plant massing",
+      "objects": 43,
+      "tris": 4644
+    },
+    {
+      "category": "Glass greenhouse volumes and racks",
+      "objects": 18,
+      "tris": 216
+    },
+    {
+      "category": "Nutrition major forms",
+      "objects": 1,
+      "tris": 108
+    },
+    {
+      "category": "Open market base",
+      "objects": 11,
+      "tris": 740
+    },
+    {
+      "category": "Roof kitchen ventilation",
+      "objects": 2,
+      "tris": 136
+    },
+    {
+      "category": "SIA hard-pipeline receiver",
+      "objects": 2,
+      "tris": 332
+    },
+    {
+      "category": "Twelve-floor rounded farm pyramid",
+      "objects": 48,
+      "tris": 2688
+    },
+    {
+      "category": "Water irrigation channels",
+      "objects": 13,
+      "tris": 204
+    }
+  ],
+  "objects": [
+    {
+      "name": "amber_grow_light_front_band_tier_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_07",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_09",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_11",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_front_band_tier_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_07",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_09",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_11",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_left_band_tier_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_07",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_09",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_11",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_rear_band_tier_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_04",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_05",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_06",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_07",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_08",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_09",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_10",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_11",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "amber_grow_light_right_band_tier_12",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_02_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_02_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_02_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_03_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_03_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_03_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_04_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_04_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_04_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_05_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_05_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_05_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_06_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_06_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_06_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_07_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_07_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_07_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_08_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_08_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_08_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_09_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_09_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_09_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_10_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_10_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_10_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_11_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_11_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_11_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_12_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_12_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_front_tier_12_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_left_tier_03",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_left_tier_05",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_left_tier_07",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_left_tier_09",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_left_tier_11",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_right_tier_03",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_right_tier_05",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_right_tier_07",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_right_tier_09",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "cascading_green_plant_curtain_right_tier_11",
+      "tris": 108,
+      "material": "accent",
+      "category": "Cascading plant massing"
+    },
+    {
+      "name": "front_mid_greenhouse_section_amber_tinted_greenhouse_glass_mass",
+      "tris": 108,
+      "material": "glass",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "front_mid_greenhouse_section_hydroponic_internal_rack_+0.05",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "front_mid_greenhouse_section_hydroponic_internal_rack_+0.35",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "front_mid_greenhouse_section_hydroponic_internal_rack_-0.25",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "front_mid_greenhouse_section_vertical_greenhouse_mullion_+0.00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "front_mid_greenhouse_section_vertical_greenhouse_mullion_+0.32",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "front_mid_greenhouse_section_vertical_greenhouse_mullion_-0.32",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "left_upper_greenhouse_section_amber_tinted_greenhouse_glass_mass",
+      "tris": 108,
+      "material": "glass",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "left_upper_greenhouse_section_hydroponic_side_rack_+0.05",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "left_upper_greenhouse_section_hydroponic_side_rack_+0.35",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "left_upper_greenhouse_section_hydroponic_side_rack_-0.25",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "left_upper_greenhouse_section_side_greenhouse_mullion_+0.00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "left_upper_greenhouse_section_side_greenhouse_mullion_+0.32",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "left_upper_greenhouse_section_side_greenhouse_mullion_-0.32",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "open_market_amber_lit_produce_display_stall_00",
+      "tris": 108,
+      "material": "accent",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "open_market_amber_lit_produce_display_stall_01",
+      "tris": 108,
+      "material": "accent",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "open_market_amber_lit_produce_display_stall_02",
+      "tris": 108,
+      "material": "accent",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "open_market_amber_lit_produce_display_stall_03",
+      "tris": 108,
+      "material": "accent",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "open_market_canopy_supporting_first_farm_tier",
+      "tris": 188,
+      "material": "base",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_dark_plaza_slab",
+      "tris": 188,
+      "material": "base",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_front_open_amber_threshold",
+      "tris": 108,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "open_market_produce_stall_warm_light_strip_00",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_produce_stall_warm_light_strip_01",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_produce_stall_warm_light_strip_02",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_produce_stall_warm_light_strip_03",
+      "tris": 12,
+      "material": "emissive",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_recessed_warm_floor",
+      "tris": 108,
+      "material": "base",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_structural_column_0_0",
+      "tris": 52,
+      "material": "detail",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_structural_column_0_1",
+      "tris": 52,
+      "material": "detail",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_structural_column_1_0",
+      "tris": 52,
+      "material": "detail",
+      "category": "Open market base"
+    },
+    {
+      "name": "open_market_structural_column_1_1",
+      "tris": 52,
+      "material": "detail",
+      "category": "Open market base"
+    },
+    {
+      "name": "rear_roof_orange_pipeline_receiver_core",
+      "tris": 52,
+      "material": "energy",
+      "category": "SIA hard-pipeline receiver"
+    },
+    {
+      "name": "rear_roof_orange_sia_pipeline_receiver_hard_socket",
+      "tris": 280,
+      "material": "energy",
+      "category": "SIA hard-pipeline receiver"
+    },
+    {
+      "name": "right_lower_greenhouse_section_amber_tinted_greenhouse_glass_mass",
+      "tris": 108,
+      "material": "glass",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "right_lower_greenhouse_section_hydroponic_side_rack_+0.05",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "right_lower_greenhouse_section_hydroponic_side_rack_+0.35",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "right_lower_greenhouse_section_hydroponic_side_rack_-0.25",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "right_lower_greenhouse_section_side_greenhouse_mullion_+0.00",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "right_lower_greenhouse_section_side_greenhouse_mullion_+0.32",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "right_lower_greenhouse_section_side_greenhouse_mullion_-0.32",
+      "tris": 12,
+      "material": "detail",
+      "category": "Glass greenhouse volumes and racks"
+    },
+    {
+      "name": "roof_kitchen_chimney_amber_warm_exhaust_core",
+      "tris": 44,
+      "material": "emissive",
+      "category": "Amber grow-light bands"
+    },
+    {
+      "name": "roof_kitchen_chimney_vertical_vent_stack",
+      "tris": 68,
+      "material": "detail",
+      "category": "Roof kitchen ventilation"
+    },
+    {
+      "name": "roof_kitchen_chimney_wide_vent_cap",
+      "tris": 68,
+      "material": "detail",
+      "category": "Roof kitchen ventilation"
+    },
+    {
+      "name": "roof_service_dark_kitchen_terrace",
+      "tris": 108,
+      "material": "detail",
+      "category": "Nutrition major forms"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_01",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_02",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_03",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_04",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_05",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_06",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_07",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_08",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_09",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_10",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_11",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "twelve_floor_farm_pyramid_rounded_tier_12",
+      "tris": 92,
+      "material": "base",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_01",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_02",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_03",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_04",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_05",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_06",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_07",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_08",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_09",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_10",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_11",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_front_tier_12",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_01",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_02",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_03",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_04",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_05",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_06",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_07",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_08",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_09",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_10",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_11",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_left_tier_12",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_01",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_02",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_03",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_04",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_05",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_06",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_07",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_08",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_09",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_10",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_11",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "vertical_farm_detail_bed_right_tier_12",
+      "tris": 44,
+      "material": "detail",
+      "category": "Twelve-floor rounded farm pyramid"
+    },
+    {
+      "name": "water_irrigation_front_channel_tier_03",
+      "tris": 12,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_front_channel_tier_06",
+      "tris": 12,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_front_channel_tier_09",
+      "tris": 12,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_front_channel_tier_11",
+      "tris": 12,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_side_channel_tier_04",
+      "tris": 12,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_side_channel_tier_08",
+      "tris": 12,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_side_channel_tier_12",
+      "tris": 12,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_vertical_downspout_left_00",
+      "tris": 20,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_vertical_downspout_left_01",
+      "tris": 20,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_vertical_downspout_left_02",
+      "tris": 20,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_vertical_downspout_left_03",
+      "tris": 20,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_vertical_downspout_left_04",
+      "tris": 20,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    },
+    {
+      "name": "water_irrigation_vertical_downspout_left_05",
+      "tris": 20,
+      "material": "detail",
+      "category": "Water irrigation channels"
+    }
+  ],
+  "lights": 3,
+  "cameras": 4,
+  "bbox": {
+    "min": [
+      -5.6,
+      -4.1,
+      0.0
+    ],
+    "max": [
+      5.6,
+      4.1,
+      8.56
+    ]
+  }
+}

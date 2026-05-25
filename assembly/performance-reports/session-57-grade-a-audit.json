@@ -1,0 +1,2013 @@
+{
+  "assembly_checks": [
+    {
+      "detail": "assembly/drafts/full-city-assembly.blend",
+      "name": "blend_file_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "assembly/drafts/full-city-assembly-session56-report.json",
+      "name": "session_56_report_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_structure_collections_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_approved_exterior_sources_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_approved_interior_sources_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_structure_specs_and_reviews_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_structure_material_roots_valid",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_interiors_hidden_by_default",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "no_cameras_or_lights_in_imported_assets",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_energy_collections_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_energy_sources_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "all_energy_materials_named_energy",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "ai_pulse_animation_present",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "183115",
+      "name": "active_city_triangle_budget",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "2481388",
+      "name": "active_source_file_budget",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "2.1841",
+      "name": "sia_dominance_legacy_floor",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "2 possible overlaps",
+      "name": "district_exterior_bbox_nonoverlap",
+      "passed": false,
+      "severity": "review"
+    },
+    {
+      "detail": "7",
+      "name": "overview_screenshot_count",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "overview_screenshots_nonblank",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "overview_screenshots_dimensions",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "17",
+      "name": "scroll_screenshot_count",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "scroll_screenshots_nonblank",
+      "passed": true,
+      "severity": "blocker"
+    },
+    {
+      "detail": "",
+      "name": "scroll_screenshots_dimensions",
+      "passed": true,
+      "severity": "blocker"
+    }
+  ],
+  "audit_file": "assembly/performance-reports/session-57-grade-a-audit.json",
+  "automated_verdict": "GO_FOR_PHASE_7",
+  "blend_file": "assembly/drafts/full-city-assembly.blend",
+  "blender_version": "5.1.2",
+  "blockers": [],
+  "date": "2026-05-25",
+  "energy_metrics": {
+    "ai_pulse": {
+      "animation_requirement_met": true,
+      "animations": [
+        {
+          "action": "ai_pulse_crown_intensifierAction",
+          "object": "ai_pulse_crown_intensifier"
+        }
+      ],
+      "bbox": {
+        "center": [
+          0.0,
+          0.0,
+          84.7009
+        ],
+        "max": [
+          0.225,
+          0.225,
+          84.7883
+        ],
+        "min": [
+          -0.225,
+          -0.225,
+          84.6134
+        ],
+        "size": [
+          0.45,
+          0.45,
+          0.1749
+        ]
+      },
+      "collection_present": true,
+      "empty_count": 1,
+      "expected_material_roots": [
+        "energy"
+      ],
+      "invalid_materials": [],
+      "label": "AI pulse",
+      "material_roots": [
+        "energy"
+      ],
+      "material_roots_match_expected": true,
+      "mesh_count": 2,
+      "object_count": 3,
+      "source": "energy-system/pulse/approved/ai-pulse.glb",
+      "source_exists": true,
+      "tris": 444
+    },
+    "cross_district_gold": {
+      "animation_requirement_met": true,
+      "animations": [],
+      "bbox": {
+        "center": [
+          -3.5006,
+          -10.0024,
+          20.3901
+        ],
+        "max": [
+          36.1988,
+          39.195,
+          34.4299
+        ],
+        "min": [
+          -43.2,
+          -59.1998,
+          6.3503
+        ],
+        "size": [
+          79.3988,
+          98.3948,
+          28.0796
+        ]
+      },
+      "collection_present": true,
+      "empty_count": 7,
+      "expected_material_roots": [
+        "energy"
+      ],
+      "invalid_materials": [],
+      "label": "Cross-district gold",
+      "material_roots": [
+        "energy"
+      ],
+      "material_roots_match_expected": true,
+      "mesh_count": 6,
+      "object_count": 13,
+      "source": "energy-system/cross-connections/approved/cross-district-gold.glb",
+      "source_exists": true,
+      "tris": 1200
+    },
+    "faint_thread": {
+      "animation_requirement_met": true,
+      "animations": [],
+      "bbox": {
+        "center": [
+          -25.1796,
+          -5.8833,
+          18.7998
+        ],
+        "max": [
+          -4.3591,
+          -0.7668,
+          37.5246
+        ],
+        "min": [
+          -46.0,
+          -10.9998,
+          0.075
+        ],
+        "size": [
+          41.6409,
+          10.2329,
+          37.4496
+        ]
+      },
+      "collection_present": true,
+      "empty_count": 1,
+      "expected_material_roots": [
+        "energy"
+      ],
+      "invalid_materials": [],
+      "label": "Faint thread",
+      "material_roots": [
+        "energy"
+      ],
+      "material_roots_match_expected": true,
+      "mesh_count": 1,
+      "object_count": 2,
+      "source": "energy-system/pipelines/approved/faint-thread.glb",
+      "source_exists": true,
+      "tris": 1136
+    },
+    "hard_pipelines": {
+      "animation_requirement_met": true,
+      "animations": [],
+      "bbox": {
+        "center": [
+          1.9999,
+          -3.0025,
+          19.3624
+        ],
+        "max": [
+          38.0,
+          41.995,
+          38.6723
+        ],
+        "min": [
+          -34.0002,
+          -48.0,
+          0.0525
+        ],
+        "size": [
+          72.0002,
+          89.995,
+          38.6198
+        ]
+      },
+      "collection_present": true,
+      "empty_count": 1,
+      "expected_material_roots": [
+        "energy"
+      ],
+      "invalid_materials": [],
+      "label": "Hard pipelines",
+      "material_roots": [
+        "energy"
+      ],
+      "material_roots_match_expected": true,
+      "mesh_count": 177,
+      "object_count": 178,
+      "source": "energy-system/pipelines/approved/hard-pipelines.glb",
+      "source_exists": true,
+      "tris": 11796
+    },
+    "knowledgebase_waterfall": {
+      "animation_requirement_met": true,
+      "animations": [],
+      "bbox": {
+        "center": [
+          28.2581,
+          -20.8061,
+          7.4157
+        ],
+        "max": [
+          31.2871,
+          -17.7771,
+          14.7533
+        ],
+        "min": [
+          25.229,
+          -23.8352,
+          0.078
+        ],
+        "size": [
+          6.0581,
+          6.0581,
+          14.6753
+        ]
+      },
+      "collection_present": true,
+      "empty_count": 1,
+      "expected_material_roots": [
+        "energy"
+      ],
+      "invalid_materials": [],
+      "label": "Knowledgebase waterfall",
+      "material_roots": [
+        "energy"
+      ],
+      "material_roots_match_expected": true,
+      "mesh_count": 1,
+      "object_count": 2,
+      "source": "energy-system/pipelines/approved/knowledgebase-waterfall.glb",
+      "source_exists": true,
+      "tris": 1484
+    },
+    "leaderboard_lightning": {
+      "animation_requirement_met": true,
+      "animations": [],
+      "bbox": {
+        "center": [
+          -7.9999,
+          -45.0,
+          5.6772
+        ],
+        "max": [
+          -2.8949,
+          -39.8967,
+          11.2765
+        ],
+        "min": [
+          -13.1049,
+          -50.1033,
+          0.078
+        ],
+        "size": [
+          10.2101,
+          10.2066,
+          11.1985
+        ]
+      },
+      "collection_present": true,
+      "empty_count": 1,
+      "expected_material_roots": [
+        "energy"
+      ],
+      "invalid_materials": [],
+      "label": "Leaderboard lightning",
+      "material_roots": [
+        "energy"
+      ],
+      "material_roots_match_expected": true,
+      "mesh_count": 1,
+      "object_count": 2,
+      "source": "energy-system/pipelines/approved/leaderboard-lightning.glb",
+      "source_exists": true,
+      "tris": 866
+    },
+    "warm_mist": {
+      "animation_requirement_met": true,
+      "animations": [],
+      "bbox": {
+        "center": [
+          20.0239,
+          -24.4999,
+          19.3103
+        ],
+        "max": [
+          38.9993,
+          13.0001,
+          38.5456
+        ],
+        "min": [
+          1.0486,
+          -61.9998,
+          0.075
+        ],
+        "size": [
+          37.9507,
+          74.9999,
+          38.4706
+        ]
+      },
+      "collection_present": true,
+      "empty_count": 1,
+      "expected_material_roots": [
+        "energy"
+      ],
+      "invalid_materials": [],
+      "label": "Warm mist",
+      "material_roots": [
+        "energy"
+      ],
+      "material_roots_match_expected": true,
+      "mesh_count": 2,
+      "object_count": 3,
+      "source": "energy-system/pipelines/approved/warm-mist.glb",
+      "source_exists": true,
+      "tris": 2276
+    }
+  },
+  "grade_bar": "Block Phase 7 on visible quality, cohesion, camera-readability, asset-integrity, or runtime-risk defects. Allow documented design exceptions only when they remain visually strong and technically clean.",
+  "known_risks": [
+    {
+      "classification": "PASS_WITH_NOTE",
+      "id": "sia_dominance_legacy_ratio",
+      "summary": "SIA dominance ratio is below the original 2.5x ideal but above the Session 56 legacy acceptance floor and remains visually central."
+    },
+    {
+      "classification": "PASS_WITH_DOCUMENTATION_NOTE",
+      "id": "fitness_missing_historical_gate_narrative",
+      "summary": "Fitness has approved artifacts and status, but its historical detailed gate narrative remains absent."
+    },
+    {
+      "classification": "PASS_WITH_NOTE",
+      "id": "finance_low_triangle_crystalline_exception",
+      "summary": "Finance exterior remains intentionally low-triangle due crystalline planar design; re-audit checks for visual/runtime impact."
+    },
+    {
+      "classification": "PASS_WITH_NOTE",
+      "id": "knowledgebase_interior_160_tri_shortfall",
+      "summary": "Knowledgebase interior is 160 tris under its documented floor; accepted only if visible quality and runtime integrity remain clean."
+    },
+    {
+      "classification": "PASS_WITH_NOTE",
+      "id": "analytics_nutrition_cinematic_cutaways",
+      "summary": "Analytics and Nutrition interiors use documented cinematic cutaway depth exceptions for scroll readability."
+    },
+    {
+      "classification": "PASS_WITH_DOCUMENTATION_NOTE",
+      "id": "scroll_journey_master_context_drift",
+      "summary": "SCROLL-JOURNEY.md is treated as primary for Phase 7; MASTER-CONTEXT appendix drift is non-blocking unless implementation follows the stale appendix."
+    }
+  ],
+  "manual_visual_review_required": true,
+  "metrics": {
+    "active_city_tris": 183115,
+    "active_source_glb_bytes": 2481388,
+    "energy_asset_count": 7,
+    "energy_tris": 19202,
+    "environment_tris": 1568,
+    "interior_source_glb_bytes": 1562980,
+    "interior_tris_hidden_by_default": 86184,
+    "loaded_verification_tris": 269299,
+    "sia_dominance_ratio": 2.1841,
+    "sia_height": 40.1,
+    "structure_count": 12,
+    "structure_exterior_tris": 162345,
+    "tallest_district_height": 18.36
+  },
+  "phase": "pre-phase-7-grade-a-audit",
+  "possible_bbox_overlaps": [
+    {
+      "a": "Fitness",
+      "b": "Yoga",
+      "xy_overlap_area": 0.5712
+    },
+    {
+      "a": "Leaderboard",
+      "b": "Relationships",
+      "xy_overlap_area": 79.6031
+    }
+  ],
+  "review_items": [
+    {
+      "detail": "2 possible overlaps",
+      "name": "district_exterior_bbox_nonoverlap",
+      "passed": false,
+      "severity": "review"
+    }
+  ],
+  "screenshot_audit": {
+    "overview": [
+      {
+        "bytes": 1226709,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/screenshots/s56-energy-climax.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1161012,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/screenshots/s56-overview-citywide.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1443835,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/screenshots/s56-overview-topdown.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1367041,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/screenshots/s56-skyline-east.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1348728,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/screenshots/s56-skyline-north.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1408141,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/screenshots/s56-skyline-south.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1354393,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/screenshots/s56-skyline-west.png",
+        "width": 1600
+      }
+    ],
+    "scroll": [
+      {
+        "bytes": 1162572,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-01-arrival.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1331288,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-02-sia-tower-reveal.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1112754,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-03-sia-neural-core.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1492433,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-04-fitness-district.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1450300,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-05-yoga-sanctuary.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1525141,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-06-finance-tower.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1511319,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-07-knowledgebase.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1506779,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-08-communication-hub.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1586683,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-09-leaderboard-arena.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1516383,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-10-relationships-garden.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1653278,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-11-career-towers.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1393080,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-12-recovery-dreamscape.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1461104,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-13-analytics-cathedral.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1351050,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-14-nutrition-farm.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1221991,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-15-cross-pillar-revelation.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1140011,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-16-today-screen-street.png",
+        "width": 1600
+      },
+      {
+        "bytes": 1254060,
+        "dimensions_match": true,
+        "exists": true,
+        "expected_size": [
+          1600,
+          900
+        ],
+        "height": 900,
+        "nonblank": true,
+        "path": "assembly/scroll-verification/scene-17-sia-tower-return.png",
+        "width": 1600
+      }
+    ]
+  },
+  "session": 57,
+  "source_reports": {
+    "session_56_performance": "assembly/performance-reports/session-56-performance.json",
+    "session_56_report": "assembly/drafts/full-city-assembly-session56-report.json"
+  },
+  "structure_metrics": {
+    "Analytics": {
+      "bbox_combined": {
+        "center": [
+          -16.3594,
+          5.3575,
+          8.355
+        ],
+        "max": [
+          3.9098,
+          18.715,
+          16.71
+        ],
+        "min": [
+          -36.6286,
+          -8.0,
+          0.0
+        ],
+        "size": [
+          40.5385,
+          26.715,
+          16.71
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -31.0002,
+          14.0,
+          8.355
+        ],
+        "max": [
+          -25.3718,
+          18.715,
+          16.71
+        ],
+        "min": [
+          -36.6286,
+          9.2849,
+          0.0
+        ],
+        "size": [
+          11.2568,
+          9.4301,
+          16.71
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -0.0001,
+          0.0,
+          3.07
+        ],
+        "max": [
+          3.9098,
+          8.0,
+          6.14
+        ],
+        "min": [
+          -3.91,
+          -8.0,
+          0.0
+        ],
+        "size": [
+          7.8198,
+          16.0,
+          6.14
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 24577,
+      "exterior_object_count": 8,
+      "exterior_tris": 16259,
+      "interior_object_count": 44,
+      "interior_tris": 8318,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "AI Analytics",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 46,
+      "non_mesh_non_empty_types": [],
+      "object_count": 52,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/10-ai-analytics/interior/approved/analytics-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Career": {
+      "bbox_combined": {
+        "center": [
+          -16.115,
+          -18.1525,
+          9.18
+        ],
+        "max": [
+          5.67,
+          4.3,
+          18.36
+        ],
+        "min": [
+          -37.9,
+          -40.605,
+          0.0
+        ],
+        "size": [
+          43.57,
+          44.905,
+          18.36
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -30.0,
+          -34.0,
+          9.18
+        ],
+        "max": [
+          -22.1,
+          -27.395,
+          18.36
+        ],
+        "min": [
+          -37.9,
+          -40.605,
+          0.0
+        ],
+        "size": [
+          15.8,
+          13.21,
+          18.36
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          0.0002,
+          2.7999
+        ],
+        "max": [
+          5.67,
+          4.3,
+          5.5997
+        ],
+        "min": [
+          -5.67,
+          -4.2997,
+          0.0
+        ],
+        "size": [
+          11.34,
+          8.5997,
+          5.5997
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 26976,
+      "exterior_object_count": 176,
+      "exterior_tris": 19692,
+      "interior_object_count": 36,
+      "interior_tris": 7284,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Career",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 206,
+      "non_mesh_non_empty_types": [],
+      "object_count": 212,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/08-career/exterior/approved/career-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/08-career/interior/approved/career-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Chat": {
+      "bbox_combined": {
+        "center": [
+          10.1223,
+          -17.6675,
+          7.27
+        ],
+        "max": [
+          25.3045,
+          5.06,
+          14.5399
+        ],
+        "min": [
+          -5.06,
+          -40.395,
+          0.0
+        ],
+        "size": [
+          30.3645,
+          45.455,
+          14.5399
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          19.0,
+          -36.0,
+          7.27
+        ],
+        "max": [
+          25.3045,
+          -31.605,
+          14.5399
+        ],
+        "min": [
+          12.6955,
+          -40.395,
+          0.0
+        ],
+        "size": [
+          12.609,
+          8.79,
+          14.5399
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -0.0,
+          -0.01,
+          3.2349
+        ],
+        "max": [
+          5.0599,
+          5.06,
+          6.4698
+        ],
+        "min": [
+          -5.06,
+          -5.0799,
+          0.0
+        ],
+        "size": [
+          10.1199,
+          10.1399,
+          6.4698
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 27780,
+      "exterior_object_count": 193,
+      "exterior_tris": 18580,
+      "interior_object_count": 172,
+      "interior_tris": 9200,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Chat & Communication",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 359,
+      "non_mesh_non_empty_types": [],
+      "object_count": 365,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/05-chat-communication/interior/approved/chat-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Finance": {
+      "bbox_combined": {
+        "center": [
+          17.6,
+          -3.575,
+          9.02
+        ],
+        "max": [
+          41.2,
+          5.05,
+          18.05
+        ],
+        "min": [
+          -6.0,
+          -12.2,
+          -0.01
+        ],
+        "size": [
+          47.2,
+          17.25,
+          18.06
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          35.0,
+          -6.0,
+          9.025
+        ],
+        "max": [
+          41.2,
+          0.2,
+          18.05
+        ],
+        "min": [
+          28.8,
+          -12.2,
+          0.0
+        ],
+        "size": [
+          12.4,
+          12.4,
+          18.05
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -0.0,
+          -0.225,
+          4.695
+        ],
+        "max": [
+          6.0,
+          5.05,
+          9.4
+        ],
+        "min": [
+          -6.0,
+          -5.5,
+          -0.01
+        ],
+        "size": [
+          12.0,
+          10.55,
+          9.41
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 9800,
+      "exterior_object_count": 199,
+      "exterior_tris": 3602,
+      "interior_object_count": 255,
+      "interior_tris": 6198,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Finance",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 449,
+      "non_mesh_non_empty_types": [],
+      "object_count": 454,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/03-finance/interior/approved/finance-int-approved-s15.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Fitness": {
+      "bbox_combined": {
+        "center": [
+          13.0312,
+          12.5246,
+          6.455
+        ],
+        "max": [
+          34.6,
+          33.5866,
+          13.5
+        ],
+        "min": [
+          -8.5375,
+          -8.5375,
+          -0.59
+        ],
+        "size": [
+          43.1375,
+          42.1241,
+          14.09
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          26.0,
+          24.9057,
+          6.75
+        ],
+        "max": [
+          34.6,
+          33.5866,
+          13.5
+        ],
+        "min": [
+          17.4,
+          16.2248,
+          0.0
+        ],
+        "size": [
+          17.2,
+          17.3618,
+          13.5
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.5812,
+          1.6912,
+          1.5425
+        ],
+        "max": [
+          9.7,
+          11.92,
+          3.6751
+        ],
+        "min": [
+          -8.5375,
+          -8.5375,
+          -0.59
+        ],
+        "size": [
+          18.2375,
+          20.4575,
+          4.2651
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 17976,
+      "exterior_object_count": 42,
+      "exterior_tris": 12066,
+      "interior_object_count": 11,
+      "interior_tris": 5910,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Fitness",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 46,
+      "non_mesh_non_empty_types": [],
+      "object_count": 53,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/01-fitness/interior/approved/fitness-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Knowledgebase": {
+      "bbox_combined": {
+        "center": [
+          15.0748,
+          -11.381,
+          3.0305
+        ],
+        "max": [
+          33.6888,
+          3.088,
+          12.5
+        ],
+        "min": [
+          -3.5391,
+          -25.85,
+          -6.4391
+        ],
+        "size": [
+          37.2278,
+          28.938,
+          18.9391
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          31.0,
+          -22.825,
+          6.205
+        ],
+        "max": [
+          33.6888,
+          -19.8,
+          12.5
+        ],
+        "min": [
+          28.3113,
+          -25.85,
+          -0.09
+        ],
+        "size": [
+          5.3775,
+          6.05,
+          12.59
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -0.8695,
+          0.2205,
+          -0.064
+        ],
+        "max": [
+          1.8,
+          3.088,
+          6.311
+        ],
+        "min": [
+          -3.5391,
+          -2.6471,
+          -6.4391
+        ],
+        "size": [
+          5.3391,
+          5.7351,
+          12.7501
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 13372,
+      "exterior_object_count": 357,
+      "exterior_tris": 7532,
+      "interior_object_count": 157,
+      "interior_tris": 5840,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Knowledgebase",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 510,
+      "non_mesh_non_empty_types": [],
+      "object_count": 514,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/04-knowledgebase/interior/approved/knowledgebase-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Leaderboard": {
+      "bbox_combined": {
+        "center": [
+          -5.43,
+          -25.9489,
+          5.3421
+        ],
+        "max": [
+          6.34,
+          6.3522,
+          10.6842
+        ],
+        "min": [
+          -17.2,
+          -58.25,
+          0.0
+        ],
+        "size": [
+          23.54,
+          64.6022,
+          10.6842
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -8.0,
+          -45.0,
+          5.3421
+        ],
+        "max": [
+          1.2,
+          -31.75,
+          10.6842
+        ],
+        "min": [
+          -17.2,
+          -58.25,
+          0.0
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          0.0761,
+          3.3127
+        ],
+        "max": [
+          6.34,
+          6.3522,
+          6.6253
+        ],
+        "min": [
+          -6.34,
+          -6.2,
+          0.0
+        ],
+        "size": [
+          12.68,
+          12.5522,
+          6.6253
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 26872,
+      "exterior_object_count": 181,
+      "exterior_tris": 17424,
+      "interior_object_count": 136,
+      "interior_tris": 9448,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Leaderboard & Competition",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 311,
+      "non_mesh_non_empty_types": [],
+      "object_count": 317,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/06-leaderboard-competition/interior/approved/leaderboard-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Nutrition": {
+      "bbox_combined": {
+        "center": [
+          -6.6651,
+          18.24,
+          4.2976
+        ],
+        "max": [
+          4.2698,
+          43.1,
+          8.5952
+        ],
+        "min": [
+          -17.6,
+          -6.62,
+          0.0
+        ],
+        "size": [
+          21.8698,
+          49.72,
+          8.5952
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -12.0,
+          38.9999,
+          4.2976
+        ],
+        "max": [
+          -6.4,
+          43.1,
+          8.5952
+        ],
+        "min": [
+          -17.6,
+          34.8998,
+          0.0
+        ],
+        "size": [
+          11.2,
+          8.2002,
+          8.5952
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -0.0001,
+          -0.005,
+          2.5587
+        ],
+        "max": [
+          4.2698,
+          6.61,
+          5.1174
+        ],
+        "min": [
+          -4.27,
+          -6.62,
+          0.0
+        ],
+        "size": [
+          8.5398,
+          13.23,
+          5.1174
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 27260,
+      "exterior_object_count": 7,
+      "exterior_tris": 17964,
+      "interior_object_count": 37,
+      "interior_tris": 9296,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Nutrition",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 38,
+      "non_mesh_non_empty_types": [],
+      "object_count": 44,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/11-nutrition/interior/approved/nutrition-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Recovery": {
+      "bbox_combined": {
+        "center": [
+          -23.6538,
+          -4.7243,
+          3.9823
+        ],
+        "max": [
+          6.55,
+          5.1,
+          7.9645
+        ],
+        "min": [
+          -53.8576,
+          -14.5486,
+          0.0
+        ],
+        "size": [
+          60.4076,
+          19.6486,
+          7.9645
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -43.0,
+          -8.0001,
+          3.9823
+        ],
+        "max": [
+          -32.1424,
+          -1.4517,
+          7.9645
+        ],
+        "min": [
+          -53.8576,
+          -14.5486,
+          0.0
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          0.0001,
+          2.7224
+        ],
+        "max": [
+          6.55,
+          5.1,
+          5.4447
+        ],
+        "min": [
+          -6.55,
+          -5.0998,
+          0.0
+        ],
+        "size": [
+          13.1,
+          10.1998,
+          5.4447
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 21252,
+      "exterior_object_count": 7,
+      "exterior_tris": 14488,
+      "interior_object_count": 31,
+      "interior_tris": 6764,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Recovery & Sleep",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 32,
+      "non_mesh_non_empty_types": [],
+      "object_count": 38,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/09-recovery-sleep/interior/approved/recovery-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Relationships": {
+      "bbox_combined": {
+        "center": [
+          8.0,
+          -32.2705,
+          3.67
+        ],
+        "max": [
+          22.8072,
+          5.15,
+          7.3401
+        ],
+        "min": [
+          -6.8072,
+          -69.691,
+          0.0
+        ],
+        "size": [
+          29.6145,
+          74.841,
+          7.3401
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          8.0,
+          -58.9998,
+          3.67
+        ],
+        "max": [
+          22.8072,
+          -48.3086,
+          7.3401
+        ],
+        "min": [
+          -6.8072,
+          -69.691,
+          0.0
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          0.0,
+          2.7562
+        ],
+        "max": [
+          6.35,
+          5.15,
+          5.5123
+        ],
+        "min": [
+          -6.35,
+          -5.15,
+          0.0
+        ],
+        "size": [
+          12.7,
+          10.3,
+          5.5123
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 21398,
+      "exterior_object_count": 7,
+      "exterior_tris": 14986,
+      "interior_object_count": 34,
+      "interior_tris": 6412,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Relationships",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 35,
+      "non_mesh_non_empty_types": [],
+      "object_count": 41,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/07-relationships/interior/approved/relationships-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "SIA_Tower": {
+      "bbox_combined": {
+        "center": [
+          0.0,
+          -0.0,
+          21.0
+        ],
+        "max": [
+          13.0129,
+          12.3909,
+          42.0
+        ],
+        "min": [
+          -13.0129,
+          -12.391,
+          0.0
+        ],
+        "size": [
+          26.0258,
+          24.7819,
+          42.0
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          0.0,
+          -0.0,
+          20.05
+        ],
+        "max": [
+          13.0129,
+          12.3909,
+          40.1
+        ],
+        "min": [
+          -13.0129,
+          -12.391,
+          0.0
+        ],
+        "size": [
+          26.0258,
+          24.7819,
+          40.1
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          -0.025,
+          23.0
+        ],
+        "max": [
+          3.0296,
+          3.0,
+          42.0
+        ],
+        "min": [
+          -3.0296,
+          -3.05,
+          4.0
+        ],
+        "size": [
+          6.0593,
+          6.05,
+          38.0
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 9582,
+      "exterior_object_count": 14,
+      "exterior_tris": 6956,
+      "interior_object_count": 86,
+      "interior_tris": 2626,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "SIA Tower",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 93,
+      "non_mesh_non_empty_types": [],
+      "object_count": 100,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/00-sia-tower/interior/approved/sia-tower-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    },
+    "Yoga": {
+      "bbox_combined": {
+        "center": [
+          19.64,
+          5.29,
+          2.6352
+        ],
+        "max": [
+          45.0,
+          16.3,
+          5.5003
+        ],
+        "min": [
+          -5.72,
+          -5.72,
+          -0.23
+        ],
+        "size": [
+          50.72,
+          22.02,
+          5.7303
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          36.0,
+          10.0001,
+          2.7334
+        ],
+        "max": [
+          45.0,
+          16.3,
+          5.4668
+        ],
+        "min": [
+          27.0,
+          3.7001,
+          0.0
+        ],
+        "size": [
+          18.0,
+          12.5999,
+          5.4668
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          0.0,
+          2.6352
+        ],
+        "max": [
+          5.72,
+          5.72,
+          5.5003
+        ],
+        "min": [
+          -5.72,
+          -5.72,
+          -0.23
+        ],
+        "size": [
+          11.44,
+          11.44,
+          5.7303
+        ]
+      },
+      "collection_present": true,
+      "combined_tris": 21684,
+      "exterior_object_count": 151,
+      "exterior_tris": 12796,
+      "interior_object_count": 117,
+      "interior_tris": 8888,
+      "interiors_hidden_by_default": true,
+      "invalid_materials": [],
+      "label": "Yoga & Wellbeing",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "material_roots_valid": true,
+      "mesh_count": 264,
+      "non_mesh_non_empty_types": [],
+      "object_count": 268,
+      "review_has_exterior_approval": true,
+      "review_has_interior_approval": true,
+      "review_present": true,
+      "source_exterior": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "source_exterior_exists": true,
+      "source_interior": "modules/02-yoga-wellbeing/interior/approved/yoga-int.glb",
+      "source_interior_exists": true,
+      "spec_present": true
+    }
+  }
+}
