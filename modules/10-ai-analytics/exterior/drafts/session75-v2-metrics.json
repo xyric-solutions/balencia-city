@@ -1,0 +1,130 @@
+{
+  "session": 75,
+  "script_revision": "s75-nutrition-green-accent-v2",
+  "date": "2026-05-26",
+  "module": "AI Analytics",
+  "source_glb": "modules/10-ai-analytics/exterior/drafts/analytics-ext-draft-s42.glb",
+  "output_blend": "modules/10-ai-analytics/exterior/drafts/analytics-session75-v2-polish.blend",
+  "draft_glb": "modules/10-ai-analytics/exterior/drafts/analytics-ext-v2-draft-s75.glb",
+  "approved_glb": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext.glb",
+  "pre_tris": 16259,
+  "pre_objects": 7,
+  "pre_bbox": {
+    "min": [
+      -5.6286,
+      -4.7151,
+      0.0
+    ],
+    "max": [
+      5.6282,
+      4.715,
+      16.71
+    ],
+    "size": [
+      11.2568,
+      9.4301,
+      16.71
+    ],
+    "center": [
+      -0.0002,
+      -0.0,
+      8.355
+    ]
+  },
+  "final_live_tris": 19411,
+  "final_live_objects": 7,
+  "final_tris": 19411,
+  "final_objects": 7,
+  "final_size_bytes": 127428,
+  "final_size_kb": 124.4,
+  "bbox": {
+    "min": [
+      -6.5999,
+      -5.2292,
+      0.0
+    ],
+    "max": [
+      6.5997,
+      4.9162,
+      16.71
+    ],
+    "size": [
+      13.1996,
+      10.1455,
+      16.71
+    ],
+    "center": [
+      -0.0001,
+      -0.1565,
+      8.355
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "session75 analytics data cathedral living finish": {
+      "objects": 173,
+      "tris": 3152
+    }
+  },
+  "budget": {
+    "tri_min": 18000,
+    "tri_max": 20500,
+    "size_min_kb": 100,
+    "size_max_kb": 400,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/10-ai-analytics/exterior/drafts/analytics-ext-v2-draft-s75.glb",
+    "object_count": 7,
+    "tris": 19411,
+    "size_bytes": 127428,
+    "size_kb": 124.4,
+    "bbox": {
+      "min": [
+        -6.5999,
+        -5.2292,
+        0.0
+      ],
+      "max": [
+        6.5997,
+        4.9162,
+        16.71
+      ],
+      "size": [
+        13.1996,
+        10.1455,
+        16.71
+      ],
+      "center": [
+        -0.0001,
+        -0.1565,
+        8.355
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "analytics-ext"
+    ],
+    "passed": true,
+    "root_check_passed": true
+  }
+}

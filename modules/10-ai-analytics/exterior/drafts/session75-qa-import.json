@@ -1,0 +1,45 @@
+{
+  "path": "modules/10-ai-analytics/exterior/drafts/analytics-ext-v2-draft-s75.glb",
+  "object_count": 7,
+  "tris": 19411,
+  "size_bytes": 127428,
+  "size_kb": 124.4,
+  "bbox": {
+    "min": [
+      -6.5999,
+      -5.2292,
+      0.0
+    ],
+    "max": [
+      6.5997,
+      4.9162,
+      16.71
+    ],
+    "size": [
+      13.1996,
+      10.1455,
+      16.71
+    ],
+    "center": [
+      -0.0001,
+      -0.1565,
+      8.355
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "analytics-ext"
+  ],
+  "passed": true,
+  "root_check_passed": true
+}

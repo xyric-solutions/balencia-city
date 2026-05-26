@@ -407,3 +407,34 @@ Recovery integration is approved. Exterior and interior assets align, Scene 12 c
 - `energy-system/screenshots/s51-faint-thread-recovery.png`
 
 **Overall Verdict**: APPROVED
+
+---
+
+## Phase 8 Exterior Polish
+
+### Session 73 -- 2026-05-26 -- Organic Exterior Polish Wave
+
+**Scope**: Phase 8.5 v2 exterior polish for the approved organic districts. Recovery was upgraded in-place from the approved GLB while preserving origin, bottom-center alignment, city-layout-v2 placement, app path, and faint-thread endpoint assumptions.
+
+**Build Actions**:
+- Added lake sleep ripples and dark reflection shelves to improve the mirror-lake base without turning it into Yoga's sanctuary water language.
+- Added soft-shell contour ribbons that strengthen the cloud-lobe finish while preserving the no-sharp-edges silhouette.
+- Added restrained pillar halos and glass sleeves around the indigo support beams.
+- Added muted star jewels and dissolving edge wisps to reinforce the dreamscape identity.
+- Promoted the validated v2 GLB to `exterior/approved/recovery-ext.glb` and `apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext.glb`.
+
+**Metrics**:
+- Previous approved exterior: 14,488 tris, 6 packed objects, 131.6 KB.
+- Session 73 v2 exterior: 17,412 tris, 11 objects, 147.3 KB.
+- Added geometry: 29 source objects, 2,924 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `recovery-ext`.
+
+**Evidence**:
+- `screenshots/session73-recovery-v2-front.png`
+- `screenshots/session73-recovery-v2-threequarter.png`
+- `screenshots/session73-recovery-v2-dark-first.png`
+- `exterior/drafts/session73-v2-metrics.json`
+- `exterior/drafts/session73-qa-import.json`
+
+**Verdict**: APPROVED. Recovery v2 stays within Phase 8 exterior budget and preserves the approved floating cloud-over-lake identity.

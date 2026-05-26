@@ -1,0 +1,126 @@
+{
+  "session": 73,
+  "date": "2026-05-26",
+  "module": "Relationships",
+  "source_glb": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+  "output_blend": "modules/07-relationships/exterior/drafts/relationships-session73-v2-polish.blend",
+  "draft_glb": "modules/07-relationships/exterior/drafts/relationships-ext-v2-draft-s73.glb",
+  "approved_glb": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/07-relationships/relationships-ext.glb",
+  "pre_tris": 14986,
+  "pre_objects": 6,
+  "pre_bbox": {
+    "min": [
+      -14.8072,
+      -10.691,
+      0.0
+    ],
+    "max": [
+      14.8072,
+      10.6914,
+      7.3401
+    ],
+    "size": [
+      29.6145,
+      21.3824,
+      7.3401
+    ],
+    "center": [
+      0.0,
+      0.0002,
+      3.67
+    ]
+  },
+  "final_live_tris": 17170,
+  "final_live_objects": 10,
+  "final_tris": 17170,
+  "final_objects": 10,
+  "final_size_bytes": 131248,
+  "final_size_kb": 128.2,
+  "bbox": {
+    "min": [
+      -14.8072,
+      -10.691,
+      0.0
+    ],
+    "max": [
+      14.8072,
+      10.6914,
+      7.3401
+    ],
+    "size": [
+      29.6145,
+      21.3824,
+      7.3401
+    ],
+    "center": [
+      0.0,
+      0.0002,
+      3.67
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session73 relationships garden pavilion finish": {
+      "objects": 44,
+      "tris": 2184
+    }
+  },
+  "budget": {
+    "tri_min": 12000,
+    "tri_max": 18000,
+    "size_min_kb": 80,
+    "size_max_kb": 350,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/07-relationships/exterior/drafts/relationships-ext-v2-draft-s73.glb",
+    "object_count": 10,
+    "tris": 17170,
+    "size_bytes": 131248,
+    "size_kb": 128.2,
+    "bbox": {
+      "min": [
+        -14.8072,
+        -10.691,
+        0.0
+      ],
+      "max": [
+        14.8072,
+        10.6914,
+        7.3401
+      ],
+      "size": [
+        29.6145,
+        21.3824,
+        7.3401
+      ],
+      "center": [
+        0.0,
+        0.0002,
+        3.67
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "relationships-ext"
+    ],
+    "passed": true
+  }
+}

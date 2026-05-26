@@ -1074,3 +1074,24 @@ The interior is approved for integration. The module is now ready for energy int
 
 ### QA Reviews
 <!-- DESIGN-08 appends energy review here -->
+
+### QA Review -- Session 74 Phase 8 Exterior Polish
+
+**Date**: 2026-05-26  
+**Reviewer**: Codex + Blender
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Phase 8 exterior finish | Urban/civic detail pass | PASS | Added archive column sleeves/fluting, recessed vault arches, holo catalog panels, waterfall strands, reservoir basin, and crown beacon signals. |
+| Runtime compatibility | Origin, layout, app path | PASS | Preserved approved origin and city-layout-v2 assumptions; promoted to module approved and app public model paths. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported cleanly with approved material slots only, one root named `knowledgebase-ext`, and no cameras/lights. |
+| Budget | Phase 8 exterior density/file size | PASS | 15,204 tris, 7 objects, 102.0 KB. |
+
+**Artifacts**:
+- `modules/04-knowledgebase/exterior/drafts/session74-v2-metrics.json`
+- `modules/04-knowledgebase/exterior/drafts/session74-qa-import.json`
+- `modules/04-knowledgebase/screenshots/session74-knowledgebase-v2-front.png`
+- `modules/04-knowledgebase/screenshots/session74-knowledgebase-v2-threequarter.png`
+- `modules/04-knowledgebase/screenshots/session74-knowledgebase-v2-dark-first.png`
+
+**Overall Verdict**: APPROVED

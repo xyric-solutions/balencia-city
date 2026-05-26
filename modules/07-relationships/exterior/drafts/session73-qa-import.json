@@ -1,0 +1,43 @@
+{
+  "path": "modules/07-relationships/exterior/drafts/relationships-ext-v2-draft-s73.glb",
+  "object_count": 10,
+  "tris": 17170,
+  "size_bytes": 131248,
+  "size_kb": 128.2,
+  "bbox": {
+    "min": [
+      -14.8072,
+      -10.691,
+      0.0
+    ],
+    "max": [
+      14.8072,
+      10.6914,
+      7.3401
+    ],
+    "size": [
+      29.6145,
+      21.3824,
+      7.3401
+    ],
+    "center": [
+      0.0,
+      0.0002,
+      3.67
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "relationships-ext"
+  ],
+  "passed": true
+}

@@ -1,0 +1,128 @@
+{
+  "session": 75,
+  "script_revision": "s75-nutrition-green-accent-v2",
+  "date": "2026-05-26",
+  "module": "Leaderboard & Competition",
+  "source_glb": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-draft-s26.glb",
+  "output_blend": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-session75-v2-polish.blend",
+  "draft_glb": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-v2-draft-s75.glb",
+  "approved_glb": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+  "pre_tris": 17424,
+  "pre_objects": 180,
+  "pre_bbox": {
+    "min": [
+      -9.2,
+      -13.25,
+      0.0
+    ],
+    "max": [
+      9.2,
+      13.25,
+      10.6842
+    ],
+    "size": [
+      18.4,
+      26.5,
+      10.6842
+    ],
+    "center": [
+      0.0,
+      0.0,
+      5.3421
+    ]
+  },
+  "final_live_tris": 19928,
+  "final_live_objects": 6,
+  "final_tris": 19928,
+  "final_objects": 6,
+  "final_size_bytes": 155148,
+  "final_size_kb": 151.5,
+  "bbox": {
+    "min": [
+      -9.2,
+      -19.9017,
+      0.0
+    ],
+    "max": [
+      9.1994,
+      13.25,
+      11.3734
+    ],
+    "size": [
+      18.3994,
+      33.1517,
+      11.3734
+    ],
+    "center": [
+      -0.0003,
+      -3.3259,
+      5.6867
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session75 leaderboard arena victory finish": {
+      "objects": 128,
+      "tris": 2504
+    }
+  },
+  "budget": {
+    "tri_min": 18000,
+    "tri_max": 20500,
+    "size_min_kb": 100,
+    "size_max_kb": 400,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-v2-draft-s75.glb",
+    "object_count": 6,
+    "tris": 19928,
+    "size_bytes": 155148,
+    "size_kb": 151.5,
+    "bbox": {
+      "min": [
+        -9.2,
+        -19.9017,
+        0.0
+      ],
+      "max": [
+        9.1994,
+        13.25,
+        11.3734
+      ],
+      "size": [
+        18.3994,
+        33.1517,
+        11.3734
+      ],
+      "center": [
+        -0.0003,
+        -3.3259,
+        5.6867
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "leaderboard-ext"
+    ],
+    "passed": true,
+    "root_check_passed": true
+  }
+}

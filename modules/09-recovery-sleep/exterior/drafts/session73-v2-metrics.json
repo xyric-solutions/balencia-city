@@ -1,0 +1,126 @@
+{
+  "session": 73,
+  "date": "2026-05-26",
+  "module": "Recovery & Sleep",
+  "source_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+  "output_blend": "modules/09-recovery-sleep/exterior/drafts/recovery-session73-v2-polish.blend",
+  "draft_glb": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-v2-draft-s73.glb",
+  "approved_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext.glb",
+  "pre_tris": 14488,
+  "pre_objects": 6,
+  "pre_bbox": {
+    "min": [
+      -10.8576,
+      -6.5486,
+      0.0
+    ],
+    "max": [
+      10.8576,
+      6.5483,
+      7.9645
+    ],
+    "size": [
+      21.7151,
+      13.0969,
+      7.9645
+    ],
+    "center": [
+      0.0,
+      -0.0001,
+      3.9823
+    ]
+  },
+  "final_live_tris": 17412,
+  "final_live_objects": 11,
+  "final_tris": 17412,
+  "final_objects": 11,
+  "final_size_bytes": 150820,
+  "final_size_kb": 147.3,
+  "bbox": {
+    "min": [
+      -10.8576,
+      -6.5486,
+      0.0
+    ],
+    "max": [
+      10.8576,
+      6.5483,
+      7.9645
+    ],
+    "size": [
+      21.7151,
+      13.0969,
+      7.9645
+    ],
+    "center": [
+      0.0,
+      -0.0001,
+      3.9823
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session73 recovery soft-shell and lake finish": {
+      "objects": 29,
+      "tris": 2924
+    }
+  },
+  "budget": {
+    "tri_min": 12000,
+    "tri_max": 18000,
+    "size_min_kb": 80,
+    "size_max_kb": 350,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-v2-draft-s73.glb",
+    "object_count": 11,
+    "tris": 17412,
+    "size_bytes": 150820,
+    "size_kb": 147.3,
+    "bbox": {
+      "min": [
+        -10.8576,
+        -6.5486,
+        0.0
+      ],
+      "max": [
+        10.8576,
+        6.5483,
+        7.9645
+      ],
+      "size": [
+        21.7151,
+        13.0969,
+        7.9645
+      ],
+      "center": [
+        0.0,
+        -0.0001,
+        3.9823
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "recovery-ext"
+    ],
+    "passed": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "path": "modules/05-chat-communication/exterior/drafts/chat-ext-v2-draft-s74.glb",
+  "object_count": 7,
+  "tris": 20052,
+  "size_bytes": 161944,
+  "size_kb": 158.1,
+  "bbox": {
+    "min": [
+      -6.3045,
+      -4.3949,
+      0.0
+    ],
+    "max": [
+      6.3045,
+      4.395,
+      14.5399
+    ],
+    "size": [
+      12.609,
+      8.7899,
+      14.5399
+    ],
+    "center": [
+      0.0,
+      0.0,
+      7.27
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "chat-ext"
+  ],
+  "passed": true
+}

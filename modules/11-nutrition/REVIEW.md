@@ -10,6 +10,7 @@
 
 **Exterior Status**: Approved -- Session 46 Complete
 **Exterior Approved**: [x] Yes / Date: 2026-05-25
+**Phase 8 v2 Polish**: Session 75 Approved / Date: 2026-05-26 -- 19,876 tris, 6 mesh objects, 121.7 KB, one clean `nutrition-ext` root, no cameras/lights, green plant `accent` restored, and amber grow-light signals preserved.
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -147,6 +148,41 @@
 
 **Next Session**:
 - Proceed to Nutrition interior Session 47: Nourishment Hall.
+
+#### Session 75 -- 2026-05-26 -- Phase 8 Signature Exterior Polish
+
+**Skill**: Session 75 build loop via Codex + Blender background runner
+**Blender Version**: 5.1.x
+**Scope**: Additive Phase 8 v2 exterior polish, approved/app GLB promotion, evidence renders, and import QA.
+
+**Build Actions**:
+- Rebuilt from the pre-polish Session 46 exterior draft to avoid compounding polish passes.
+- Added terrace planter lips, amber seedling glows, hanging vine lines, leaf clusters, greenhouse diagonal mullions, market produce crates, irrigation droplet nodes, and roof vent warm finish rings.
+- Preserved the stepped vertical-farm silhouette, bottom-centered origin, city-layout-v2 placement assumptions, and baked hard-pipeline endpoint assumptions.
+- Restored Nutrition's green plant `accent` read while preserving amber grow-light and roof signals on `emissive`.
+
+**Export Metrics**:
+- Previous approved exterior: 17,964 tris, 6 mesh objects, 108,788 bytes.
+- Session 75 v2 exterior: 19,876 tris, 6 mesh objects, 124,572 bytes (121.7 KB).
+- Root: one clean root named `nutrition-ext`.
+- Cameras/lights: none exported.
+- BBox min Z: within tolerance at ground plane.
+
+**Files**:
+- Prompt: `prompts/session-75-leaderboard-analytics-nutrition-signature-polish-wave.md`
+- Build script: `assembly/drafts/build-session-75-signature-polish.py`
+- Metrics: `exterior/drafts/session75-v2-metrics.json`
+- QA import report: `exterior/drafts/session75-qa-import.json`
+- Draft GLB: `exterior/drafts/nutrition-ext-v2-draft-s75.glb`
+- Approved GLB: `exterior/approved/nutrition-ext.glb`
+
+**Screenshots**:
+- `screenshots/session75-nutrition-v2-front.png`
+- `screenshots/session75-nutrition-v2-threequarter.png`
+- `screenshots/session75-nutrition-v2-dark-first.png`
+- `assembly/screenshots/s75-exterior-finish-contact-sheet.png`
+
+**Final Verdict**: APPROVED for Phase 8 v2 exterior polish.
 
 ### QA Reviews
 <!-- DESIGN-08 appends gate results here -->

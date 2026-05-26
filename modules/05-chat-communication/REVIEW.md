@@ -375,3 +375,24 @@ Chat & Communication integration is approved. Exterior and interior assets align
 
 ### QA Reviews
 <!-- DESIGN-08 appends energy review here -->
+
+### QA Review -- Session 74 Phase 8 Exterior Polish
+
+**Date**: 2026-05-26  
+**Reviewer**: Codex + Blender
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Phase 8 exterior finish | Urban communication detail pass | PASS | Added live signal bands, outward holo screens, antenna crowns, glass bridge sleeves, inner signal threads, bridge status nodes, and conversation plaza tiles. |
+| Runtime compatibility | Origin, layout, app path | PASS | Preserved approved origin and city-layout-v2 assumptions; promoted to module approved and app public model paths. |
+| Import/export hygiene | Materials, cameras/lights | PASS | Reimported cleanly with approved material slots only and no cameras/lights. |
+| Budget | Phase 8 exterior density/file size | PASS | 20,052 tris, 7 objects, 158.1 KB. |
+
+**Artifacts**:
+- `modules/05-chat-communication/exterior/drafts/session74-v2-metrics.json`
+- `modules/05-chat-communication/exterior/drafts/session74-qa-import.json`
+- `modules/05-chat-communication/screenshots/session74-chat-v2-front.png`
+- `modules/05-chat-communication/screenshots/session74-chat-v2-threequarter.png`
+- `modules/05-chat-communication/screenshots/session74-chat-v2-dark-first.png`
+
+**Overall Verdict**: APPROVED

@@ -1,0 +1,1360 @@
+{
+  "session": 73,
+  "date": "2026-05-26",
+  "scope": "Phase 8.5 Yoga + Recovery + Relationships organic exterior polish wave",
+  "pre_audit": [
+    {
+      "id": "sia-tower",
+      "label": "SIA Tower",
+      "path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "tris": 14844,
+      "object_count": 357,
+      "size_bytes": 392296,
+      "size_kb": 383.1,
+      "bbox": {
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ],
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "tris": 16402,
+      "object_count": 45,
+      "size_bytes": 106308,
+      "size_kb": 103.8,
+      "bbox": {
+        "min": [
+          -12.0733,
+          -12.2806,
+          0.0
+        ],
+        "max": [
+          12.0734,
+          12.0922,
+          14.1505
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ],
+        "center": [
+          0.0001,
+          -0.0942,
+          7.0753
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "yoga",
+      "label": "Yoga & Wellbeing",
+      "path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "tris": 16052,
+      "object_count": 154,
+      "size_bytes": 253132,
+      "size_kb": 247.2,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "tris": 15370,
+      "object_count": 205,
+      "size_bytes": 254740,
+      "size_kb": 248.8,
+      "bbox": {
+        "min": [
+          -6.5987,
+          -6.5987,
+          0.0
+        ],
+        "max": [
+          6.5987,
+          7.771,
+          18.43
+        ],
+        "size": [
+          13.1974,
+          14.3697,
+          18.43
+        ],
+        "center": [
+          0.0,
+          0.5861,
+          9.215
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "knowledgebase",
+      "label": "Knowledgebase",
+      "path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "tris": 7532,
+      "object_count": 357,
+      "size_bytes": 365600,
+      "size_kb": 357.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -3.85,
+          -0.09
+        ],
+        "max": [
+          2.6888,
+          2.2,
+          12.5
+        ],
+        "size": [
+          5.3775,
+          6.05,
+          12.59
+        ],
+        "center": [
+          0.0,
+          -0.825,
+          6.205
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "chat",
+      "label": "Chat & Communication",
+      "path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "tris": 18580,
+      "object_count": 192,
+      "size_bytes": 307192,
+      "size_kb": 300.0,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.395,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.79,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "tris": 17424,
+      "object_count": 180,
+      "size_bytes": 278620,
+      "size_kb": 272.1,
+      "bbox": {
+        "min": [
+          -9.2,
+          -13.25,
+          0.0
+        ],
+        "max": [
+          9.2,
+          13.25,
+          10.6842
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.3421
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships",
+      "path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "tris": 14986,
+      "object_count": 6,
+      "size_bytes": 114636,
+      "size_kb": 111.9,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "career",
+      "label": "Career",
+      "path": "modules/08-career/exterior/approved/career-ext.glb",
+      "tris": 19692,
+      "object_count": 175,
+      "size_bytes": 245296,
+      "size_kb": 239.5,
+      "bbox": {
+        "min": [
+          -7.9,
+          -6.605,
+          0.0
+        ],
+        "max": [
+          7.9,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.8,
+          13.21,
+          18.36
+        ],
+        "center": [
+          0.0,
+          -0.0,
+          9.18
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "recovery",
+      "label": "Recovery & Sleep",
+      "path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "tris": 14488,
+      "object_count": 6,
+      "size_bytes": 131648,
+      "size_kb": 128.6,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "analytics",
+      "label": "AI Analytics",
+      "path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "tris": 16259,
+      "object_count": 7,
+      "size_bytes": 104200,
+      "size_kb": 101.8,
+      "bbox": {
+        "min": [
+          -5.6286,
+          -4.7151,
+          0.0
+        ],
+        "max": [
+          5.6282,
+          4.715,
+          16.71
+        ],
+        "size": [
+          11.2568,
+          9.4301,
+          16.71
+        ],
+        "center": [
+          -0.0002,
+          -0.0,
+          8.355
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "tris": 17964,
+      "object_count": 6,
+      "size_bytes": 108788,
+      "size_kb": 106.2,
+      "bbox": {
+        "min": [
+          -5.6,
+          -4.1002,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.1,
+          8.5952
+        ],
+        "size": [
+          11.2,
+          8.2002,
+          8.5952
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          4.2976
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    }
+  ],
+  "post_audit": [
+    {
+      "id": "sia-tower",
+      "label": "SIA Tower",
+      "path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "tris": 14844,
+      "object_count": 357,
+      "size_bytes": 392296,
+      "size_kb": 383.1,
+      "bbox": {
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ],
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "tris": 16402,
+      "object_count": 45,
+      "size_bytes": 106308,
+      "size_kb": 103.8,
+      "bbox": {
+        "min": [
+          -12.0733,
+          -12.2806,
+          0.0
+        ],
+        "max": [
+          12.0734,
+          12.0922,
+          14.1505
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ],
+        "center": [
+          0.0001,
+          -0.0942,
+          7.0753
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "yoga",
+      "label": "Yoga & Wellbeing",
+      "path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "tris": 16052,
+      "object_count": 154,
+      "size_bytes": 253132,
+      "size_kb": 247.2,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "tris": 15370,
+      "object_count": 205,
+      "size_bytes": 254740,
+      "size_kb": 248.8,
+      "bbox": {
+        "min": [
+          -6.5987,
+          -6.5987,
+          0.0
+        ],
+        "max": [
+          6.5987,
+          7.771,
+          18.43
+        ],
+        "size": [
+          13.1974,
+          14.3697,
+          18.43
+        ],
+        "center": [
+          0.0,
+          0.5861,
+          9.215
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "knowledgebase",
+      "label": "Knowledgebase",
+      "path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "tris": 7532,
+      "object_count": 357,
+      "size_bytes": 365600,
+      "size_kb": 357.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -3.85,
+          -0.09
+        ],
+        "max": [
+          2.6888,
+          2.2,
+          12.5
+        ],
+        "size": [
+          5.3775,
+          6.05,
+          12.59
+        ],
+        "center": [
+          0.0,
+          -0.825,
+          6.205
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "chat",
+      "label": "Chat & Communication",
+      "path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "tris": 18580,
+      "object_count": 192,
+      "size_bytes": 307192,
+      "size_kb": 300.0,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.395,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.79,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "tris": 17424,
+      "object_count": 180,
+      "size_bytes": 278620,
+      "size_kb": 272.1,
+      "bbox": {
+        "min": [
+          -9.2,
+          -13.25,
+          0.0
+        ],
+        "max": [
+          9.2,
+          13.25,
+          10.6842
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.3421
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships",
+      "path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "tris": 17170,
+      "object_count": 10,
+      "size_bytes": 131248,
+      "size_kb": 128.2,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "career",
+      "label": "Career",
+      "path": "modules/08-career/exterior/approved/career-ext.glb",
+      "tris": 19692,
+      "object_count": 175,
+      "size_bytes": 245296,
+      "size_kb": 239.5,
+      "bbox": {
+        "min": [
+          -7.9,
+          -6.605,
+          0.0
+        ],
+        "max": [
+          7.9,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.8,
+          13.21,
+          18.36
+        ],
+        "center": [
+          0.0,
+          -0.0,
+          9.18
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "recovery",
+      "label": "Recovery & Sleep",
+      "path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "tris": 17412,
+      "object_count": 11,
+      "size_bytes": 150820,
+      "size_kb": 147.3,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "analytics",
+      "label": "AI Analytics",
+      "path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "tris": 16259,
+      "object_count": 7,
+      "size_bytes": 104200,
+      "size_kb": 101.8,
+      "bbox": {
+        "min": [
+          -5.6286,
+          -4.7151,
+          0.0
+        ],
+        "max": [
+          5.6282,
+          4.715,
+          16.71
+        ],
+        "size": [
+          11.2568,
+          9.4301,
+          16.71
+        ],
+        "center": [
+          -0.0002,
+          -0.0,
+          8.355
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "tris": 17964,
+      "object_count": 6,
+      "size_bytes": 108788,
+      "size_kb": 106.2,
+      "bbox": {
+        "min": [
+          -5.6,
+          -4.1002,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.1,
+          8.5952
+        ],
+        "size": [
+          11.2,
+          8.2002,
+          8.5952
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          4.2976
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    }
+  ],
+  "polished_modules": {
+    "yoga": {
+      "session": 73,
+      "date": "2026-05-26",
+      "module": "Yoga & Wellbeing",
+      "source_glb": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "output_blend": "modules/02-yoga-wellbeing/exterior/drafts/yoga-session73-v2-polish.blend",
+      "draft_glb": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-v2-draft-s73.glb",
+      "approved_glb": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+      "pre_tris": 12796,
+      "pre_objects": 151,
+      "pre_bbox": {
+        "min": [
+          -9.0,
+          -6.2999,
+          0.0
+        ],
+        "max": [
+          9.0,
+          6.3,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          12.5999,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "final_live_tris": 16052,
+      "final_live_objects": 154,
+      "final_tris": 16052,
+      "final_objects": 154,
+      "final_size_bytes": 253132,
+      "final_size_kb": 247.2,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "created_categories": {
+        "session73 yoga layered organic finish": {
+          "objects": 55,
+          "tris": 3256
+        }
+      },
+      "budget": {
+        "tri_min": 12000,
+        "tri_max": 18000,
+        "size_min_kb": 100,
+        "size_max_kb": 350,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-v2-draft-s73.glb",
+        "object_count": 154,
+        "tris": 16052,
+        "size_bytes": 253132,
+        "size_kb": 247.2,
+        "bbox": {
+          "min": [
+            -9.0,
+            -7.3804,
+            0.0
+          ],
+          "max": [
+            9.0,
+            7.3806,
+            5.4668
+          ],
+          "size": [
+            18.0,
+            14.761,
+            5.4668
+          ],
+          "center": [
+            0.0,
+            0.0001,
+            2.7334
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass",
+          "holo"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "yoga-ext"
+        ],
+        "passed": true
+      }
+    },
+    "recovery": {
+      "session": 73,
+      "date": "2026-05-26",
+      "module": "Recovery & Sleep",
+      "source_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "output_blend": "modules/09-recovery-sleep/exterior/drafts/recovery-session73-v2-polish.blend",
+      "draft_glb": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-v2-draft-s73.glb",
+      "approved_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext.glb",
+      "pre_tris": 14488,
+      "pre_objects": 6,
+      "pre_bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "final_live_tris": 17412,
+      "final_live_objects": 11,
+      "final_tris": 17412,
+      "final_objects": 11,
+      "final_size_bytes": 150820,
+      "final_size_kb": 147.3,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session73 recovery soft-shell and lake finish": {
+          "objects": 29,
+          "tris": 2924
+        }
+      },
+      "budget": {
+        "tri_min": 12000,
+        "tri_max": 18000,
+        "size_min_kb": 80,
+        "size_max_kb": 350,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-v2-draft-s73.glb",
+        "object_count": 11,
+        "tris": 17412,
+        "size_bytes": 150820,
+        "size_kb": 147.3,
+        "bbox": {
+          "min": [
+            -10.8576,
+            -6.5486,
+            0.0
+          ],
+          "max": [
+            10.8576,
+            6.5483,
+            7.9645
+          ],
+          "size": [
+            21.7151,
+            13.0969,
+            7.9645
+          ],
+          "center": [
+            0.0,
+            -0.0001,
+            3.9823
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "recovery-ext"
+        ],
+        "passed": true
+      }
+    },
+    "relationships": {
+      "session": 73,
+      "date": "2026-05-26",
+      "module": "Relationships",
+      "source_glb": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "output_blend": "modules/07-relationships/exterior/drafts/relationships-session73-v2-polish.blend",
+      "draft_glb": "modules/07-relationships/exterior/drafts/relationships-ext-v2-draft-s73.glb",
+      "approved_glb": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/07-relationships/relationships-ext.glb",
+      "pre_tris": 14986,
+      "pre_objects": 6,
+      "pre_bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "final_live_tris": 17170,
+      "final_live_objects": 10,
+      "final_tris": 17170,
+      "final_objects": 10,
+      "final_size_bytes": 131248,
+      "final_size_kb": 128.2,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session73 relationships garden pavilion finish": {
+          "objects": 44,
+          "tris": 2184
+        }
+      },
+      "budget": {
+        "tri_min": 12000,
+        "tri_max": 18000,
+        "size_min_kb": 80,
+        "size_max_kb": 350,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/07-relationships/exterior/drafts/relationships-ext-v2-draft-s73.glb",
+        "object_count": 10,
+        "tris": 17170,
+        "size_bytes": 131248,
+        "size_kb": 128.2,
+        "bbox": {
+          "min": [
+            -14.8072,
+            -10.691,
+            0.0
+          ],
+          "max": [
+            14.8072,
+            10.6914,
+            7.3401
+          ],
+          "size": [
+            29.6145,
+            21.3824,
+            7.3401
+          ],
+          "center": [
+            0.0,
+            0.0002,
+            3.67
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "relationships-ext"
+        ],
+        "passed": true
+      }
+    }
+  },
+  "verdict": "APPROVED - organic v2 exterior polish complete; origins and runtime paths preserved."
+}

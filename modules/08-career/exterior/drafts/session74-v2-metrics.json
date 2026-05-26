@@ -1,0 +1,126 @@
+{
+  "session": 74,
+  "date": "2026-05-26",
+  "module": "Career",
+  "source_glb": "modules/08-career/exterior/approved/career-ext.glb",
+  "output_blend": "modules/08-career/exterior/drafts/career-session74-v2-polish.blend",
+  "draft_glb": "modules/08-career/exterior/drafts/career-ext-v2-draft-s74.glb",
+  "approved_glb": "modules/08-career/exterior/approved/career-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/08-career/career-ext.glb",
+  "pre_tris": 19692,
+  "pre_objects": 175,
+  "pre_bbox": {
+    "min": [
+      -7.9,
+      -6.605,
+      0.0
+    ],
+    "max": [
+      7.9,
+      6.605,
+      18.36
+    ],
+    "size": [
+      15.8,
+      13.21,
+      18.36
+    ],
+    "center": [
+      0.0,
+      -0.0,
+      9.18
+    ]
+  },
+  "final_live_tris": 20288,
+  "final_live_objects": 6,
+  "final_tris": 20288,
+  "final_objects": 6,
+  "final_size_bytes": 116084,
+  "final_size_kb": 113.4,
+  "bbox": {
+    "min": [
+      -7.9,
+      -6.6051,
+      0.0
+    ],
+    "max": [
+      7.8999,
+      6.605,
+      18.36
+    ],
+    "size": [
+      15.7999,
+      13.2101,
+      18.36
+    ],
+    "center": [
+      -0.0,
+      -0.0001,
+      9.18
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session74 career ascent tower finish": {
+      "objects": 47,
+      "tris": 596
+    }
+  },
+  "budget": {
+    "tri_min": 15000,
+    "tri_max": 20500,
+    "size_min_kb": 100,
+    "size_max_kb": 400,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/08-career/exterior/drafts/career-ext-v2-draft-s74.glb",
+    "object_count": 6,
+    "tris": 20288,
+    "size_bytes": 116084,
+    "size_kb": 113.4,
+    "bbox": {
+      "min": [
+        -7.9,
+        -6.6051,
+        0.0
+      ],
+      "max": [
+        7.8999,
+        6.605,
+        18.36
+      ],
+      "size": [
+        15.7999,
+        13.2101,
+        18.36
+      ],
+      "center": [
+        -0.0,
+        -0.0001,
+        9.18
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "career-ext"
+    ],
+    "passed": true
+  }
+}

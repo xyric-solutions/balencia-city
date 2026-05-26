@@ -373,3 +373,24 @@ Career integration is approved. Exterior and interior assets align, Scene 11 cam
 
 ### QA Reviews
 <!-- DESIGN-08 appends energy review here -->
+
+### QA Review -- Session 74 Phase 8 Exterior Polish
+
+**Date**: 2026-05-26  
+**Reviewer**: Codex + Blender
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Phase 8 exterior finish | Urban professional detail pass | PASS | Added crisp blue floor joints, upward corner fins, visible elevator tubes/cars, executive observation deck glass/rails, and networking plaza paths. |
+| Runtime compatibility | Origin, layout, app path | PASS | Preserved approved origin and city-layout-v2 assumptions; promoted to module approved and app public model paths. |
+| Import/export hygiene | Materials, cameras/lights | PASS | Reimported cleanly with approved material slots only and no cameras/lights. |
+| Budget | Phase 8 exterior density/file size | PASS | 20,288 tris, 6 objects, 113.4 KB. |
+
+**Artifacts**:
+- `modules/08-career/exterior/drafts/session74-v2-metrics.json`
+- `modules/08-career/exterior/drafts/session74-qa-import.json`
+- `modules/08-career/screenshots/session74-career-v2-front.png`
+- `modules/08-career/screenshots/session74-career-v2-threequarter.png`
+- `modules/08-career/screenshots/session74-career-v2-dark-first.png`
+
+**Overall Verdict**: APPROVED

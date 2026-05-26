@@ -1,0 +1,44 @@
+{
+  "path": "modules/04-knowledgebase/exterior/drafts/knowledgebase-ext-v2-draft-s74.glb",
+  "object_count": 7,
+  "tris": 15204,
+  "size_bytes": 104420,
+  "size_kb": 102.0,
+  "bbox": {
+    "min": [
+      -2.6888,
+      -9.6483,
+      0.0
+    ],
+    "max": [
+      5.7893,
+      2.2,
+      14.0407
+    ],
+    "size": [
+      8.478,
+      11.8483,
+      14.0407
+    ],
+    "center": [
+      1.5503,
+      -3.7242,
+      7.0204
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "knowledgebase-ext"
+  ],
+  "passed": true
+}

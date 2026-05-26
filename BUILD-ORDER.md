@@ -110,10 +110,10 @@ Strict sequential build. ONE module at a time. No skipping. No parallel building
 | 8.2 | Assembly and energy layout rebase: rebuild full-city Blender assembly and all endpoint energy GLBs from `shared/city-layout-v2.json` | Done (Session 70) |
 | 8.3 | Exterior finish audit plus SIA pilot polish | Done (Session 71) |
 | 8.4 | Fitness + Finance exterior polish wave | Done (Session 72) |
-| 8.5 | Yoga + Recovery + Relationships organic polish wave | Next |
-| 8.6 | Knowledgebase + Chat + Career urban polish wave | Queued |
-| 8.7 | Leaderboard + Analytics + Nutrition signature polish wave | Queued |
-| 8.8 | Final Phase 8 city QA contact sheets and performance review | Queued |
+| 8.5 | Yoga + Recovery + Relationships organic polish wave | Done (Session 73) |
+| 8.6 | Knowledgebase + Chat + Career urban polish wave | Done (Session 74) |
+| 8.7 | Leaderboard + Analytics + Nutrition signature polish wave | Done (Session 75) |
+| 8.8 | Final Phase 8 city QA contact sheets and performance review | Next |
 
 ## Per-Module Workflow (applies to every structure)
 ```

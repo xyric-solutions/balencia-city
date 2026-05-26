@@ -1,0 +1,128 @@
+{
+  "session": 73,
+  "date": "2026-05-26",
+  "module": "Yoga & Wellbeing",
+  "source_glb": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+  "output_blend": "modules/02-yoga-wellbeing/exterior/drafts/yoga-session73-v2-polish.blend",
+  "draft_glb": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-v2-draft-s73.glb",
+  "approved_glb": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+  "pre_tris": 12796,
+  "pre_objects": 151,
+  "pre_bbox": {
+    "min": [
+      -9.0,
+      -6.2999,
+      0.0
+    ],
+    "max": [
+      9.0,
+      6.3,
+      5.4668
+    ],
+    "size": [
+      18.0,
+      12.5999,
+      5.4668
+    ],
+    "center": [
+      0.0,
+      0.0001,
+      2.7334
+    ]
+  },
+  "final_live_tris": 16052,
+  "final_live_objects": 154,
+  "final_tris": 16052,
+  "final_objects": 154,
+  "final_size_bytes": 253132,
+  "final_size_kb": 247.2,
+  "bbox": {
+    "min": [
+      -9.0,
+      -7.3804,
+      0.0
+    ],
+    "max": [
+      9.0,
+      7.3806,
+      5.4668
+    ],
+    "size": [
+      18.0,
+      14.761,
+      5.4668
+    ],
+    "center": [
+      0.0,
+      0.0001,
+      2.7334
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "session73 yoga layered organic finish": {
+      "objects": 55,
+      "tris": 3256
+    }
+  },
+  "budget": {
+    "tri_min": 12000,
+    "tri_max": 18000,
+    "size_min_kb": 100,
+    "size_max_kb": 350,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-v2-draft-s73.glb",
+    "object_count": 154,
+    "tris": 16052,
+    "size_bytes": 253132,
+    "size_kb": 247.2,
+    "bbox": {
+      "min": [
+        -9.0,
+        -7.3804,
+        0.0
+      ],
+      "max": [
+        9.0,
+        7.3806,
+        5.4668
+      ],
+      "size": [
+        18.0,
+        14.761,
+        5.4668
+      ],
+      "center": [
+        0.0,
+        0.0001,
+        2.7334
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "yoga-ext"
+    ],
+    "passed": true
+  }
+}

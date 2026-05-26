@@ -10,6 +10,7 @@
 
 **Exterior Status**: Approved -- Session 42 Complete
 **Exterior Approved**: [x] Yes / Date: 2026-05-25
+**Phase 8 v2 Polish**: Session 75 Approved / Date: 2026-05-26 -- 19,411 tris, 7 mesh objects, 124.4 KB, one clean `analytics-ext` root, no cameras/lights, and SPEC-driven `holo` retained.
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -143,6 +144,41 @@
 - `screenshots/s42_cohesion_all11.png` -- SIA plus modules 01-10 imported for exterior cohesion.
 
 **Final Verdict**: APPROVED for exterior. Continue to AI Analytics interior in Session 43.
+
+#### Session 75 -- 2026-05-26 -- Phase 8 Signature Exterior Polish
+
+**Skill**: Session 75 build loop via Codex + Blender background runner
+**Blender Version**: 5.1.x
+**Scope**: Additive Phase 8 v2 exterior polish, approved/app GLB promotion, evidence renders, and import QA.
+
+**Build Actions**:
+- Rebuilt from the pre-polish Session 42 exterior draft to avoid compounding polish passes.
+- Added forecast glyph fields, micro chart ticks, pointed arch halos/spines, buttress fiber bundles, observation guard detail, spire telemetry rings, and denser rear living-wall streams.
+- Preserved the data-cathedral silhouette, bottom-centered origin, city-layout-v2 placement assumptions, and baked hard-pipeline endpoint assumptions.
+- Retained Analytics SPEC material usage, including `holo` for stained-glass data-window language.
+
+**Export Metrics**:
+- Previous approved exterior: 16,259 tris, 7 mesh objects, 104,200 bytes.
+- Session 75 v2 exterior: 19,411 tris, 7 mesh objects, 127,428 bytes (124.4 KB).
+- Root: one clean root named `analytics-ext`.
+- Cameras/lights: none exported.
+- BBox min Z: within tolerance at ground plane.
+
+**Files**:
+- Prompt: `prompts/session-75-leaderboard-analytics-nutrition-signature-polish-wave.md`
+- Build script: `assembly/drafts/build-session-75-signature-polish.py`
+- Metrics: `exterior/drafts/session75-v2-metrics.json`
+- QA import report: `exterior/drafts/session75-qa-import.json`
+- Draft GLB: `exterior/drafts/analytics-ext-v2-draft-s75.glb`
+- Approved GLB: `exterior/approved/analytics-ext.glb`
+
+**Screenshots**:
+- `screenshots/session75-analytics-v2-front.png`
+- `screenshots/session75-analytics-v2-threequarter.png`
+- `screenshots/session75-analytics-v2-dark-first.png`
+- `assembly/screenshots/s75-exterior-finish-contact-sheet.png`
+
+**Final Verdict**: APPROVED for Phase 8 v2 exterior polish.
 
 ### QA Reviews
 <!-- DESIGN-08 appends gate results here -->

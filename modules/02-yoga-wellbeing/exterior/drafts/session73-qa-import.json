@@ -1,0 +1,44 @@
+{
+  "path": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-v2-draft-s73.glb",
+  "object_count": 154,
+  "tris": 16052,
+  "size_bytes": 253132,
+  "size_kb": 247.2,
+  "bbox": {
+    "min": [
+      -9.0,
+      -7.3804,
+      0.0
+    ],
+    "max": [
+      9.0,
+      7.3806,
+      5.4668
+    ],
+    "size": [
+      18.0,
+      14.761,
+      5.4668
+    ],
+    "center": [
+      0.0,
+      0.0001,
+      2.7334
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "yoga-ext"
+  ],
+  "passed": true
+}
