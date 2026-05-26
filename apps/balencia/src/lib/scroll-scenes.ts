@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { layoutOffset, layoutPoint } from "./city-layout-v2";
 import type { ScrollCamera, ScrollScene, Vec3 } from "./types";
 
 export const SCROLL_TIMELINE_SECONDS = 300;
@@ -18,6 +19,14 @@ export const ALL_ENERGY_IDS = [
 const HARD_PIPELINE_ENERGY_IDS = ["hard-pipelines", "ai-pulse"] as const;
 const WARM_MIST_ENERGY_IDS = ["warm-mist", "ai-pulse"] as const;
 
+function districtTarget(id: string, height: number): Vec3 {
+  return layoutPoint(id, height);
+}
+
+function districtCamera(id: string, offset: Vec3): Vec3 {
+  return layoutOffset(id, offset);
+}
+
 export const SCROLL_SCENES: ScrollScene[] = [
   {
     scene: 1,
@@ -31,9 +40,9 @@ export const SCROLL_SCENES: ScrollScene[] = [
     mode: "city",
     activeEnergyIds: ALL_ENERGY_IDS,
     camera: {
-      position: [112, 112, 148],
-      target: [0, 20, 8],
-      fov: 45,
+      position: [155, 128, 185],
+      target: [0, 22, 4],
+      fov: 47,
       lens: 14,
       frame: 144,
     },
@@ -99,16 +108,16 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.46,
     activeEnergyIds: HARD_PIPELINE_ENERGY_IDS,
     interiorCamera: {
-      position: [31, 5.3, -30],
-      target: [26, 4.8, -25],
+      position: districtCamera("fitness", [9, 5.3, -7]),
+      target: districtTarget("fitness", 4.8),
       fov: 36,
       lens: 40,
       frame: 120,
     },
     camera: {
-      position: [47, 15.5, -51],
-      target: [26, 7.5, -25],
-      fov: 40,
+      position: districtCamera("fitness", [33, 17, -34]),
+      target: districtTarget("fitness", 8),
+      fov: 41,
       lens: 34,
       frame: 96,
     },
@@ -127,15 +136,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.48,
     activeEnergyIds: WARM_MIST_ENERGY_IDS,
     interiorCamera: {
-      position: [39, 4.8, -15],
-      target: [36, 3.8, -10],
+      position: districtCamera("yoga", [6, 4.8, -8]),
+      target: districtTarget("yoga", 3.8),
       fov: 37,
       lens: 38,
       frame: 120,
     },
     camera: {
-      position: [56, 12, -30],
-      target: [36, 4.5, -10],
+      position: districtCamera("yoga", [26, 14, -26]),
+      target: districtTarget("yoga", 5),
       fov: 40,
       lens: 34,
       frame: 96,
@@ -155,16 +164,16 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.48,
     activeEnergyIds: HARD_PIPELINE_ENERGY_IDS,
     interiorCamera: {
-      position: [39, 7, 9],
-      target: [35, 5.4, 6],
+      position: districtCamera("finance", [5, 7, 5]),
+      target: districtTarget("finance", 5.4),
       fov: 36,
       lens: 40,
       frame: 120,
     },
     camera: {
-      position: [58, 16, 18],
-      target: [35, 10, 6],
-      fov: 38,
+      position: districtCamera("finance", [32, 17, 20]),
+      target: districtTarget("finance", 10),
+      fov: 39,
       lens: 36,
       frame: 96,
     },
@@ -183,15 +192,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.48,
     activeEnergyIds: ["hard-pipelines", "knowledgebase-waterfall", "ai-pulse"],
     interiorCamera: {
-      position: [33, 6.5, 25],
-      target: [31, 5.8, 22],
+      position: districtCamera("knowledgebase", [4, 6.5, 5]),
+      target: districtTarget("knowledgebase", 5.8),
       fov: 37,
       lens: 38,
       frame: 120,
     },
     camera: {
-      position: [49, 19, 42],
-      target: [31, 8, 22],
+      position: districtCamera("knowledgebase", [24, 20, 26]),
+      target: districtTarget("knowledgebase", 8),
       fov: 40,
       lens: 34,
       frame: 96,
@@ -211,15 +220,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.5,
     activeEnergyIds: HARD_PIPELINE_ENERGY_IDS,
     interiorCamera: {
-      position: [24, 6.2, 40],
-      target: [19, 5.6, 36],
+      position: districtCamera("chat", [5, 6.2, 5]),
+      target: districtTarget("chat", 5.6),
       fov: 38,
       lens: 36,
       frame: 120,
     },
     camera: {
-      position: [44, 17, 62],
-      target: [19, 8, 36],
+      position: districtCamera("chat", [25, 18, 29]),
+      target: districtTarget("chat", 8),
       fov: 41,
       lens: 32,
       frame: 96,
@@ -239,15 +248,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.46,
     activeEnergyIds: ["hard-pipelines", "leaderboard-lightning", "ai-pulse"],
     interiorCamera: {
-      position: [-10, 5.5, 51],
-      target: [-8, 4.5, 45],
+      position: districtCamera("leaderboard", [-2, 5.5, 6]),
+      target: districtTarget("leaderboard", 4.5),
       fov: 38,
       lens: 36,
       frame: 120,
     },
     camera: {
-      position: [-24, 19, 79],
-      target: [-8, 6.4, 45],
+      position: districtCamera("leaderboard", [-24, 20, 33]),
+      target: districtTarget("leaderboard", 6.4),
       fov: 41,
       lens: 32,
       frame: 96,
@@ -267,15 +276,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.48,
     activeEnergyIds: WARM_MIST_ENERGY_IDS,
     interiorCamera: {
-      position: [11, 4.2, 65],
-      target: [8, 3.8, 59],
+      position: districtCamera("relationships", [7, 4.2, 7]),
+      target: districtTarget("relationships", 3.8),
       fov: 38,
       lens: 36,
       frame: 120,
     },
     camera: {
-      position: [18, 13, 88],
-      target: [8, 4.3, 59],
+      position: districtCamera("relationships", [14, 14, 30]),
+      target: districtTarget("relationships", 4.3),
       fov: 41,
       lens: 32,
       frame: 96,
@@ -295,15 +304,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.48,
     activeEnergyIds: HARD_PIPELINE_ENERGY_IDS,
     interiorCamera: {
-      position: [-34, 7.5, 40],
-      target: [-30, 6.8, 34],
+      position: districtCamera("career", [-5, 7.5, 6]),
+      target: districtTarget("career", 6.8),
       fov: 36,
       lens: 40,
       frame: 120,
     },
     camera: {
-      position: [-58, 24, 62],
-      target: [-30, 11.5, 34],
+      position: districtCamera("career", [-31, 25, 32]),
+      target: districtTarget("career", 11.5),
       fov: 39,
       lens: 35,
       frame: 96,
@@ -323,15 +332,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.52,
     activeEnergyIds: ["faint-thread", "ai-pulse"],
     interiorCamera: {
-      position: [-49, 4.4, 10],
-      target: [-43, 3.8, 8],
+      position: districtCamera("recovery", [-6, 4.4, 3]),
+      target: districtTarget("recovery", 3.8),
       fov: 37,
       lens: 38,
       frame: 120,
     },
     camera: {
-      position: [-75, 13, 20],
-      target: [-43, 5, 8],
+      position: districtCamera("recovery", [-32, 14, 14]),
+      target: districtTarget("recovery", 5),
       fov: 39,
       lens: 35,
       frame: 96,
@@ -351,15 +360,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.46,
     activeEnergyIds: HARD_PIPELINE_ENERGY_IDS,
     interiorCamera: {
-      position: [-36, 7.2, -18],
-      target: [-31, 6.4, -14],
+      position: districtCamera("analytics", [-5, 7.2, -5]),
+      target: districtTarget("analytics", 6.4),
       fov: 36,
       lens: 40,
       frame: 120,
     },
     camera: {
-      position: [-62, 21, -34],
-      target: [-31, 10.5, -14],
+      position: districtCamera("analytics", [-33, 22, -25]),
+      target: districtTarget("analytics", 10.5),
       fov: 40,
       lens: 34,
       frame: 96,
@@ -379,15 +388,15 @@ export const SCROLL_SCENES: ScrollScene[] = [
     interiorStart: 0.48,
     activeEnergyIds: HARD_PIPELINE_ENERGY_IDS,
     interiorCamera: {
-      position: [-16, 5.3, -44],
-      target: [-12, 4.8, -39],
+      position: districtCamera("nutrition", [-5, 5.3, -5]),
+      target: districtTarget("nutrition", 4.8),
       fov: 37,
       lens: 38,
       frame: 120,
     },
     camera: {
-      position: [-32, 14, -62],
-      target: [-12, 6, -39],
+      position: districtCamera("nutrition", [-24, 15, -29]),
+      target: districtTarget("nutrition", 6),
       fov: 39,
       lens: 35,
       frame: 96,
@@ -411,9 +420,9 @@ export const SCROLL_SCENES: ScrollScene[] = [
     mode: "climax",
     activeEnergyIds: ALL_ENERGY_IDS,
     camera: {
-      position: [90, 102, 120],
-      target: [0, 24, 12],
-      fov: 44,
+      position: [138, 124, 172],
+      target: [0, 25, 5],
+      fov: 47,
       lens: 16,
       frame: 144,
     },
@@ -430,8 +439,8 @@ export const SCROLL_SCENES: ScrollScene[] = [
     mode: "product",
     activeEnergyIds: ["hard-pipelines", "cross-district-gold", "ai-pulse"],
     camera: {
-      position: [31, 2.9, 26],
-      target: [19, 8, 36],
+      position: districtCamera("chat", [22, 2.9, -14]),
+      target: districtTarget("chat", 8),
       fov: 41,
       lens: 32,
       frame: 96,
@@ -449,7 +458,7 @@ export const SCROLL_SCENES: ScrollScene[] = [
     mode: "closing",
     activeEnergyIds: ALL_ENERGY_IDS,
     camera: {
-      position: [0, 80, 150],
+      position: [0, 96, 198],
       target: [0, 30, 0],
       fov: 45,
       lens: 18,

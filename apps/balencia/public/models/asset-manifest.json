@@ -1,8 +1,9 @@
 {
-  "session": 58,
+  "session": 72,
   "sourceOfTruth": {
     "assemblyBlend": "assembly/drafts/full-city-assembly.blend",
-    "assemblyAudit": "assembly/AUDIT.md",
+    "assemblyAudit": "assembly/audit/session-72-fitness-finance-polish.md",
+    "cityLayout": "shared/city-layout-v2.json",
     "scrollJourney": "SCROLL-JOURNEY.md",
     "shaderParams": "energy-system/SHADER-PARAMS.md"
   },
@@ -32,8 +33,8 @@
       "assemblyName": "Fitness",
       "label": "Fitness",
       "hex": "#34A853",
-      "blenderPosition": [26, 25, 0],
-      "position": [26, 0, -25],
+      "blenderPosition": [61, 36, 0],
+      "position": [61, 0, -36],
       "exterior": {
         "name": "fitness-ext",
         "sourcePath": "modules/01-fitness/exterior/approved/fitness-ext.glb",
@@ -52,8 +53,8 @@
       "assemblyName": "Yoga",
       "label": "Yoga and wellbeing",
       "hex": "#6EE7B7",
-      "blenderPosition": [36, 10, 0],
-      "position": [36, 0, -10],
+      "blenderPosition": [74, 2, 0],
+      "position": [74, 0, -2],
       "exterior": {
         "name": "yoga-ext",
         "sourcePath": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
@@ -72,8 +73,8 @@
       "assemblyName": "Finance",
       "label": "Finance",
       "hex": "#F59E0B",
-      "blenderPosition": [35, -6, 0],
-      "position": [35, 0, 6],
+      "blenderPosition": [56, -34, 0],
+      "position": [56, 0, 34],
       "exterior": {
         "name": "finance-ext",
         "sourcePath": "modules/03-finance/exterior/approved/finance-ext.glb",
@@ -92,8 +93,8 @@
       "assemblyName": "Knowledgebase",
       "label": "Knowledgebase",
       "hex": "#7F24FF",
-      "blenderPosition": [31, -22, 0],
-      "position": [31, 0, 22],
+      "blenderPosition": [30, -63, 0],
+      "position": [30, 0, 63],
       "exterior": {
         "name": "knowledgebase-ext",
         "sourcePath": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
@@ -112,8 +113,8 @@
       "assemblyName": "Chat",
       "label": "Chat and communication",
       "hex": "#FF5E00",
-      "blenderPosition": [19, -36, 0],
-      "position": [19, 0, 36],
+      "blenderPosition": [-8, -66, 0],
+      "position": [-8, 0, 66],
       "exterior": {
         "name": "chat-ext",
         "sourcePath": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
@@ -132,8 +133,8 @@
       "assemblyName": "Leaderboard",
       "label": "Leaderboard and competition",
       "hex": "#FB7185",
-      "blenderPosition": [-8, -45, 0],
-      "position": [-8, 0, 45],
+      "blenderPosition": [-50, -53, 0],
+      "position": [-50, 0, 53],
       "exterior": {
         "name": "leaderboard-ext",
         "sourcePath": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
@@ -152,8 +153,8 @@
       "assemblyName": "Relationships",
       "label": "Relationships",
       "hex": "#F43F5E",
-      "blenderPosition": [8, -59, 0],
-      "position": [8, 0, 59],
+      "blenderPosition": [-74, -16, 0],
+      "position": [-74, 0, 16],
       "exterior": {
         "name": "relationships-ext",
         "sourcePath": "modules/07-relationships/exterior/approved/relationships-ext.glb",
@@ -172,8 +173,8 @@
       "assemblyName": "Career",
       "label": "Career",
       "hex": "#3B82F6",
-      "blenderPosition": [-30, -34, 0],
-      "position": [-30, 0, 34],
+      "blenderPosition": [-66, 25, 0],
+      "position": [-66, 0, -25],
       "exterior": {
         "name": "career-ext",
         "sourcePath": "modules/08-career/exterior/approved/career-ext.glb",
@@ -192,8 +193,8 @@
       "assemblyName": "Recovery",
       "label": "Recovery and sleep",
       "hex": "#6366F1",
-      "blenderPosition": [-43, -8, 0],
-      "position": [-43, 0, 8],
+      "blenderPosition": [-44, 61, 0],
+      "position": [-44, 0, -61],
       "exterior": {
         "name": "recovery-ext",
         "sourcePath": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
@@ -212,8 +213,8 @@
       "assemblyName": "Analytics",
       "label": "AI analytics",
       "hex": "#14B8A6",
-      "blenderPosition": [-31, 14, 0],
-      "position": [-31, 0, -14],
+      "blenderPosition": [-8, 68, 0],
+      "position": [-8, 0, -68],
       "exterior": {
         "name": "analytics-ext",
         "sourcePath": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
@@ -232,8 +233,8 @@
       "assemblyName": "Nutrition",
       "label": "Nutrition",
       "hex": "#D97706",
-      "blenderPosition": [-12, 39, 0],
-      "position": [-12, 0, -39],
+      "blenderPosition": [30, 66, 0],
+      "position": [30, 0, -66],
       "exterior": {
         "name": "nutrition-ext",
         "sourcePath": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",

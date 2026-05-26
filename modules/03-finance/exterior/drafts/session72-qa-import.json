@@ -1,0 +1,43 @@
+{
+  "path": "modules/03-finance/exterior/drafts/finance-ext-v2-draft-s72.glb",
+  "object_count": 205,
+  "tris": 15370,
+  "size_bytes": 254740,
+  "size_kb": 248.8,
+  "bbox": {
+    "min": [
+      -6.5987,
+      -6.5987,
+      0.0
+    ],
+    "max": [
+      6.5987,
+      7.771,
+      18.43
+    ],
+    "size": [
+      13.1974,
+      14.3697,
+      18.43
+    ],
+    "center": [
+      0.0,
+      0.5861,
+      9.215
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "finance-ext"
+  ],
+  "passed": true
+}

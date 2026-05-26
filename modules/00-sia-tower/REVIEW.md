@@ -10,6 +10,7 @@
 
 **Exterior Status**: Session 3 Complete (Polish, Holo Mark, Export)
 **Exterior Approved**: [x] Yes / Date: 2026-05-22
+**Phase 8 Exterior v2 Status**: Session 71 Pilot Polish Approved / Date: 2026-05-26
 
 ### Session 1 — Major Forms (Complete)
 - 5 objects: Base Platform, Tower Glass, Tower Ledges, Crown, Spire
@@ -32,6 +33,15 @@
 - Session 3 total: 58 tris | Combined: 6,956 tris (12 objects)
 - Export: sia-tower-ext.glb — 47 KB, Draco level 6, all gates passed
 - Screenshots: session03-final-3quarter.png, session03-final-distance.png, session03-final-entrance.png, session03-final-ground-up.png
+
+### Session 71 - Phase 8 v2 Pilot Polish (Approved, 2026-05-26)
+- Scope: stricter Phase 8 finished-model pass for the SIA exterior only, preserving origin, city-layout-v2 placement, and energy endpoint compatibility.
+- Added 220 facade mullion/window-scale objects, 40 civic base/entrance/plaza objects, 53 crown/beacon/pipeline-hub objects, and 32 dark-first skyline fins.
+- Final approved exterior: 14,844 tris, 357 mesh objects, 383.1 KB GLB, bounding box 30.8u x 30.8u x 67.1u.
+- Materials: all seven approved slots present (`accent`, `base`, `detail`, `emissive`, `energy`, `glass`, `holo`); no invalid slots; no exported cameras/lights.
+- QA verdict: approved with a Phase 8 density exception. The pilot substantially improves facade, base, entrance, crown, and dark-first readability while leaving final density headroom for later citywide review.
+- Export: `modules/00-sia-tower/exterior/approved/sia-tower-ext.glb`, synced to `apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext.glb`.
+- Evidence: `modules/00-sia-tower/screenshots/session71-v2-front.png`, `session71-v2-threequarter.png`, `session71-v2-ground-up.png`, `session71-v2-dark-first.png`, and `assembly/screenshots/s71-exterior-finish-contact-sheet.png`.
 
 ---
 

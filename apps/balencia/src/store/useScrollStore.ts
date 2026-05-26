@@ -17,7 +17,13 @@ type ScrollState = {
   activeDistrict: string;
   activeInteriorId?: string;
   activeEnergyIds: readonly string[];
+  hoveredDistrictId?: string;
+  focusedDistrictId?: string;
   overlay: OverlayText;
+  clearFocusedDistrict: (id?: string) => void;
+  clearHoveredDistrict: (id?: string) => void;
+  setFocusedDistrict: (id?: string) => void;
+  setHoveredDistrict: (id?: string) => void;
   setScrollProgress: (progress: number) => void;
   setScene: (scene: ScrollScene) => void;
 };
@@ -62,7 +68,15 @@ export const useScrollStore = create<ScrollState>((set) => ({
   activeDistrict: initialScene.activeDistrict,
   activeInteriorId: activeInteriorForScene(initialScene, 0),
   activeEnergyIds: initialScene.activeEnergyIds ?? ALL_ENERGY_IDS,
+  hoveredDistrictId: undefined,
+  focusedDistrictId: undefined,
   overlay: overlayFromScene(initialScene, 0),
+  clearFocusedDistrict: (id) =>
+    set((state) => (!id || state.focusedDistrictId === id ? { focusedDistrictId: undefined } : {})),
+  clearHoveredDistrict: (id) =>
+    set((state) => (!id || state.hoveredDistrictId === id ? { hoveredDistrictId: undefined } : {})),
+  setFocusedDistrict: (id) => set({ focusedDistrictId: id }),
+  setHoveredDistrict: (id) => set({ hoveredDistrictId: id }),
   setScrollProgress: (progress) => {
     const { current, localProgress } = resolveScrollScene(progress);
     set({

@@ -1,0 +1,115 @@
+{
+  "session": 71,
+  "date": "2026-05-26",
+  "source_blend": "modules/00-sia-tower/exterior/drafts/sia-tower-session03-polish-export.blend",
+  "output_blend": "modules/00-sia-tower/exterior/drafts/sia-tower-session71-v2-polish.blend",
+  "draft_glb": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-v2-draft-s71.glb",
+  "approved_glb": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext.glb",
+  "pre_tris": 6956,
+  "pre_objects": 12,
+  "final_tris": 14844,
+  "final_objects": 357,
+  "final_size_bytes": 392296,
+  "bbox": {
+    "min": [
+      -15.4,
+      -15.4,
+      -0.0
+    ],
+    "max": [
+      15.4,
+      15.4,
+      67.1
+    ],
+    "size": [
+      30.8,
+      30.8,
+      67.1
+    ],
+    "center": [
+      0.0,
+      0.0,
+      33.55
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "v2 civic base, entrance depth, and root plaza finish": {
+      "objects": 40,
+      "tris": 1172
+    },
+    "v2 crown, beacon, and pipeline hub polish": {
+      "objects": 53,
+      "tris": 3692
+    },
+    "v2 dark-first skyline scale fins": {
+      "objects": 32,
+      "tris": 384
+    },
+    "v2 facade mullions and 100-floor scale ticks": {
+      "objects": 220,
+      "tris": 2640
+    }
+  },
+  "budget": {
+    "tri_min": 20000,
+    "tri_max": 30000,
+    "size_min_kb": 200,
+    "size_max_kb": 500,
+    "status": "APPROVED WITH PHASE-8 DENSITY EXCEPTION",
+    "note": "The pilot materially improves SIA finish while preserving endpoint alignment; remaining headroom is reserved for final city pass if needed."
+  },
+  "qa": {
+    "path": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-v2-draft-s71.glb",
+    "object_count": 357,
+    "tris": 14844,
+    "size_bytes": 392296,
+    "size_kb": 383.1,
+    "bbox": {
+      "min": [
+        -15.4,
+        -15.4,
+        -0.0
+      ],
+      "max": [
+        15.4,
+        15.4,
+        67.1
+      ],
+      "size": [
+        30.8,
+        30.8,
+        67.1
+      ],
+      "center": [
+        0.0,
+        0.0,
+        33.55
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "sia-tower-ext"
+    ],
+    "passed": true
+  }
+}

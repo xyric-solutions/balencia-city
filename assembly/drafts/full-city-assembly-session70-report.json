@@ -1,0 +1,1737 @@
+{
+  "active_city_tris": 176183,
+  "active_source_bytes": 2317040,
+  "blend_file": "assembly/drafts/full-city-assembly.blend",
+  "checks": {
+    "active_city_triangle_budget": true,
+    "active_source_file_budget": true,
+    "all_approved_energy_assets_present": true,
+    "all_approved_structure_exteriors_present": true,
+    "all_approved_structure_interiors_present": true,
+    "all_positions_match_layout_v2": true,
+    "energy_layer_visible": true,
+    "material_roots_valid": true,
+    "minimum_spacing_layout_v2": true,
+    "overview_screenshots_nonzero": true,
+    "scroll_screenshot_count": true,
+    "scroll_screenshots_nonzero": true,
+    "sia_dominance_preserved": true
+  },
+  "energy_metrics": {
+    "ai-pulse": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          0.0,
+          0.0,
+          42.35
+        ],
+        "max": [
+          0.7,
+          0.7,
+          42.4366
+        ],
+        "min": [
+          -0.7,
+          -0.7,
+          42.2634
+        ],
+        "size": [
+          1.4,
+          1.4,
+          0.1732
+        ]
+      },
+      "file_size_bytes": 21920,
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 2,
+      "objects": 3,
+      "tris": 1724
+    },
+    "cross-district-gold": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          0.0,
+          1.0008,
+          10.2472
+        ],
+        "max": [
+          74.1299,
+          68.1125,
+          17.4736
+        ],
+        "min": [
+          -74.1299,
+          -66.1109,
+          3.0208
+        ],
+        "size": [
+          148.2598,
+          134.2234,
+          14.4529
+        ]
+      },
+      "file_size_bytes": 17164,
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 6,
+      "objects": 13,
+      "tris": 1428
+    },
+    "faint-thread": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          -24.5846,
+          33.5941,
+          18.793
+        ],
+        "max": [
+          -2.6192,
+          63.5499,
+          37.511
+        ],
+        "min": [
+          -46.55,
+          3.6383,
+          0.075
+        ],
+        "size": [
+          43.9308,
+          59.9116,
+          37.436
+        ]
+      },
+      "file_size_bytes": 5024,
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 1,
+      "objects": 2,
+      "tris": 514
+    },
+    "hard-pipelines": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          -2.5,
+          1.0,
+          19.869
+        ],
+        "max": [
+          64.25,
+          71.25,
+          39.6631
+        ],
+        "min": [
+          -69.25,
+          -69.25,
+          0.075
+        ],
+        "size": [
+          133.5,
+          140.5,
+          39.5881
+        ]
+      },
+      "file_size_bytes": 47692,
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 9,
+      "objects": 10,
+      "tris": 5234
+    },
+    "knowledgebase-waterfall": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          29.0428,
+          -61.7887,
+          6.6125
+        ],
+        "max": [
+          31.7427,
+          -59.0887,
+          13.15
+        ],
+        "min": [
+          26.3429,
+          -64.4886,
+          0.075
+        ],
+        "size": [
+          5.3998,
+          5.3998,
+          13.075
+        ]
+      },
+      "file_size_bytes": 5896,
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 1,
+      "objects": 2,
+      "tris": 550
+    },
+    "leaderboard-lightning": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          -50.0,
+          -53.0,
+          5.8254
+        ],
+        "max": [
+          -45.2959,
+          -48.2959,
+          11.5759
+        ],
+        "min": [
+          -54.7041,
+          -57.7041,
+          0.075
+        ],
+        "size": [
+          9.4082,
+          9.4082,
+          11.5009
+        ]
+      },
+      "file_size_bytes": 5392,
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 1,
+      "objects": 2,
+      "tris": 480
+    },
+    "warm-mist": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          0.0,
+          -7.0,
+          19.037
+        ],
+        "max": [
+          77.0,
+          5.0001,
+          37.9989
+        ],
+        "min": [
+          -77.0,
+          -19.0,
+          0.075
+        ],
+        "size": [
+          154.0,
+          24.0,
+          37.9239
+        ]
+      },
+      "file_size_bytes": 15472,
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 2,
+      "objects": 3,
+      "tris": 2212
+    }
+  },
+  "interior_source_bytes": 1562980,
+  "layout_source": "shared/city-layout-v2.json",
+  "layout_version": "city-layout-v2",
+  "loaded_verification_tris": 262367,
+  "minimum_spacing": 36.4005,
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "overview_screenshots": {
+    "energy_climax": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s70-energy-climax.png"
+    },
+    "overview_citywide": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s70-overview-citywide.png"
+    },
+    "overview_topdown": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s70-overview-topdown.png"
+    },
+    "skyline_east": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s70-skyline-east.png"
+    },
+    "skyline_north": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s70-skyline-north.png"
+    },
+    "skyline_south": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s70-skyline-south.png"
+    },
+    "skyline_west": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s70-skyline-west.png"
+    }
+  },
+  "performance_report": "assembly/performance-reports/session-70-performance.json",
+  "scope": "Phase 8.2 full-city assembly layout-v2 rebase",
+  "scroll_screenshots": {
+    "scene_01": {
+      "camera_location": [
+        155,
+        -185,
+        128
+      ],
+      "camera_target": [
+        0,
+        -4,
+        22
+      ],
+      "focus": "City aerial",
+      "frame": 144,
+      "lens": 14,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-01-arrival.png"
+    },
+    "scene_02": {
+      "camera_location": [
+        18,
+        -25,
+        7.8
+      ],
+      "camera_target": [
+        0,
+        0,
+        38
+      ],
+      "focus": "SIA tower exterior",
+      "frame": 12,
+      "lens": 30,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-02-sia-tower-reveal.png"
+    },
+    "scene_03": {
+      "camera_location": [
+        0,
+        -3.05,
+        7.2
+      ],
+      "camera_target": [
+        0,
+        0,
+        25
+      ],
+      "focus": "SIA tower interior",
+      "frame": 48,
+      "lens": 24,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-03-sia-neural-core.png"
+    },
+    "scene_04": {
+      "camera_location": [
+        94,
+        70,
+        17
+      ],
+      "camera_target": [
+        61,
+        36,
+        8
+      ],
+      "focus": "Fitness district",
+      "frame": 96,
+      "lens": 34,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-04-fitness-district.png"
+    },
+    "scene_05": {
+      "camera_location": [
+        100,
+        28,
+        14
+      ],
+      "camera_target": [
+        74,
+        2,
+        5
+      ],
+      "focus": "Yoga and wellbeing",
+      "frame": 96,
+      "lens": 34,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-05-yoga-sanctuary.png"
+    },
+    "scene_06": {
+      "camera_location": [
+        88,
+        -54,
+        17
+      ],
+      "camera_target": [
+        56,
+        -34,
+        10
+      ],
+      "focus": "Finance district",
+      "frame": 96,
+      "lens": 36,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-06-finance-tower.png"
+    },
+    "scene_07": {
+      "camera_location": [
+        54,
+        -89,
+        20
+      ],
+      "camera_target": [
+        30,
+        -63,
+        8
+      ],
+      "focus": "Knowledgebase district",
+      "frame": 96,
+      "lens": 34,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-07-knowledgebase.png"
+    },
+    "scene_08": {
+      "camera_location": [
+        17,
+        -95,
+        18
+      ],
+      "camera_target": [
+        -8,
+        -66,
+        8
+      ],
+      "focus": "Chat and communication",
+      "frame": 96,
+      "lens": 32,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-08-communication-hub.png"
+    },
+    "scene_09": {
+      "camera_location": [
+        -74,
+        -86,
+        20
+      ],
+      "camera_target": [
+        -50,
+        -53,
+        6.4
+      ],
+      "focus": "Leaderboard and competition",
+      "frame": 96,
+      "lens": 32,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-09-leaderboard-arena.png"
+    },
+    "scene_10": {
+      "camera_location": [
+        -60,
+        -46,
+        14
+      ],
+      "camera_target": [
+        -74,
+        -16,
+        4.3
+      ],
+      "focus": "Relationships district",
+      "frame": 96,
+      "lens": 32,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-10-relationships-garden.png"
+    },
+    "scene_11": {
+      "camera_location": [
+        -97,
+        -7,
+        25
+      ],
+      "camera_target": [
+        -66,
+        25,
+        11.5
+      ],
+      "focus": "Career district",
+      "frame": 96,
+      "lens": 35,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-11-career-towers.png"
+    },
+    "scene_12": {
+      "camera_location": [
+        -76,
+        47,
+        14
+      ],
+      "camera_target": [
+        -44,
+        61,
+        5
+      ],
+      "focus": "Recovery and sleep",
+      "frame": 96,
+      "lens": 35,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-12-recovery-dreamscape.png"
+    },
+    "scene_13": {
+      "camera_location": [
+        -41,
+        93,
+        22
+      ],
+      "camera_target": [
+        -8,
+        68,
+        10.5
+      ],
+      "focus": "AI analytics",
+      "frame": 96,
+      "lens": 34,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-13-analytics-cathedral.png"
+    },
+    "scene_14": {
+      "camera_location": [
+        6,
+        95,
+        15
+      ],
+      "camera_target": [
+        30,
+        66,
+        6
+      ],
+      "focus": "Nutrition district",
+      "frame": 96,
+      "lens": 35,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-14-nutrition-farm.png"
+    },
+    "scene_15": {
+      "camera_location": [
+        138,
+        -172,
+        124
+      ],
+      "camera_target": [
+        0,
+        -5,
+        25
+      ],
+      "focus": "Cross-pillar revelation",
+      "frame": 144,
+      "lens": 16,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-15-cross-pillar-revelation.png"
+    },
+    "scene_16": {
+      "camera_location": [
+        14,
+        -52,
+        2.9
+      ],
+      "camera_target": [
+        -8,
+        -66,
+        8
+      ],
+      "focus": "Today screen street corridor",
+      "frame": 96,
+      "lens": 32,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-16-today-screen-street.png"
+    },
+    "scene_17": {
+      "camera_location": [
+        0,
+        -198,
+        96
+      ],
+      "camera_target": [
+        0,
+        0,
+        30
+      ],
+      "focus": "SIA tower return",
+      "frame": 144,
+      "lens": 18,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-70/scene-17-sia-tower-return.png"
+    }
+  },
+  "session": 70,
+  "sia_dominance_ratio": 2.1841,
+  "structure_metrics": {
+    "analytics": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          -8.0002,
+          68.0,
+          8.355
+        ],
+        "max": [
+          -2.3718,
+          76.0,
+          16.71
+        ],
+        "min": [
+          -13.6286,
+          60.0,
+          0.0
+        ],
+        "size": [
+          11.2568,
+          16.0,
+          16.71
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -8.0002,
+          68.0,
+          8.355
+        ],
+        "max": [
+          -2.3718,
+          72.715,
+          16.71
+        ],
+        "min": [
+          -13.6286,
+          63.2849,
+          0.0
+        ],
+        "size": [
+          11.2568,
+          9.4301,
+          16.71
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -8.0001,
+          68.0,
+          3.07
+        ],
+        "max": [
+          -4.0902,
+          76.0,
+          6.14
+        ],
+        "min": [
+          -11.91,
+          60.0,
+          0.0
+        ],
+        "size": [
+          7.8198,
+          16.0,
+          6.14
+        ]
+      },
+      "combined_tris": 24577,
+      "exterior_objects": 8,
+      "exterior_tris": 16259,
+      "interior_objects": 44,
+      "interior_tris": 8318,
+      "label": "AI analytics",
+      "layout_position": [
+        -8,
+        68,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        -8,
+        68,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 68.469
+    },
+    "career": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          -66.0,
+          25.0,
+          9.18
+        ],
+        "max": [
+          -58.1,
+          31.605,
+          18.36
+        ],
+        "min": [
+          -73.9,
+          18.395,
+          0.0
+        ],
+        "size": [
+          15.8,
+          13.21,
+          18.36
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -66.0,
+          25.0,
+          9.18
+        ],
+        "max": [
+          -58.1,
+          31.605,
+          18.36
+        ],
+        "min": [
+          -73.9,
+          18.395,
+          0.0
+        ],
+        "size": [
+          15.8,
+          13.21,
+          18.36
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -66.0,
+          25.0002,
+          2.7999
+        ],
+        "max": [
+          -60.33,
+          29.3,
+          5.5997
+        ],
+        "min": [
+          -71.67,
+          20.7003,
+          0.0
+        ],
+        "size": [
+          11.34,
+          8.5997,
+          5.5997
+        ]
+      },
+      "combined_tris": 26976,
+      "exterior_objects": 176,
+      "exterior_tris": 19692,
+      "interior_objects": 36,
+      "interior_tris": 7284,
+      "label": "Career",
+      "layout_position": [
+        -66,
+        25,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -66,
+        25,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 70.5762
+    },
+    "chat": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          -8.0,
+          -66.01,
+          7.27
+        ],
+        "max": [
+          -1.6955,
+          -60.94,
+          14.5399
+        ],
+        "min": [
+          -14.3045,
+          -71.0799,
+          0.0
+        ],
+        "size": [
+          12.609,
+          10.1399,
+          14.5399
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -8.0,
+          -66.0,
+          7.27
+        ],
+        "max": [
+          -1.6955,
+          -61.605,
+          14.5399
+        ],
+        "min": [
+          -14.3045,
+          -70.395,
+          0.0
+        ],
+        "size": [
+          12.609,
+          8.79,
+          14.5399
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -8.0,
+          -66.01,
+          3.2349
+        ],
+        "max": [
+          -2.9401,
+          -60.94,
+          6.4698
+        ],
+        "min": [
+          -13.06,
+          -71.0799,
+          0.0
+        ],
+        "size": [
+          10.1199,
+          10.1399,
+          6.4698
+        ]
+      },
+      "combined_tris": 27780,
+      "exterior_objects": 193,
+      "exterior_tris": 18580,
+      "interior_objects": 172,
+      "interior_tris": 9200,
+      "label": "Chat and communication",
+      "layout_position": [
+        -8,
+        -66,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -8,
+        -66,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 66.493
+    },
+    "finance": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          56.0,
+          -34.0,
+          9.02
+        ],
+        "max": [
+          62.2,
+          -27.8,
+          18.05
+        ],
+        "min": [
+          49.8,
+          -40.2,
+          -0.01
+        ],
+        "size": [
+          12.4,
+          12.4,
+          18.06
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          56.0,
+          -34.0,
+          9.025
+        ],
+        "max": [
+          62.2,
+          -27.8,
+          18.05
+        ],
+        "min": [
+          49.8,
+          -40.2,
+          0.0
+        ],
+        "size": [
+          12.4,
+          12.4,
+          18.05
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          56.0,
+          -34.225,
+          4.695
+        ],
+        "max": [
+          62.0,
+          -28.95,
+          9.4
+        ],
+        "min": [
+          50.0,
+          -39.5,
+          -0.01
+        ],
+        "size": [
+          12.0,
+          10.55,
+          9.41
+        ]
+      },
+      "combined_tris": 9800,
+      "exterior_objects": 199,
+      "exterior_tris": 3602,
+      "interior_objects": 255,
+      "interior_tris": 6198,
+      "label": "Finance",
+      "layout_position": [
+        56,
+        -34,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        56,
+        -34,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 65.5134
+    },
+    "fitness": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          61.0,
+          35.9057,
+          6.75
+        ],
+        "max": [
+          69.6,
+          44.5866,
+          13.5
+        ],
+        "min": [
+          52.4,
+          27.2248,
+          -0.0
+        ],
+        "size": [
+          17.2,
+          17.3618,
+          13.5
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          61.0,
+          35.9057,
+          6.75
+        ],
+        "max": [
+          69.6,
+          44.5866,
+          13.5
+        ],
+        "min": [
+          52.4,
+          27.2248,
+          0.0
+        ],
+        "size": [
+          17.2,
+          17.3618,
+          13.5
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          60.9938,
+          36.0,
+          1.875
+        ],
+        "max": [
+          67.0375,
+          42.0375,
+          3.7501
+        ],
+        "min": [
+          54.95,
+          29.9625,
+          -0.0
+        ],
+        "size": [
+          12.0875,
+          12.075,
+          3.7501
+        ]
+      },
+      "combined_tris": 17976,
+      "exterior_objects": 42,
+      "exterior_tris": 12066,
+      "interior_objects": 11,
+      "interior_tris": 5910,
+      "label": "Fitness",
+      "layout_position": [
+        61,
+        36,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        61,
+        36,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 70.7829
+    },
+    "knowledgebase": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          30.0,
+          -63.825,
+          6.205
+        ],
+        "max": [
+          32.6888,
+          -60.8,
+          12.5
+        ],
+        "min": [
+          27.3113,
+          -66.85,
+          -0.09
+        ],
+        "size": [
+          5.3775,
+          6.05,
+          12.59
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          30.0,
+          -63.825,
+          6.205
+        ],
+        "max": [
+          32.6888,
+          -60.8,
+          12.5
+        ],
+        "min": [
+          27.3113,
+          -66.85,
+          -0.09
+        ],
+        "size": [
+          5.3775,
+          6.05,
+          12.59
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          29.9999,
+          -63.0,
+          4.5
+        ],
+        "max": [
+          31.8598,
+          -61.34,
+          9.0
+        ],
+        "min": [
+          28.14,
+          -64.66,
+          0.0
+        ],
+        "size": [
+          3.7198,
+          3.32,
+          9.0
+        ]
+      },
+      "combined_tris": 13372,
+      "exterior_objects": 357,
+      "exterior_tris": 7532,
+      "interior_objects": 157,
+      "interior_tris": 5840,
+      "label": "Knowledgebase",
+      "layout_position": [
+        30,
+        -63,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        30,
+        -63,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 70.524
+    },
+    "leaderboard": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          -50.0,
+          -53.0,
+          5.3421
+        ],
+        "max": [
+          -40.8,
+          -39.75,
+          10.6842
+        ],
+        "min": [
+          -59.2,
+          -66.25,
+          0.0
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -50.0,
+          -53.0,
+          5.3421
+        ],
+        "max": [
+          -40.8,
+          -39.75,
+          10.6842
+        ],
+        "min": [
+          -59.2,
+          -66.25,
+          0.0
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -50.0,
+          -52.9239,
+          3.3127
+        ],
+        "max": [
+          -43.66,
+          -46.6478,
+          6.6253
+        ],
+        "min": [
+          -56.34,
+          -59.2,
+          0.0
+        ],
+        "size": [
+          12.68,
+          12.5522,
+          6.6253
+        ]
+      },
+      "combined_tris": 26872,
+      "exterior_objects": 181,
+      "exterior_tris": 17424,
+      "interior_objects": 136,
+      "interior_tris": 9448,
+      "label": "Leaderboard and competition",
+      "layout_position": [
+        -50,
+        -53,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -50,
+        -53,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 72.8629
+    },
+    "nutrition": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          30.0,
+          65.995,
+          4.2976
+        ],
+        "max": [
+          35.6,
+          72.61,
+          8.5952
+        ],
+        "min": [
+          24.4,
+          59.38,
+          0.0
+        ],
+        "size": [
+          11.2,
+          13.23,
+          8.5952
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          30.0,
+          65.9999,
+          4.2976
+        ],
+        "max": [
+          35.6,
+          70.1,
+          8.5952
+        ],
+        "min": [
+          24.4,
+          61.8998,
+          0.0
+        ],
+        "size": [
+          11.2,
+          8.2002,
+          8.5952
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          29.9999,
+          65.995,
+          2.5587
+        ],
+        "max": [
+          34.2698,
+          72.61,
+          5.1174
+        ],
+        "min": [
+          25.73,
+          59.38,
+          0.0
+        ],
+        "size": [
+          8.5398,
+          13.23,
+          5.1174
+        ]
+      },
+      "combined_tris": 27260,
+      "exterior_objects": 7,
+      "exterior_tris": 17964,
+      "interior_objects": 37,
+      "interior_tris": 9296,
+      "label": "Nutrition",
+      "layout_position": [
+        30,
+        66,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        30,
+        66,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 72.4937
+    },
+    "recovery": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          -44.0,
+          60.9999,
+          3.9823
+        ],
+        "max": [
+          -33.1424,
+          67.5483,
+          7.9645
+        ],
+        "min": [
+          -54.8576,
+          54.4514,
+          0.0
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -44.0,
+          60.9999,
+          3.9823
+        ],
+        "max": [
+          -33.1424,
+          67.5483,
+          7.9645
+        ],
+        "min": [
+          -54.8576,
+          54.4514,
+          0.0
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -44.0,
+          61.0001,
+          2.7224
+        ],
+        "max": [
+          -37.45,
+          66.1,
+          5.4447
+        ],
+        "min": [
+          -50.55,
+          55.9002,
+          0.0
+        ],
+        "size": [
+          13.1,
+          10.1998,
+          5.4447
+        ]
+      },
+      "combined_tris": 21252,
+      "exterior_objects": 7,
+      "exterior_tris": 14488,
+      "interior_objects": 31,
+      "interior_tris": 6764,
+      "label": "Recovery and sleep",
+      "layout_position": [
+        -44,
+        61,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -44,
+        61,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 75.2129
+    },
+    "relationships": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          -74.0,
+          -15.9998,
+          3.67
+        ],
+        "max": [
+          -59.1928,
+          -5.3086,
+          7.3401
+        ],
+        "min": [
+          -88.8072,
+          -26.691,
+          0.0
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          -74.0,
+          -15.9998,
+          3.67
+        ],
+        "max": [
+          -59.1928,
+          -5.3086,
+          7.3401
+        ],
+        "min": [
+          -88.8072,
+          -26.691,
+          0.0
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -74.0,
+          -16.0,
+          2.7562
+        ],
+        "max": [
+          -67.65,
+          -10.85,
+          5.5123
+        ],
+        "min": [
+          -80.35,
+          -21.15,
+          0.0
+        ],
+        "size": [
+          12.7,
+          10.3,
+          5.5123
+        ]
+      },
+      "combined_tris": 21398,
+      "exterior_objects": 7,
+      "exterior_tris": 14986,
+      "interior_objects": 34,
+      "interior_tris": 6412,
+      "label": "Relationships",
+      "layout_position": [
+        -74,
+        -16,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -74,
+        -16,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 75.7099
+    },
+    "sia-tower": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          0.0,
+          -0.0,
+          21.0
+        ],
+        "max": [
+          13.0129,
+          12.3909,
+          42.0
+        ],
+        "min": [
+          -13.0129,
+          -12.391,
+          0.0
+        ],
+        "size": [
+          26.0258,
+          24.7819,
+          42.0
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          0.0,
+          -0.0,
+          20.05
+        ],
+        "max": [
+          13.0129,
+          12.3909,
+          40.1
+        ],
+        "min": [
+          -13.0129,
+          -12.391,
+          0.0
+        ],
+        "size": [
+          26.0258,
+          24.7819,
+          40.1
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          -0.025,
+          23.0
+        ],
+        "max": [
+          3.0296,
+          3.0,
+          42.0
+        ],
+        "min": [
+          -3.0296,
+          -3.05,
+          4.0
+        ],
+        "size": [
+          6.0593,
+          6.05,
+          38.0
+        ]
+      },
+      "combined_tris": 9582,
+      "exterior_objects": 14,
+      "exterior_tris": 6956,
+      "interior_objects": 86,
+      "interior_tris": 2626,
+      "label": "SIA Tower",
+      "layout_position": [
+        0,
+        0,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 0.0
+    },
+    "yoga": {
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_combined": {
+        "center": [
+          74.0,
+          2.0001,
+          2.6352
+        ],
+        "max": [
+          83.0,
+          8.3,
+          5.5003
+        ],
+        "min": [
+          65.0,
+          -4.2999,
+          -0.23
+        ],
+        "size": [
+          18.0,
+          12.5999,
+          5.7303
+        ]
+      },
+      "bbox_exterior": {
+        "center": [
+          74.0,
+          2.0001,
+          2.7334
+        ],
+        "max": [
+          83.0,
+          8.3,
+          5.4668
+        ],
+        "min": [
+          65.0,
+          -4.2999,
+          0.0
+        ],
+        "size": [
+          18.0,
+          12.5999,
+          5.4668
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          74.0,
+          2.0,
+          2.6352
+        ],
+        "max": [
+          79.72,
+          7.72,
+          5.5003
+        ],
+        "min": [
+          68.28,
+          -3.72,
+          -0.23
+        ],
+        "size": [
+          11.44,
+          11.44,
+          5.7303
+        ]
+      },
+      "combined_tris": 21684,
+      "exterior_objects": 151,
+      "exterior_tris": 12796,
+      "interior_objects": 117,
+      "interior_tris": 8888,
+      "label": "Yoga and wellbeing",
+      "layout_position": [
+        74,
+        2,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        74,
+        2,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "radial_center_distance": 74.027
+    }
+  }
+}

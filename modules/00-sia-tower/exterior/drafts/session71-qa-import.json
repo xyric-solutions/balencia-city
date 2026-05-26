@@ -1,0 +1,44 @@
+{
+  "path": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-v2-draft-s71.glb",
+  "object_count": 357,
+  "tris": 14844,
+  "size_bytes": 392296,
+  "size_kb": 383.1,
+  "bbox": {
+    "min": [
+      -15.4,
+      -15.4,
+      -0.0
+    ],
+    "max": [
+      15.4,
+      15.4,
+      67.1
+    ],
+    "size": [
+      30.8,
+      30.8,
+      67.1
+    ],
+    "center": [
+      0.0,
+      0.0,
+      33.55
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "sia-tower-ext"
+  ],
+  "passed": true
+}

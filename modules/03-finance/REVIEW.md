@@ -8,9 +8,9 @@
 - [x] Gate 5: Technical Budget
 - [x] Gate 6: Cohesion Check
 
-**Exterior Status**: Session 14 Complete -- QA APPROVED
+**Exterior Status**: Session 72 v2 Phase 8 polish approved
 
-**Exterior Approved**: [x] Yes / Date: 2026-05-23
+**Exterior Approved**: [x] Yes / Date: 2026-05-26 (v2 polish; original Session 14 approval 2026-05-23)
 
 ### Build Sessions
 
@@ -308,6 +308,42 @@ This is a minor documentation inaccuracy, non-blocking.
 **Conditional pass notes**:
 - Gate 3.2: Material distribution deviates from SPEC ranges — accepted as design-intent exception (crystalline wireframe aesthetic)
 - Gate 5.1: Tri count (3,602) below 12K floor — accepted as appropriate for geometric/planar aesthetic
+
+#### Session 72 (2026-05-26) -- Phase 8 Exterior Polish Wave
+
+**Focus**: Upgrade the approved crystalline Finance exterior from its original low-triangle exception into the preferred Phase 8 12K-18K range while preserving the existing origin, app runtime path, and hard-pipeline assumptions.
+
+**Added finish signals**:
+- 35 octagonal gold floor-edge rings for 35-floor scale.
+- Recessed plate-glass facets with gold window frames and dark shadow reveals.
+- Weighted octagonal base steps, facet pilasters, entry ticker panel, and ticker glyphs.
+- Crown financial data rings, market panels, observation deck underbracing, and roof pipeline hardpoint collar.
+
+**Metrics**:
+- Previous approved exterior: 3,602 tris, 199 mesh objects, 172.8 KB.
+- Session 72 v2 approved exterior: 15,370 tris, 205 mesh objects, 248.8 KB.
+- Approved GLB: `exterior/approved/finance-ext.glb`
+- App GLB: `apps/balencia/public/models/structures/03-finance/finance-ext.glb`
+- Metrics: `exterior/drafts/session72-v2-metrics.json`
+- QA import: `exterior/drafts/session72-qa-import.json`
+
+**Screenshots**:
+- `screenshots/session72-finance-v2-front.png`
+- `screenshots/session72-finance-v2-threequarter.png`
+- `screenshots/session72-finance-v2-dark-first.png`
+
+#### QA Review -- Session 72 (2026-05-26) -- Phase 8 Exterior Polish
+
+| Gate | Result | Notes |
+|------|--------|-------|
+| 1 | PASS | Crystalline octagonal silhouette and gold wireframe identity are preserved and strengthened. |
+| 2 | PASS | 35 floor-edge rings make the high-rise scale explicit. |
+| 3 | PASS | Reimported GLB uses approved material slots only: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`. |
+| 4 | PASS | Dark-first screenshot rendered after setting emission strength to zero. |
+| 5 | PASS | 15,370 tris within 12K-18K; 248.8 KB within 100-350 KB; no cameras/lights exported; GLB imports cleanly. |
+| 6 | PASS | Refreshed contact sheet rendered at `assembly/screenshots/s72-exterior-finish-contact-sheet.png`. |
+
+**Overall Verdict**: APPROVED -- Session 72 v2 polish promoted to approved and app paths.
 
 ---
 

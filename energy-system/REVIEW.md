@@ -346,3 +346,50 @@ The AI pulse layer adds a horizontal orange energy torus emitted from the SIA To
 **Pulse Approved**: Yes / Date: 2026-05-25  
 **Phase 5 Complete**: Yes  
 **Next Work**: Phase 6 full-city assembly.
+
+## Session 70 - Layout v2 Energy Rebase
+
+**Date**: 2026-05-26  
+**Scope**: Phase 8.2 rebake of every approved baked energy asset against `shared/city-layout-v2.json`.
+
+### Artifacts
+
+| Artifact | Path |
+|----------|------|
+| Energy rebake report | `energy-system/pipelines/drafts/energy-layout-v2-session70-report.json` |
+| Energy rebake blend | `energy-system/pipelines/drafts/energy-layout-v2-session70.blend` |
+| Hard pipelines draft | `energy-system/pipelines/drafts/hard-pipelines-session70.glb` |
+| Warm mist draft | `energy-system/pipelines/drafts/warm-mist-session70.glb` |
+| Faint thread draft | `energy-system/pipelines/drafts/faint-thread-session70.glb` |
+| Knowledgebase waterfall draft | `energy-system/pipelines/drafts/knowledgebase-waterfall-session70.glb` |
+| Leaderboard lightning draft | `energy-system/pipelines/drafts/leaderboard-lightning-session70.glb` |
+| Cross-district gold draft | `energy-system/cross-connections/drafts/cross-connections-session70.glb` |
+| AI pulse draft | `energy-system/pulse/drafts/ai-pulse-session70.glb` |
+| Screenshots | `energy-system/screenshots/s70-*.png` |
+
+### Metrics
+
+| Asset | Result | Tris | Approved GLB Size |
+|-------|--------|------|-------------------|
+| Hard pipelines | APPROVED | 5,234 | 47,692 bytes |
+| Warm mist | APPROVED | 2,212 | 15,472 bytes |
+| Faint thread | APPROVED | 514 | 5,024 bytes |
+| Knowledgebase waterfall | APPROVED | 550 | 5,896 bytes |
+| Leaderboard lightning | APPROVED | 480 | 5,392 bytes |
+| Cross-district gold | APPROVED | 1,428 | 17,164 bytes |
+| AI pulse | APPROVED | 1,724 | 21,920 bytes |
+
+### Energy Integration Check
+
+| Check | Result | Evidence |
+|-------|--------|----------|
+| Rebuilt from layout-v2 | PASS | Script reads `shared/city-layout-v2.json` for all district positions and the pulse perimeter. |
+| Hard endpoints match layout-v2 | PASS | Hard pipeline endpoints match the rebased district bounding-box centers. |
+| Required energy asset count | PASS | All 7 approved energy assets were rebuilt and promoted. |
+| Cross-connection anchors | PASS | Six insight anchors were exported with the cross-district gold asset. |
+| AI pulse animation | PASS | Pulse GLB reimports with animation actions and uses the layout-v2 edge-wall radius. |
+| Material root | PASS | Every energy asset reimports with `energy` material root only. |
+| Screenshot evidence | PASS | Citywide, cross-connection, and pulse-perimeter screenshots are nonzero. |
+
+**Layout v2 Energy Rebase Approved**: Yes / Date: 2026-05-26  
+**Next Work**: Use the rebaked energy assets in Phase 8 exterior finish QA.

@@ -68,12 +68,52 @@ Strict sequential build. ONE module at a time. No skipping. No parallel building
 |------|------|
 | 7.1 | Scaffold Vite + R3F project |
 | 7.2 | Build 17-scene scroll timeline (GSAP + Lenis) |
-| 7.3 | Energy pipeline shader system (flowing particles) |
-| 7.4 | AI Pulse expanding ring (8-sec cycle) |
-| 7.5 | Cross-district gold connections |
-| 7.6 | Overlay system (text, labels, insight cards) |
-| 7.7 | Performance optimization (LOD, progressive loading) |
-| 7.8 | Full end-to-end scroll test |
+| 7.3 | City legibility pass: Urban Atlas ground, district pads, boulevards, hybrid labels |
+| 7.4 | Energy pipeline shader system (flowing particles) |
+| 7.5 | AI Pulse expanding ring (8-sec cycle) |
+| 7.6 | Cross-district gold connections |
+| 7.7 | Overlay system (text, labels, insight cards) |
+| 7.8 | Performance optimization (LOD, progressive loading) |
+| 7.9 | Full end-to-end scroll test |
+
+### Phase 7.3 Visual Quality Sub-Passes
+
+| Step | Task | Status |
+|------|------|--------|
+| 7.3A | Label legibility: full-name labels, curated overview placement, mobile dock | Done |
+| 7.3B | Feedback audit and backlog reset: compare actual app state to user feedback, record missing quality, and reset next-session order | Done |
+| 7.3C | Immersive city structure/depth: stronger walls, retaining edges, district boundaries, zoning colors, foreground/background separation, SIA hierarchy | Done |
+| 7.3D | Label boards and reveal system: illuminated building-tethered boards, hover/focus reveal, mobile spacing logic, reduced detached-label feeling | Done |
+| 7.3E | Living intelligence motion: subtle camera parallax, animated data-flow lines, status-based glow variation, richer particles/fog/holographic scans | Done |
+| 7.3F | Interaction overlay: hover pulse, keyboard focus, focus zoom, district preview cards/tooltips, dynamic bottom-left info panel | Done |
+| 7.3G | Void and horizon: distant edge, warm fog, terrain/sky gradient, outer rim lighting, Scene 17 cleanup | Done |
+| 7.3H | Product reality overlay: Scene 16 person/phone Today Screen overlay with city visible behind it | Done |
+| 7.3I | Integration QA: desktop/mobile label checks, interaction checks, console, build, performance budget, screenshots if capture timeout is resolved | Done |
+
+### Phase 7.3 Interface Backlog
+
+| Interface | Purpose | Status |
+|-----------|---------|--------|
+| Shared district metadata | Labels, zones, activity/status, board anchors, preview copy, and interaction affordances in one source instead of buried scene component constants | Done |
+| Interaction store state | Track hovered/focused district and active preview content alongside scroll scene state | Done |
+| `DistrictLabelBoard` | App-layer illuminated/tethered labels for active and hovered districts | Done |
+| `BuildingInteractionLayer` | Pointer and keyboard interaction targets without modifying approved GLBs first | Done |
+| `DistrictPreviewPanel` | Dynamic replacement behavior for the bottom-left info panel when a building is hovered or focused | Done |
+| `LivingEnergyLayer` | Shader/animation layer for flowing pipelines, data pulses, and status glow variation | Done |
+| `AtmosphereDepthLayer` | App-layer sky gradient, terrain depth, horizon fog, distant edge cues, outer rim lighting, and closing cleanup | Done |
+
+## Phase 8: City Spread And Exterior Finish
+
+| Step | Task | Status |
+|------|------|--------|
+| 8.1 | City layout v2 spread prototype: shared layout source, wider app positions, expanded island/rings, retargeted cameras/labels, stale baked energy hidden | Done (Session 69) |
+| 8.2 | Assembly and energy layout rebase: rebuild full-city Blender assembly and all endpoint energy GLBs from `shared/city-layout-v2.json` | Done (Session 70) |
+| 8.3 | Exterior finish audit plus SIA pilot polish | Done (Session 71) |
+| 8.4 | Fitness + Finance exterior polish wave | Done (Session 72) |
+| 8.5 | Yoga + Recovery + Relationships organic polish wave | Next |
+| 8.6 | Knowledgebase + Chat + Career urban polish wave | Queued |
+| 8.7 | Leaderboard + Analytics + Nutrition signature polish wave | Queued |
+| 8.8 | Final Phase 8 city QA contact sheets and performance review | Queued |
 
 ## Per-Module Workflow (applies to every structure)
 ```

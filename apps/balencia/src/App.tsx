@@ -1,4 +1,5 @@
 import { CityExperience } from "./components/scenes/CityExperience";
+import { ProductRealityOverlay } from "./components/ui/ProductRealityOverlay";
 import { SceneOverlay } from "./components/ui/SceneOverlay";
 import { useBalenciaScrollTimeline } from "./hooks/useBalenciaScrollTimeline";
 import { SCROLL_SCENES, SCROLL_STAGE_HEIGHT_VH } from "./lib/scroll-scenes";
@@ -34,6 +35,7 @@ export default function App() {
       <header className="brand-mark" aria-label="Balencia">
         Balencia.
       </header>
+      <ProductRealityOverlay />
       <SceneOverlay />
       <ScrollStage />
     </div>

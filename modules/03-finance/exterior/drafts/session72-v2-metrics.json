@@ -1,0 +1,134 @@
+{
+  "session": 72,
+  "date": "2026-05-26",
+  "module": "Finance",
+  "source_blend": "modules/03-finance/exterior/drafts/finance-exterior-s14.blend",
+  "output_blend": "modules/03-finance/exterior/drafts/finance-session72-v2-polish.blend",
+  "draft_glb": "modules/03-finance/exterior/drafts/finance-ext-v2-draft-s72.glb",
+  "approved_glb": "modules/03-finance/exterior/approved/finance-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/03-finance/finance-ext.glb",
+  "pre_tris": 3602,
+  "pre_objects": 199,
+  "pre_bbox": {
+    "min": [
+      -6.2,
+      -6.2,
+      0.0
+    ],
+    "max": [
+      6.2,
+      6.2,
+      18.05
+    ],
+    "size": [
+      12.4,
+      12.4,
+      18.05
+    ],
+    "center": [
+      0.0,
+      0.0,
+      9.025
+    ]
+  },
+  "final_live_tris": 15370,
+  "final_live_objects": 205,
+  "final_tris": 15370,
+  "final_objects": 205,
+  "final_size_bytes": 254740,
+  "final_size_kb": 248.8,
+  "bbox": {
+    "min": [
+      -6.5987,
+      -6.5987,
+      0.0
+    ],
+    "max": [
+      6.5987,
+      7.771,
+      18.43
+    ],
+    "size": [
+      13.1974,
+      14.3697,
+      18.43
+    ],
+    "center": [
+      0.0,
+      0.5861,
+      9.215
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session72 finance crown data ring and observation deck polish": {
+      "objects": 33,
+      "tris": 2240
+    },
+    "session72 finance crystalline floor edges and recessed windows": {
+      "objects": 664,
+      "tris": 9088
+    },
+    "session72 finance stable base, entry, and market display finish": {
+      "objects": 32,
+      "tris": 440
+    }
+  },
+  "budget": {
+    "tri_min": 12000,
+    "tri_max": 18000,
+    "size_min_kb": 100,
+    "size_max_kb": 350,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/03-finance/exterior/drafts/finance-ext-v2-draft-s72.glb",
+    "object_count": 205,
+    "tris": 15370,
+    "size_bytes": 254740,
+    "size_kb": 248.8,
+    "bbox": {
+      "min": [
+        -6.5987,
+        -6.5987,
+        0.0
+      ],
+      "max": [
+        6.5987,
+        7.771,
+        18.43
+      ],
+      "size": [
+        13.1974,
+        14.3697,
+        18.43
+      ],
+      "center": [
+        0.0,
+        0.5861,
+        9.215
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "finance-ext"
+    ],
+    "passed": true
+  }
+}

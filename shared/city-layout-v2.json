@@ -1,0 +1,75 @@
+{
+  "version": "city-layout-v2",
+  "session": 69,
+  "minimumDistrictSpacing": 36,
+  "notes": "Phase 8 spread layout. Runtime coordinates are [x, y, z]. Blender coordinates preserve the original project convention [x, y, z] where runtime z = -blender y.",
+  "island": {
+    "radiusX": 118,
+    "radiusZ": 101,
+    "innerCivicRadius": 18,
+    "outerRoadRadius": 87,
+    "edgeWallRadius": 96
+  },
+  "districts": {
+    "sia-tower": {
+      "runtimePosition": [0, 0, 0],
+      "blenderPosition": [0, 0, 0],
+      "ring": "core"
+    },
+    "fitness": {
+      "runtimePosition": [61, 0, -36],
+      "blenderPosition": [61, 36, 0],
+      "ring": "outer"
+    },
+    "yoga": {
+      "runtimePosition": [74, 0, -2],
+      "blenderPosition": [74, 2, 0],
+      "ring": "outer"
+    },
+    "finance": {
+      "runtimePosition": [56, 0, 34],
+      "blenderPosition": [56, -34, 0],
+      "ring": "outer"
+    },
+    "knowledgebase": {
+      "runtimePosition": [30, 0, 63],
+      "blenderPosition": [30, -63, 0],
+      "ring": "outer"
+    },
+    "chat": {
+      "runtimePosition": [-8, 0, 66],
+      "blenderPosition": [-8, -66, 0],
+      "ring": "outer"
+    },
+    "leaderboard": {
+      "runtimePosition": [-50, 0, 53],
+      "blenderPosition": [-50, -53, 0],
+      "ring": "outer"
+    },
+    "relationships": {
+      "runtimePosition": [-74, 0, 16],
+      "blenderPosition": [-74, -16, 0],
+      "ring": "outer"
+    },
+    "career": {
+      "runtimePosition": [-66, 0, -25],
+      "blenderPosition": [-66, 25, 0],
+      "ring": "outer"
+    },
+    "recovery": {
+      "runtimePosition": [-44, 0, -61],
+      "blenderPosition": [-44, 61, 0],
+      "ring": "outer"
+    },
+    "analytics": {
+      "runtimePosition": [-8, 0, -68],
+      "blenderPosition": [-8, 68, 0],
+      "ring": "outer"
+    },
+    "nutrition": {
+      "runtimePosition": [30, 0, -66],
+      "blenderPosition": [30, 66, 0],
+      "ring": "outer"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "path": "modules/01-fitness/exterior/drafts/fitness-ext-v2-draft-s72.glb",
+  "object_count": 45,
+  "tris": 16402,
+  "size_bytes": 106308,
+  "size_kb": 103.8,
+  "bbox": {
+    "min": [
+      -12.0733,
+      -12.2806,
+      0.0
+    ],
+    "max": [
+      12.0734,
+      12.0922,
+      14.1505
+    ],
+    "size": [
+      24.1467,
+      24.3728,
+      14.1505
+    ],
+    "center": [
+      0.0001,
+      -0.0942,
+      7.0753
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "fitness-ext"
+  ],
+  "passed": true
+}

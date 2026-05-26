@@ -1,0 +1,616 @@
+{
+  "assets": {
+    "ai-pulse": {
+      "approved_file_size_bytes": 21920,
+      "approved_glb": "energy-system/pulse/approved/ai-pulse.glb",
+      "checks": {
+        "animation_reimports": true,
+        "file_nonzero": true,
+        "material_roots_energy_only": true,
+        "objects_present": true,
+        "perimeter_matches_layout_v2": true,
+        "reimport_material_valid": true,
+        "reimports": true
+      },
+      "draft_file_size_bytes": 21920,
+      "draft_glb": "energy-system/pulse/drafts/ai-pulse-session70.glb",
+      "import_check": {
+        "animation_count": 2,
+        "file_size_bytes": 21920,
+        "material_roots": [
+          "energy"
+        ],
+        "materials_valid": true,
+        "mesh_count": 2,
+        "object_count": 3,
+        "tris": 1724
+      },
+      "material_roots": [
+        "energy"
+      ],
+      "metrics": {
+        "keyframes": [
+          0,
+          12,
+          48,
+          96,
+          144,
+          192
+        ],
+        "origin": [
+          0,
+          0,
+          42.35
+        ],
+        "perimeter_radius": 96,
+        "response_radius": 75.71,
+        "tris": 1724
+      },
+      "overall": "APPROVED",
+      "tris": 1724
+    },
+    "cross-district-gold": {
+      "approved_file_size_bytes": 17164,
+      "approved_glb": "energy-system/cross-connections/approved/cross-district-gold.glb",
+      "checks": {
+        "connection_count": true,
+        "file_nonzero": true,
+        "insight_anchor_count": true,
+        "material_roots_energy_only": true,
+        "objects_present": true,
+        "reimport_material_valid": true,
+        "reimports": true
+      },
+      "draft_file_size_bytes": 17164,
+      "draft_glb": "energy-system/cross-connections/drafts/cross-connections-session70.glb",
+      "import_check": {
+        "animation_count": 0,
+        "file_size_bytes": 17164,
+        "material_roots": [
+          "energy"
+        ],
+        "materials_valid": true,
+        "mesh_count": 6,
+        "object_count": 13,
+        "tris": 1428
+      },
+      "material_roots": [
+        "energy"
+      ],
+      "metrics": {
+        "chat_relationships": {
+          "anchor": [
+            -38.7053,
+            -37.9709,
+            17.9331
+          ],
+          "distance_xy": 82.8011,
+          "end": [
+            -74.0,
+            -15.9998,
+            4.2572
+          ],
+          "from": "chat",
+          "start": [
+            -8.0,
+            -66.0,
+            8.4331
+          ],
+          "to": "relationships",
+          "tris": 238
+        },
+        "finance_career": {
+          "anchor": [
+            -2.4749,
+            0.7215,
+            22.6488
+          ],
+          "distance_xy": 135.5175,
+          "end": [
+            -66.0,
+            25.0,
+            10.6488
+          ],
+          "from": "finance",
+          "start": [
+            56.0,
+            -34.0,
+            10.469
+          ],
+          "to": "career",
+          "tris": 238
+        },
+        "fitness_recovery": {
+          "anchor": [
+            10.1736,
+            55.4556,
+            21.33
+          ],
+          "distance_xy": 107.957,
+          "end": [
+            -44.0,
+            60.9999,
+            4.6194
+          ],
+          "from": "fitness",
+          "start": [
+            61.0,
+            35.9057,
+            7.83
+          ],
+          "to": "recovery",
+          "tris": 238
+        },
+        "nutrition_career": {
+          "anchor": [
+            -15.4863,
+            39.6142,
+            26.6488
+          ],
+          "distance_xy": 104.3887,
+          "end": [
+            -66.0,
+            25.0,
+            10.6488
+          ],
+          "from": "nutrition",
+          "start": [
+            30.0,
+            65.9999,
+            4.9852
+          ],
+          "to": "career",
+          "tris": 238
+        },
+        "recovery_analytics": {
+          "anchor": [
+            -26.8018,
+            68.6227,
+            19.6918
+          ],
+          "distance_xy": 36.674,
+          "end": [
+            -8.0002,
+            68.0,
+            9.6918
+          ],
+          "from": "recovery",
+          "start": [
+            -44.0,
+            60.9999,
+            4.6194
+          ],
+          "to": "analytics",
+          "tris": 238
+        },
+        "relationships_yoga": {
+          "anchor": [
+            -1.0262,
+            1.438,
+            16.7572
+          ],
+          "distance_xy": 149.0906,
+          "end": [
+            74.0,
+            2.0001,
+            3.1708
+          ],
+          "from": "relationships",
+          "start": [
+            -74.0,
+            -15.9998,
+            4.2572
+          ],
+          "to": "yoga",
+          "tris": 238
+        }
+      },
+      "overall": "APPROVED",
+      "tris": 1428
+    },
+    "faint-thread": {
+      "approved_file_size_bytes": 5024,
+      "approved_glb": "energy-system/pipelines/approved/faint-thread.glb",
+      "checks": {
+        "file_nonzero": true,
+        "material_roots_energy_only": true,
+        "objects_present": true,
+        "reimport_material_valid": true,
+        "reimports": true
+      },
+      "draft_file_size_bytes": 5024,
+      "draft_glb": "energy-system/pipelines/drafts/faint-thread-session70.glb",
+      "import_check": {
+        "animation_count": 0,
+        "file_size_bytes": 5024,
+        "material_roots": [
+          "energy"
+        ],
+        "materials_valid": true,
+        "mesh_count": 1,
+        "object_count": 2,
+        "tris": 514
+      },
+      "material_roots": [
+        "energy"
+      ],
+      "metrics": {
+        "recovery": {
+          "arc_peak_z": 42.0,
+          "end": [
+            -44.0,
+            60.9999,
+            8.4145
+          ],
+          "start": [
+            -2.6325,
+            3.6496,
+            36.8
+          ],
+          "tris": 514
+        }
+      },
+      "overall": "APPROVED",
+      "tris": 514
+    },
+    "hard-pipelines": {
+      "approved_file_size_bytes": 47692,
+      "approved_glb": "energy-system/pipelines/approved/hard-pipelines.glb",
+      "checks": {
+        "endpoints_match_layout_v2": true,
+        "file_nonzero": true,
+        "material_roots_energy_only": true,
+        "objects_present": true,
+        "pipeline_count": true,
+        "reimport_material_valid": true,
+        "reimports": true
+      },
+      "draft_file_size_bytes": 47692,
+      "draft_glb": "energy-system/pipelines/drafts/hard-pipelines-session70.glb",
+      "import_check": {
+        "animation_count": 0,
+        "file_size_bytes": 47692,
+        "material_roots": [
+          "energy"
+        ],
+        "materials_valid": true,
+        "mesh_count": 9,
+        "object_count": 10,
+        "tris": 5234
+      },
+      "material_roots": [
+        "energy"
+      ],
+      "metrics": {
+        "analytics": {
+          "arc_lift_over_linear_mid": 19.6829,
+          "arc_peak_z": 46.7129,
+          "distance_xy": 63.969,
+          "district_center_xy": [
+            -8.0002,
+            68.0
+          ],
+          "end": [
+            -8.0002,
+            68.0,
+            17.26
+          ],
+          "start": [
+            -0.5258,
+            4.4692,
+            36.8
+          ],
+          "tris": 650
+        },
+        "career": {
+          "arc_lift_over_linear_mid": 19.3425,
+          "arc_peak_z": 47.1975,
+          "distance_xy": 66.0762,
+          "district_center_xy": [
+            -66.0,
+            25.0
+          ],
+          "end": [
+            -66.0,
+            25.0,
+            18.91
+          ],
+          "start": [
+            -4.2082,
+            1.594,
+            36.8
+          ],
+          "tris": 650
+        },
+        "chat": {
+          "arc_lift_over_linear_mid": 20.3112,
+          "arc_peak_z": 46.2561,
+          "distance_xy": 61.9831,
+          "district_center_xy": [
+            -8.0,
+            -66.0
+          ],
+          "end": [
+            -8.0,
+            -66.0,
+            15.0899
+          ],
+          "start": [
+            -0.5415,
+            -4.4673,
+            36.8
+          ],
+          "tris": 650
+        },
+        "finance": {
+          "arc_lift_over_linear_mid": 18.3331,
+          "arc_peak_z": 46.0331,
+          "distance_xy": 61.0134,
+          "district_center_xy": [
+            56.0,
+            -34.0
+          ],
+          "end": [
+            56.0,
+            -34.0,
+            18.6
+          ],
+          "start": [
+            3.8465,
+            -2.3354,
+            36.8
+          ],
+          "tris": 650
+        },
+        "fitness": {
+          "arc_lift_over_linear_mid": 21.8201,
+          "arc_peak_z": 47.2451,
+          "distance_xy": 66.2829,
+          "district_center_xy": [
+            61.0,
+            35.9057
+          ],
+          "end": [
+            61.0,
+            35.9057,
+            14.05
+          ],
+          "start": [
+            3.8781,
+            2.2827,
+            36.8
+          ],
+          "tris": 650
+        },
+        "knowledgebase": {
+          "arc_lift_over_linear_mid": 22.2605,
+          "arc_peak_z": 47.1855,
+          "distance_xy": 66.024,
+          "district_center_xy": [
+            30.0,
+            -63.825
+          ],
+          "end": [
+            30.0,
+            -63.825,
+            13.05
+          ],
+          "start": [
+            1.9142,
+            -4.0726,
+            36.8
+          ],
+          "tris": 650
+        },
+        "leaderboard": {
+          "arc_lift_over_linear_mid": 23.7064,
+          "arc_peak_z": 47.7235,
+          "distance_xy": 68.3629,
+          "district_center_xy": [
+            -50.0,
+            -53.0
+          ],
+          "end": [
+            -50.0,
+            -53.0,
+            11.2342
+          ],
+          "start": [
+            -3.088,
+            -3.2733,
+            36.8
+          ],
+          "tris": 650
+        },
+        "nutrition": {
+          "arc_lift_over_linear_mid": 24.667,
+          "arc_peak_z": 47.6396,
+          "distance_xy": 67.9982,
+          "district_center_xy": [
+            30.0,
+            65.9999
+          ],
+          "end": [
+            30.0,
+            65.9999,
+            9.1452
+          ],
+          "start": [
+            1.8621,
+            4.0966,
+            36.8
+          ],
+          "tris": 650
+        }
+      },
+      "overall": "APPROVED",
+      "tris": 5234
+    },
+    "knowledgebase-waterfall": {
+      "approved_file_size_bytes": 5896,
+      "approved_glb": "energy-system/pipelines/approved/knowledgebase-waterfall.glb",
+      "checks": {
+        "file_nonzero": true,
+        "material_roots_energy_only": true,
+        "objects_present": true,
+        "reimport_material_valid": true,
+        "reimports": true
+      },
+      "draft_file_size_bytes": 5896,
+      "draft_glb": "energy-system/pipelines/drafts/knowledgebase-waterfall-session70.glb",
+      "import_check": {
+        "animation_count": 0,
+        "file_size_bytes": 5896,
+        "material_roots": [
+          "energy"
+        ],
+        "materials_valid": true,
+        "mesh_count": 1,
+        "object_count": 2,
+        "tris": 550
+      },
+      "material_roots": [
+        "energy"
+      ],
+      "metrics": {
+        "knowledgebase": {
+          "bottom": [
+            29.0429,
+            -61.7887,
+            0.55
+          ],
+          "drop": 12.6,
+          "top": [
+            29.1918,
+            -62.1055,
+            13.15
+          ],
+          "tris": 550
+        }
+      },
+      "overall": "APPROVED",
+      "tris": 550
+    },
+    "leaderboard-lightning": {
+      "approved_file_size_bytes": 5392,
+      "approved_glb": "energy-system/pipelines/approved/leaderboard-lightning.glb",
+      "checks": {
+        "file_nonzero": true,
+        "material_roots_energy_only": true,
+        "objects_present": true,
+        "reimport_material_valid": true,
+        "reimports": true
+      },
+      "draft_file_size_bytes": 5392,
+      "draft_glb": "energy-system/pipelines/drafts/leaderboard-lightning-session70.glb",
+      "import_check": {
+        "animation_count": 0,
+        "file_size_bytes": 5392,
+        "material_roots": [
+          "energy"
+        ],
+        "materials_valid": true,
+        "mesh_count": 1,
+        "object_count": 2,
+        "tris": 480
+      },
+      "material_roots": [
+        "energy"
+      ],
+      "metrics": {
+        "leaderboard": {
+          "impact": [
+            -50.0,
+            -53.0,
+            8.4842
+          ],
+          "intake": [
+            -50.0,
+            -53.0,
+            11.5342
+          ],
+          "tris": 480
+        }
+      },
+      "overall": "APPROVED",
+      "tris": 480
+    },
+    "warm-mist": {
+      "approved_file_size_bytes": 15472,
+      "approved_glb": "energy-system/pipelines/approved/warm-mist.glb",
+      "checks": {
+        "file_nonzero": true,
+        "material_roots_energy_only": true,
+        "mist_count": true,
+        "objects_present": true,
+        "reimport_material_valid": true,
+        "reimports": true
+      },
+      "draft_file_size_bytes": 15472,
+      "draft_glb": "energy-system/pipelines/drafts/warm-mist-session70.glb",
+      "import_check": {
+        "animation_count": 0,
+        "file_size_bytes": 15472,
+        "material_roots": [
+          "energy"
+        ],
+        "materials_valid": true,
+        "mesh_count": 2,
+        "object_count": 3,
+        "tris": 2212
+      },
+      "material_roots": [
+        "energy"
+      ],
+      "metrics": {
+        "relationships": {
+          "arc_peak_z": 44.75,
+          "end": [
+            -74.0,
+            -15.9998,
+            8.1901
+          ],
+          "start": [
+            -4.0074,
+            -0.8665,
+            36.25
+          ],
+          "tris": 1106
+        },
+        "yoga": {
+          "arc_peak_z": 44.75,
+          "end": [
+            74.0,
+            2.0001,
+            6.3168
+          ],
+          "start": [
+            4.0985,
+            0.1108,
+            36.25
+          ],
+          "tris": 1106
+        }
+      },
+      "overall": "APPROVED",
+      "tris": 2212
+    }
+  },
+  "layout_source": "shared/city-layout-v2.json",
+  "layout_version": "city-layout-v2",
+  "minimum_district_spacing": 36,
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "scope": "Phase 8.2 energy layout-v2 rebake",
+  "screenshots": {
+    "citywide": "energy-system/screenshots/s70-energy-layout-v2-citywide.png",
+    "cross_connections": "energy-system/screenshots/s70-energy-layout-v2-cross-connections.png",
+    "pulse_perimeter": "energy-system/screenshots/s70-ai-pulse-layout-v2-perimeter.png"
+  },
+  "screenshots_nonzero": {
+    "citywide": true,
+    "cross_connections": true,
+    "pulse_perimeter": true
+  },
+  "session": 70
+}

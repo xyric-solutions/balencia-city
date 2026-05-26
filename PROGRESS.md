@@ -1,14 +1,14 @@
 ---
 current_module: app
-current_phase: 17-scene-timeline
-current_session: 59
-last_completed: app/17-scene-timeline
-next_batch: app/energy-pipeline-shader-system
+current_phase: phase-8-city-spread-and-exterior-finish
+current_session: 72
+last_completed: app/session-72-fitness-finance-exterior-polish-wave
+next_batch: app/session-73-yoga-recovery-relationships-organic-polish-wave
 ---
 
 # Balencia City v3 — Build Progress
 
-Last Updated: 2026-05-25
+Last Updated: 2026-05-26
 
 ## Summary
 - Structures Complete: 12 / 12
@@ -21,10 +21,32 @@ Last Updated: 2026-05-25
 
 ## Retrospective Quality Notes
 - Chat Session 21 remains valid as a silhouette/scale blockout only; Session 22A/22B repaired it before exterior approval.
-- Finance exterior remains approved with a documented low-triangle exception due its crystalline planar design.
+- Finance's original exterior had a documented low-triangle exception due its crystalline planar design; Session 72 superseded it with a v2 exterior in the preferred Phase 8 density range.
 - Yoga and Knowledgebase remain approved; both required geometry fix passes before acceptance.
 - SIA Tower remains approved and source-of-truth for city scale, but sits below the stricter geometry expectations now applied to later multi-part districts.
 - Fitness artifacts are reconciled in `modules/01-fitness/REVIEW.md`; historical detailed QA narrative is still missing and was not invented.
+
+## Phase 7 Readability Notes
+- User review after Session 59 found that the approved structures are strong, but the current app ground plane reads too much like an abstract system diagram instead of a relatable city.
+- Session 60 started an app-level Urban Atlas ground pass and hybrid district labels, but screenshot review found label truncation, placement issues, and remaining city-context gaps.
+- Session 61 completed the label legibility pass with wrapping-safe full labels and curated placement for required desktop scenes.
+- Session 62 audited the actual app state against user feedback instead of trusting docs. Already-built app-layer work includes low-rise infill, street lamps, perimeter edge blocks, people, drones, ambient particles, curated labels, mobile label dock, and active energy material switching.
+- Session 63 added app-layer immersive city structure/depth: SIA plinth/beacon/halo hierarchy, district parapets and zoning rims, perimeter retaining walls with gate piers, outer depth bands, and scene-aware atmosphere. Approved GLBs remain unchanged.
+- Session 64 added shared district metadata, illuminated building-tethered label boards, hover/focus reveal state, and lightweight app-layer interaction targets for SIA, Fitness, Finance, Career, and Relationships. Approved GLBs remain unchanged.
+- Session 65 added subtle pointer camera parallax, app-layer living energy/data routes, status-based district glow, heartbeat scan rings/planes, route fireflies, AI scan motes, and calm green lift particles. Approved GLBs, manifest data, and `SCROLL_SCENES` camera data remain unchanged.
+- Session 66 added compact district preview metadata, a dynamic bottom-left district preview panel, one-active preview card/tooltips, hover/focus pulse polish, focus-visible interaction states, Escape/blur clearing, and subtle damped focus zoom. Approved GLBs, manifest data, and `SCROLL_SCENES` camera data remain unchanged.
+- Session 67 added the app-layer `AtmosphereDepthLayer`: sky gradient dome, distant terrain depth, warm fog shelves, distant urban-edge silhouettes, animated outer rim lighting, and Scene 17 crown/horizon cleanup. Scene 16's automatic active board was hidden until product-reality overlay work. Approved GLBs, manifest data, and `SCROLL_SCENES` camera data remain unchanged.
+- Session 68 added the Scene 16 product-reality layer: a foreground person silhouette, phone hardware, and dark-mode Today Screen with SIA greeting, micro-insight, intelligence path, and action cards over the street-level city. It also completed final integration QA across desktop and mobile scenes.
+- Phase 7.3 visual quality backlog is locally QA-complete after Session 68. Approved structure, interior, assembly, and energy GLBs remain unchanged.
+
+## Phase 8 Spread And Finish Notes
+- User visual review after Session 68 reopened city composition and exterior finish quality: the aerial city read as too clustered and several structures still read as unfinished/WIP.
+- Session 69 added `shared/city-layout-v2.json` and retargeted the app runtime to a wider natural ring layout with 36.4u minimum district spacing, expanded island/ring context, updated overview cameras/labels, and app-layer energy routes.
+- Session 70 rebuilt all seven baked endpoint energy GLBs from `shared/city-layout-v2.json`, restored baked energy rendering in the app, rebuilt `assembly/drafts/full-city-assembly.blend`, and rendered 7 overview plus 17 scroll-verification screenshots under `assembly/scroll-verification/session-70/`.
+- Session 70 QA approved the layout rebase with 36.4005u minimum spacing, 176,183 active city tris, 2,317,040 active source bytes, SIA dominance ratio 2.1841x, and zero browser warning/error logs in the local app smoke check.
+- Session 71 audited all 12 approved exteriors against stricter Phase 8 finished-model criteria, completed and approved the SIA Tower v2 pilot polish, promoted the updated SIA exterior to the app path, and rendered a 12-structure contact sheet.
+- SIA Tower v2 now has 14,844 tris, 357 mesh objects, 383.1 KB source size, all seven approved material slots, no exported cameras/lights, and is approved with a Phase 8 density exception while preserving origin and endpoint alignment.
+- Session 72 completed and approved the Fitness + Finance v2 exterior polish wave, preserving layout origins and runtime paths. Fitness moved from 12,066 tris / 40 objects / 81.8 KB to 16,402 tris / 45 objects / 103.8 KB. Finance moved from 3,602 tris / 199 objects / 172.8 KB to 15,370 tris / 205 objects / 248.8 KB. `npm run build` passed; browser smoke passed for Scenes 4 and 6 with nonblank WebGL canvas checks and 0 console warnings/errors.
 
 ## Structure Status
 
@@ -53,7 +75,8 @@ Last Updated: 2026-05-25
 | 4 | Final 4 Districts (Relationships, Recovery, Analytics, Nutrition) | Complete (4/4; Nutrition integration approved in Session 48) |
 | 5 | Energy System (pipelines, pulse, connections) | Complete (hard pipelines S49; warm mist S50; faint thread S51; Knowledgebase waterfall S52; Leaderboard lightning S53; cross-district gold S54; AI pulse ring S55) |
 | 6 | Assembly (full city verification) | Complete (full-city layout approved in Session 56) |
-| 7 | App Integration (R3F scroll experience) | In progress (7.1 scaffold complete in Session 58; 7.2 canonical 17-scene timeline complete in Session 59) |
+| 7 | App Integration (R3F scroll experience) | In progress (7.1 scaffold complete in Session 58; 7.2 canonical 17-scene timeline complete in Session 59; 7.3A label legibility complete in Session 61; 7.3B feedback audit/backlog reset complete in Session 62; 7.3C immersive city structure/depth complete in Session 63; 7.3D label boards/reveal complete in Session 64; 7.3E living intelligence motion complete in Session 65; 7.3F interaction overlay complete in Session 66; 7.3G void/horizon complete in Session 67; 7.3H product reality and 7.3I final integration QA complete in Session 68; visual quality backlog locally QA-complete) |
+| 8 | City Spread And Exterior Finish | In progress (8.1 city-layout-v2 app prototype complete in Session 69; 8.2 assembly/energy layout rebase complete in Session 70; 8.3 exterior finish audit plus SIA pilot polish complete in Session 71; 8.4 Fitness + Finance polish wave complete in Session 72; 8.5 organic polish wave next) |
 
 ## Session Log
 
@@ -121,3 +144,15 @@ Last Updated: 2026-05-25
 | 2026-05-25 | Assembly | Session 57: Grade A Pre-Phase-7 Audit | Approved | `assembly/AUDIT.md` cleared Phase 7 with 0 blockers, 12 / 12 approved exteriors, 12 / 12 approved interiors, 7 / 7 energy assets, and all 17 scroll frames nonblank. |
 | 2026-05-25 | App Integration | Session 58: Vite R3F Scaffold | Done | Created `apps/balencia/` with Vite, React 19, TypeScript, R3F, drei, GSAP ScrollTrigger, Lenis, Zustand, Framer Motion, Tailwind, postprocessing, approved GLB manifest/sync, material override foundations, and first full-city Canvas shell. |
 | 2026-05-25 | App Integration | Session 59: Canonical 17-Scene Timeline | Done | Built GSAP-labelled 300-second scroll timeline, scene-local store state, overlay scene navigation, on-demand active interior mounting, per-scene energy activation, and desktop/mobile browser QA with 0 console errors/warnings. |
+| 2026-05-25 | App Integration | Session 61: Label Legibility Pass | Done | Added Phase 7 visual backlog docs, wrapping-safe full labels, curated desktop overview labels for Scenes 1/15/17, focused screen labels for Scenes 4/6/11, and automated browser label QA. Phase 7.3 remains active pending city detail, horizon, and final QA. |
+| 2026-05-25 | App Integration | Session 62: Feedback Audit + Backlog Reset | Done | Audited current code/docs/browser DOM against feedback. Desktop label geometry passed for Scenes 1/4/6/11/15/17; mobile label geometry passed for Scenes 1/15/17; console warnings/errors were empty. Screenshot capture still timed out, so visual screenshot QA remains pending. Next: Session 63 immersive city structure/depth pass. |
+| 2026-05-25 | App Integration | Session 63: Immersive City Structure/Depth | Done | Added app-layer SIA hierarchy, district zoning/parapets, perimeter retaining walls/gate piers, outer depth bands, and scene-aware atmosphere. `tsc --noEmit` and `npm run build` passed. Desktop Scenes 1/2/4/6/11/15/17 and mobile Scenes 1/15/17 label geometry passed with screenshots captured; headless Chrome emitted WebGL ReadPixels capture warnings only. Next: Session 64 label boards and reveal. |
+| 2026-05-25 | App Integration | Session 64: Label Boards And Reveal | Done | Added shared district metadata, building-tethered illuminated label boards, hover/focus reveal state, and interaction targets for SIA, Fitness, Finance, Career, and Relationships. `tsc --noEmit` and `npm run build` passed. Desktop Scenes 1/4/6/11/15/17 and mobile Scenes 1/15/17 label geometry passed; runtime console had no warnings/errors. Screenshot capture timed out before files were written. Next: Session 65 living intelligence motion. |
+| 2026-05-25 | App Integration | Session 65: Living Intelligence Motion | Done | Added damped pointer camera parallax, `LivingEnergyLayer` animated SIA-to-district data routes, Scene 15 gold cross-district pulses, status-based glow/scans, route fireflies, purple AI motes, and green lift particles. `tsc --noEmit` and `npm run build` passed. Desktop Scenes 1/4/6/11/15/17 and mobile Scenes 1/15/17 label geometry passed; interaction reveal passed for SIA, Fitness, Finance, Career, and Relationships; runtime console had no warnings/errors. Screenshot capture timed out again. Next: Session 66 interaction overlay. |
+| 2026-05-25 | App Integration | Session 66: Interaction Overlay | Done | Added district preview metadata, dynamic bottom-left preview panel, compact preview cards/tooltips, hover/focus pulse polish, Escape/blur focus clearing, and damped focus zoom without changing approved GLBs, asset manifest, or `SCROLL_SCENES` data. `tsc --noEmit` and `npm run build` passed. Desktop Scenes 1/4/6/11/15/17 and mobile Scenes 1/15/17 label geometry passed; focus preview passed for SIA, Fitness, Finance, Career, and Relationships; runtime console had no warnings/errors. Screenshot capture timed out/closed the browser target again. Next: Session 67 void/horizon pass. |
+| 2026-05-26 | App Integration | Session 67: Void And Horizon Pass | Done | Added `AtmosphereDepthLayer` with sky gradient dome, distant terrain rings, warm fog shelves, distant urban-edge silhouettes, animated outer rim lights, and Scene 17 crown/horizon cleanup. Hid the automatic active Scene 16 board until product overlay work. `tsc --noEmit` and `npm run build` passed. Desktop Scenes 1/15/16/17 and mobile Scenes 1/15/17 label geometry passed; runtime console had no warnings/errors. Screenshot capture timed out through the in-app browser. Next: Session 68 product-reality overlay. |
+| 2026-05-26 | App Integration | Session 68: Product Reality Overlay + Final QA | Done | Added `ProductRealityOverlay` for Scene 16 with person silhouette, phone hardware, and Balencia dark-mode Today Screen. Restarted the stale dev server on `http://localhost:3006/` so current CSS was served. `tsc --noEmit` and `npm run build` passed. Desktop Scenes 1/4/6/11/15/16/17 and mobile Scenes 1/15/16/17 passed canvas, label, overlay, product visibility/leakage, text overflow, and console checks; screenshots captured under `output/playwright/`. |
+| 2026-05-26 | App Integration | Session 69: City Layout v2 Spread Prototype | Done | Added shared `city-layout-v2` source, retargeted runtime positions/cameras/labels to the wider 36.4u-minimum layout, expanded the app island/rings/atmosphere, hid stale baked energy GLBs until Session 70 rebake, and captured desktop/mobile Scene 1/15/17 screenshots. `tsc --noEmit` and `npm run build` passed; QA found no label/overlay collisions, offscreen labels, or console warnings/errors in checked scenes. |
+| 2026-05-26 | Assembly + Energy + App Integration | Session 70: Assembly/Energy Layout v2 Rebase | Approved | Rebuilt hard pipelines, warm mist, faint thread, Knowledgebase waterfall, Leaderboard lightning, cross-district gold, and AI pulse from `shared/city-layout-v2.json`; rebuilt `assembly/drafts/full-city-assembly.blend`; rendered 7 overview and 17 scroll frames; restored baked energy GLBs in the app. Active city: 176,183 tris; minimum spacing: 36.4005u; `npm run build` and browser smoke passed. |
+| 2026-05-26 | Assembly + SIA Tower + App Integration | Session 71: Exterior Finish Audit + SIA Pilot Polish | Approved | Audited all 12 exterior GLBs, promoted SIA Tower v2 polish to approved/app paths, and rendered SIA evidence plus `assembly/screenshots/s71-exterior-finish-contact-sheet.png`. SIA v2: 14,844 tris, 357 objects, 383.1 KB, all material slots valid, no cameras/lights exported; `npm run build` and browser smoke passed. |
+| 2026-05-26 | Fitness + Finance + App Integration | Session 72: Fitness + Finance Exterior Polish Wave | Approved | Promoted Fitness v2 and Finance v2 to approved/app paths, rendered module evidence plus `assembly/screenshots/s72-exterior-finish-contact-sheet.png`. Fitness v2: 16,402 tris, 45 objects, 103.8 KB. Finance v2: 15,370 tris, 205 objects, 248.8 KB. Both GLBs reimport cleanly with valid slots and no cameras/lights; `npm run build` and browser smoke passed. |

@@ -1,0 +1,1249 @@
+{
+  "session": 71,
+  "date": "2026-05-26",
+  "scope": "Phase 8.3 all-exterior stricter finish audit plus SIA Tower v2 pilot polish",
+  "pre_pilot_audit": [
+    {
+      "id": "sia-tower",
+      "label": "SIA Tower",
+      "wave": "71 pilot",
+      "path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "tris": 6956,
+      "object_count": 12,
+      "size_bytes": 48084,
+      "size_kb": 47.0,
+      "bbox": {
+        "min": [
+          -13.0129,
+          -12.391,
+          0.0
+        ],
+        "max": [
+          13.0129,
+          12.3909,
+          40.1
+        ],
+        "size": [
+          26.0258,
+          24.7819,
+          40.1
+        ],
+        "center": [
+          0.0,
+          -0.0,
+          20.05
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "low",
+      "finish_score": 60,
+      "finish_flags": [
+        "low object articulation",
+        "below Phase 8 preferred density",
+        "very small GLB for final hero-city read"
+      ],
+      "phase8_notes": "central hero; old approved asset was intentionally lower density from Phase 1"
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "wave": "72",
+      "path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "tris": 12066,
+      "object_count": 40,
+      "size_bytes": 83732,
+      "size_kb": 81.8,
+      "bbox": {
+        "min": [
+          -8.6,
+          -8.7752,
+          0.0
+        ],
+        "max": [
+          8.6,
+          8.5866,
+          13.5
+        ],
+        "size": [
+          17.2,
+          17.3618,
+          13.5
+        ],
+        "center": [
+          0.0,
+          -0.0943,
+          6.75
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "angular gym megastructure; needs stronger entrance and facade finish"
+    },
+    {
+      "id": "yoga",
+      "label": "Yoga & Wellbeing",
+      "wave": "73",
+      "path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "tris": 12796,
+      "object_count": 151,
+      "size_bytes": 233764,
+      "size_kb": 228.3,
+      "bbox": {
+        "min": [
+          -9.0,
+          -6.2999,
+          0.0
+        ],
+        "max": [
+          9.0,
+          6.3,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          12.5999,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [
+        "vertical scale should be visually rechecked"
+      ],
+      "phase8_notes": "organic sanctuary; needs dome/water/glass refinement"
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "wave": "72",
+      "path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "tris": 3602,
+      "object_count": 199,
+      "size_bytes": 176920,
+      "size_kb": 172.8,
+      "bbox": {
+        "min": [
+          -6.2,
+          -6.2,
+          0.0
+        ],
+        "max": [
+          6.2,
+          6.2,
+          18.05
+        ],
+        "size": [
+          12.4,
+          12.4,
+          18.05
+        ],
+        "center": [
+          0.0,
+          0.0,
+          9.025
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "low",
+      "finish_score": 82,
+      "finish_flags": [
+        "below Phase 8 preferred density"
+      ],
+      "phase8_notes": "approved low-triangle crystalline exception, but Phase 8 should enrich facade and base"
+    },
+    {
+      "id": "knowledgebase",
+      "label": "Knowledgebase",
+      "wave": "74",
+      "path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "tris": 7532,
+      "object_count": 357,
+      "size_bytes": 365600,
+      "size_kb": 357.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -3.85,
+          -0.09
+        ],
+        "max": [
+          2.6888,
+          2.2,
+          12.5
+        ],
+        "size": [
+          5.3775,
+          6.05,
+          12.59
+        ],
+        "center": [
+          0.0,
+          -0.825,
+          6.205
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "low",
+      "finish_score": 82,
+      "finish_flags": [
+        "below Phase 8 preferred density"
+      ],
+      "phase8_notes": "ancient/future library; needs urban facade/crown finish"
+    },
+    {
+      "id": "chat",
+      "label": "Chat & Communication",
+      "wave": "74",
+      "path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "tris": 18580,
+      "object_count": 192,
+      "size_bytes": 307192,
+      "size_kb": 300.0,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.395,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.79,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "over",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "multi-tower hub; needs bridge/signage/detail polish"
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "wave": "75",
+      "path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "tris": 17424,
+      "object_count": 180,
+      "size_bytes": 278620,
+      "size_kb": 272.1,
+      "bbox": {
+        "min": [
+          -9.2,
+          -13.25,
+          0.0
+        ],
+        "max": [
+          9.2,
+          13.25,
+          10.6842
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.3421
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "arena silhouette is strong; needs premium rim/entry finish"
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships",
+      "wave": "73",
+      "path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "tris": 14986,
+      "object_count": 6,
+      "size_bytes": 114636,
+      "size_kb": 111.9,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation"
+      ],
+      "phase8_notes": "garden ecosystem; needs landscape/garden finish"
+    },
+    {
+      "id": "career",
+      "label": "Career",
+      "wave": "74",
+      "path": "modules/08-career/exterior/approved/career-ext.glb",
+      "tris": 19692,
+      "object_count": 175,
+      "size_bytes": 245296,
+      "size_kb": 239.5,
+      "bbox": {
+        "min": [
+          -7.9,
+          -6.605,
+          0.0
+        ],
+        "max": [
+          7.9,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.8,
+          13.21,
+          18.36
+        ],
+        "center": [
+          0.0,
+          -0.0,
+          9.18
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "tower cluster; needs podium/crown/occupied-city polish"
+    },
+    {
+      "id": "recovery",
+      "label": "Recovery & Sleep",
+      "wave": "73",
+      "path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "tris": 14488,
+      "object_count": 6,
+      "size_bytes": 131648,
+      "size_kb": 128.6,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation",
+        "vertical scale should be visually rechecked"
+      ],
+      "phase8_notes": "cloud dreamscape; needs glass/water/mist finishing"
+    },
+    {
+      "id": "analytics",
+      "label": "AI Analytics",
+      "wave": "75",
+      "path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "tris": 16259,
+      "object_count": 7,
+      "size_bytes": 104200,
+      "size_kb": 101.8,
+      "bbox": {
+        "min": [
+          -5.6286,
+          -4.7151,
+          0.0
+        ],
+        "max": [
+          5.6282,
+          4.715,
+          16.71
+        ],
+        "size": [
+          11.2568,
+          9.4301,
+          16.71
+        ],
+        "center": [
+          -0.0002,
+          -0.0,
+          8.355
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation"
+      ],
+      "phase8_notes": "data cathedral; needs signature facade/crown polish only"
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "wave": "75",
+      "path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "tris": 17964,
+      "object_count": 6,
+      "size_bytes": 108788,
+      "size_kb": 106.2,
+      "bbox": {
+        "min": [
+          -5.6,
+          -4.1002,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.1,
+          8.5952
+        ],
+        "size": [
+          11.2,
+          8.2002,
+          8.5952
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          4.2976
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation"
+      ],
+      "phase8_notes": "vertical farm; needs greenhouse/market/signature polish"
+    }
+  ],
+  "post_pilot_audit": [
+    {
+      "id": "sia-tower",
+      "label": "SIA Tower",
+      "wave": "71 pilot",
+      "path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "tris": 14844,
+      "object_count": 357,
+      "size_bytes": 392296,
+      "size_kb": 383.1,
+      "bbox": {
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ],
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "low",
+      "finish_score": 82,
+      "finish_flags": [
+        "below Phase 8 preferred density"
+      ],
+      "phase8_notes": "central hero; old approved asset was intentionally lower density from Phase 1"
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "wave": "72",
+      "path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "tris": 12066,
+      "object_count": 40,
+      "size_bytes": 83732,
+      "size_kb": 81.8,
+      "bbox": {
+        "min": [
+          -8.6,
+          -8.7752,
+          0.0
+        ],
+        "max": [
+          8.6,
+          8.5866,
+          13.5
+        ],
+        "size": [
+          17.2,
+          17.3618,
+          13.5
+        ],
+        "center": [
+          0.0,
+          -0.0943,
+          6.75
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "angular gym megastructure; needs stronger entrance and facade finish"
+    },
+    {
+      "id": "yoga",
+      "label": "Yoga & Wellbeing",
+      "wave": "73",
+      "path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "tris": 12796,
+      "object_count": 151,
+      "size_bytes": 233764,
+      "size_kb": 228.3,
+      "bbox": {
+        "min": [
+          -9.0,
+          -6.2999,
+          0.0
+        ],
+        "max": [
+          9.0,
+          6.3,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          12.5999,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [
+        "vertical scale should be visually rechecked"
+      ],
+      "phase8_notes": "organic sanctuary; needs dome/water/glass refinement"
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "wave": "72",
+      "path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "tris": 3602,
+      "object_count": 199,
+      "size_bytes": 176920,
+      "size_kb": 172.8,
+      "bbox": {
+        "min": [
+          -6.2,
+          -6.2,
+          0.0
+        ],
+        "max": [
+          6.2,
+          6.2,
+          18.05
+        ],
+        "size": [
+          12.4,
+          12.4,
+          18.05
+        ],
+        "center": [
+          0.0,
+          0.0,
+          9.025
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "low",
+      "finish_score": 82,
+      "finish_flags": [
+        "below Phase 8 preferred density"
+      ],
+      "phase8_notes": "approved low-triangle crystalline exception, but Phase 8 should enrich facade and base"
+    },
+    {
+      "id": "knowledgebase",
+      "label": "Knowledgebase",
+      "wave": "74",
+      "path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "tris": 7532,
+      "object_count": 357,
+      "size_bytes": 365600,
+      "size_kb": 357.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -3.85,
+          -0.09
+        ],
+        "max": [
+          2.6888,
+          2.2,
+          12.5
+        ],
+        "size": [
+          5.3775,
+          6.05,
+          12.59
+        ],
+        "center": [
+          0.0,
+          -0.825,
+          6.205
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "low",
+      "finish_score": 82,
+      "finish_flags": [
+        "below Phase 8 preferred density"
+      ],
+      "phase8_notes": "ancient/future library; needs urban facade/crown finish"
+    },
+    {
+      "id": "chat",
+      "label": "Chat & Communication",
+      "wave": "74",
+      "path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "tris": 18580,
+      "object_count": 192,
+      "size_bytes": 307192,
+      "size_kb": 300.0,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.395,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.79,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "over",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "multi-tower hub; needs bridge/signage/detail polish"
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "wave": "75",
+      "path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "tris": 17424,
+      "object_count": 180,
+      "size_bytes": 278620,
+      "size_kb": 272.1,
+      "bbox": {
+        "min": [
+          -9.2,
+          -13.25,
+          0.0
+        ],
+        "max": [
+          9.2,
+          13.25,
+          10.6842
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.3421
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "arena silhouette is strong; needs premium rim/entry finish"
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships",
+      "wave": "73",
+      "path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "tris": 14986,
+      "object_count": 6,
+      "size_bytes": 114636,
+      "size_kb": 111.9,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation"
+      ],
+      "phase8_notes": "garden ecosystem; needs landscape/garden finish"
+    },
+    {
+      "id": "career",
+      "label": "Career",
+      "wave": "74",
+      "path": "modules/08-career/exterior/approved/career-ext.glb",
+      "tris": 19692,
+      "object_count": 175,
+      "size_bytes": 245296,
+      "size_kb": 239.5,
+      "bbox": {
+        "min": [
+          -7.9,
+          -6.605,
+          0.0
+        ],
+        "max": [
+          7.9,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.8,
+          13.21,
+          18.36
+        ],
+        "center": [
+          0.0,
+          -0.0,
+          9.18
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 100,
+      "finish_flags": [],
+      "phase8_notes": "tower cluster; needs podium/crown/occupied-city polish"
+    },
+    {
+      "id": "recovery",
+      "label": "Recovery & Sleep",
+      "wave": "73",
+      "path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "tris": 14488,
+      "object_count": 6,
+      "size_bytes": 131648,
+      "size_kb": 128.6,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation",
+        "vertical scale should be visually rechecked"
+      ],
+      "phase8_notes": "cloud dreamscape; needs glass/water/mist finishing"
+    },
+    {
+      "id": "analytics",
+      "label": "AI Analytics",
+      "wave": "75",
+      "path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "tris": 16259,
+      "object_count": 7,
+      "size_bytes": 104200,
+      "size_kb": 101.8,
+      "bbox": {
+        "min": [
+          -5.6286,
+          -4.7151,
+          0.0
+        ],
+        "max": [
+          5.6282,
+          4.715,
+          16.71
+        ],
+        "size": [
+          11.2568,
+          9.4301,
+          16.71
+        ],
+        "center": [
+          -0.0002,
+          -0.0,
+          8.355
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation"
+      ],
+      "phase8_notes": "data cathedral; needs signature facade/crown polish only"
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "wave": "75",
+      "path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "tris": 17964,
+      "object_count": 6,
+      "size_bytes": 108788,
+      "size_kb": 106.2,
+      "bbox": {
+        "min": [
+          -5.6,
+          -4.1002,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.1,
+          8.5952
+        ],
+        "size": [
+          11.2,
+          8.2002,
+          8.5952
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          4.2976
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "density_status": "pass",
+      "finish_score": 88,
+      "finish_flags": [
+        "low object articulation"
+      ],
+      "phase8_notes": "vertical farm; needs greenhouse/market/signature polish"
+    }
+  ],
+  "sia_pilot": {
+    "session": 71,
+    "date": "2026-05-26",
+    "source_blend": "modules/00-sia-tower/exterior/drafts/sia-tower-session03-polish-export.blend",
+    "output_blend": "modules/00-sia-tower/exterior/drafts/sia-tower-session71-v2-polish.blend",
+    "draft_glb": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-v2-draft-s71.glb",
+    "approved_glb": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+    "app_public_glb": "apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext.glb",
+    "pre_tris": 6956,
+    "pre_objects": 12,
+    "final_tris": 14844,
+    "final_objects": 357,
+    "final_size_bytes": 392296,
+    "bbox": {
+      "min": [
+        -15.4,
+        -15.4,
+        -0.0
+      ],
+      "max": [
+        15.4,
+        15.4,
+        67.1
+      ],
+      "size": [
+        30.8,
+        30.8,
+        67.1
+      ],
+      "center": [
+        0.0,
+        0.0,
+        33.55
+      ]
+    },
+    "material_slots": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "created_categories": {
+      "v2 civic base, entrance depth, and root plaza finish": {
+        "objects": 40,
+        "tris": 1172
+      },
+      "v2 crown, beacon, and pipeline hub polish": {
+        "objects": 53,
+        "tris": 3692
+      },
+      "v2 dark-first skyline scale fins": {
+        "objects": 32,
+        "tris": 384
+      },
+      "v2 facade mullions and 100-floor scale ticks": {
+        "objects": 220,
+        "tris": 2640
+      }
+    },
+    "budget": {
+      "tri_min": 20000,
+      "tri_max": 30000,
+      "size_min_kb": 200,
+      "size_max_kb": 500,
+      "status": "APPROVED WITH PHASE-8 DENSITY EXCEPTION",
+      "note": "The pilot materially improves SIA finish while preserving endpoint alignment; remaining headroom is reserved for final city pass if needed."
+    },
+    "qa": {
+      "path": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-v2-draft-s71.glb",
+      "object_count": 357,
+      "tris": 14844,
+      "size_bytes": 392296,
+      "size_kb": 383.1,
+      "bbox": {
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ],
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "sia-tower-ext"
+      ],
+      "passed": true
+    }
+  },
+  "verdict": "APPROVED - SIA pilot polish complete; remaining modules queued by Phase 8 wave."
+}

@@ -55,18 +55,18 @@ const PRESENCE_PROFILES: Record<string, PresenceProfile> = {
 };
 
 const VEHICLES = [
-  { radius: 29, altitude: 10.6, speed: 0.13, phase: 0.2, color: "#FFB066" },
-  { radius: 43, altitude: 14.4, speed: -0.105, phase: 1.8, color: "#34A853" },
-  { radius: 58, altitude: 18.2, speed: 0.082, phase: 3.1, color: "#FF5E00" },
-  { radius: 67, altitude: 12.6, speed: -0.075, phase: 4.6, color: "#7F24FF" },
-  { radius: 36, altitude: 21.2, speed: 0.096, phase: 5.4, color: "#F59E0B" },
+  { radius: 42, altitude: 10.6, speed: 0.13, phase: 0.2, color: "#FFB066" },
+  { radius: 61, altitude: 14.4, speed: -0.105, phase: 1.8, color: "#34A853" },
+  { radius: 82, altitude: 18.2, speed: 0.082, phase: 3.1, color: "#FF5E00" },
+  { radius: 96, altitude: 12.6, speed: -0.075, phase: 4.6, color: "#7F24FF" },
+  { radius: 54, altitude: 21.2, speed: 0.096, phase: 5.4, color: "#F59E0B" },
 ];
 
 const DRONES = [
-  { radius: 19, altitude: 3.6, speed: -0.18, phase: 1.2 },
-  { radius: 33, altitude: 4.6, speed: 0.16, phase: 2.7 },
-  { radius: 48, altitude: 5.1, speed: -0.13, phase: 3.8 },
-  { radius: 61, altitude: 4.2, speed: 0.12, phase: 5.1 },
+  { radius: 27, altitude: 3.6, speed: -0.18, phase: 1.2 },
+  { radius: 46, altitude: 4.6, speed: 0.16, phase: 2.7 },
+  { radius: 67, altitude: 5.1, speed: -0.13, phase: 3.8 },
+  { radius: 86, altitude: 4.2, speed: 0.12, phase: 5.1 },
 ];
 
 function seeded(index: number, salt: number) {

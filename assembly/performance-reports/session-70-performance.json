@@ -1,0 +1,21 @@
+{
+  "active_scene": {
+    "budget": "<=250K",
+    "energy_tris": 12142,
+    "environment_tris": 1696,
+    "result": "PASS",
+    "structure_exterior_tris": 162345,
+    "total_tris": 176183
+  },
+  "blend_file": "assembly/drafts/full-city-assembly.blend",
+  "blend_file_size_bytes": 6317478,
+  "loaded_for_verification": {
+    "interior_tris_hidden_by_default": 86184,
+    "total_tris_with_all_interiors": 262367
+  },
+  "session": 70,
+  "source_glb_bytes": {
+    "active_exteriors_plus_energy": 2317040,
+    "interiors": 1562980
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "session": 72,
+  "date": "2026-05-26",
+  "module": "Fitness",
+  "source_blend": "modules/01-fitness/exterior/drafts/fitness-session07.blend",
+  "output_blend": "modules/01-fitness/exterior/drafts/fitness-session72-v2-polish.blend",
+  "draft_glb": "modules/01-fitness/exterior/drafts/fitness-ext-v2-draft-s72.glb",
+  "approved_glb": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/01-fitness/fitness-ext.glb",
+  "pre_tris": 12066,
+  "pre_objects": 40,
+  "pre_bbox": {
+    "min": [
+      -8.6,
+      -8.775,
+      0.0
+    ],
+    "max": [
+      8.6,
+      8.5866,
+      13.7
+    ],
+    "size": [
+      17.2,
+      17.3616,
+      13.7
+    ],
+    "center": [
+      0.0,
+      -0.0942,
+      6.85
+    ]
+  },
+  "final_live_tris": 16402,
+  "final_live_objects": 45,
+  "final_tris": 16402,
+  "final_objects": 45,
+  "final_size_bytes": 106308,
+  "final_size_kb": 103.8,
+  "bbox": {
+    "min": [
+      -12.0733,
+      -12.2806,
+      0.0
+    ],
+    "max": [
+      12.0734,
+      12.0922,
+      14.1505
+    ],
+    "size": [
+      24.1467,
+      24.3728,
+      14.1505
+    ],
+    "center": [
+      0.0001,
+      -0.0942,
+      7.0753
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session72 fitness athletic track and rooftop mechanical finish": {
+      "objects": 20,
+      "tris": 660
+    },
+    "session72 fitness exposed frame, cantilevers, and entry depth": {
+      "objects": 33,
+      "tris": 508
+    },
+    "session72 fitness facade bands, windows, and muscular frame": {
+      "objects": 264,
+      "tris": 3168
+    }
+  },
+  "budget": {
+    "tri_min": 12000,
+    "tri_max": 18000,
+    "size_min_kb": 100,
+    "size_max_kb": 350,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/01-fitness/exterior/drafts/fitness-ext-v2-draft-s72.glb",
+    "object_count": 45,
+    "tris": 16402,
+    "size_bytes": 106308,
+    "size_kb": 103.8,
+    "bbox": {
+      "min": [
+        -12.0733,
+        -12.2806,
+        0.0
+      ],
+      "max": [
+        12.0734,
+        12.0922,
+        14.1505
+      ],
+      "size": [
+        24.1467,
+        24.3728,
+        14.1505
+      ],
+      "center": [
+        0.0001,
+        -0.0942,
+        7.0753
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "fitness-ext"
+    ],
+    "passed": true
+  }
+}
