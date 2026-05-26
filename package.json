@@ -1,0 +1,8 @@
+{
+  "name": "balencia-city-v3",
+  "private": true,
+  "scripts": {
+    "build": "cd apps/balencia && npm ci && npm run build",
+    "start": "cd apps/balencia && npm run start"
+  }
+}
