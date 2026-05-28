@@ -1,0 +1,207 @@
+{
+  "session": 80,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": [
+    {
+      "phase": "scene-start",
+      "canvas": {
+        "height": 720,
+        "mounted": true,
+        "width": 1280
+      },
+      "expectedId": "fitness",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 04 / exterior20%Fitness districtFitness districtYour body tells a story every day. I read every chapter.",
+      "scene": 4,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Fitness district",
+          "districtId": "fitness",
+          "rect": {
+            "bottom": 404.7,
+            "height": 29.4,
+            "left": 612.8,
+            "right": 642.2,
+            "top": 375.3,
+            "width": 29.4
+          },
+          "status": "Training load rising"
+        }
+      ]
+    },
+    {
+      "phase": "scene-start",
+      "canvas": {
+        "height": 720,
+        "mounted": true,
+        "width": 1280
+      },
+      "expectedId": "yoga",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 05 / exterior27%Yoga and wellbeingYoga and wellbeingCalm is not the absence of energy. It is energy perfectly directed.",
+      "scene": 5,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Yoga and wellbeing",
+          "districtId": "yoga",
+          "rect": {
+            "bottom": 385.6,
+            "height": 42.4,
+            "left": 584.6,
+            "right": 627,
+            "top": 343.3,
+            "width": 42.4
+          },
+          "status": "Breathwork queue calm"
+        }
+      ]
+    },
+    {
+      "phase": "scene-start",
+      "canvas": {
+        "height": 720,
+        "mounted": true,
+        "width": 1280
+      },
+      "expectedId": "finance",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 06 / exterior34%Finance districtFinance districtYour money tells the truth about your stress. I see the pattern before your bank does.",
+      "scene": 6,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Finance district",
+          "districtId": "finance",
+          "rect": {
+            "bottom": 442.8,
+            "height": 37.4,
+            "left": 629.9,
+            "right": 667.3,
+            "top": 405.4,
+            "width": 37.4
+          },
+          "status": "Spend pattern watch"
+        }
+      ]
+    },
+    {
+      "phase": "scene-start",
+      "canvas": {
+        "height": 720,
+        "mounted": true,
+        "width": 1280
+      },
+      "expectedId": "knowledgebase",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 07 / exterior41%Knowledgebase districtKnowledgebase districtI never forget what works for you. Every pattern, every insight, stored and connected.",
+      "scene": 7,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Knowledgebase district",
+          "districtId": "knowledgebase",
+          "rect": {
+            "bottom": 405.8,
+            "height": 38.2,
+            "left": 611.2,
+            "right": 649.4,
+            "top": 367.6,
+            "width": 38.2
+          },
+          "status": "Learning queue tuned"
+        }
+      ]
+    },
+    {
+      "phase": "focused-preview",
+      "afterFocusId": "knowledgebase",
+      "canvas": {
+        "height": 720,
+        "mounted": true,
+        "width": 1280
+      },
+      "expectedId": "knowledgebase",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview41%Focused / Learning queue tunedKnowledgebase districtArchive and learning libraryInsightUseful topics repeat when recent habits add context.SignalCareer goals and chat questions steer recommendations.",
+      "scene": 7,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Knowledgebase district",
+          "districtId": "knowledgebase",
+          "rect": {
+            "bottom": 415.8,
+            "height": 45.7,
+            "left": 606.5,
+            "right": 652.3,
+            "top": 370.1,
+            "width": 45.7
+          },
+          "status": "Learning queue tuned"
+        }
+      ]
+    },
+    {
+      "phase": "scene-start",
+      "canvas": {
+        "height": 720,
+        "mounted": true,
+        "width": 1280
+      },
+      "expectedId": "chat",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 08 / exterior48%Chat and communicationChat and communicationEvery conversation teaches me something about you. I listen to understand, not just respond.",
+      "scene": 8,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Chat and communication",
+          "districtId": "chat",
+          "rect": {
+            "bottom": 404.4,
+            "height": 38.5,
+            "left": 592.7,
+            "right": 631.2,
+            "top": 365.9,
+            "width": 38.5
+          },
+          "status": "Conversation pulse live"
+        }
+      ]
+    },
+    {
+      "phase": "focused-preview",
+      "afterFocusId": "chat",
+      "canvas": {
+        "height": 720,
+        "mounted": true,
+        "width": 1280
+      },
+      "expectedId": "chat",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview48%Focused / Conversation pulse liveChat and communicationConversation districtInsightTone shifts flag where follow-up may help.SignalRelationships and recovery state adjust response timing.",
+      "scene": 8,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Chat and communication",
+          "districtId": "chat",
+          "rect": {
+            "bottom": 412.6,
+            "height": 46.1,
+            "left": 586.7,
+            "right": 632.8,
+            "top": 366.5,
+            "width": 46.1
+          },
+          "status": "Conversation pulse live"
+        }
+      ]
+    }
+  ],
+  "consoleWarningsErrors": [],
+  "failures": []
+}

@@ -1,0 +1,12 @@
+{
+  "overview_city_tris": 225847,
+  "overview_city_tri_budget": 250000,
+  "focused_scene_tris": {
+    "finance": 238923,
+    "sia-tower": 240907,
+    "knowledgebase": 234371
+  },
+  "focused_scene_tri_budget": 270000,
+  "active_source_bytes": 2198788,
+  "hero_source_bytes": 480432
+}

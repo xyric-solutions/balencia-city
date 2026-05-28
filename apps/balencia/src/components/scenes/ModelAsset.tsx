@@ -2,7 +2,8 @@ import { useAnimations, useGLTF } from "@react-three/drei";
 import { useEffect } from "react";
 import * as THREE from "three";
 import { AI_PULSE_TIMING } from "../../lib/energy-system";
-import { applyBalenciaMaterialOverrides, applyEnergyMaterialOverrides } from "../../lib/materials";
+import { getExteriorModelReference } from "../../lib/assets";
+import { applyBalenciaMaterialOverrides, applyEnergyMaterialOverrides, normalizeMaterialSlot } from "../../lib/materials";
 import type { EnergyAsset, StructureAsset } from "../../lib/types";
 
 type GLTFResult = {
@@ -14,13 +15,21 @@ type StructureProps = {
   structure: StructureAsset;
   active: boolean;
   visible?: boolean;
+  exteriorLod?: "overview" | "hero";
 };
 
-export function ApprovedStructure({ structure, active, visible = true }: StructureProps) {
-  const gltf = useGLTF(structure.exterior.runtimePath, "/draco/") as GLTFResult;
+export function ApprovedStructure({ structure, active, visible = true, exteriorLod = "overview" }: StructureProps) {
+  const model = getExteriorModelReference(structure, exteriorLod === "hero");
+  const gltf = useGLTF(model.runtimePath, "/draco/") as GLTFResult;
 
   useEffect(() => {
     applyBalenciaMaterialOverrides(gltf.scene, structure.hex, active);
+    gltf.scene.traverse((child) => {
+      if ((child as THREE.Mesh).isMesh) {
+        child.castShadow = true;
+        child.receiveShadow = true;
+      }
+    });
   }, [active, gltf.scene, structure.hex]);
 
   return (
@@ -28,7 +37,11 @@ export function ApprovedStructure({ structure, active, visible = true }: Structu
       object={gltf.scene}
       position={structure.position}
       visible={visible}
-      userData={{ assetId: structure.id, assetType: "structure-exterior" }}
+      userData={{
+        assetId: structure.id,
+        assetName: model.name,
+        assetType: exteriorLod === "hero" && structure.exteriorHero ? "structure-exterior-hero" : "structure-exterior",
+      }}
     />
   );
 }
@@ -38,6 +51,12 @@ export function ApprovedInterior({ structure, active }: StructureProps) {
 
   useEffect(() => {
     applyBalenciaMaterialOverrides(gltf.scene, structure.hex, active);
+    gltf.scene.traverse((child) => {
+      if ((child as THREE.Mesh).isMesh) {
+        child.castShadow = true;
+        child.receiveShadow = true;
+      }
+    });
   }, [active, gltf.scene, structure.hex]);
 
   return (

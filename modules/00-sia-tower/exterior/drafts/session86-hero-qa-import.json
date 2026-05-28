@@ -1,0 +1,53 @@
+{
+  "path": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-hero-draft-s86.glb",
+  "object_count": 7,
+  "tris": 29904,
+  "size_bytes": 144920,
+  "size_kb": 141.5,
+  "bbox": {
+    "min": [
+      -15.4,
+      -17.18,
+      -0.0
+    ],
+    "max": [
+      15.3992,
+      15.4,
+      75.9572
+    ],
+    "size": [
+      30.7992,
+      32.58,
+      75.9572
+    ],
+    "center": [
+      -0.0004,
+      -0.89,
+      37.9786
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "sia-tower-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

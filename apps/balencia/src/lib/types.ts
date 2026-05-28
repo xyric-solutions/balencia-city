@@ -15,6 +15,7 @@ export type StructureAsset = {
   blenderPosition: Vec3;
   position: Vec3;
   exterior: ModelReference;
+  exteriorHero?: ModelReference;
   interior: ModelReference;
 };
 
@@ -31,6 +32,11 @@ export type EnergyAsset = {
 export type AssetManifest = {
   session: number;
   sourceOfTruth: Record<string, string>;
+  lodPolicy?: {
+    overviewScenes: readonly number[];
+    focusedHeroScenes: readonly number[];
+    exteriorHeroField: "exteriorHero";
+  };
   structures: StructureAsset[];
   energyAssets: EnergyAsset[];
 };
@@ -67,7 +73,14 @@ export type ScrollScene = {
   mode: ScrollSceneMode;
   interiorId?: string;
   interiorStart?: number;
+  approachAt?: number;
+  approachCamera?: ScrollCamera;
+  thresholdAt?: number;
+  thresholdCamera?: ScrollCamera;
+  interiorCameraAt?: number;
   interiorCamera?: ScrollCamera;
+  exitAt?: number;
+  exitCamera?: ScrollCamera;
   activeEnergyIds?: readonly string[];
   camera: ScrollCamera;
 };

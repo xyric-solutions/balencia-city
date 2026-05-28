@@ -1,0 +1,34 @@
+{
+  "session": 79,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "overviewGeometry": [
+      {
+        "targetScene": 1,
+        "activeScene": "Scene 01 / city",
+        "labelCount": 12,
+        "offscreen": [],
+        "overlaps": [],
+        "overlayCollisions": []
+      },
+      {
+        "targetScene": 15,
+        "activeScene": "Scene 15 / climax",
+        "labelCount": 12,
+        "offscreen": [],
+        "overlaps": [],
+        "overlayCollisions": []
+      },
+      {
+        "targetScene": 17,
+        "activeScene": "Scene 17 / closing",
+        "labelCount": 12,
+        "offscreen": [],
+        "overlaps": [],
+        "overlayCollisions": []
+      }
+    ],
+    "consoleIssues": []
+  }
+}

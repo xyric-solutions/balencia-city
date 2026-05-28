@@ -1,0 +1,53 @@
+{
+  "path": "modules/05-chat-communication/exterior/drafts/chat-ext-hero-draft-s87.glb",
+  "object_count": 7,
+  "tris": 34628,
+  "size_bytes": 237248,
+  "size_kb": 231.7,
+  "bbox": {
+    "min": [
+      -6.3045,
+      -4.3946,
+      0.0
+    ],
+    "max": [
+      6.3045,
+      4.395,
+      16.0422
+    ],
+    "size": [
+      12.609,
+      8.7896,
+      16.0422
+    ],
+    "center": [
+      0.0,
+      0.0002,
+      8.0211
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "chat-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

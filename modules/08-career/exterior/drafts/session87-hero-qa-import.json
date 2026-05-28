@@ -1,0 +1,52 @@
+{
+  "path": "modules/08-career/exterior/drafts/career-ext-hero-draft-s87.glb",
+  "object_count": 6,
+  "tris": 37660,
+  "size_bytes": 206368,
+  "size_kb": 201.5,
+  "bbox": {
+    "min": [
+      -7.9,
+      -7.7938,
+      0.0
+    ],
+    "max": [
+      7.8999,
+      6.605,
+      19.3804
+    ],
+    "size": [
+      15.7999,
+      14.3988,
+      19.3804
+    ],
+    "center": [
+      -0.0,
+      -0.5944,
+      9.6902
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "career-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

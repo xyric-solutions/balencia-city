@@ -1,0 +1,1507 @@
+{
+  "active_city_tris": 225847,
+  "active_source_bytes": 2198788,
+  "checks": {
+    "active_city_triangle_budget": true,
+    "active_source_file_budget": true,
+    "all_app_exteriors_present": true,
+    "all_approved_energy_assets_present": true,
+    "all_approved_structure_exteriors_present": true,
+    "all_approved_structure_interiors_present": true,
+    "all_positions_match_layout_v2": true,
+    "city_overview_contact_sheet_nonzero": true,
+    "exterior_contact_sheet_nonzero": true,
+    "material_roots_valid": true,
+    "minimum_spacing_layout_v2": true,
+    "overview_screenshots_nonzero": true,
+    "scroll_screenshots_nonzero": true,
+    "sia_dominance_preserved": true
+  },
+  "city_overview_contact_sheet": "assembly/screenshots/s76-city-overview-contact-sheet.png",
+  "date": "2026-05-26",
+  "energy_metrics": {
+    "ai-pulse": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          0.0,
+          0.0,
+          42.35
+        ],
+        "max": [
+          0.7,
+          0.7,
+          42.4366
+        ],
+        "min": [
+          -0.7,
+          -0.7,
+          42.2634
+        ],
+        "size": [
+          1.4,
+          1.4,
+          0.1732
+        ]
+      },
+      "invalid_materials": [],
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 2,
+      "path": "energy-system/pulse/approved/ai-pulse.glb",
+      "size_bytes": 21920,
+      "tris": 1724
+    },
+    "cross-district-gold": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          0.0,
+          1.0008,
+          10.2472
+        ],
+        "max": [
+          74.1299,
+          68.1125,
+          17.4736
+        ],
+        "min": [
+          -74.1299,
+          -66.1109,
+          3.0208
+        ],
+        "size": [
+          148.2598,
+          134.2234,
+          14.4529
+        ]
+      },
+      "invalid_materials": [],
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 6,
+      "path": "energy-system/cross-connections/approved/cross-district-gold.glb",
+      "size_bytes": 17164,
+      "tris": 1428
+    },
+    "faint-thread": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          -24.5846,
+          33.5941,
+          18.793
+        ],
+        "max": [
+          -2.6192,
+          63.5499,
+          37.511
+        ],
+        "min": [
+          -46.55,
+          3.6383,
+          0.075
+        ],
+        "size": [
+          43.9308,
+          59.9116,
+          37.436
+        ]
+      },
+      "invalid_materials": [],
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 1,
+      "path": "energy-system/pipelines/approved/faint-thread.glb",
+      "size_bytes": 5024,
+      "tris": 514
+    },
+    "hard-pipelines": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          -2.5,
+          1.0,
+          19.869
+        ],
+        "max": [
+          64.25,
+          71.25,
+          39.6631
+        ],
+        "min": [
+          -69.25,
+          -69.25,
+          0.075
+        ],
+        "size": [
+          133.5,
+          140.5,
+          39.5881
+        ]
+      },
+      "invalid_materials": [],
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 9,
+      "path": "energy-system/pipelines/approved/hard-pipelines.glb",
+      "size_bytes": 47692,
+      "tris": 5234
+    },
+    "knowledgebase-waterfall": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          29.0428,
+          -61.7887,
+          6.6125
+        ],
+        "max": [
+          31.7427,
+          -59.0887,
+          13.15
+        ],
+        "min": [
+          26.3429,
+          -64.4886,
+          0.075
+        ],
+        "size": [
+          5.3998,
+          5.3998,
+          13.075
+        ]
+      },
+      "invalid_materials": [],
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 1,
+      "path": "energy-system/pipelines/approved/knowledgebase-waterfall.glb",
+      "size_bytes": 5896,
+      "tris": 550
+    },
+    "leaderboard-lightning": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          -50.0,
+          -53.0,
+          5.8254
+        ],
+        "max": [
+          -45.2959,
+          -48.2959,
+          11.5759
+        ],
+        "min": [
+          -54.7041,
+          -57.7041,
+          0.075
+        ],
+        "size": [
+          9.4082,
+          9.4082,
+          11.5009
+        ]
+      },
+      "invalid_materials": [],
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 1,
+      "path": "energy-system/pipelines/approved/leaderboard-lightning.glb",
+      "size_bytes": 5392,
+      "tris": 480
+    },
+    "warm-mist": {
+      "approved_asset_present": true,
+      "bbox": {
+        "center": [
+          0.0,
+          -7.0,
+          19.037
+        ],
+        "max": [
+          77.0,
+          5.0001,
+          37.9989
+        ],
+        "min": [
+          -77.0,
+          -19.0,
+          0.075
+        ],
+        "size": [
+          154.0,
+          24.0,
+          37.9239
+        ]
+      },
+      "invalid_materials": [],
+      "material_roots": [
+        "energy"
+      ],
+      "mesh_objects": 2,
+      "path": "energy-system/pipelines/approved/warm-mist.glb",
+      "size_bytes": 15472,
+      "tris": 2212
+    }
+  },
+  "exterior_contact_sheet": "assembly/screenshots/s76-exterior-finish-contact-sheet.png",
+  "invalid_materials": [],
+  "layout_source": "shared/city-layout-v2.json",
+  "layout_version": "city-layout-v2",
+  "minimum_spacing": 36.4005,
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "overview_screenshots": {
+    "citywide": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s76-overview-citywide.png"
+    },
+    "energy_climax": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s76-energy-climax.png"
+    },
+    "skyline_east": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s76-skyline-east.png"
+    },
+    "skyline_north": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s76-skyline-north.png"
+    },
+    "skyline_south": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s76-skyline-south.png"
+    },
+    "skyline_west": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s76-skyline-west.png"
+    },
+    "topdown": {
+      "nonzero": true,
+      "path": "assembly/screenshots/s76-overview-topdown.png"
+    }
+  },
+  "performance_report": "assembly/performance-reports/session-76-performance.json",
+  "phase8_before_after": {
+    "analytics": {
+      "before_objects": 7,
+      "before_size_kb": 101.8,
+      "before_tris": 16259,
+      "current_objects": 7,
+      "current_size_kb": 124.4,
+      "current_tris": 19411,
+      "label": "AI analytics",
+      "tri_delta": 3152
+    },
+    "career": {
+      "before_objects": 175,
+      "before_size_kb": 239.5,
+      "before_tris": 19692,
+      "current_objects": 6,
+      "current_size_kb": 113.4,
+      "current_tris": 20288,
+      "label": "Career",
+      "tri_delta": 596
+    },
+    "chat": {
+      "before_objects": 192,
+      "before_size_kb": 300.0,
+      "before_tris": 18580,
+      "current_objects": 7,
+      "current_size_kb": 158.1,
+      "current_tris": 20052,
+      "label": "Chat and communication",
+      "tri_delta": 1472
+    },
+    "finance": {
+      "before_objects": 199,
+      "before_size_kb": 172.8,
+      "before_tris": 3602,
+      "current_objects": 205,
+      "current_size_kb": 248.8,
+      "current_tris": 15370,
+      "label": "Finance",
+      "tri_delta": 11768
+    },
+    "fitness": {
+      "before_objects": 40,
+      "before_size_kb": 81.8,
+      "before_tris": 12066,
+      "current_objects": 45,
+      "current_size_kb": 103.8,
+      "current_tris": 16402,
+      "label": "Fitness",
+      "tri_delta": 4336
+    },
+    "knowledgebase": {
+      "before_objects": 357,
+      "before_size_kb": 357.0,
+      "before_tris": 7532,
+      "current_objects": 7,
+      "current_size_kb": 104.0,
+      "current_tris": 15204,
+      "label": "Knowledgebase",
+      "tri_delta": 7672
+    },
+    "leaderboard": {
+      "before_objects": 180,
+      "before_size_kb": 272.1,
+      "before_tris": 17424,
+      "current_objects": 6,
+      "current_size_kb": 151.5,
+      "current_tris": 19928,
+      "label": "Leaderboard and competition",
+      "tri_delta": 2504
+    },
+    "nutrition": {
+      "before_objects": 6,
+      "before_size_kb": 106.2,
+      "before_tris": 17964,
+      "current_objects": 6,
+      "current_size_kb": 121.7,
+      "current_tris": 19876,
+      "label": "Nutrition",
+      "tri_delta": 1912
+    },
+    "recovery": {
+      "before_objects": 6,
+      "before_size_kb": 128.6,
+      "before_tris": 14488,
+      "current_objects": 11,
+      "current_size_kb": 147.3,
+      "current_tris": 17412,
+      "label": "Recovery and sleep",
+      "tri_delta": 2924
+    },
+    "relationships": {
+      "before_objects": 6,
+      "before_size_kb": 111.9,
+      "before_tris": 14986,
+      "current_objects": 10,
+      "current_size_kb": 128.2,
+      "current_tris": 17170,
+      "label": "Relationships",
+      "tri_delta": 2184
+    },
+    "sia-tower": {
+      "before_objects": 12,
+      "before_size_kb": 47.0,
+      "before_tris": 6956,
+      "current_objects": 357,
+      "current_size_kb": 383.1,
+      "current_tris": 14844,
+      "label": "SIA Tower",
+      "tri_delta": 7888
+    },
+    "yoga": {
+      "before_objects": 151,
+      "before_size_kb": 228.3,
+      "before_tris": 12796,
+      "current_objects": 154,
+      "current_size_kb": 247.2,
+      "current_tris": 16052,
+      "label": "Yoga and wellbeing",
+      "tri_delta": 3256
+    }
+  },
+  "scope": "Phase 8.8 final city QA contact sheets and performance review",
+  "scroll_screenshots": {
+    "scene_01": {
+      "camera_location": [
+        155,
+        -185,
+        128
+      ],
+      "camera_target": [
+        0,
+        -4,
+        22
+      ],
+      "focus": "City aerial",
+      "frame": 144,
+      "lens": 14,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-76/scene-01-arrival.png"
+    },
+    "scene_04": {
+      "camera_location": [
+        94,
+        70,
+        17
+      ],
+      "camera_target": [
+        61,
+        36,
+        8
+      ],
+      "focus": "Fitness district",
+      "frame": 96,
+      "lens": 34,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-76/scene-04-fitness-district.png"
+    },
+    "scene_06": {
+      "camera_location": [
+        88,
+        -54,
+        17
+      ],
+      "camera_target": [
+        56,
+        -34,
+        10
+      ],
+      "focus": "Finance district",
+      "frame": 96,
+      "lens": 36,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-76/scene-06-finance-tower.png"
+    },
+    "scene_11": {
+      "camera_location": [
+        -97,
+        -7,
+        25
+      ],
+      "camera_target": [
+        -66,
+        25,
+        11.5
+      ],
+      "focus": "Career district",
+      "frame": 96,
+      "lens": 35,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-76/scene-11-career-towers.png"
+    },
+    "scene_15": {
+      "camera_location": [
+        138,
+        -172,
+        124
+      ],
+      "camera_target": [
+        0,
+        -5,
+        25
+      ],
+      "focus": "Cross-pillar revelation",
+      "frame": 144,
+      "lens": 16,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-76/scene-15-cross-pillar-revelation.png"
+    },
+    "scene_16": {
+      "camera_location": [
+        14,
+        -52,
+        2.9
+      ],
+      "camera_target": [
+        -8,
+        -66,
+        8
+      ],
+      "focus": "Today screen street corridor",
+      "frame": 96,
+      "lens": 32,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-76/scene-16-today-screen-street.png"
+    },
+    "scene_17": {
+      "camera_location": [
+        0,
+        -198,
+        96
+      ],
+      "camera_target": [
+        0,
+        0,
+        30
+      ],
+      "focus": "SIA tower return",
+      "frame": 144,
+      "lens": 18,
+      "nonzero": true,
+      "path": "assembly/scroll-verification/session-76/scene-17-sia-tower-return.png"
+    }
+  },
+  "session": 76,
+  "sia_dominance_ratio": 3.6408,
+  "structure_metrics": {
+    "analytics": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          -8.0001,
+          67.8435,
+          8.355
+        ],
+        "max": [
+          -1.4003,
+          72.9162,
+          16.71
+        ],
+        "min": [
+          -14.5999,
+          62.7708,
+          0.0
+        ],
+        "size": [
+          13.1996,
+          10.1455,
+          16.71
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -8.0001,
+          68.0,
+          3.07
+        ],
+        "max": [
+          -4.0902,
+          76.0,
+          6.14
+        ],
+        "min": [
+          -11.91,
+          60.0,
+          0.0
+        ],
+        "size": [
+          7.8198,
+          16.0,
+          6.14
+        ]
+      },
+      "exterior_mesh_objects": 7,
+      "exterior_path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "exterior_size_bytes": 127428,
+      "exterior_tris": 19411,
+      "interior_mesh_objects": 39,
+      "interior_path": "modules/10-ai-analytics/interior/approved/analytics-int.glb",
+      "interior_tris": 8318,
+      "invalid_materials": [],
+      "label": "AI analytics",
+      "layout_position": [
+        -8,
+        68,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        -8,
+        68,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext.glb",
+      "public_exterior_size_bytes": 127428,
+      "runtime_exterior_path": "/models/structures/10-ai-analytics/analytics-ext.glb"
+    },
+    "career": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          -66.0,
+          24.9999,
+          9.18
+        ],
+        "max": [
+          -58.1001,
+          31.605,
+          18.36
+        ],
+        "min": [
+          -73.9,
+          18.3949,
+          0.0
+        ],
+        "size": [
+          15.7999,
+          13.2101,
+          18.36
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -66.0,
+          25.0002,
+          2.7999
+        ],
+        "max": [
+          -60.33,
+          29.3,
+          5.5997
+        ],
+        "min": [
+          -71.67,
+          20.7003,
+          0.0
+        ],
+        "size": [
+          11.34,
+          8.5997,
+          5.5997
+        ]
+      },
+      "exterior_mesh_objects": 6,
+      "exterior_path": "modules/08-career/exterior/approved/career-ext.glb",
+      "exterior_size_bytes": 116084,
+      "exterior_tris": 20288,
+      "interior_mesh_objects": 31,
+      "interior_path": "modules/08-career/interior/approved/career-int.glb",
+      "interior_tris": 7284,
+      "invalid_materials": [],
+      "label": "Career",
+      "layout_position": [
+        -66,
+        25,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -66,
+        25,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/08-career/career-ext.glb",
+      "public_exterior_size_bytes": 116084,
+      "runtime_exterior_path": "/models/structures/08-career/career-ext.glb"
+    },
+    "chat": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          -8.0,
+          -66.0,
+          7.27
+        ],
+        "max": [
+          -1.6955,
+          -61.605,
+          14.5399
+        ],
+        "min": [
+          -14.3045,
+          -70.3949,
+          0.0
+        ],
+        "size": [
+          12.609,
+          8.7899,
+          14.5399
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -8.0,
+          -66.01,
+          3.2349
+        ],
+        "max": [
+          -2.9401,
+          -60.94,
+          6.4698
+        ],
+        "min": [
+          -13.06,
+          -71.0799,
+          0.0
+        ],
+        "size": [
+          10.1199,
+          10.1399,
+          6.4698
+        ]
+      },
+      "exterior_mesh_objects": 7,
+      "exterior_path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "exterior_size_bytes": 161944,
+      "exterior_tris": 20052,
+      "interior_mesh_objects": 167,
+      "interior_path": "modules/05-chat-communication/interior/approved/chat-int.glb",
+      "interior_tris": 9200,
+      "invalid_materials": [],
+      "label": "Chat and communication",
+      "layout_position": [
+        -8,
+        -66,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        -8,
+        -66,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/05-chat-communication/chat-ext.glb",
+      "public_exterior_size_bytes": 161944,
+      "runtime_exterior_path": "/models/structures/05-chat-communication/chat-ext.glb"
+    },
+    "finance": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          56.0,
+          -33.4139,
+          9.215
+        ],
+        "max": [
+          62.5987,
+          -26.229,
+          18.43
+        ],
+        "min": [
+          49.4013,
+          -40.5987,
+          0.0
+        ],
+        "size": [
+          13.1974,
+          14.3697,
+          18.43
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          56.0,
+          -34.225,
+          4.695
+        ],
+        "max": [
+          62.0,
+          -28.95,
+          9.4
+        ],
+        "min": [
+          50.0,
+          -39.5,
+          -0.01
+        ],
+        "size": [
+          12.0,
+          10.55,
+          9.41
+        ]
+      },
+      "exterior_mesh_objects": 205,
+      "exterior_path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "exterior_size_bytes": 254740,
+      "exterior_tris": 15370,
+      "interior_mesh_objects": 250,
+      "interior_path": "modules/03-finance/interior/approved/finance-int-approved-s15.glb",
+      "interior_tris": 6198,
+      "invalid_materials": [],
+      "label": "Finance",
+      "layout_position": [
+        56,
+        -34,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        56,
+        -34,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/03-finance/finance-ext.glb",
+      "public_exterior_size_bytes": 254740,
+      "runtime_exterior_path": "/models/structures/03-finance/finance-ext.glb"
+    },
+    "fitness": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          61.0001,
+          35.9058,
+          7.0753
+        ],
+        "max": [
+          73.0734,
+          48.0922,
+          14.1505
+        ],
+        "min": [
+          48.9267,
+          23.7194,
+          0.0
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          60.9938,
+          36.0,
+          1.875
+        ],
+        "max": [
+          67.0375,
+          42.0375,
+          3.7501
+        ],
+        "min": [
+          54.95,
+          29.9625,
+          -0.0
+        ],
+        "size": [
+          12.0875,
+          12.075,
+          3.7501
+        ]
+      },
+      "exterior_mesh_objects": 45,
+      "exterior_path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "exterior_size_bytes": 106308,
+      "exterior_tris": 16402,
+      "interior_mesh_objects": 6,
+      "interior_path": "modules/01-fitness/interior/approved/fitness-int.glb",
+      "interior_tris": 5910,
+      "invalid_materials": [],
+      "label": "Fitness",
+      "layout_position": [
+        61,
+        36,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        61,
+        36,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/01-fitness/fitness-ext.glb",
+      "public_exterior_size_bytes": 106308,
+      "runtime_exterior_path": "/models/structures/01-fitness/fitness-ext.glb"
+    },
+    "knowledgebase": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          31.5502,
+          -66.7242,
+          7.0204
+        ],
+        "max": [
+          35.7891,
+          -60.8,
+          14.0407
+        ],
+        "min": [
+          27.3112,
+          -72.6483,
+          0.0
+        ],
+        "size": [
+          8.4778,
+          11.8483,
+          14.0407
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          29.9999,
+          -63.0,
+          4.5
+        ],
+        "max": [
+          31.8598,
+          -61.34,
+          9.0
+        ],
+        "min": [
+          28.14,
+          -64.66,
+          0.0
+        ],
+        "size": [
+          3.7198,
+          3.32,
+          9.0
+        ]
+      },
+      "exterior_mesh_objects": 7,
+      "exterior_path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "exterior_size_bytes": 106508,
+      "exterior_tris": 15204,
+      "interior_mesh_objects": 153,
+      "interior_path": "modules/04-knowledgebase/interior/approved/knowledgebase-int.glb",
+      "interior_tris": 5840,
+      "invalid_materials": [],
+      "label": "Knowledgebase",
+      "layout_position": [
+        30,
+        -63,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        30,
+        -63,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/04-knowledgebase/knowledgebase-ext.glb",
+      "public_exterior_size_bytes": 106508,
+      "runtime_exterior_path": "/models/structures/04-knowledgebase/knowledgebase-ext.glb"
+    },
+    "leaderboard": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          -50.0003,
+          -56.3259,
+          5.6867
+        ],
+        "max": [
+          -40.8006,
+          -39.75,
+          11.3734
+        ],
+        "min": [
+          -59.2,
+          -72.9017,
+          0.0
+        ],
+        "size": [
+          18.3994,
+          33.1517,
+          11.3734
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -50.0,
+          -52.9239,
+          3.3127
+        ],
+        "max": [
+          -43.66,
+          -46.6478,
+          6.6253
+        ],
+        "min": [
+          -56.34,
+          -59.2,
+          0.0
+        ],
+        "size": [
+          12.68,
+          12.5522,
+          6.6253
+        ]
+      },
+      "exterior_mesh_objects": 6,
+      "exterior_path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "exterior_size_bytes": 155148,
+      "exterior_tris": 19928,
+      "interior_mesh_objects": 131,
+      "interior_path": "modules/06-leaderboard-competition/interior/approved/leaderboard-int.glb",
+      "interior_tris": 9448,
+      "invalid_materials": [],
+      "label": "Leaderboard and competition",
+      "layout_position": [
+        -50,
+        -53,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -50,
+        -53,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+      "public_exterior_size_bytes": 155148,
+      "runtime_exterior_path": "/models/structures/06-leaderboard-competition/leaderboard-ext.glb"
+    },
+    "nutrition": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          30.0,
+          65.203,
+          4.398
+        ],
+        "max": [
+          35.6,
+          70.2857,
+          8.796
+        ],
+        "min": [
+          24.4,
+          60.1204,
+          0.0
+        ],
+        "size": [
+          11.2,
+          10.1653,
+          8.796
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          29.9999,
+          65.995,
+          2.5587
+        ],
+        "max": [
+          34.2698,
+          72.61,
+          5.1174
+        ],
+        "min": [
+          25.73,
+          59.38,
+          0.0
+        ],
+        "size": [
+          8.5398,
+          13.23,
+          5.1174
+        ]
+      },
+      "exterior_mesh_objects": 6,
+      "exterior_path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "exterior_size_bytes": 124572,
+      "exterior_tris": 19876,
+      "interior_mesh_objects": 32,
+      "interior_path": "modules/11-nutrition/interior/approved/nutrition-int.glb",
+      "interior_tris": 9296,
+      "invalid_materials": [],
+      "label": "Nutrition",
+      "layout_position": [
+        30,
+        66,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        30,
+        66,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/11-nutrition/nutrition-ext.glb",
+      "public_exterior_size_bytes": 124572,
+      "runtime_exterior_path": "/models/structures/11-nutrition/nutrition-ext.glb"
+    },
+    "recovery": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          -44.0,
+          60.9999,
+          3.9823
+        ],
+        "max": [
+          -33.1424,
+          67.5483,
+          7.9645
+        ],
+        "min": [
+          -54.8576,
+          54.4514,
+          0.0
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -44.0,
+          61.0001,
+          2.7224
+        ],
+        "max": [
+          -37.45,
+          66.1,
+          5.4447
+        ],
+        "min": [
+          -50.55,
+          55.9002,
+          0.0
+        ],
+        "size": [
+          13.1,
+          10.1998,
+          5.4447
+        ]
+      },
+      "exterior_mesh_objects": 11,
+      "exterior_path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "exterior_size_bytes": 150820,
+      "exterior_tris": 17412,
+      "interior_mesh_objects": 26,
+      "interior_path": "modules/09-recovery-sleep/interior/approved/recovery-int.glb",
+      "interior_tris": 6764,
+      "invalid_materials": [],
+      "label": "Recovery and sleep",
+      "layout_position": [
+        -44,
+        61,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -44,
+        61,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext.glb",
+      "public_exterior_size_bytes": 150820,
+      "runtime_exterior_path": "/models/structures/09-recovery-sleep/recovery-ext.glb"
+    },
+    "relationships": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          -74.0,
+          -15.9998,
+          3.67
+        ],
+        "max": [
+          -59.1928,
+          -5.3086,
+          7.3401
+        ],
+        "min": [
+          -88.8072,
+          -26.691,
+          0.0
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          -74.0,
+          -16.0,
+          2.7562
+        ],
+        "max": [
+          -67.65,
+          -10.85,
+          5.5123
+        ],
+        "min": [
+          -80.35,
+          -21.15,
+          0.0
+        ],
+        "size": [
+          12.7,
+          10.3,
+          5.5123
+        ]
+      },
+      "exterior_mesh_objects": 10,
+      "exterior_path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "exterior_size_bytes": 131248,
+      "exterior_tris": 17170,
+      "interior_mesh_objects": 29,
+      "interior_path": "modules/07-relationships/interior/approved/relationships-int.glb",
+      "interior_tris": 6412,
+      "invalid_materials": [],
+      "label": "Relationships",
+      "layout_position": [
+        -74,
+        -16,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "position": [
+        -74,
+        -16,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/07-relationships/relationships-ext.glb",
+      "public_exterior_size_bytes": 131248,
+      "runtime_exterior_path": "/models/structures/07-relationships/relationships-ext.glb"
+    },
+    "sia-tower": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          0.0,
+          -0.025,
+          23.0
+        ],
+        "max": [
+          3.0296,
+          3.0,
+          42.0
+        ],
+        "min": [
+          -3.0296,
+          -3.05,
+          4.0
+        ],
+        "size": [
+          6.0593,
+          6.05,
+          38.0
+        ]
+      },
+      "exterior_mesh_objects": 357,
+      "exterior_path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "exterior_size_bytes": 392296,
+      "exterior_tris": 14844,
+      "interior_mesh_objects": 81,
+      "interior_path": "modules/00-sia-tower/interior/approved/sia-tower-int.glb",
+      "interior_tris": 2626,
+      "invalid_materials": [],
+      "label": "SIA Tower",
+      "layout_position": [
+        0,
+        0,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext.glb",
+      "public_exterior_size_bytes": 392296,
+      "runtime_exterior_path": "/models/structures/00-sia-tower/sia-tower-ext.glb"
+    },
+    "yoga": {
+      "app_exterior_present": true,
+      "approved_exterior_present": true,
+      "approved_interior_present": true,
+      "bbox_exterior": {
+        "center": [
+          74.0,
+          2.0001,
+          2.7334
+        ],
+        "max": [
+          83.0,
+          9.3806,
+          5.4668
+        ],
+        "min": [
+          65.0,
+          -5.3804,
+          0.0
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ]
+      },
+      "bbox_interior": {
+        "center": [
+          74.0,
+          2.0,
+          2.6352
+        ],
+        "max": [
+          79.72,
+          7.72,
+          5.5003
+        ],
+        "min": [
+          68.28,
+          -3.72,
+          -0.23
+        ],
+        "size": [
+          11.44,
+          11.44,
+          5.7303
+        ]
+      },
+      "exterior_mesh_objects": 154,
+      "exterior_path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "exterior_size_bytes": 253132,
+      "exterior_tris": 16052,
+      "interior_mesh_objects": 113,
+      "interior_path": "modules/02-yoga-wellbeing/interior/approved/yoga-int.glb",
+      "interior_tris": 8888,
+      "invalid_materials": [],
+      "label": "Yoga and wellbeing",
+      "layout_position": [
+        74,
+        2,
+        0
+      ],
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "position": [
+        74,
+        2,
+        0
+      ],
+      "position_matches_layout_v2": true,
+      "public_exterior_path": "apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+      "public_exterior_size_bytes": 253132,
+      "runtime_exterior_path": "/models/structures/02-yoga-wellbeing/yoga-ext.glb"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "path": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-hero-draft-s88.glb",
+  "object_count": 6,
+  "tris": 30536,
+  "size_bytes": 204556,
+  "size_kb": 199.8,
+  "bbox": {
+    "min": [
+      -13.7715,
+      -32.6651,
+      0.0
+    ],
+    "max": [
+      13.7703,
+      13.25,
+      12.0898
+    ],
+    "size": [
+      27.5418,
+      45.9151,
+      12.0898
+    ],
+    "center": [
+      -0.0006,
+      -9.7076,
+      6.0449
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "leaderboard-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

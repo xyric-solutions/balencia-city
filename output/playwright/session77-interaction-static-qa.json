@@ -1,0 +1,332 @@
+{
+  "session": 77,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "interactionCoverage": "12 / 12",
+    "missingInteractionTargets": [],
+    "sceneGates": [
+      {
+        "scene": 1,
+        "activeDistrict": "city",
+        "mode": "city",
+        "expected": [
+          "sia-tower",
+          "fitness",
+          "yoga",
+          "finance",
+          "knowledgebase",
+          "chat",
+          "leaderboard",
+          "relationships",
+          "career",
+          "recovery",
+          "analytics",
+          "nutrition"
+        ],
+        "actual": [
+          "sia-tower",
+          "fitness",
+          "yoga",
+          "finance",
+          "knowledgebase",
+          "chat",
+          "leaderboard",
+          "relationships",
+          "career",
+          "recovery",
+          "analytics",
+          "nutrition"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 2,
+        "activeDistrict": "sia-tower",
+        "mode": "exterior",
+        "expected": [
+          "sia-tower"
+        ],
+        "actual": [
+          "sia-tower"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 3,
+        "activeDistrict": "sia-tower",
+        "mode": "interior",
+        "expected": [
+          "sia-tower"
+        ],
+        "actual": [
+          "sia-tower"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 4,
+        "activeDistrict": "fitness",
+        "mode": "exterior",
+        "expected": [
+          "fitness"
+        ],
+        "actual": [
+          "fitness"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 5,
+        "activeDistrict": "yoga",
+        "mode": "exterior",
+        "expected": [
+          "yoga"
+        ],
+        "actual": [
+          "yoga"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 6,
+        "activeDistrict": "finance",
+        "mode": "exterior",
+        "expected": [
+          "finance"
+        ],
+        "actual": [
+          "finance"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 7,
+        "activeDistrict": "knowledgebase",
+        "mode": "exterior",
+        "expected": [
+          "knowledgebase"
+        ],
+        "actual": [
+          "knowledgebase"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 8,
+        "activeDistrict": "chat",
+        "mode": "exterior",
+        "expected": [
+          "chat"
+        ],
+        "actual": [
+          "chat"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 9,
+        "activeDistrict": "leaderboard",
+        "mode": "exterior",
+        "expected": [
+          "leaderboard"
+        ],
+        "actual": [
+          "leaderboard"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 10,
+        "activeDistrict": "relationships",
+        "mode": "exterior",
+        "expected": [
+          "relationships"
+        ],
+        "actual": [
+          "relationships"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 11,
+        "activeDistrict": "career",
+        "mode": "exterior",
+        "expected": [
+          "career"
+        ],
+        "actual": [
+          "career"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 12,
+        "activeDistrict": "recovery",
+        "mode": "exterior",
+        "expected": [
+          "recovery"
+        ],
+        "actual": [
+          "recovery"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 13,
+        "activeDistrict": "analytics",
+        "mode": "exterior",
+        "expected": [
+          "analytics"
+        ],
+        "actual": [
+          "analytics"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 14,
+        "activeDistrict": "nutrition",
+        "mode": "exterior",
+        "expected": [
+          "nutrition"
+        ],
+        "actual": [
+          "nutrition"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 15,
+        "activeDistrict": "city",
+        "mode": "climax",
+        "expected": [
+          "sia-tower",
+          "fitness",
+          "yoga",
+          "finance",
+          "knowledgebase",
+          "chat",
+          "leaderboard",
+          "relationships",
+          "career",
+          "recovery",
+          "analytics",
+          "nutrition"
+        ],
+        "actual": [
+          "sia-tower",
+          "fitness",
+          "yoga",
+          "finance",
+          "knowledgebase",
+          "chat",
+          "leaderboard",
+          "relationships",
+          "career",
+          "recovery",
+          "analytics",
+          "nutrition"
+        ],
+        "result": "PASS"
+      },
+      {
+        "scene": 16,
+        "activeDistrict": "chat",
+        "mode": "product",
+        "expected": [],
+        "actual": [],
+        "result": "PASS"
+      },
+      {
+        "scene": 17,
+        "activeDistrict": "city",
+        "mode": "closing",
+        "expected": [
+          "sia-tower",
+          "fitness",
+          "yoga",
+          "finance",
+          "knowledgebase",
+          "chat",
+          "leaderboard",
+          "relationships",
+          "career",
+          "recovery",
+          "analytics",
+          "nutrition"
+        ],
+        "actual": [
+          "sia-tower",
+          "fitness",
+          "yoga",
+          "finance",
+          "knowledgebase",
+          "chat",
+          "leaderboard",
+          "relationships",
+          "career",
+          "recovery",
+          "analytics",
+          "nutrition"
+        ],
+        "result": "PASS"
+      }
+    ],
+    "previewContentChecks": [
+      {
+        "id": "sia-tower",
+        "result": "PASS"
+      },
+      {
+        "id": "fitness",
+        "result": "PASS"
+      },
+      {
+        "id": "yoga",
+        "result": "PASS"
+      },
+      {
+        "id": "finance",
+        "result": "PASS"
+      },
+      {
+        "id": "knowledgebase",
+        "result": "PASS"
+      },
+      {
+        "id": "chat",
+        "result": "PASS"
+      },
+      {
+        "id": "leaderboard",
+        "result": "PASS"
+      },
+      {
+        "id": "relationships",
+        "result": "PASS"
+      },
+      {
+        "id": "career",
+        "result": "PASS"
+      },
+      {
+        "id": "recovery",
+        "result": "PASS"
+      },
+      {
+        "id": "analytics",
+        "result": "PASS"
+      },
+      {
+        "id": "nutrition",
+        "result": "PASS"
+      }
+    ],
+    "knowledgebaseRegression": {
+      "expectedStatus": "Learning queue tuned",
+      "actualStatus": "Learning queue tuned",
+      "financeCopyMatches": []
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "session": 88,
+  "date": "2026-05-27",
+  "status": "passed",
+  "method": "local HTTP reachability against the running Vite app plus Phase 10 LOD static QA and production build",
+  "appUrl": "http://localhost:3005/",
+  "checks": {
+    "appRouteHttp200": true,
+    "allFiveHeroGlbsHttp200": true,
+    "phase10LodStaticQaPassed": true,
+    "productionBuildPassed": true
+  },
+  "heroAssets": [
+    {
+      "id": "yoga",
+      "url": "http://localhost:3005/models/structures/02-yoga-wellbeing/yoga-ext-hero.glb",
+      "status": 200,
+      "contentLength": 163280
+    },
+    {
+      "id": "leaderboard",
+      "url": "http://localhost:3005/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb",
+      "status": 200,
+      "contentLength": 204556
+    },
+    {
+      "id": "relationships",
+      "url": "http://localhost:3005/models/structures/07-relationships/relationships-ext-hero.glb",
+      "status": 200,
+      "contentLength": 189972
+    },
+    {
+      "id": "recovery",
+      "url": "http://localhost:3005/models/structures/09-recovery-sleep/recovery-ext-hero.glb",
+      "status": 200,
+      "contentLength": 184268
+    },
+    {
+      "id": "nutrition",
+      "url": "http://localhost:3005/models/structures/11-nutrition/nutrition-ext-hero.glb",
+      "status": 200,
+      "contentLength": 182396
+    }
+  ],
+  "notes": [
+    "The app route returned HTTP 200 on localhost:3005.",
+    "This smoke does not claim browser console inventory; Session 88 visual proof is Blender app-hero camera evidence."
+  ]
+}

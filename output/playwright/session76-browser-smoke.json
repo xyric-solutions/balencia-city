@@ -1,0 +1,36 @@
+{
+  "session": 76,
+  "url": "http://localhost:3006/",
+  "date": "2026-05-26",
+  "result": "PASS",
+  "desktop": {
+    "viewport": "1280x720",
+    "scenes": [1, 4, 6, 11, 15, 16, 17],
+    "checks": {
+      "expected_scene_title": true,
+      "active_scene_nav": true,
+      "canvas_mounted_and_visible": true,
+      "overlay_visible_in_viewport": true,
+      "heading_visible_in_viewport": true,
+      "today_overlay_visible_only_on_scene_16": true,
+      "seventeen_scene_nav_present": true,
+      "no_offscreen_interactive_controls": true
+    }
+  },
+  "mobile": {
+    "viewport": "390x844",
+    "scenes": [1, 15, 16, 17],
+    "checks": {
+      "expected_scene_title": true,
+      "active_scene_nav": true,
+      "canvas_mounted_and_visible": true,
+      "overlay_visible_in_viewport": true,
+      "heading_visible_in_viewport": true,
+      "today_overlay_visible_only_on_scene_16": true,
+      "seventeen_scene_nav_present": true,
+      "no_offscreen_interactive_controls": true
+    }
+  },
+  "console_warnings_errors": [],
+  "screenshot_capture_note": "Browser DOM/canvas smoke passed. Visual evidence for Session 76 is captured in Blender-rendered contact sheets and scroll frames because in-app Page.captureScreenshot has timed out on this heavy WebGL page in prior passes."
+}

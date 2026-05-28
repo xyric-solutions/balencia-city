@@ -1,0 +1,72 @@
+{
+  "session": 78,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "sceneSummary": {
+      "title": "Inside SIA Tower",
+      "body": "I see what no single app can. The atrium turns every signal into one living plan.",
+      "activeDistrict": "sia-tower",
+      "mode": "interior",
+      "interiorId": "sia-tower",
+      "interiorStart": 0.28,
+      "activeEnergyIds": [
+        "ai-pulse",
+        "cross-district-gold"
+      ],
+      "camera": {
+        "position": [
+          0,
+          4.8,
+          16.5
+        ],
+        "target": [
+          0,
+          6.2,
+          1.2
+        ],
+        "fov": 50
+      },
+      "interiorCamera": {
+        "position": [
+          4.6,
+          10.8,
+          8.8
+        ],
+        "target": [
+          0,
+          8.6,
+          -2.4
+        ],
+        "fov": 48
+      }
+    },
+    "componentChecks": {
+      "mountedInCityScene": true,
+      "markers": [
+        {
+          "marker": "entrance-threshold",
+          "present": true
+        },
+        {
+          "marker": "atrium-walls",
+          "present": true
+        },
+        {
+          "marker": "neural-core",
+          "present": true
+        },
+        {
+          "marker": "holographic-city-model",
+          "present": true
+        },
+        {
+          "marker": "crown-light",
+          "present": true
+        }
+      ],
+      "hasVerdictDataAttribute": true,
+      "hasReadableCue": true
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "session": 80,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "chatInteraction": {
+      "interactionTarget": true,
+      "focusedScene": "chat",
+      "previewStatus": "Conversation pulse live"
+    },
+    "interactionChecks": [
+      {
+        "scene": 4,
+        "expectedOnly": "fitness",
+        "focusedSceneMap": "fitness",
+        "interactive": true
+      },
+      {
+        "scene": 5,
+        "expectedOnly": "yoga",
+        "focusedSceneMap": "yoga",
+        "interactive": true
+      },
+      {
+        "scene": 6,
+        "expectedOnly": "finance",
+        "focusedSceneMap": "finance",
+        "interactive": true
+      },
+      {
+        "scene": 7,
+        "expectedOnly": "knowledgebase",
+        "focusedSceneMap": "knowledgebase",
+        "interactive": true
+      },
+      {
+        "scene": 8,
+        "expectedOnly": "chat",
+        "focusedSceneMap": "chat",
+        "interactive": true
+      }
+    ],
+    "knowledgebaseRegression": {
+      "expectedStatus": "Learning queue tuned",
+      "actualStatus": "Learning queue tuned",
+      "financeCopyMatches": []
+    },
+    "sceneChecks": [
+      {
+        "scene": 4,
+        "districtId": "fitness",
+        "startDistance": 72.25,
+        "approachDistance": 50.33,
+        "thresholdDistance": 24.08,
+        "interiorDistance": 7.79,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 5,
+        "districtId": "yoga",
+        "startDistance": 54.45,
+        "approachDistance": 35.36,
+        "thresholdDistance": 16.28,
+        "interiorDistance": 7.91,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 6,
+        "districtId": "finance",
+        "startDistance": 54.82,
+        "approachDistance": 34.83,
+        "thresholdDistance": 17.03,
+        "interiorDistance": 6.79,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 7,
+        "districtId": "knowledgebase",
+        "startDistance": 56.64,
+        "approachDistance": 36.88,
+        "thresholdDistance": 18.44,
+        "interiorDistance": 6.68,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 8,
+        "districtId": "chat",
+        "startDistance": 57.49,
+        "approachDistance": 39.05,
+        "thresholdDistance": 19.21,
+        "interiorDistance": 7.08,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      }
+    ],
+    "textOverlapGuard": {
+      "hasInteriorCueCss": true,
+      "wrapsCueText": true
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "path": "modules/04-knowledgebase/exterior/drafts/knowledgebase-ext-hero-draft-s86.glb",
+  "object_count": 7,
+  "tris": 23728,
+  "size_bytes": 149552,
+  "size_kb": 146.0,
+  "bbox": {
+    "min": [
+      -2.6888,
+      -13.262,
+      0.0
+    ],
+    "max": [
+      5.7889,
+      2.2,
+      16.6003
+    ],
+    "size": [
+      8.4776,
+      15.462,
+      16.6003
+    ],
+    "center": [
+      1.5501,
+      -5.531,
+      8.3001
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "knowledgebase-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

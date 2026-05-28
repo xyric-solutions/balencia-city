@@ -1,0 +1,53 @@
+{
+  "path": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-hero-draft-s88.glb",
+  "object_count": 7,
+  "tris": 23740,
+  "size_bytes": 163280,
+  "size_kb": 159.5,
+  "bbox": {
+    "min": [
+      -9.0,
+      -7.3804,
+      -0.0
+    ],
+    "max": [
+      9.0,
+      7.3806,
+      5.4922
+    ],
+    "size": [
+      18.0,
+      14.761,
+      5.4922
+    ],
+    "center": [
+      0.0,
+      0.0001,
+      2.7461
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "yoga-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

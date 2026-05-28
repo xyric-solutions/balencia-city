@@ -10,6 +10,7 @@
 
 **Exterior Status**: Session 22 Complete -- QA APPROVED
 **Exterior Approved**: [x] Yes / Date: 2026-05-24
+**Phase 10 Hero Exterior LOD Status**: Session 87 Approved / Date: 2026-05-27
 
 ### Build Sessions
 
@@ -144,6 +145,49 @@
 
 **Metrics**: Total objects: 81, Total tris: 1,810 (15.1% of 12,000 major-forms budget)
 **Overall Verdict**: APPROVED
+
+---
+
+## Phase 10 Hero Exterior LOD
+
+### Session 87 (2026-05-27) -- Urban/Vertical Wave
+
+**Focus**: Build the focused-scene Chat and Communication hero exterior for Scene 8 while preserving the Session 74 overview exterior, origin, layout position, and hard-pipeline assumptions.
+
+**Added completion signals**:
+- Finished multi-pod facade rhythm with occupied message windows, orange floor lines, live wave screens, and holo communication readouts.
+- Bridge sleeves, inner signal threads, conduit hardware, status nodes, roof broadcast caps, antenna bristles, satellite dish, and main broadcast halo.
+- Shared communication plaza plate with conversation tiles and resolved public threshold.
+
+**Metrics**:
+- Overview exterior: 20,052 tris, 7 mesh objects, 158.1 KB.
+- Session 87 hero exterior: 34,628 tris, 7 mesh objects, 231.7 KB.
+- Focused Scene 8 budget result: 240,423 tris, below the 270K focused-scene cap.
+- Approved GLB: `exterior/approved/chat-ext-hero.glb`
+- App GLB: `apps/balencia/public/models/structures/05-chat-communication/chat-ext-hero.glb`
+- Metrics: `exterior/drafts/session87-hero-metrics.json`
+- QA import: `exterior/drafts/session87-hero-qa-import.json`
+
+**Screenshots**:
+- `screenshots/session87-chat-hero-front.png`
+- `screenshots/session87-chat-hero-three-quarter.png`
+- `screenshots/session87-chat-hero-ground-up.png`
+- `screenshots/session87-chat-hero-dark-first.png`
+
+### QA Review -- Session 87 Phase 10 Hero Exterior LOD
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Gate 8 architectural completion | Finished focused-scene hero read | PASS | Added complete pod skins, bridge/conduit hardware, podium/plaza resolution, roof caps, antenna arrays, and broadcast crown. |
+| Runtime compatibility | Overview LOD preservation | PASS | Existing `chat-ext.glb` remains the overview LOD; `chat-ext-hero.glb` is used through `exteriorHero` in focused scenes. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported with approved material slots only, one root named `chat-ext-hero`, 7 mesh objects, and no cameras/lights. |
+| Budget | Hero exterior density/file size | PASS | 34,628 tris / 231.7 KB; focused Scene 8 stays under budget at 240,423 tris. |
+
+**Evidence**:
+- `assembly/screenshots/session-87-urban-vertical-wave/s87-urban-vertical-wave-before-after-contact-sheet.png`
+- `assembly/audit/session-87-urban-vertical-wave.json`
+
+**Overall Verdict**: APPROVED -- Session 87 hero exterior promoted to approved and app paths.
 **Fix Instructions**: None required. All Gate 1 and Gate 2 criteria pass.
 
 **Additional Notes**:

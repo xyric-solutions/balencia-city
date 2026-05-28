@@ -1,7 +1,7 @@
 # Phase 8 City Spread And Exterior Finish Backlog
 
 Date: 2026-05-26
-Status: In progress
+Status: Complete
 
 ## Summary
 
@@ -18,6 +18,7 @@ Phase 8 responds to user visual review after Session 68. The app passed local QA
 | 73 | Yoga + Recovery + Relationships organic polish wave | Done |
 | 74 | Knowledgebase + Chat + Career urban polish wave | Done |
 | 75 | Leaderboard + AI Analytics + Nutrition signature polish wave | Done |
+| 76 | Final city QA contact sheets and performance review | Done |
 
 Session 69 added `shared/city-layout-v2.json`, retargeted app structure positions to the wider layout, expanded the island/road/atmosphere context, updated overview cameras and label layouts, hid stale baked endpoint energy GLBs, and kept app-layer living routes active from the new positions.
 
@@ -33,11 +34,11 @@ Session 74 polished Knowledgebase, Chat, and Career exteriors and promoted all t
 
 Session 75 polished Leaderboard, AI Analytics, and Nutrition exteriors and promoted all three v2 GLBs to approved/app paths. Leaderboard moved to 19,928 tris / 6 objects / 151.5 KB with stronger rim plinths, rank glyphs, victory crown hardware, seating rails, arch score plates, medals, and lightning receiver branchwork while preserving its no-holo exterior material set. AI Analytics moved to 19,411 tris / 7 objects / 124.4 KB with denser forecast panels, arch halos, buttress fiber bundles, observation guard detail, spire telemetry rings, and living-wall streams. Nutrition moved to 19,876 tris / 6 objects / 121.7 KB with green plant accent restored, stronger terrace planters, greenhouse mullions, vine clusters, market crates, irrigation nodes, and amber roof/grow-light finish.
 
-## Next Sessions
+Session 76 completed the final Phase 8 evidence pass. The first audit found one missing material slot on the approved Knowledgebase exterior; the repair assigned the approved `detail` slot to `knowledgebase_s74_detail_combined_mesh` without changing geometry, origin, layout position, or triangle count. The final audit approved all current assets at 225,847 active city tris, 2,147.3 KB active source GLBs, 36.4005u minimum spacing, and 3.6408x SIA dominance. `npm run build`, local model HTTP checks, and browser desktop/mobile runtime smoke all passed with zero console warnings/errors.
 
-| Priority | Session | Work |
-|----------|---------|------|
-| P0 | 76 - Final city QA | Rebuild contact sheets, compare before/after, confirm breathing room, finished exterior read, label clarity, and performance. |
+## Phase 8 Closure
+
+No remaining Phase 8 sessions. Final evidence is recorded in `apps/balencia/SESSION-76-REPORT.md`, `assembly/audit/session-76-final-phase-8-city-qa.md`, and `assembly/performance-reports/session-76-performance.json`.
 
 ## Acceptance Gates
 
@@ -48,3 +49,5 @@ Session 75 polished Leaderboard, AI Analytics, and Nutrition exteriors and promo
 | Exterior finish | Each v2 exterior | Reads complete in dark-first view: base/body/crown, facade articulation, entrance, lighting, rooftop/crown treatment, and district-specific finish. |
 | App QA | Desktop/mobile | No label overlaps, overlay collisions, offscreen labels, console warnings/errors, or blank canvas in required scenes. |
 | Performance | Active city | Stay under the 250K active triangle cap unless a later audit explicitly raises the budget. |
+
+All Phase 8 acceptance gates passed in Session 76.

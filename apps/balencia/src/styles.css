@@ -1,8 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 :root {
-  font-family: "Sora", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   color: #f7efe5;
   background: #0a0a0f;
   font-synthesis: none;
@@ -66,6 +71,12 @@ select {
   line-height: 1;
   letter-spacing: 0;
   text-shadow: 0 0 26px rgba(255, 94, 0, 0.32);
+  transition: opacity 0.3s;
+}
+
+.brand-mark--hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .city-label-anchor {
@@ -83,6 +94,107 @@ select {
 
 .district-board-anchor {
   pointer-events: none;
+}
+
+.sia-interior-cue-anchor {
+  pointer-events: none;
+}
+
+.interior-reveal-cue-anchor {
+  pointer-events: none;
+}
+
+.sia-interior-cue {
+  --sia-progress: 0;
+  display: grid;
+  gap: 4px;
+  min-width: 142px;
+  max-width: min(210px, 24vw);
+  padding: 9px 12px 10px;
+  color: #fff8ef;
+  background:
+    linear-gradient(135deg, rgba(18, 17, 22, 0.82), rgba(8, 9, 14, 0.72)),
+    rgba(255, 94, 0, calc(0.07 + (var(--sia-progress) * 0.08)));
+  border: 1px solid rgba(255, 176, 102, 0.52);
+  border-left: 3px solid #ff5e00;
+  border-radius: 7px;
+  box-shadow:
+    0 14px 34px rgba(0, 0, 0, 0.34),
+    0 0 30px rgba(255, 94, 0, 0.24);
+  backdrop-filter: blur(12px);
+  transform: translateY(-4px);
+}
+
+.sia-interior-cue span,
+.sia-interior-cue strong {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: normal;
+  text-wrap: balance;
+  white-space: normal;
+}
+
+.sia-interior-cue span {
+  color: rgba(255, 176, 102, 0.86);
+  font-size: 0.58rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.sia-interior-cue strong {
+  color: #fff8ef;
+  font-size: 0.82rem;
+  font-weight: 760;
+  line-height: 1.16;
+}
+
+.interior-reveal-cue {
+  --cue-offset-x: 0px;
+  --cue-offset-y: 0px;
+  --district-color: #ff5e00;
+  --reveal-progress: 0;
+  display: grid;
+  gap: 4px;
+  min-width: 132px;
+  max-width: min(198px, 22vw);
+  padding: 8px 11px 9px;
+  color: #fff8ef;
+  background:
+    linear-gradient(135deg, rgba(13, 15, 21, 0.84), rgba(7, 8, 12, 0.74)),
+    color-mix(in srgb, var(--district-color) calc(8% + (var(--reveal-progress) * 8%)), transparent);
+  border: 1px solid color-mix(in srgb, var(--district-color) 62%, transparent);
+  border-left: 3px solid var(--district-color);
+  border-radius: 7px;
+  box-shadow:
+    0 13px 32px rgba(0, 0, 0, 0.34),
+    0 0 28px color-mix(in srgb, var(--district-color) 30%, transparent);
+  opacity: clamp(0, var(--reveal-progress), 1);
+  transform: translate(var(--cue-offset-x), calc(var(--cue-offset-y) - 5px));
+  backdrop-filter: blur(12px);
+}
+
+.interior-reveal-cue span,
+.interior-reveal-cue strong {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.interior-reveal-cue span {
+  color: color-mix(in srgb, var(--district-color) 62%, #fff8ef 38%);
+  font-size: 0.58rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.interior-reveal-cue strong {
+  color: rgba(255, 248, 239, 0.9);
+  font-size: 0.75rem;
+  font-weight: 720;
+  line-height: 1.18;
 }
 
 .district-board {
@@ -438,6 +550,15 @@ select {
   max-width: 100%;
 }
 
+.city-label--anchor {
+  width: max-content;
+  max-width: min(var(--label-max-width, 184px), 20vw);
+  border-left-width: 2px;
+  background:
+    linear-gradient(135deg, rgba(11, 12, 18, 0.84), rgba(6, 7, 11, 0.76)),
+    color-mix(in srgb, var(--district-color) 8%, transparent);
+}
+
 .city-label--overview.city-label--primary {
   min-width: 122px;
   padding: 7px 9px;
@@ -549,6 +670,28 @@ select {
   font-weight: 800;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+.scene-overlay__back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 10px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--district-color, #ccc);
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.scene-overlay__back-btn:hover {
+  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .scene-overlay__focus {
@@ -1395,6 +1538,19 @@ select {
     font-size: 0.46rem;
     line-height: 1.14;
   }
+}
+
+.click-interior-veil {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background: transparent;
+  pointer-events: none;
+  transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.click-interior-veil--active {
+  background: rgba(10, 10, 15, 0.42);
 }
 
 @media (prefers-reduced-motion: reduce) {

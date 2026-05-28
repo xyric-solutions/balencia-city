@@ -3,9 +3,11 @@ import { useLayoutEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import { CITY_LAYOUT_ISLAND } from "../../lib/city-layout-v2";
 import { BRAND_COLORS } from "../../lib/materials";
+import { useScrollStore } from "../../store/useScrollStore";
 
 type AtmosphereDepthLayerProps = {
   sceneIndex: number;
+  clickDim?: number;
 };
 
 type DepthConfig = {
@@ -63,7 +65,7 @@ function makeSkyGeometry(sceneIndex: number) {
   const colors: number[] = [];
   const top = new THREE.Color(sceneIndex === 17 ? "#05060B" : "#070810");
   const upper = new THREE.Color("#0A0A0F");
-  const horizon = new THREE.Color(sceneIndex === 17 ? "#35170E" : "#28160F");
+  const horizon = new THREE.Color(sceneIndex === 17 ? "#3D1D12" : "#2F1A13");
   const atmosphericCool = new THREE.Color(sceneIndex === 16 ? "#172839" : "#171227");
   const color = new THREE.Color();
 
@@ -157,7 +159,7 @@ function TerrainDepthField({ sceneIndex }: AtmosphereDepthLayerProps) {
   );
 }
 
-function HorizonFogShelves({ sceneIndex }: AtmosphereDepthLayerProps) {
+function HorizonFogShelves({ sceneIndex, clickDim = 1 }: AtmosphereDepthLayerProps) {
   const config = depthConfig(sceneIndex);
   const nearFogRef = useRef<THREE.MeshBasicMaterial | null>(null);
   const farFogRef = useRef<THREE.MeshBasicMaterial | null>(null);
@@ -166,11 +168,11 @@ function HorizonFogShelves({ sceneIndex }: AtmosphereDepthLayerProps) {
     const slowBreath = 0.9 + Math.sin(clock.elapsedTime * 0.22) * 0.1;
 
     if (nearFogRef.current) {
-      nearFogRef.current.opacity = config.fogOpacity * 0.18 * slowBreath;
+      nearFogRef.current.opacity = config.fogOpacity * 0.18 * slowBreath * clickDim;
     }
 
     if (farFogRef.current) {
-      farFogRef.current.opacity = config.fogOpacity * 0.11 * (1.04 - slowBreath * 0.08);
+      farFogRef.current.opacity = config.fogOpacity * 0.11 * (1.04 - slowBreath * 0.08) * clickDim;
     }
   });
 
@@ -217,6 +219,19 @@ function HorizonFogShelves({ sceneIndex }: AtmosphereDepthLayerProps) {
           transparent
         />
       </mesh>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.3, 0]} renderOrder={-11}>
+        <ringGeometry args={[CITY_LAYOUT_ISLAND.radiusX, CITY_LAYOUT_ISLAND.radiusX + 30, 192]} />
+        <meshBasicMaterial
+          blending={THREE.AdditiveBlending}
+          color="#FFB066"
+          depthWrite={false}
+          fog={false}
+          opacity={config.fogOpacity * 0.04}
+          side={THREE.DoubleSide}
+          toneMapped={false}
+          transparent
+        />
+      </mesh>
     </group>
   );
 }
@@ -245,7 +260,7 @@ function makeSkylineBlocks() {
   });
 }
 
-function DistantUrbanEdge({ sceneIndex }: AtmosphereDepthLayerProps) {
+function DistantUrbanEdge({ sceneIndex, clickDim = 1 }: AtmosphereDepthLayerProps) {
   const blocks = useMemo(makeSkylineBlocks, []);
   const blockRef = useRef<THREE.InstancedMesh | null>(null);
   const glowRef = useRef<THREE.InstancedMesh | null>(null);
@@ -302,11 +317,11 @@ function DistantUrbanEdge({ sceneIndex }: AtmosphereDepthLayerProps) {
     const pulse = 0.86 + Math.sin(clock.elapsedTime * 0.42) * 0.1;
 
     if (blockMaterialRef.current) {
-      blockMaterialRef.current.opacity = config.blockOpacity;
+      blockMaterialRef.current.opacity = config.blockOpacity * clickDim;
     }
 
     if (glowMaterialRef.current) {
-      glowMaterialRef.current.opacity = config.glowOpacity * 0.62 * pulse;
+      glowMaterialRef.current.opacity = config.glowOpacity * 0.62 * pulse * clickDim;
     }
   });
 
@@ -341,7 +356,7 @@ function DistantUrbanEdge({ sceneIndex }: AtmosphereDepthLayerProps) {
   );
 }
 
-function OuterRimLightLayer({ sceneIndex }: AtmosphereDepthLayerProps) {
+function OuterRimLightLayer({ sceneIndex, clickDim = 1 }: AtmosphereDepthLayerProps) {
   const config = depthConfig(sceneIndex);
   const primaryRef = useRef<THREE.MeshBasicMaterial | null>(null);
   const secondaryRef = useRef<THREE.MeshBasicMaterial | null>(null);
@@ -351,11 +366,11 @@ function OuterRimLightLayer({ sceneIndex }: AtmosphereDepthLayerProps) {
     const cycle = (Math.sin(clock.elapsedTime * 0.58) + 1) / 2;
 
     if (primaryRef.current) {
-      primaryRef.current.opacity = config.rimOpacity * THREE.MathUtils.lerp(0.18, 0.3, cycle);
+      primaryRef.current.opacity = config.rimOpacity * THREE.MathUtils.lerp(0.18, 0.3, cycle) * clickDim;
     }
 
     if (secondaryRef.current) {
-      secondaryRef.current.opacity = config.rimOpacity * THREE.MathUtils.lerp(0.09, 0.18, 1 - cycle);
+      secondaryRef.current.opacity = config.rimOpacity * THREE.MathUtils.lerp(0.09, 0.18, 1 - cycle) * clickDim;
     }
 
     if (scanRef.current) {
@@ -459,14 +474,18 @@ function ClosingCrownProjection({ sceneIndex }: AtmosphereDepthLayerProps) {
   );
 }
 
-export function AtmosphereDepthLayer({ sceneIndex }: AtmosphereDepthLayerProps) {
+export function AtmosphereDepthLayer({ sceneIndex }: { sceneIndex: number }) {
+  const isClickInteriorActive = useScrollStore((state) => state.isClickInteriorActive);
+  const fogDim = isClickInteriorActive ? 0.3 : 1;
+  const ringDim = isClickInteriorActive ? 0.5 : 1;
+
   return (
     <group name="Atmosphere_Depth_Layer">
       <SkyGradientDome sceneIndex={sceneIndex} />
       <TerrainDepthField sceneIndex={sceneIndex} />
-      <HorizonFogShelves sceneIndex={sceneIndex} />
-      <DistantUrbanEdge sceneIndex={sceneIndex} />
-      <OuterRimLightLayer sceneIndex={sceneIndex} />
+      <HorizonFogShelves sceneIndex={sceneIndex} clickDim={fogDim} />
+      <DistantUrbanEdge sceneIndex={sceneIndex} clickDim={ringDim} />
+      <OuterRimLightLayer sceneIndex={sceneIndex} clickDim={ringDim} />
       <ClosingCrownProjection sceneIndex={sceneIndex} />
     </group>
   );

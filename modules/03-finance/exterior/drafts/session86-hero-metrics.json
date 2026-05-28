@@ -1,0 +1,155 @@
+{
+  "session": 86,
+  "date": "2026-05-27",
+  "module": "Finance",
+  "id": "finance",
+  "source_glb": "modules/03-finance/exterior/approved/finance-ext.glb",
+  "output_blend": "modules/03-finance/exterior/drafts/finance-session86-hero.blend",
+  "draft_glb": "modules/03-finance/exterior/drafts/finance-ext-hero-draft-s86.glb",
+  "approved_glb": "modules/03-finance/exterior/approved/finance-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/03-finance/finance-ext-hero.glb",
+  "pre_tris": 15370,
+  "pre_objects": 205,
+  "pre_bbox": {
+    "min": [
+      -6.5987,
+      -6.5987,
+      0.0
+    ],
+    "max": [
+      6.5987,
+      7.771,
+      18.43
+    ],
+    "size": [
+      13.1974,
+      14.3697,
+      18.43
+    ],
+    "center": [
+      0.0,
+      0.5861,
+      9.215
+    ]
+  },
+  "final_live_tris": 28446,
+  "final_live_objects": 6,
+  "final_tris": 28446,
+  "final_objects": 6,
+  "final_size_bytes": 185960,
+  "final_size_kb": 181.6,
+  "bbox": {
+    "min": [
+      -8.4567,
+      -7.8706,
+      0.0
+    ],
+    "max": [
+      8.4567,
+      9.0428,
+      19.2813
+    ],
+    "size": [
+      16.9135,
+      16.9135,
+      19.2813
+    ],
+    "center": [
+      0.0,
+      0.5861,
+      9.6407
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session86 finance complete crystalline envelope": {
+      "objects": 800,
+      "tris": 10496
+    },
+    "session86 finance premium plinth and lobby threshold": {
+      "objects": 28,
+      "tris": 408
+    },
+    "session86 finance resolved data crown cap": {
+      "objects": 29,
+      "tris": 2172
+    }
+  },
+  "evidence": {
+    "front": "modules/03-finance/screenshots/session86-finance-hero-front.png",
+    "three_quarter": "modules/03-finance/screenshots/session86-finance-hero-three-quarter.png",
+    "ground_up": "modules/03-finance/screenshots/session86-finance-hero-ground-up.png",
+    "dark_first": "modules/03-finance/screenshots/session86-finance-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "solid crystalline envelope behind gold frame",
+    "premium plinth, lobby threshold, and civic edge",
+    "resolved data crown visible from Scene 6"
+  ],
+  "budget": {
+    "tri_min": 22000,
+    "tri_max": 33000,
+    "size_min_kb": 80,
+    "size_max_kb": 620,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/03-finance/exterior/drafts/finance-ext-hero-draft-s86.glb",
+    "object_count": 6,
+    "tris": 28446,
+    "size_bytes": 185960,
+    "size_kb": 181.6,
+    "bbox": {
+      "min": [
+        -8.4567,
+        -7.8706,
+        0.0
+      ],
+      "max": [
+        8.4567,
+        9.0428,
+        19.2813
+      ],
+      "size": [
+        16.9135,
+        16.9135,
+        19.2813
+      ],
+      "center": [
+        0.0,
+        0.5861,
+        9.6407
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "finance-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

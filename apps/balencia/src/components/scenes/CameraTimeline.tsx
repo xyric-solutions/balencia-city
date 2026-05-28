@@ -81,8 +81,14 @@ export function CameraTimeline() {
   const parallaxPosition = useRef(new THREE.Vector3());
   const parallaxTarget = useRef(new THREE.Vector3());
   const focusedDistrictId = useScrollStore((state) => state.focusedDistrictId);
+  const clickInteriorCamera = useScrollStore((state) => state.clickInteriorCamera);
+  const isClickInteriorActive = useScrollStore((state) => state.isClickInteriorActive);
   const progress = useScrollStore((state) => state.progress);
   const isMobileViewport = useIsMobileViewport();
+  const clickPosition = useRef(new THREE.Vector3());
+  const clickTarget = useRef(new THREE.Vector3());
+  const clickFov = useRef(55);
+  const clickWeight = useRef(0);
 
   useFrame(({ camera, pointer }, delta) => {
     const cameraState = interpolateCamera(progress);
@@ -122,13 +128,37 @@ export function CameraTimeline() {
       tempPosition.lerp(focusAnchor.current, focus.position * focusWeight.current);
     }
 
+    if (isClickInteriorActive && clickInteriorCamera) {
+      clickPosition.current.set(...clickInteriorCamera.position);
+      clickTarget.current.set(...clickInteriorCamera.target);
+      clickFov.current = clickInteriorCamera.fov;
+    }
+
+    const clickSmoothing = 1 - Math.pow(0.008, delta);
+    clickWeight.current = THREE.MathUtils.lerp(
+      clickWeight.current,
+      isClickInteriorActive ? 1 : 0,
+      clickSmoothing,
+    );
+
+    if (clickWeight.current > 0.001) {
+      parallaxPosition.current.multiplyScalar(1 - clickWeight.current);
+      parallaxTarget.current.multiplyScalar(1 - clickWeight.current);
+      tempPosition.lerp(clickPosition.current, clickWeight.current);
+      tempTarget.lerp(clickTarget.current, clickWeight.current);
+    }
+
     perspectiveCamera.position.lerp(tempPosition, smoothing);
     target.current.lerp(tempTarget, smoothing);
     perspectiveCamera.lookAt(target.current);
 
+    const baseFov = cameraState.fov - focus.fov * focusWeight.current;
+    const targetFov = clickWeight.current > 0.001
+      ? THREE.MathUtils.lerp(baseFov, clickFov.current, clickWeight.current)
+      : baseFov;
     perspectiveCamera.fov = THREE.MathUtils.lerp(
       perspectiveCamera.fov,
-      cameraState.fov - focus.fov * focusWeight.current,
+      targetFov,
       smoothing,
     );
     perspectiveCamera.near = 0.1;

@@ -1,0 +1,1006 @@
+{
+  "active_city_tris": 225847,
+  "active_source_bytes": 2198788,
+  "app_hero_contact_sheet": "assembly/screenshots/session-85-completion-audit/s85-app-hero-camera-contact-sheet.png",
+  "baseline_contact_sheet": "assembly/screenshots/session-85-completion-audit/s85-completion-baseline-contact-sheet.png",
+  "checks": {
+    "active_source_file_budget_preserved": true,
+    "all_approved_overview_exteriors_present": true,
+    "app_hero_camera_evidence_complete": true,
+    "app_hero_contact_sheet_nonzero": true,
+    "baseline_contact_sheet_nonzero": true,
+    "baseline_front_threequarter_groundup_darkfirst_complete": true,
+    "material_roots_valid": true,
+    "no_hero_exteriors_built_during_audit": true,
+    "overview_city_tri_budget_preserved": true,
+    "phase10_lod_policy_present": true
+  },
+  "date": "2026-05-27",
+  "invalid_materials": [],
+  "missing_assets": [],
+  "overall_verdict": "APPROVED",
+  "performance_report": "assembly/performance-reports/session-85-performance.json",
+  "phase10_backlog": "apps/balencia/PHASE-10-BACKLOG.md",
+  "risk_order": [
+    {
+      "completion_wave": "Session 86 pilot",
+      "construction_read_risk": 5,
+      "label": "Finance"
+    },
+    {
+      "completion_wave": "Session 86 pilot",
+      "construction_read_risk": 4,
+      "label": "Knowledgebase"
+    },
+    {
+      "completion_wave": "Session 86 pilot",
+      "construction_read_risk": 4,
+      "label": "SIA Tower"
+    },
+    {
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_risk": 3,
+      "label": "AI analytics"
+    },
+    {
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_risk": 3,
+      "label": "Career"
+    },
+    {
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_risk": 3,
+      "label": "Chat and communication"
+    },
+    {
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_risk": 3,
+      "label": "Fitness"
+    },
+    {
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_risk": 2,
+      "label": "Leaderboard and competition"
+    },
+    {
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_risk": 2,
+      "label": "Nutrition"
+    },
+    {
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_risk": 2,
+      "label": "Recovery and sleep"
+    },
+    {
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_risk": 2,
+      "label": "Relationships"
+    },
+    {
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_risk": 2,
+      "label": "Yoga and wellbeing"
+    }
+  ],
+  "scope": "Phase 10 architectural completion audit and baseline evidence capture",
+  "session": 85,
+  "structure_metrics": {
+    "analytics": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 28,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-13-analytics-analytics-cathedral-app-hero.png",
+        "runtime_camera_position": [
+          -54,
+          25,
+          -106
+        ],
+        "runtime_camera_target": [
+          -8,
+          13,
+          -68
+        ],
+        "scene": 13,
+        "slug": "analytics-cathedral"
+      },
+      "approved_exterior": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/analytics-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/analytics-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/analytics-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/analytics-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          -8.0001,
+          67.8435,
+          8.355
+        ],
+        "max": [
+          -1.4003,
+          72.9162,
+          16.71
+        ],
+        "min": [
+          -14.5999,
+          62.7708,
+          0.0
+        ],
+        "size": [
+          13.1996,
+          10.1455,
+          16.71
+        ]
+      },
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_label": "medium",
+      "construction_read_risk": 3,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "AI analytics",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "mesh_objects": 7,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext.glb",
+      "public_size_bytes": 127428,
+      "runtime_exterior": "/models/structures/10-ai-analytics/analytics-ext.glb",
+      "source_size_bytes": 127428,
+      "target_notes": [
+        "Resolve the data-cathedral facade as a finished skin, not only a diagram of data paths.",
+        "Add crown/entry polish and readable panel cadence from Scene 13."
+      ],
+      "tris": 19411
+    },
+    "career": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 30,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-11-career-career-towers-app-hero.png",
+        "runtime_camera_position": [
+          -112,
+          27,
+          11
+        ],
+        "runtime_camera_target": [
+          -66,
+          15,
+          -25
+        ],
+        "scene": 11,
+        "slug": "career-towers"
+      },
+      "approved_exterior": "modules/08-career/exterior/approved/career-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/career-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/career-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/career-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/career-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          -66.0,
+          24.9999,
+          9.18
+        ],
+        "max": [
+          -58.1001,
+          31.605,
+          18.36
+        ],
+        "min": [
+          -73.9,
+          18.3949,
+          0.0
+        ],
+        "size": [
+          15.7999,
+          13.2101,
+          18.36
+        ]
+      },
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_label": "medium",
+      "construction_read_risk": 3,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Career",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "mesh_objects": 6,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/08-career/career-ext.glb",
+      "public_size_bytes": 116084,
+      "runtime_exterior": "/models/structures/08-career/career-ext.glb",
+      "source_size_bytes": 116084,
+      "target_notes": [
+        "Make the tower cluster feel occupied with floor rhythm, elevator tube hardware, and roof caps.",
+        "Strengthen the shared podium and civic edge without overcomplicating the silhouette."
+      ],
+      "tris": 20288
+    },
+    "chat": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 29,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-08-chat-communication-hub-app-hero.png",
+        "runtime_camera_position": [
+          29,
+          23,
+          110
+        ],
+        "runtime_camera_target": [
+          -8,
+          9.8,
+          66
+        ],
+        "scene": 8,
+        "slug": "communication-hub"
+      },
+      "approved_exterior": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/chat-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/chat-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/chat-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/chat-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          -8.0,
+          -66.0,
+          7.27
+        ],
+        "max": [
+          -1.6955,
+          -61.605,
+          14.5399
+        ],
+        "min": [
+          -14.3045,
+          -70.3949,
+          0.0
+        ],
+        "size": [
+          12.609,
+          8.7899,
+          14.5399
+        ]
+      },
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_label": "medium",
+      "construction_read_risk": 3,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Chat and communication",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "mesh_objects": 7,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/05-chat-communication/chat-ext.glb",
+      "public_size_bytes": 161944,
+      "runtime_exterior": "/models/structures/05-chat-communication/chat-ext.glb",
+      "source_size_bytes": 161944,
+      "target_notes": [
+        "Finish the multi-tower communication hub with stronger facade rhythm and bridge details.",
+        "Resolve podium, signage, roof caps, and tower-to-tower connection hardware."
+      ],
+      "tris": 20052
+    },
+    "finance": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 30,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-06-finance-finance-tower-app-hero.png",
+        "runtime_camera_position": [
+          99,
+          24,
+          68
+        ],
+        "runtime_camera_target": [
+          56,
+          13,
+          34
+        ],
+        "scene": 6,
+        "slug": "finance-tower"
+      },
+      "approved_exterior": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/finance-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/finance-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/finance-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/finance-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          56.0,
+          -33.4139,
+          9.215
+        ],
+        "max": [
+          62.5987,
+          -26.229,
+          18.43
+        ],
+        "min": [
+          49.4013,
+          -40.5987,
+          0.0
+        ],
+        "size": [
+          13.1974,
+          14.3697,
+          18.43
+        ]
+      },
+      "completion_wave": "Session 86 pilot",
+      "construction_read_label": "high",
+      "construction_read_risk": 5,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Finance",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "mesh_objects": 205,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/03-finance/finance-ext.glb",
+      "public_size_bytes": 254740,
+      "runtime_exterior": "/models/structures/03-finance/finance-ext.glb",
+      "source_size_bytes": 254740,
+      "target_notes": [
+        "Make the crystalline tower read as a complete envelope instead of a faceted frame.",
+        "Add a resolved premium plinth, lobby threshold, and crown cap visible from Scene 6.",
+        "Densify mullions and panel rhythm while preserving the sharp finance silhouette."
+      ],
+      "tris": 15370
+    },
+    "fitness": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 28,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-04-fitness-fitness-district-app-hero.png",
+        "runtime_camera_position": [
+          109,
+          25,
+          -90
+        ],
+        "runtime_camera_target": [
+          61,
+          10.5,
+          -36
+        ],
+        "scene": 4,
+        "slug": "fitness-district"
+      },
+      "approved_exterior": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/fitness-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/fitness-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/fitness-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/fitness-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          61.0001,
+          35.9058,
+          7.0753
+        ],
+        "max": [
+          73.0734,
+          48.0922,
+          14.1505
+        ],
+        "min": [
+          48.9267,
+          23.7194,
+          0.0
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ]
+      },
+      "completion_wave": "Session 87 urban/vertical",
+      "construction_read_label": "medium",
+      "construction_read_risk": 3,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Fitness",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "mesh_objects": 45,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/01-fitness/fitness-ext.glb",
+      "public_size_bytes": 106308,
+      "runtime_exterior": "/models/structures/01-fitness/fitness-ext.glb",
+      "source_size_bytes": 106308,
+      "target_notes": [
+        "Add glass/panel skin behind the angular exoskeleton where the hero camera exposes frame gaps.",
+        "Resolve base, entrance canopy, roof equipment, and visible training-deck rhythm."
+      ],
+      "tris": 16402
+    },
+    "knowledgebase": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 29,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-07-knowledgebase-knowledgebase-app-hero.png",
+        "runtime_camera_position": [
+          68,
+          25,
+          105
+        ],
+        "runtime_camera_target": [
+          30,
+          10.2,
+          63
+        ],
+        "scene": 7,
+        "slug": "knowledgebase"
+      },
+      "approved_exterior": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/knowledgebase-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/knowledgebase-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/knowledgebase-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/knowledgebase-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          31.5502,
+          -66.7242,
+          7.0204
+        ],
+        "max": [
+          35.7891,
+          -60.8,
+          14.0407
+        ],
+        "min": [
+          27.3112,
+          -72.6483,
+          0.0
+        ],
+        "size": [
+          8.4778,
+          11.8483,
+          14.0407
+        ]
+      },
+      "completion_wave": "Session 86 pilot",
+      "construction_read_label": "high",
+      "construction_read_risk": 4,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Knowledgebase",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "mesh_objects": 7,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/04-knowledgebase/knowledgebase-ext.glb",
+      "public_size_bytes": 106508,
+      "runtime_exterior": "/models/structures/04-knowledgebase/knowledgebase-ext.glb",
+      "source_size_bytes": 106508,
+      "target_notes": [
+        "Complete the ancient-to-future facade envelope around the current library massing.",
+        "Strengthen entry stairs, stone base, waterfall intake, and crown roof termination.",
+        "Keep the purple identity while reducing any bare-support or scaffold read."
+      ],
+      "tris": 15204
+    },
+    "leaderboard": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 28,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-09-leaderboard-leaderboard-arena-app-hero.png",
+        "runtime_camera_position": [
+          -92,
+          25,
+          95
+        ],
+        "runtime_camera_target": [
+          -50,
+          8.6,
+          53
+        ],
+        "scene": 9,
+        "slug": "leaderboard-arena"
+      },
+      "approved_exterior": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/leaderboard-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/leaderboard-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/leaderboard-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/leaderboard-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          -50.0003,
+          -56.3259,
+          5.6867
+        ],
+        "max": [
+          -40.8006,
+          -39.75,
+          11.3734
+        ],
+        "min": [
+          -59.2,
+          -72.9017,
+          0.0
+        ],
+        "size": [
+          18.3994,
+          33.1517,
+          11.3734
+        ]
+      },
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_label": "low-medium",
+      "construction_read_risk": 2,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Leaderboard and competition",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "mesh_objects": 6,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+      "public_size_bytes": 155148,
+      "runtime_exterior": "/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+      "source_size_bytes": 155148,
+      "target_notes": [
+        "Keep the arena silhouette open, but add finished rim, entry portals, seating/floor cues, and apex hardware.",
+        "Preserve lightning endpoint assumptions and pink competition identity."
+      ],
+      "tris": 19928
+    },
+    "nutrition": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 28,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-14-nutrition-nutrition-farm-app-hero.png",
+        "runtime_camera_position": [
+          -13,
+          18,
+          -106
+        ],
+        "runtime_camera_target": [
+          30,
+          8,
+          -66
+        ],
+        "scene": 14,
+        "slug": "nutrition-farm"
+      },
+      "approved_exterior": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/nutrition-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/nutrition-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/nutrition-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/nutrition-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          30.0,
+          65.203,
+          4.398
+        ],
+        "max": [
+          35.6,
+          70.2857,
+          8.796
+        ],
+        "min": [
+          24.4,
+          60.1204,
+          0.0
+        ],
+        "size": [
+          11.2,
+          10.1653,
+          8.796
+        ]
+      },
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_label": "low-medium",
+      "construction_read_risk": 2,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Nutrition",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "mesh_objects": 6,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/11-nutrition/nutrition-ext.glb",
+      "public_size_bytes": 124572,
+      "runtime_exterior": "/models/structures/11-nutrition/nutrition-ext.glb",
+      "source_size_bytes": 124572,
+      "target_notes": [
+        "Resolve greenhouse glazing, market base, terrace rails, plant curtains, and roof vents.",
+        "Keep the warm grow-light read and avoid turning the farm pyramid into generic glass."
+      ],
+      "tris": 19876
+    },
+    "recovery": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 28,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-12-recovery-recovery-dreamscape-app-hero.png",
+        "runtime_camera_position": [
+          -96,
+          17,
+          -39
+        ],
+        "runtime_camera_target": [
+          -44,
+          5.2,
+          -61
+        ],
+        "scene": 12,
+        "slug": "recovery-dreamscape"
+      },
+      "approved_exterior": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/recovery-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/recovery-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/recovery-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/recovery-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          -44.0,
+          60.9999,
+          3.9823
+        ],
+        "max": [
+          -33.1424,
+          67.5483,
+          7.9645
+        ],
+        "min": [
+          -54.8576,
+          54.4514,
+          0.0
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ]
+      },
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_label": "low-medium",
+      "construction_read_risk": 2,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Recovery and sleep",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "mesh_objects": 11,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext.glb",
+      "public_size_bytes": 150820,
+      "runtime_exterior": "/models/structures/09-recovery-sleep/recovery-ext.glb",
+      "source_size_bytes": 150820,
+      "target_notes": [
+        "Finish shell edges, lake/reflection boundaries, mist terminals, and soft sleep-chamber thresholds.",
+        "Keep the ethereal dreamscape sparse, but make intentional construction visible."
+      ],
+      "tris": 17412
+    },
+    "relationships": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 28,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-10-relationships-relationships-garden-app-hero.png",
+        "runtime_camera_position": [
+          -26,
+          20,
+          50
+        ],
+        "runtime_camera_target": [
+          -74,
+          5.8,
+          16
+        ],
+        "scene": 10,
+        "slug": "relationships-garden"
+      },
+      "approved_exterior": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/relationships-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/relationships-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/relationships-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/relationships-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          -74.0,
+          -15.9998,
+          3.67
+        ],
+        "max": [
+          -59.1928,
+          -5.3086,
+          7.3401
+        ],
+        "min": [
+          -88.8072,
+          -26.691,
+          0.0
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ]
+      },
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_label": "low-medium",
+      "construction_read_risk": 2,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Relationships",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "mesh_objects": 10,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/07-relationships/relationships-ext.glb",
+      "public_size_bytes": 131248,
+      "runtime_exterior": "/models/structures/07-relationships/relationships-ext.glb",
+      "source_size_bytes": 131248,
+      "target_notes": [
+        "Add garden-completion detail: paths, planters, bridge edges, pavilion skin, and warm arrival nodes.",
+        "Preserve the low anti-tower profile and red relationship identity."
+      ],
+      "tris": 17170
+    },
+    "sia-tower": {
+      "app_hero_evidence": {
+        "frame": 12,
+        "lens": 30,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-02-sia-tower-sia-tower-reveal-app-hero.png",
+        "runtime_camera_position": [
+          18,
+          7.8,
+          25
+        ],
+        "runtime_camera_target": [
+          0,
+          38,
+          0
+        ],
+        "scene": 2,
+        "slug": "sia-tower-reveal"
+      },
+      "approved_exterior": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/sia-tower-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/sia-tower-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/sia-tower-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/sia-tower-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ]
+      },
+      "completion_wave": "Session 86 pilot",
+      "construction_read_label": "high",
+      "construction_read_risk": 4,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "SIA Tower",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "mesh_objects": 357,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext.glb",
+      "public_size_bytes": 392296,
+      "runtime_exterior": "/models/structures/00-sia-tower/sia-tower-ext.glb",
+      "source_size_bytes": 392296,
+      "target_notes": [
+        "Reinforce the central tower as finished architecture under the stricter Phase 10 bar.",
+        "Add occupied facade rhythm behind the vertical frame and a stronger civic base.",
+        "Resolve the crown beacon/cap without moving origin, height read, or energy endpoints."
+      ],
+      "tris": 14844
+    },
+    "yoga": {
+      "app_hero_evidence": {
+        "frame": 96,
+        "lens": 29,
+        "nonzero": true,
+        "path": "assembly/screenshots/session-85-completion-audit/app-hero-cameras/scene-05-yoga-yoga-sanctuary-app-hero.png",
+        "runtime_camera_position": [
+          113,
+          19,
+          -40
+        ],
+        "runtime_camera_target": [
+          74,
+          6.2,
+          -2
+        ],
+        "scene": 5,
+        "slug": "yoga-sanctuary"
+      },
+      "approved_exterior": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "baseline_evidence": {
+        "dark_first": "assembly/screenshots/session-85-completion-audit/baseline/yoga-dark-first.png",
+        "front": "assembly/screenshots/session-85-completion-audit/baseline/yoga-front.png",
+        "ground_up": "assembly/screenshots/session-85-completion-audit/baseline/yoga-ground-up.png",
+        "three_quarter": "assembly/screenshots/session-85-completion-audit/baseline/yoga-three-quarter.png"
+      },
+      "bbox": {
+        "center": [
+          74.0,
+          2.0001,
+          2.7334
+        ],
+        "max": [
+          83.0,
+          9.3806,
+          5.4668
+        ],
+        "min": [
+          65.0,
+          -5.3804,
+          0.0
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ]
+      },
+      "completion_wave": "Session 88 organic/signature",
+      "construction_read_label": "low-medium",
+      "construction_read_risk": 2,
+      "has_hero_exterior": false,
+      "invalid_materials": [],
+      "label": "Yoga and wellbeing",
+      "material_roots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "mesh_objects": 154,
+      "overview_lod_preserved": true,
+      "public_exterior": "apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+      "public_size_bytes": 253132,
+      "runtime_exterior": "/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+      "source_size_bytes": 253132,
+      "target_notes": [
+        "Complete shell/dome edges, terrace transitions, water/glass polish, and soft entry threshold.",
+        "Avoid busy facade noise that would fight the calm organic language."
+      ],
+      "tris": 16052
+    }
+  },
+  "wave_targets": {
+    "Session 86 pilot": [
+      "Finance",
+      "Knowledgebase",
+      "SIA Tower"
+    ],
+    "Session 87 urban/vertical": [
+      "AI analytics",
+      "Career",
+      "Chat and communication",
+      "Fitness"
+    ],
+    "Session 88 organic/signature": [
+      "Leaderboard and competition",
+      "Nutrition",
+      "Recovery and sleep",
+      "Relationships",
+      "Yoga and wellbeing"
+    ]
+  }
+}

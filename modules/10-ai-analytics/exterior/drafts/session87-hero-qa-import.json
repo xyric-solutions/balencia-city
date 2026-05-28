@@ -1,0 +1,53 @@
+{
+  "path": "modules/10-ai-analytics/exterior/drafts/analytics-ext-hero-draft-s87.glb",
+  "object_count": 7,
+  "tris": 28293,
+  "size_bytes": 182668,
+  "size_kb": 178.4,
+  "bbox": {
+    "min": [
+      -6.5999,
+      -6.5986,
+      0.0
+    ],
+    "max": [
+      6.5995,
+      4.9162,
+      19.3836
+    ],
+    "size": [
+      13.1994,
+      11.5148,
+      19.3836
+    ],
+    "center": [
+      -0.0002,
+      -0.8412,
+      9.6918
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "analytics-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

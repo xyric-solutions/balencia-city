@@ -1,0 +1,155 @@
+{
+  "session": 87,
+  "date": "2026-05-27",
+  "module": "Career",
+  "id": "career",
+  "source_glb": "modules/08-career/exterior/approved/career-ext.glb",
+  "output_blend": "modules/08-career/exterior/drafts/career-session87-hero.blend",
+  "draft_glb": "modules/08-career/exterior/drafts/career-ext-hero-draft-s87.glb",
+  "approved_glb": "modules/08-career/exterior/approved/career-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/08-career/career-ext-hero.glb",
+  "pre_tris": 20288,
+  "pre_objects": 6,
+  "pre_bbox": {
+    "min": [
+      -7.9,
+      -6.6051,
+      0.0
+    ],
+    "max": [
+      7.8999,
+      6.605,
+      18.36
+    ],
+    "size": [
+      15.7999,
+      13.2101,
+      18.36
+    ],
+    "center": [
+      -0.0,
+      -0.0001,
+      9.18
+    ]
+  },
+  "final_live_tris": 37660,
+  "final_live_objects": 6,
+  "final_tris": 37660,
+  "final_objects": 6,
+  "final_size_bytes": 206368,
+  "final_size_kb": 201.5,
+  "bbox": {
+    "min": [
+      -7.9,
+      -7.7938,
+      0.0
+    ],
+    "max": [
+      7.8999,
+      6.605,
+      19.3804
+    ],
+    "size": [
+      15.7999,
+      14.3988,
+      19.3804
+    ],
+    "center": [
+      -0.0,
+      -0.5944,
+      9.6902
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session87 career elevator tubes and bridge nodes": {
+      "objects": 26,
+      "tris": 456
+    },
+    "session87 career networking podium and executive crown": {
+      "objects": 28,
+      "tris": 612
+    },
+    "session87 career occupied professional tower skins": {
+      "objects": 1356,
+      "tris": 16304
+    }
+  },
+  "evidence": {
+    "front": "modules/08-career/screenshots/session87-career-hero-front.png",
+    "three_quarter": "modules/08-career/screenshots/session87-career-hero-three-quarter.png",
+    "ground_up": "modules/08-career/screenshots/session87-career-hero-ground-up.png",
+    "dark_first": "modules/08-career/screenshots/session87-career-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "occupied professional tower skins with visible floor cadence",
+    "elevator-tube machinery, bridge nodes, and executive deck hardware completed",
+    "shared networking podium and roof caps preserve the upward silhouette"
+  ],
+  "budget": {
+    "tri_min": 27000,
+    "tri_max": 40000,
+    "size_min_kb": 90,
+    "size_max_kb": 680,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/08-career/exterior/drafts/career-ext-hero-draft-s87.glb",
+    "object_count": 6,
+    "tris": 37660,
+    "size_bytes": 206368,
+    "size_kb": 201.5,
+    "bbox": {
+      "min": [
+        -7.9,
+        -7.7938,
+        0.0
+      ],
+      "max": [
+        7.8999,
+        6.605,
+        19.3804
+      ],
+      "size": [
+        15.7999,
+        14.3988,
+        19.3804
+      ],
+      "center": [
+        -0.0,
+        -0.5944,
+        9.6902
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "career-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

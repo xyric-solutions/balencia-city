@@ -87,7 +87,20 @@ export function useBalenciaScrollTimeline() {
     setScrollProgress(timelineState.progress);
     ScrollTrigger.refresh();
 
+    let wasClickInteriorActive = false;
+    const unsubClickInterior = useScrollStore.subscribe((state) => {
+      if (state.isClickInteriorActive !== wasClickInteriorActive) {
+        wasClickInteriorActive = state.isClickInteriorActive;
+        if (state.isClickInteriorActive) {
+          lenis.stop();
+        } else {
+          lenis.start();
+        }
+      }
+    });
+
     return () => {
+      unsubClickInterior();
       window.removeEventListener("balencia:scroll-to-progress", handleTimelineJump);
       trigger.kill();
       timeline.kill();

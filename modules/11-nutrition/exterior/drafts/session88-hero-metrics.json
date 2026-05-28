@@ -1,0 +1,155 @@
+{
+  "session": 88,
+  "date": "2026-05-27",
+  "module": "Nutrition",
+  "id": "nutrition",
+  "source_glb": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+  "output_blend": "modules/11-nutrition/exterior/drafts/nutrition-session88-hero.blend",
+  "draft_glb": "modules/11-nutrition/exterior/drafts/nutrition-ext-hero-draft-s88.glb",
+  "approved_glb": "modules/11-nutrition/exterior/approved/nutrition-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/11-nutrition/nutrition-ext-hero.glb",
+  "pre_tris": 19876,
+  "pre_objects": 6,
+  "pre_bbox": {
+    "min": [
+      -5.6,
+      -5.8796,
+      0.0
+    ],
+    "max": [
+      5.6,
+      4.2857,
+      8.796
+    ],
+    "size": [
+      11.2,
+      10.1653,
+      8.796
+    ],
+    "center": [
+      0.0,
+      -0.797,
+      4.398
+    ]
+  },
+  "final_live_tris": 28124,
+  "final_live_objects": 6,
+  "final_tris": 28124,
+  "final_objects": 6,
+  "final_size_bytes": 182396,
+  "final_size_kb": 178.1,
+  "bbox": {
+    "min": [
+      -5.8744,
+      -7.4857,
+      0.0
+    ],
+    "max": [
+      5.8744,
+      4.8346,
+      9.8514
+    ],
+    "size": [
+      11.7488,
+      12.3203,
+      9.8514
+    ],
+    "center": [
+      0.0,
+      -1.3255,
+      4.9257
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session88 nutrition completed terrace farm facade": {
+      "objects": 360,
+      "tris": 5856
+    },
+    "session88 nutrition greenhouse and market threshold": {
+      "objects": 91,
+      "tris": 1236
+    },
+    "session88 nutrition roof service crown and hard socket": {
+      "objects": 13,
+      "tris": 1156
+    }
+  },
+  "evidence": {
+    "front": "modules/11-nutrition/screenshots/session88-nutrition-hero-front.png",
+    "three_quarter": "modules/11-nutrition/screenshots/session88-nutrition-hero-three-quarter.png",
+    "ground_up": "modules/11-nutrition/screenshots/session88-nutrition-hero-ground-up.png",
+    "dark_first": "modules/11-nutrition/screenshots/session88-nutrition-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "12-tier vertical farm gains finished terrace ledges, greenhouse mullions, irrigation detail, and market threshold",
+    "green plant identity and amber grow-light rhythm stay visible from Scene 14",
+    "roof vent crown and hard-pipeline socket read as complete service architecture"
+  ],
+  "budget": {
+    "tri_min": 26500,
+    "tri_max": 41000,
+    "size_min_kb": 90,
+    "size_max_kb": 760,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/11-nutrition/exterior/drafts/nutrition-ext-hero-draft-s88.glb",
+    "object_count": 6,
+    "tris": 28124,
+    "size_bytes": 182396,
+    "size_kb": 178.1,
+    "bbox": {
+      "min": [
+        -5.8744,
+        -7.4857,
+        0.0
+      ],
+      "max": [
+        5.8744,
+        4.8346,
+        9.8514
+      ],
+      "size": [
+        11.7488,
+        12.3203,
+        9.8514
+      ],
+      "center": [
+        0.0,
+        -1.3255,
+        4.9257
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "nutrition-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

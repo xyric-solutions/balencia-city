@@ -1,0 +1,157 @@
+{
+  "session": 87,
+  "date": "2026-05-27",
+  "module": "AI Analytics",
+  "id": "analytics",
+  "source_glb": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+  "output_blend": "modules/10-ai-analytics/exterior/drafts/analytics-session87-hero.blend",
+  "draft_glb": "modules/10-ai-analytics/exterior/drafts/analytics-ext-hero-draft-s87.glb",
+  "approved_glb": "modules/10-ai-analytics/exterior/approved/analytics-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext-hero.glb",
+  "pre_tris": 19411,
+  "pre_objects": 7,
+  "pre_bbox": {
+    "min": [
+      -6.5999,
+      -5.2292,
+      0.0
+    ],
+    "max": [
+      6.5997,
+      4.9162,
+      16.71
+    ],
+    "size": [
+      13.1996,
+      10.1455,
+      16.71
+    ],
+    "center": [
+      -0.0001,
+      -0.1565,
+      8.355
+    ]
+  },
+  "final_live_tris": 28293,
+  "final_live_objects": 7,
+  "final_tris": 28293,
+  "final_objects": 7,
+  "final_size_bytes": 182668,
+  "final_size_kb": 178.4,
+  "bbox": {
+    "min": [
+      -6.5999,
+      -6.5986,
+      0.0
+    ],
+    "max": [
+      6.5995,
+      4.9162,
+      19.3836
+    ],
+    "size": [
+      13.1994,
+      11.5148,
+      19.3836
+    ],
+    "center": [
+      -0.0002,
+      -0.8412,
+      9.6918
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "session87 analytics entry waterfall and telemetry crown": {
+      "objects": 52,
+      "tris": 1556
+    },
+    "session87 analytics finished living data facade": {
+      "objects": 540,
+      "tris": 6480
+    },
+    "session87 analytics pointed arch and buttress completion": {
+      "objects": 38,
+      "tris": 846
+    }
+  },
+  "evidence": {
+    "front": "modules/10-ai-analytics/screenshots/session87-analytics-hero-front.png",
+    "three_quarter": "modules/10-ai-analytics/screenshots/session87-analytics-hero-three-quarter.png",
+    "ground_up": "modules/10-ai-analytics/screenshots/session87-analytics-hero-ground-up.png",
+    "dark_first": "modules/10-ai-analytics/screenshots/session87-analytics-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "finished data-cathedral facade skin rather than only exposed data paths",
+    "entry waterfall, pointed arch panels, buttress anchors, and display cadence resolved",
+    "spire telemetry crown and beacon remain readable from Scene 13"
+  ],
+  "budget": {
+    "tri_min": 28000,
+    "tri_max": 41000,
+    "size_min_kb": 90,
+    "size_max_kb": 700,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/10-ai-analytics/exterior/drafts/analytics-ext-hero-draft-s87.glb",
+    "object_count": 7,
+    "tris": 28293,
+    "size_bytes": 182668,
+    "size_kb": 178.4,
+    "bbox": {
+      "min": [
+        -6.5999,
+        -6.5986,
+        0.0
+      ],
+      "max": [
+        6.5995,
+        4.9162,
+        19.3836
+      ],
+      "size": [
+        13.1994,
+        11.5148,
+        19.3836
+      ],
+      "center": [
+        -0.0002,
+        -0.8412,
+        9.6918
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "analytics-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

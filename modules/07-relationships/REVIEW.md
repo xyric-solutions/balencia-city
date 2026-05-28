@@ -10,6 +10,7 @@
 
 **Exterior Status**: Approved -- Session 34 Complete
 **Exterior Approved**: [x] Yes / Date: 2026-05-24
+**Phase 10 Hero LOD**: Session 88 Approved / Date: 2026-05-27 -- 29,630 tris, 6 packed objects, 185.5 KB, clean `relationships-ext-hero` root, and Scene 10 focused hero budget 238,307 / 270,000 tris.
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -406,3 +407,35 @@ Relationships integration is approved. Exterior and interior assets align, Scene
 - `exterior/drafts/session73-qa-import.json`
 
 **Verdict**: APPROVED. Relationships v2 stays within Phase 8 exterior budget and preserves the approved low garden ecosystem identity.
+
+---
+
+## Phase 10 Architectural Completion Hero LOD
+
+### Session 88 -- 2026-05-27 -- Organic/Signature Wave
+
+**Scope**: Focused-scene hero exterior LOD for Phase 10. The overview exterior remains `exterior/approved/relationships-ext.glb`; Scene 10 can load `exteriorHero` on demand.
+
+**Build Actions**:
+- Added finished moat edges, garden terrace ledges, bridge posts, and low pavilion threshold depth.
+- Added rose bloom cadence, roof dome frames, warm gathering cores, and a restrained mist diffuser so the low profile reads complete without becoming a tower.
+- Preserved the approved low garden ecosystem silhouette, origin, layout position, and warm-mist endpoint assumptions.
+- Promoted the validated hero GLB to `exterior/approved/relationships-ext-hero.glb` and `apps/balencia/public/models/structures/07-relationships/relationships-ext-hero.glb`.
+
+**Metrics**:
+- Overview exterior: 17,170 tris, 10 objects, 128.2 KB.
+- Session 88 hero exterior: 29,630 tris, 6 packed objects, 189,972 bytes (185.5 KB).
+- Focused Scene 10 budget: 238,307 / 270,000 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `relationships-ext-hero`.
+
+**Evidence**:
+- `screenshots/session88-relationships-hero-front.png`
+- `screenshots/session88-relationships-hero-three-quarter.png`
+- `screenshots/session88-relationships-hero-ground-up.png`
+- `screenshots/session88-relationships-hero-dark-first.png`
+- `assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-10-relationships-relationships-garden-hero-after.png`
+- `exterior/drafts/session88-hero-metrics.json`
+- `exterior/drafts/session88-hero-qa-import.json`
+
+**Verdict**: APPROVED. Relationships hero LOD passes Gate 8 while preserving the low garden ecosystem identity and overview LOD.

@@ -1,0 +1,157 @@
+{
+  "session": 86,
+  "date": "2026-05-27",
+  "module": "Knowledgebase",
+  "id": "knowledgebase",
+  "source_glb": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+  "output_blend": "modules/04-knowledgebase/exterior/drafts/knowledgebase-session86-hero.blend",
+  "draft_glb": "modules/04-knowledgebase/exterior/drafts/knowledgebase-ext-hero-draft-s86.glb",
+  "approved_glb": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/04-knowledgebase/knowledgebase-ext-hero.glb",
+  "pre_tris": 15204,
+  "pre_objects": 7,
+  "pre_bbox": {
+    "min": [
+      -2.6888,
+      -9.6483,
+      0.0
+    ],
+    "max": [
+      5.7891,
+      2.2,
+      14.0407
+    ],
+    "size": [
+      8.4778,
+      11.8483,
+      14.0407
+    ],
+    "center": [
+      1.5502,
+      -3.7242,
+      7.0204
+    ]
+  },
+  "final_live_tris": 23728,
+  "final_live_objects": 7,
+  "final_tris": 23728,
+  "final_objects": 7,
+  "final_size_bytes": 149552,
+  "final_size_kb": 146.0,
+  "bbox": {
+    "min": [
+      -2.6888,
+      -13.262,
+      0.0
+    ],
+    "max": [
+      5.7889,
+      2.2,
+      16.6003
+    ],
+    "size": [
+      8.4776,
+      15.462,
+      16.6003
+    ],
+    "center": [
+      1.5501,
+      -5.531,
+      8.3001
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "session86 knowledgebase complete floating data envelope": {
+      "objects": 494,
+      "tris": 6720
+    },
+    "session86 knowledgebase crown roof termination": {
+      "objects": 12,
+      "tris": 192
+    },
+    "session86 knowledgebase finished archive base": {
+      "objects": 34,
+      "tris": 1612
+    }
+  },
+  "evidence": {
+    "front": "modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-front.png",
+    "three_quarter": "modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-three-quarter.png",
+    "ground_up": "modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-ground-up.png",
+    "dark_first": "modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "finished ancient-to-future facade envelope",
+    "stronger archive stairs, vault threshold, and stone base",
+    "resolved waterfall intake and crown roof termination"
+  ],
+  "budget": {
+    "tri_min": 22000,
+    "tri_max": 34000,
+    "size_min_kb": 80,
+    "size_max_kb": 620,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/04-knowledgebase/exterior/drafts/knowledgebase-ext-hero-draft-s86.glb",
+    "object_count": 7,
+    "tris": 23728,
+    "size_bytes": 149552,
+    "size_kb": 146.0,
+    "bbox": {
+      "min": [
+        -2.6888,
+        -13.262,
+        0.0
+      ],
+      "max": [
+        5.7889,
+        2.2,
+        16.6003
+      ],
+      "size": [
+        8.4776,
+        15.462,
+        16.6003
+      ],
+      "center": [
+        1.5501,
+        -5.531,
+        8.3001
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "knowledgebase-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

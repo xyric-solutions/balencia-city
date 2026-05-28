@@ -1,7 +1,8 @@
+import { Environment } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import * as THREE from "three";
-import { BRAND_COLORS } from "../../lib/materials";
+import { BRAND_COLORS, getDeviceQualityTier } from "../../lib/materials";
 import { SCROLL_SCENES } from "../../lib/scroll-scenes";
 import { useScrollStore } from "../../store/useScrollStore";
 import { BalenciaPostProcessing } from "../effects/PostProcessing";
@@ -17,15 +18,30 @@ function Atmosphere() {
   const fogDensity = isClosing ? 0.0072 : isProductReality ? 0.0064 : isOverview ? 0.0062 : isSiaFocus ? 0.0058 : 0.0051;
   const warmKeyIntensity = isOverview ? 1.92 : isSiaFocus ? 1.84 : 1.62;
   const crownIntensity = isClosing ? 142 : isOverview ? 125 : isSiaFocus ? 118 : 88;
-  const fogColor = isClosing ? "#30170F" : isProductReality ? "#243024" : isOverview ? "#2A1710" : "#24150F";
+  const fogColor = isClosing ? "#261410" : isProductReality ? "#1E2A1E" : isOverview ? "#1E1412" : "#1A1210";
 
   return (
     <>
       <color attach="background" args={[BRAND_COLORS.ink]} />
       <fogExp2 attach="fog" args={[fogColor, fogDensity]} />
-      <ambientLight intensity={isOverview ? 0.3 : 0.27} color="#282335" />
-      <hemisphereLight args={["#FFE4CC", "#08080D", isOverview ? 0.36 : 0.32]} />
-      <directionalLight position={[-8, 22, 10]} color="#FFE4CC" intensity={warmKeyIntensity} />
+      <ambientLight intensity={isOverview ? 0.34 : 0.31} color="#252238" />
+      <hemisphereLight args={["#FFD4B0", "#08080D", isOverview ? 0.38 : 0.35]} />
+      <directionalLight
+        position={[-8, 22, 10]}
+        color="#FFD8B0"
+        intensity={warmKeyIntensity}
+        castShadow
+        shadow-mapSize={1024}
+        shadow-camera-near={0.5}
+        shadow-camera-far={80}
+        shadow-camera-left={-60}
+        shadow-camera-right={60}
+        shadow-camera-top={60}
+        shadow-camera-bottom={-60}
+        shadow-bias={-0.0004}
+        shadow-normalBias={0.02}
+      />
+      <directionalLight position={[6, 14, -8]} color="#1E2844" intensity={0.4} />
       <spotLight
         position={[18, 24, 18]}
         angle={0.55}
@@ -57,13 +73,28 @@ function CanvasFallback() {
   );
 }
 
+function shouldPreserveDrawingBufferForEvidence() {
+  if (import.meta.env.DEV) {
+    return true;
+  }
+
+  if (typeof window === "undefined") {
+    return false;
+  }
+
+  return new URLSearchParams(window.location.search).has("qa-evidence");
+}
+
 export function CityExperience() {
   const openingCamera = SCROLL_SCENES[0].camera;
+  const tier = getDeviceQualityTier();
+  const envIntensity = tier === "high" ? 0.55 : tier === "medium" ? 0.35 : 0.18;
 
   return (
     <Canvas
       className="city-canvas"
       frameloop="always"
+      shadows="soft"
       dpr={[1, 1.75]}
       camera={{
         position: openingCamera.position,
@@ -75,15 +106,17 @@ export function CityExperience() {
         antialias: true,
         alpha: false,
         powerPreference: "high-performance",
-        preserveDrawingBuffer: import.meta.env.DEV,
+        preserveDrawingBuffer: shouldPreserveDrawingBufferForEvidence(),
       }}
       onCreated={({ gl }) => {
         gl.setClearColor(new THREE.Color(BRAND_COLORS.ink));
         gl.toneMapping = THREE.ACESFilmicToneMapping;
         gl.outputColorSpace = THREE.SRGBColorSpace;
+        gl.toneMappingExposure = 1.05;
       }}
     >
       <Atmosphere />
+      <Environment preset="night" environmentIntensity={envIntensity} />
       <CameraTimeline />
       <Suspense fallback={<CanvasFallback />}>
         <CityScene />

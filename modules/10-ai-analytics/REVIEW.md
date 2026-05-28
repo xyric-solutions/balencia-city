@@ -11,6 +11,7 @@
 **Exterior Status**: Approved -- Session 42 Complete
 **Exterior Approved**: [x] Yes / Date: 2026-05-25
 **Phase 8 v2 Polish**: Session 75 Approved / Date: 2026-05-26 -- 19,411 tris, 7 mesh objects, 124.4 KB, one clean `analytics-ext` root, no cameras/lights, and SPEC-driven `holo` retained.
+**Phase 10 Hero Exterior LOD Status**: Session 87 Approved / Date: 2026-05-27
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -180,8 +181,55 @@
 
 **Final Verdict**: APPROVED for Phase 8 v2 exterior polish.
 
+#### Session 87 -- 2026-05-27 -- Phase 10 Hero Exterior LOD
+
+**Scope**: Focused-scene architectural completion hero exterior for Scene 13 while preserving the Session 75 overview exterior, origin, layout position, and hard-pipeline assumptions.
+
+**Build Actions**:
+- Added finished living data-facade dashboard skin, micro forecast glyphs, shadow frames, side data ribs, and heatmap tiles.
+- Added pointed arch holo windows/caps, buttress data arcs, teal fibers, base anchors, entry data waterfall, and deep cathedral threshold.
+- Added spire telemetry rings, resolved spire cap, teal data beacon, and crown forecast glyphs.
+
+**Export Metrics**:
+- Overview exterior: 19,411 tris, 7 mesh objects, 124.4 KB.
+- Session 87 hero exterior: 28,293 tris, 7 mesh objects, 178.4 KB.
+- Focused Scene 13 budget result: 234,729 tris, below the 270K focused-scene cap.
+- Root: one clean root named `analytics-ext-hero`.
+- Cameras/lights: none exported.
+
+**Files**:
+- Build script: `assembly/drafts/build-session-87-urban-vertical-wave.py`
+- Metrics: `exterior/drafts/session87-hero-metrics.json`
+- QA import report: `exterior/drafts/session87-hero-qa-import.json`
+- Draft GLB: `exterior/drafts/analytics-ext-hero-draft-s87.glb`
+- Approved GLB: `exterior/approved/analytics-ext-hero.glb`
+
+**Screenshots**:
+- `screenshots/session87-analytics-hero-front.png`
+- `screenshots/session87-analytics-hero-three-quarter.png`
+- `screenshots/session87-analytics-hero-ground-up.png`
+- `screenshots/session87-analytics-hero-dark-first.png`
+- `assembly/screenshots/session-87-urban-vertical-wave/s87-urban-vertical-wave-before-after-contact-sheet.png`
+
+**Final Verdict**: APPROVED for Phase 10 hero exterior LOD.
+
 ### QA Reviews
 <!-- DESIGN-08 appends gate results here -->
+
+#### QA Review -- Session 87 Phase 10 Hero Exterior LOD
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Gate 8 architectural completion | Finished focused-scene hero read | PASS | Added living data skin, panel cadence, arch/buttress completion, entry waterfall, and spire telemetry crown. |
+| Runtime compatibility | Overview LOD preservation | PASS | Existing `analytics-ext.glb` remains the overview LOD; `analytics-ext-hero.glb` is used through `exteriorHero` in focused scenes. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported with approved material slots only, one root named `analytics-ext-hero`, 7 mesh objects, and no cameras/lights. |
+| Budget | Hero exterior density/file size | PASS | 28,293 tris / 178.4 KB; focused Scene 13 stays under budget at 234,729 tris. |
+
+**Evidence**:
+- `assembly/screenshots/session-87-urban-vertical-wave/s87-urban-vertical-wave-before-after-contact-sheet.png`
+- `assembly/audit/session-87-urban-vertical-wave.json`
+
+**Overall Verdict**: APPROVED -- Session 87 hero exterior promoted to approved and app paths.
 
 #### QA Review -- Session 41 (Gates 1-2)
 

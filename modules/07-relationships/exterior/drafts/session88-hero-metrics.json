@@ -1,0 +1,155 @@
+{
+  "session": 88,
+  "date": "2026-05-27",
+  "module": "Relationships",
+  "id": "relationships",
+  "source_glb": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+  "output_blend": "modules/07-relationships/exterior/drafts/relationships-session88-hero.blend",
+  "draft_glb": "modules/07-relationships/exterior/drafts/relationships-ext-hero-draft-s88.glb",
+  "approved_glb": "modules/07-relationships/exterior/approved/relationships-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/07-relationships/relationships-ext-hero.glb",
+  "pre_tris": 17170,
+  "pre_objects": 10,
+  "pre_bbox": {
+    "min": [
+      -14.8072,
+      -10.691,
+      0.0
+    ],
+    "max": [
+      14.8072,
+      10.6914,
+      7.3401
+    ],
+    "size": [
+      29.6145,
+      21.3824,
+      7.3401
+    ],
+    "center": [
+      0.0,
+      0.0002,
+      3.67
+    ]
+  },
+  "final_live_tris": 29630,
+  "final_live_objects": 6,
+  "final_tris": 29630,
+  "final_objects": 6,
+  "final_size_bytes": 189972,
+  "final_size_kb": 185.5,
+  "bbox": {
+    "min": [
+      -14.8072,
+      -13.2562,
+      -0.0
+    ],
+    "max": [
+      14.8065,
+      14.265,
+      7.6823
+    ],
+    "size": [
+      29.6137,
+      27.5212,
+      7.6823
+    ],
+    "center": [
+      -0.0004,
+      0.5044,
+      3.8411
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session88 relationships completed moat and civic garden edge": {
+      "objects": 31,
+      "tris": 2212
+    },
+    "session88 relationships roof domes and mist diffuser": {
+      "objects": 38,
+      "tris": 1848
+    },
+    "session88 relationships soft floor rhythm and terrace facade": {
+      "objects": 235,
+      "tris": 8400
+    }
+  },
+  "evidence": {
+    "front": "modules/07-relationships/screenshots/session88-relationships-hero-front.png",
+    "three_quarter": "modules/07-relationships/screenshots/session88-relationships-hero-three-quarter.png",
+    "ground_up": "modules/07-relationships/screenshots/session88-relationships-hero-ground-up.png",
+    "dark_first": "modules/07-relationships/screenshots/session88-relationships-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "low garden pavilion gains completed terrace facades, moat edge, bridges, and welcome thresholds",
+    "15-floor anti-tower rhythm remains readable through soft rose ledges and mullions",
+    "roof domes and warm-mist diffuser are resolved while preserving the human-scaled silhouette"
+  ],
+  "budget": {
+    "tri_min": 23000,
+    "tri_max": 36000,
+    "size_min_kb": 80,
+    "size_max_kb": 700,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/07-relationships/exterior/drafts/relationships-ext-hero-draft-s88.glb",
+    "object_count": 6,
+    "tris": 29630,
+    "size_bytes": 189972,
+    "size_kb": 185.5,
+    "bbox": {
+      "min": [
+        -14.8072,
+        -13.2562,
+        -0.0
+      ],
+      "max": [
+        14.8065,
+        14.265,
+        7.6823
+      ],
+      "size": [
+        29.6137,
+        27.5212,
+        7.6823
+      ],
+      "center": [
+        -0.0004,
+        0.5044,
+        3.8411
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "relationships-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

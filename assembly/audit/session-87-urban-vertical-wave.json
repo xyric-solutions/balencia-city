@@ -1,0 +1,741 @@
+{
+  "session": 87,
+  "date": "2026-05-27",
+  "scope": "Phase 10 urban/vertical wave hero exteriors for Fitness, Chat, Career, and AI Analytics",
+  "status": "APPROVED",
+  "hero_exteriors": {
+    "fitness": {
+      "session": 87,
+      "date": "2026-05-27",
+      "module": "Fitness",
+      "id": "fitness",
+      "source_glb": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "output_blend": "modules/01-fitness/exterior/drafts/fitness-session87-hero.blend",
+      "draft_glb": "modules/01-fitness/exterior/drafts/fitness-ext-hero-draft-s87.glb",
+      "approved_glb": "modules/01-fitness/exterior/approved/fitness-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/01-fitness/fitness-ext-hero.glb",
+      "pre_tris": 16402,
+      "pre_objects": 45,
+      "pre_bbox": {
+        "min": [
+          -12.0733,
+          -12.2806,
+          0.0
+        ],
+        "max": [
+          12.0734,
+          12.0922,
+          14.1505
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ],
+        "center": [
+          0.0001,
+          -0.0942,
+          7.0753
+        ]
+      },
+      "final_live_tris": 29590,
+      "final_live_objects": 7,
+      "final_tris": 29590,
+      "final_objects": 7,
+      "final_size_bytes": 147004,
+      "final_size_kb": 143.6,
+      "bbox": {
+        "min": [
+          -12.6287,
+          -16.5702,
+          0.0
+        ],
+        "max": [
+          12.6295,
+          13.7495,
+          15.1463
+        ],
+        "size": [
+          25.2581,
+          30.3198,
+          15.1463
+        ],
+        "center": [
+          0.0004,
+          -1.4103,
+          7.5732
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "created_categories": {
+        "session87 fitness completed training-deck facade": {
+          "objects": 840,
+          "tris": 10080
+        },
+        "session87 fitness exoskeleton and cantilever completion": {
+          "objects": 82,
+          "tris": 1064
+        },
+        "session87 fitness resolved athletic plinth and entry": {
+          "objects": 18,
+          "tris": 1492
+        },
+        "session87 fitness roof equipment and pipeline crown": {
+          "objects": 15,
+          "tris": 552
+        }
+      },
+      "evidence": {
+        "front": "modules/01-fitness/screenshots/session87-fitness-hero-front.png",
+        "three_quarter": "modules/01-fitness/screenshots/session87-fitness-hero-three-quarter.png",
+        "ground_up": "modules/01-fitness/screenshots/session87-fitness-hero-ground-up.png",
+        "dark_first": "modules/01-fitness/screenshots/session87-fitness-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "glass and panel skin behind the angular gym exoskeleton",
+        "resolved athletic plinth, track edge, entry portal, and trophy wall",
+        "roof mechanical crown and hard-pipeline collar visible from Scene 4"
+      ],
+      "budget": {
+        "tri_min": 24000,
+        "tri_max": 36000,
+        "size_min_kb": 80,
+        "size_max_kb": 620,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/01-fitness/exterior/drafts/fitness-ext-hero-draft-s87.glb",
+        "object_count": 7,
+        "tris": 29590,
+        "size_bytes": 147004,
+        "size_kb": 143.6,
+        "bbox": {
+          "min": [
+            -12.6287,
+            -16.5702,
+            0.0
+          ],
+          "max": [
+            12.6295,
+            13.7495,
+            15.1463
+          ],
+          "size": [
+            25.2581,
+            30.3198,
+            15.1463
+          ],
+          "center": [
+            0.0004,
+            -1.4103,
+            7.5732
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass",
+          "holo"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "fitness-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    },
+    "chat": {
+      "session": 87,
+      "date": "2026-05-27",
+      "module": "Chat and Communication",
+      "id": "chat",
+      "source_glb": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "output_blend": "modules/05-chat-communication/exterior/drafts/chat-session87-hero.blend",
+      "draft_glb": "modules/05-chat-communication/exterior/drafts/chat-ext-hero-draft-s87.glb",
+      "approved_glb": "modules/05-chat-communication/exterior/approved/chat-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/05-chat-communication/chat-ext-hero.glb",
+      "pre_tris": 20052,
+      "pre_objects": 7,
+      "pre_bbox": {
+        "min": [
+          -6.3045,
+          -4.3949,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.7899,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "final_live_tris": 34628,
+      "final_live_objects": 7,
+      "final_tris": 34628,
+      "final_objects": 7,
+      "final_size_bytes": 237248,
+      "final_size_kb": 231.7,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.3946,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          16.0422
+        ],
+        "size": [
+          12.609,
+          8.7896,
+          16.0422
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          8.0211
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "created_categories": {
+        "session87 chat bridge sleeves and conduit hardware": {
+          "objects": 16,
+          "tris": 1616
+        },
+        "session87 chat finished multi-pod broadcast facades": {
+          "objects": 952,
+          "tris": 12304
+        },
+        "session87 chat public plaza and communication threshold": {
+          "objects": 27,
+          "tris": 656
+        }
+      },
+      "evidence": {
+        "front": "modules/05-chat-communication/screenshots/session87-chat-hero-front.png",
+        "three_quarter": "modules/05-chat-communication/screenshots/session87-chat-hero-three-quarter.png",
+        "ground_up": "modules/05-chat-communication/screenshots/session87-chat-hero-ground-up.png",
+        "dark_first": "modules/05-chat-communication/screenshots/session87-chat-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "finished multi-pod facade rhythm and occupied broadcast screens",
+        "bridge sleeves, conduit hardware, and signal nodes read as built",
+        "shared podium, signage, roof caps, antenna clusters, and satellite crown resolved"
+      ],
+      "budget": {
+        "tri_min": 27000,
+        "tri_max": 39000,
+        "size_min_kb": 90,
+        "size_max_kb": 680,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/05-chat-communication/exterior/drafts/chat-ext-hero-draft-s87.glb",
+        "object_count": 7,
+        "tris": 34628,
+        "size_bytes": 237248,
+        "size_kb": 231.7,
+        "bbox": {
+          "min": [
+            -6.3045,
+            -4.3946,
+            0.0
+          ],
+          "max": [
+            6.3045,
+            4.395,
+            16.0422
+          ],
+          "size": [
+            12.609,
+            8.7896,
+            16.0422
+          ],
+          "center": [
+            0.0,
+            0.0002,
+            8.0211
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass",
+          "holo"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "chat-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    },
+    "career": {
+      "session": 87,
+      "date": "2026-05-27",
+      "module": "Career",
+      "id": "career",
+      "source_glb": "modules/08-career/exterior/approved/career-ext.glb",
+      "output_blend": "modules/08-career/exterior/drafts/career-session87-hero.blend",
+      "draft_glb": "modules/08-career/exterior/drafts/career-ext-hero-draft-s87.glb",
+      "approved_glb": "modules/08-career/exterior/approved/career-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/08-career/career-ext-hero.glb",
+      "pre_tris": 20288,
+      "pre_objects": 6,
+      "pre_bbox": {
+        "min": [
+          -7.9,
+          -6.6051,
+          0.0
+        ],
+        "max": [
+          7.8999,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.7999,
+          13.2101,
+          18.36
+        ],
+        "center": [
+          -0.0,
+          -0.0001,
+          9.18
+        ]
+      },
+      "final_live_tris": 37660,
+      "final_live_objects": 6,
+      "final_tris": 37660,
+      "final_objects": 6,
+      "final_size_bytes": 206368,
+      "final_size_kb": 201.5,
+      "bbox": {
+        "min": [
+          -7.9,
+          -7.7938,
+          0.0
+        ],
+        "max": [
+          7.8999,
+          6.605,
+          19.3804
+        ],
+        "size": [
+          15.7999,
+          14.3988,
+          19.3804
+        ],
+        "center": [
+          -0.0,
+          -0.5944,
+          9.6902
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session87 career elevator tubes and bridge nodes": {
+          "objects": 26,
+          "tris": 456
+        },
+        "session87 career networking podium and executive crown": {
+          "objects": 28,
+          "tris": 612
+        },
+        "session87 career occupied professional tower skins": {
+          "objects": 1356,
+          "tris": 16304
+        }
+      },
+      "evidence": {
+        "front": "modules/08-career/screenshots/session87-career-hero-front.png",
+        "three_quarter": "modules/08-career/screenshots/session87-career-hero-three-quarter.png",
+        "ground_up": "modules/08-career/screenshots/session87-career-hero-ground-up.png",
+        "dark_first": "modules/08-career/screenshots/session87-career-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "occupied professional tower skins with visible floor cadence",
+        "elevator-tube machinery, bridge nodes, and executive deck hardware completed",
+        "shared networking podium and roof caps preserve the upward silhouette"
+      ],
+      "budget": {
+        "tri_min": 27000,
+        "tri_max": 40000,
+        "size_min_kb": 90,
+        "size_max_kb": 680,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/08-career/exterior/drafts/career-ext-hero-draft-s87.glb",
+        "object_count": 6,
+        "tris": 37660,
+        "size_bytes": 206368,
+        "size_kb": 201.5,
+        "bbox": {
+          "min": [
+            -7.9,
+            -7.7938,
+            0.0
+          ],
+          "max": [
+            7.8999,
+            6.605,
+            19.3804
+          ],
+          "size": [
+            15.7999,
+            14.3988,
+            19.3804
+          ],
+          "center": [
+            -0.0,
+            -0.5944,
+            9.6902
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "career-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    },
+    "analytics": {
+      "session": 87,
+      "date": "2026-05-27",
+      "module": "AI Analytics",
+      "id": "analytics",
+      "source_glb": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "output_blend": "modules/10-ai-analytics/exterior/drafts/analytics-session87-hero.blend",
+      "draft_glb": "modules/10-ai-analytics/exterior/drafts/analytics-ext-hero-draft-s87.glb",
+      "approved_glb": "modules/10-ai-analytics/exterior/approved/analytics-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext-hero.glb",
+      "pre_tris": 19411,
+      "pre_objects": 7,
+      "pre_bbox": {
+        "min": [
+          -6.5999,
+          -5.2292,
+          0.0
+        ],
+        "max": [
+          6.5997,
+          4.9162,
+          16.71
+        ],
+        "size": [
+          13.1996,
+          10.1455,
+          16.71
+        ],
+        "center": [
+          -0.0001,
+          -0.1565,
+          8.355
+        ]
+      },
+      "final_live_tris": 28293,
+      "final_live_objects": 7,
+      "final_tris": 28293,
+      "final_objects": 7,
+      "final_size_bytes": 182668,
+      "final_size_kb": 178.4,
+      "bbox": {
+        "min": [
+          -6.5999,
+          -6.5986,
+          0.0
+        ],
+        "max": [
+          6.5995,
+          4.9162,
+          19.3836
+        ],
+        "size": [
+          13.1994,
+          11.5148,
+          19.3836
+        ],
+        "center": [
+          -0.0002,
+          -0.8412,
+          9.6918
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "created_categories": {
+        "session87 analytics entry waterfall and telemetry crown": {
+          "objects": 52,
+          "tris": 1556
+        },
+        "session87 analytics finished living data facade": {
+          "objects": 540,
+          "tris": 6480
+        },
+        "session87 analytics pointed arch and buttress completion": {
+          "objects": 38,
+          "tris": 846
+        }
+      },
+      "evidence": {
+        "front": "modules/10-ai-analytics/screenshots/session87-analytics-hero-front.png",
+        "three_quarter": "modules/10-ai-analytics/screenshots/session87-analytics-hero-three-quarter.png",
+        "ground_up": "modules/10-ai-analytics/screenshots/session87-analytics-hero-ground-up.png",
+        "dark_first": "modules/10-ai-analytics/screenshots/session87-analytics-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "finished data-cathedral facade skin rather than only exposed data paths",
+        "entry waterfall, pointed arch panels, buttress anchors, and display cadence resolved",
+        "spire telemetry crown and beacon remain readable from Scene 13"
+      ],
+      "budget": {
+        "tri_min": 28000,
+        "tri_max": 41000,
+        "size_min_kb": 90,
+        "size_max_kb": 700,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/10-ai-analytics/exterior/drafts/analytics-ext-hero-draft-s87.glb",
+        "object_count": 7,
+        "tris": 28293,
+        "size_bytes": 182668,
+        "size_kb": 178.4,
+        "bbox": {
+          "min": [
+            -6.5999,
+            -6.5986,
+            0.0
+          ],
+          "max": [
+            6.5995,
+            4.9162,
+            19.3836
+          ],
+          "size": [
+            13.1994,
+            11.5148,
+            19.3836
+          ],
+          "center": [
+            -0.0002,
+            -0.8412,
+            9.6918
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass",
+          "holo"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "analytics-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    }
+  },
+  "app_hero_evidence": {
+    "fitness": {
+      "scene": 4,
+      "slug": "fitness-district",
+      "path": "assembly/screenshots/session-87-urban-vertical-wave/app-hero-cameras/scene-04-fitness-fitness-district-hero-after.png",
+      "runtime_camera_position": [
+        109,
+        25,
+        -90
+      ],
+      "runtime_camera_target": [
+        61,
+        10.5,
+        -36
+      ],
+      "lens": 28,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 29590
+    },
+    "chat": {
+      "scene": 8,
+      "slug": "communication-hub",
+      "path": "assembly/screenshots/session-87-urban-vertical-wave/app-hero-cameras/scene-08-chat-communication-hub-hero-after.png",
+      "runtime_camera_position": [
+        29,
+        23,
+        110
+      ],
+      "runtime_camera_target": [
+        -8,
+        9.8,
+        66
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 34628
+    },
+    "career": {
+      "scene": 11,
+      "slug": "career-towers",
+      "path": "assembly/screenshots/session-87-urban-vertical-wave/app-hero-cameras/scene-11-career-career-towers-hero-after.png",
+      "runtime_camera_position": [
+        -112,
+        27,
+        11
+      ],
+      "runtime_camera_target": [
+        -66,
+        15,
+        -25
+      ],
+      "lens": 30,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 37660
+    },
+    "analytics": {
+      "scene": 13,
+      "slug": "analytics-cathedral",
+      "path": "assembly/screenshots/session-87-urban-vertical-wave/app-hero-cameras/scene-13-analytics-analytics-cathedral-hero-after.png",
+      "runtime_camera_position": [
+        -54,
+        25,
+        -106
+      ],
+      "runtime_camera_target": [
+        -8,
+        13,
+        -68
+      ],
+      "lens": 28,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 28293
+    }
+  },
+  "contact_sheet": "assembly/screenshots/session-87-urban-vertical-wave/s87-urban-vertical-wave-before-after-contact-sheet.png",
+  "performance": {
+    "overview_city_tris": 225847,
+    "overview_city_tri_budget": 250000,
+    "focused_scene_tris": {
+      "fitness": 239035,
+      "chat": 240423,
+      "career": 243219,
+      "analytics": 234729
+    },
+    "focused_scene_tri_budget": 270000,
+    "active_source_bytes": 2198788,
+    "hero_source_bytes": 773288
+  },
+  "checks": {
+    "overview_lod_glbs_preserved": true,
+    "four_hero_exteriors_built": true,
+    "hero_glbs_pass_import_qa": true,
+    "gate8_completion_passed": true,
+    "app_hero_camera_evidence_complete": true,
+    "source_manifest_includes_exterior_hero_entries": true,
+    "public_asset_sync_copied_hero_glbs": true,
+    "overview_city_tri_budget_preserved": true,
+    "focused_hero_scene_budget_preserved": true
+  }
+}

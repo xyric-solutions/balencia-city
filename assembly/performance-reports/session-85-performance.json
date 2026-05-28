@@ -1,0 +1,17 @@
+{
+  "active_scene": {
+    "budget": "<=250K",
+    "energy_tris": 12142,
+    "environment_tris": 1696,
+    "result": "PASS",
+    "structure_exterior_tris": 212009,
+    "total_tris": 225847
+  },
+  "date": "2026-05-27",
+  "hero_exterior_count": 0,
+  "session": 85,
+  "source_glb_bytes": {
+    "active_exteriors_plus_energy": 2198788,
+    "active_exteriors_plus_energy_kb": 2147.3
+  }
+}

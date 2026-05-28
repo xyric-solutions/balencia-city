@@ -22,6 +22,9 @@ const copied = [];
 
 for (const structure of manifest.structures) {
   copied.push(await copyFile(structure.exterior.sourcePath, structure.exterior.publicPath));
+  if (structure.exteriorHero) {
+    copied.push(await copyFile(structure.exteriorHero.sourcePath, structure.exteriorHero.publicPath));
+  }
   copied.push(await copyFile(structure.interior.sourcePath, structure.interior.publicPath));
 }
 

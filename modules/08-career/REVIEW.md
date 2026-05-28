@@ -10,6 +10,7 @@
 
 **Exterior Status**: Approved -- Session 30 exterior detail/export complete
 **Exterior Approved**: [x] Yes / Date: 2026-05-24
+**Phase 10 Hero Exterior LOD Status**: Session 87 Approved / Date: 2026-05-27
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -394,3 +395,46 @@ Career integration is approved. Exterior and interior assets align, Scene 11 cam
 - `modules/08-career/screenshots/session74-career-v2-dark-first.png`
 
 **Overall Verdict**: APPROVED
+
+---
+
+## Phase 10 Hero Exterior LOD
+
+### Session 87 (2026-05-27) -- Urban/Vertical Wave
+
+**Focus**: Build the focused-scene Career hero exterior for Scene 11 while preserving the Session 74 overview exterior, origin, layout position, and hard-pipeline assumptions.
+
+**Added completion signals**:
+- Occupied professional tower skins with office glass bays, blue floor cadence, upward edge lighting, and roof ascent fins.
+- Exterior elevator tube glass, elevator car markers, enclosed stage bridges, bridge transfer nodes, executive observation deck, and rail hardware.
+- Shared networking podium, blue plaza paths, roof caps, and pipeline socket collar.
+
+**Metrics**:
+- Overview exterior: 20,288 tris, 6 mesh objects, 113.4 KB.
+- Session 87 hero exterior: 37,660 tris, 6 mesh objects, 201.5 KB.
+- Focused Scene 11 budget result: 243,219 tris, below the 270K focused-scene cap.
+- Approved GLB: `exterior/approved/career-ext-hero.glb`
+- App GLB: `apps/balencia/public/models/structures/08-career/career-ext-hero.glb`
+- Metrics: `exterior/drafts/session87-hero-metrics.json`
+- QA import: `exterior/drafts/session87-hero-qa-import.json`
+
+**Screenshots**:
+- `screenshots/session87-career-hero-front.png`
+- `screenshots/session87-career-hero-three-quarter.png`
+- `screenshots/session87-career-hero-ground-up.png`
+- `screenshots/session87-career-hero-dark-first.png`
+
+### QA Review -- Session 87 Phase 10 Hero Exterior LOD
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Gate 8 architectural completion | Finished focused-scene hero read | PASS | Added occupied tower skins, elevator hardware, bridge nodes, networking podium, executive deck, roof caps, and blue ascent cadence. |
+| Runtime compatibility | Overview LOD preservation | PASS | Existing `career-ext.glb` remains the overview LOD; `career-ext-hero.glb` is used through `exteriorHero` in focused scenes. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported with approved material slots only, one root named `career-ext-hero`, 6 mesh objects, and no cameras/lights. |
+| Budget | Hero exterior density/file size | PASS | 37,660 tris / 201.5 KB; focused Scene 11 stays under budget at 243,219 tris. |
+
+**Evidence**:
+- `assembly/screenshots/session-87-urban-vertical-wave/s87-urban-vertical-wave-before-after-contact-sheet.png`
+- `assembly/audit/session-87-urban-vertical-wave.json`
+
+**Overall Verdict**: APPROVED -- Session 87 hero exterior promoted to approved and app paths.

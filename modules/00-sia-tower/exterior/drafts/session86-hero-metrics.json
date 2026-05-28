@@ -1,0 +1,157 @@
+{
+  "session": 86,
+  "date": "2026-05-27",
+  "module": "SIA Tower",
+  "id": "sia-tower",
+  "source_glb": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+  "output_blend": "modules/00-sia-tower/exterior/drafts/sia-tower-session86-hero.blend",
+  "draft_glb": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-hero-draft-s86.glb",
+  "approved_glb": "modules/00-sia-tower/exterior/approved/sia-tower-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext-hero.glb",
+  "pre_tris": 14844,
+  "pre_objects": 357,
+  "pre_bbox": {
+    "min": [
+      -15.4,
+      -15.4,
+      -0.0
+    ],
+    "max": [
+      15.4,
+      15.4,
+      67.1
+    ],
+    "size": [
+      30.8,
+      30.8,
+      67.1
+    ],
+    "center": [
+      0.0,
+      0.0,
+      33.55
+    ]
+  },
+  "final_live_tris": 29904,
+  "final_live_objects": 7,
+  "final_tris": 29904,
+  "final_objects": 7,
+  "final_size_bytes": 144920,
+  "final_size_kb": 141.5,
+  "bbox": {
+    "min": [
+      -15.4,
+      -17.18,
+      -0.0
+    ],
+    "max": [
+      15.3992,
+      15.4,
+      75.9572
+    ],
+    "size": [
+      30.7992,
+      32.58,
+      75.9572
+    ],
+    "center": [
+      -0.0004,
+      -0.89,
+      37.9786
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "session86 sia civic base and entry completion": {
+      "objects": 18,
+      "tris": 280
+    },
+    "session86 sia occupied facade envelope": {
+      "objects": 550,
+      "tris": 12240
+    },
+    "session86 sia resolved crown beacon and junction": {
+      "objects": 16,
+      "tris": 2540
+    }
+  },
+  "evidence": {
+    "front": "modules/00-sia-tower/screenshots/session86-sia-tower-hero-front.png",
+    "three_quarter": "modules/00-sia-tower/screenshots/session86-sia-tower-hero-three-quarter.png",
+    "ground_up": "modules/00-sia-tower/screenshots/session86-sia-tower-hero-ground-up.png",
+    "dark_first": "modules/00-sia-tower/screenshots/session86-sia-tower-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "occupied facade rhythm behind vertical frame",
+    "stronger civic base and entrance threshold",
+    "resolved crown cap, beacon, and pipeline junction"
+  ],
+  "budget": {
+    "tri_min": 24000,
+    "tri_max": 34000,
+    "size_min_kb": 80,
+    "size_max_kb": 720,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/00-sia-tower/exterior/drafts/sia-tower-ext-hero-draft-s86.glb",
+    "object_count": 7,
+    "tris": 29904,
+    "size_bytes": 144920,
+    "size_kb": 141.5,
+    "bbox": {
+      "min": [
+        -15.4,
+        -17.18,
+        -0.0
+      ],
+      "max": [
+        15.3992,
+        15.4,
+        75.9572
+      ],
+      "size": [
+        30.7992,
+        32.58,
+        75.9572
+      ],
+      "center": [
+        -0.0004,
+        -0.89,
+        37.9786
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "sia-tower-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

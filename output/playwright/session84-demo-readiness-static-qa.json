@@ -1,0 +1,13 @@
+{
+  "session": 84,
+  "checkedAt": "2026-05-26T22:20:11.589Z",
+  "summary": {
+    "passed": true,
+    "noRemoteFontCss": true,
+    "browserReport": "output/playwright/session84-demo-readiness-browser-qa.json",
+    "overallScore": 8.4,
+    "overviewInteractionCoverage": "12 / 12",
+    "consoleWarningsOrErrors": 0,
+    "p0Blockers": 0
+  }
+}

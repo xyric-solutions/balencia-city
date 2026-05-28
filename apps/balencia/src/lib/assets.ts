@@ -13,8 +13,18 @@ export function getStructureById(id: string) {
   return structureById.get(id);
 }
 
+export function getExteriorModelReference(structure: StructureAsset, useHeroExterior: boolean) {
+  return useHeroExterior ? (structure.exteriorHero ?? structure.exterior) : structure.exterior;
+}
+
 export function getEagerModelPaths() {
   return approvedStructures.map((structure) => structure.exterior.runtimePath);
+}
+
+export function getHeroExteriorModelPaths() {
+  return approvedStructures
+    .map((structure) => structure.exteriorHero?.runtimePath)
+    .filter((path): path is string => Boolean(path));
 }
 
 export function getOnDemandInteriorPaths() {

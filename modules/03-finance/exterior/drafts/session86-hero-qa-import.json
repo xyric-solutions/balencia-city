@@ -1,0 +1,52 @@
+{
+  "path": "modules/03-finance/exterior/drafts/finance-ext-hero-draft-s86.glb",
+  "object_count": 6,
+  "tris": 28446,
+  "size_bytes": 185960,
+  "size_kb": 181.6,
+  "bbox": {
+    "min": [
+      -8.4567,
+      -7.8706,
+      0.0
+    ],
+    "max": [
+      8.4567,
+      9.0428,
+      19.2813
+    ],
+    "size": [
+      16.9135,
+      16.9135,
+      19.2813
+    ],
+    "center": [
+      0.0,
+      0.5861,
+      9.6407
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "finance-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

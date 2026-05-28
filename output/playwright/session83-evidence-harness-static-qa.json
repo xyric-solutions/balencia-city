@@ -1,0 +1,16 @@
+{
+  "session": 83,
+  "status": "passed",
+  "checks": {
+    "packageScript": true,
+    "preserveDrawingBufferEvidenceQuery": true,
+    "sceneStarts": 17,
+    "thresholdSceneCount": 12,
+    "interiorSceneCount": 12,
+    "exitSceneCount": 5,
+    "canvasCapture": true,
+    "consoleCapture": true,
+    "textHealthCapture": true,
+    "desktopAndMobileSuites": true
+  }
+}
