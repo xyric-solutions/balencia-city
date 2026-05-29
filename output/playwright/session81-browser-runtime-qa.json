@@ -1,0 +1,969 @@
+{
+  "session": 81,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": [
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 142.5,
+          "height": 173,
+          "left": 1067.4,
+          "right": 1377.7,
+          "top": -30.4,
+          "width": 310.3
+        },
+        "text": "Inside Competition ArenaLive challenge floor",
+        "verdict": "inside-leaderboard"
+      },
+      "expectedId": "leaderboard",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 09 / exterior55%Leaderboard and competitionLeaderboard and competitionTwenty one days is not a streak. It is a habit. I saw it before you did.",
+      "phase": "scene-start",
+      "scene": 9,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Leaderboard and competition",
+          "districtId": "leaderboard",
+          "rect": {
+            "bottom": 268.7,
+            "height": 74,
+            "left": 4776.4,
+            "right": 4850.4,
+            "top": 194.7,
+            "width": 74
+          },
+          "status": "Challenge window open"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 380.5,
+          "height": 29.2,
+          "left": 696.3,
+          "right": 748.8,
+          "top": 351.3,
+          "width": 52.4
+        },
+        "text": "Inside Competition ArenaLive challenge floor",
+        "verdict": "inside-leaderboard"
+      },
+      "expectedId": "leaderboard",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview55%Focused / Challenge window openLeaderboard and competitionCompetition arenaInsightCompetition ramps only when consistency is stable.SignalFitness streaks and sleep readiness shape difficulty.",
+      "phase": "focused-preview",
+      "scene": 9,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Leaderboard and competition",
+          "districtId": "leaderboard",
+          "rect": {
+            "bottom": 406.1,
+            "height": 37.2,
+            "left": 622.6,
+            "right": 659.8,
+            "top": 368.9,
+            "width": 37.2
+          },
+          "status": "Challenge window open"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 388.4,
+          "height": 31.1,
+          "left": 701.8,
+          "right": 757.5,
+          "top": 357.4,
+          "width": 55.7
+        },
+        "text": "Inside Competition ArenaLive challenge floor",
+        "verdict": "inside-leaderboard"
+      },
+      "expectedId": "leaderboard",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview59%Focused / Challenge window openLeaderboard and competitionCompetition arenaInsightCompetition ramps only when consistency is stable.SignalFitness streaks and sleep readiness shape difficulty.",
+      "phase": "threshold",
+      "scene": 9,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Leaderboard and competition",
+          "districtId": "leaderboard",
+          "rect": {
+            "bottom": 415.7,
+            "height": 39.5,
+            "left": 623.8,
+            "right": 663.3,
+            "top": 376.1,
+            "width": 39.5
+          },
+          "status": "Challenge window open"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 370.1,
+          "height": 73.6,
+          "left": 766.5,
+          "right": 898.5,
+          "top": 296.5,
+          "width": 132
+        },
+        "text": "Inside Competition ArenaLive challenge floor",
+        "verdict": "inside-leaderboard"
+      },
+      "expectedId": "leaderboard",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 09 / exterior60%Leaderboard and competitionLeaderboard and competitionTwenty one days is not a streak. It is a habit. I saw it before you did.",
+      "phase": "interior-midpoint",
+      "scene": 9,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Leaderboard and competition",
+          "districtId": "leaderboard",
+          "rect": {
+            "bottom": 372.3,
+            "height": 74,
+            "left": 618.8,
+            "right": 692.8,
+            "top": 298.3,
+            "width": 74
+          },
+          "status": "Challenge window open"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 552.3,
+          "height": 181.7,
+          "left": 337.5,
+          "right": 741.2,
+          "top": 370.5,
+          "width": 403.7
+        },
+        "text": "Inside Connection GardensFamily dome",
+        "verdict": "inside-relationships"
+      },
+      "expectedId": "relationships",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 10 / exterior62%Relationships districtRelationships districtThe people in your life shape your health more than any workout. I track those connections too.",
+      "phase": "scene-start",
+      "scene": 10,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Relationships district",
+          "districtId": "relationships",
+          "rect": {
+            "bottom": 295.1,
+            "height": 76,
+            "left": -1970.1,
+            "right": -1894.1,
+            "top": 219.1,
+            "width": 76
+          },
+          "status": "Connection garden warm"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 385,
+          "height": 23.3,
+          "left": 661.8,
+          "right": 713.6,
+          "top": 361.7,
+          "width": 51.8
+        },
+        "text": "Inside Connection GardensFamily dome",
+        "verdict": "inside-relationships"
+      },
+      "expectedId": "relationships",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview62%Focused / Connection garden warmRelationships districtConnection districtInsightContact gaps become simple follow-up prompts.SignalMood, recovery, and chat tone guide outreach.",
+      "phase": "focused-preview",
+      "scene": 10,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Relationships district",
+          "districtId": "relationships",
+          "rect": {
+            "bottom": 393.8,
+            "height": 39.3,
+            "left": 607.3,
+            "right": 646.6,
+            "top": 354.5,
+            "width": 39.3
+          },
+          "status": "Connection garden warm"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 381.9,
+          "height": 59.4,
+          "left": 665.5,
+          "right": 797.5,
+          "top": 322.5,
+          "width": 132
+        },
+        "text": "Inside Connection GardensFamily dome",
+        "verdict": "inside-relationships"
+      },
+      "expectedId": "relationships",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 10 / exterior66%Relationships districtRelationships districtThe people in your life shape your health more than any workout. I track those connections too.",
+      "phase": "threshold",
+      "scene": 10,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Relationships district",
+          "districtId": "relationships",
+          "rect": {
+            "bottom": 414.9,
+            "height": 76,
+            "left": 587.7,
+            "right": 663.7,
+            "top": 338.9,
+            "width": 76
+          },
+          "status": "Connection garden warm"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 382.4,
+          "height": 63.1,
+          "left": 694,
+          "right": 834.1,
+          "top": 319.3,
+          "width": 140.2
+        },
+        "text": "Inside Connection GardensFamily dome",
+        "verdict": "inside-relationships"
+      },
+      "expectedId": "relationships",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 10 / exterior67%Relationships districtRelationships districtThe people in your life shape your health more than any workout. I track those connections too.",
+      "phase": "interior-midpoint",
+      "scene": 10,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Relationships district",
+          "districtId": "relationships",
+          "rect": {
+            "bottom": 372.6,
+            "height": 126,
+            "left": 542.1,
+            "right": 668.1,
+            "top": 246.6,
+            "width": 126
+          },
+          "status": "Connection garden warm"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 82.7,
+          "height": 166.7,
+          "left": 1181.3,
+          "right": 1480.4,
+          "top": -84,
+          "width": 299
+        },
+        "text": "Inside Career Command HubGrowth strategy table",
+        "verdict": "inside-career"
+      },
+      "expectedId": "career",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 11 / exterior69%Career districtCareer districtYour career does not exist in isolation. I see how sleep, stress, and relationships power your performance.",
+      "phase": "scene-start",
+      "scene": 11,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Career district",
+          "districtId": "career",
+          "rect": {
+            "bottom": 115.2,
+            "height": 70,
+            "left": 1502.1,
+            "right": 1572.1,
+            "top": 45.2,
+            "width": 70
+          },
+          "status": "Focus block forming"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 476.9,
+          "height": 30.6,
+          "left": 693.5,
+          "right": 748.3,
+          "top": 446.3,
+          "width": 54.8
+        },
+        "text": "Inside Career Command HubGrowth strategy table",
+        "verdict": "inside-career"
+      },
+      "expectedId": "career",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview69%Focused / Focus block formingCareer districtProfessional growth towersInsightDeep work rises when recovery and stress are clear.SignalSleep and nutrition adjust task timing.",
+      "phase": "focused-preview",
+      "scene": 11,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Career district",
+          "districtId": "career",
+          "rect": {
+            "bottom": 442.4,
+            "height": 38.5,
+            "left": 584.5,
+            "right": 623,
+            "top": 404,
+            "width": 38.5
+          },
+          "status": "Focus block forming"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 467.1,
+          "height": 72.1,
+          "left": 767,
+          "right": 896.4,
+          "top": 394.9,
+          "width": 129.4
+        },
+        "text": "Inside Career Command HubGrowth strategy table",
+        "verdict": "inside-career"
+      },
+      "expectedId": "career",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 11 / exterior73%Career districtCareer districtYour career does not exist in isolation. I see how sleep, stress, and relationships power your performance.",
+      "phase": "threshold",
+      "scene": 11,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Career district",
+          "districtId": "career",
+          "rect": {
+            "bottom": 347.3,
+            "height": 101.5,
+            "left": 492.9,
+            "right": 594.3,
+            "top": 245.8,
+            "width": 101.5
+          },
+          "status": "Focus block forming"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 466.4,
+          "height": 72.1,
+          "left": 767,
+          "right": 896.4,
+          "top": 394.3,
+          "width": 129.4
+        },
+        "text": "Inside Career Command HubGrowth strategy table",
+        "verdict": "inside-career"
+      },
+      "expectedId": "career",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 11 / exterior74%Career districtCareer districtYour career does not exist in isolation. I see how sleep, stress, and relationships power your performance.",
+      "phase": "interior-midpoint",
+      "scene": 11,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Career district",
+          "districtId": "career",
+          "rect": {
+            "bottom": 346.5,
+            "height": 101.5,
+            "left": 492.9,
+            "right": 594.3,
+            "top": 245.1,
+            "width": 101.5
+          },
+          "status": "Focus block forming"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 343.9,
+          "height": 24,
+          "left": 670.3,
+          "right": 723.6,
+          "top": 319.9,
+          "width": 53.3
+        },
+        "text": "Inside Recovery ChamberSleep brain",
+        "verdict": "inside-recovery"
+      },
+      "expectedId": "recovery",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 12 / exterior76%Recovery and sleepRecovery and sleepRecovery is not downtime. It is where today's patterns become tomorrow's plan.",
+      "phase": "scene-start",
+      "scene": 12,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Recovery and sleep",
+          "districtId": "recovery",
+          "rect": {
+            "bottom": 377.9,
+            "height": 39.1,
+            "left": 580.7,
+            "right": 619.8,
+            "top": 338.8,
+            "width": 39.1
+          },
+          "status": "Reset protocol quiet"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 345.6,
+          "height": 25.8,
+          "left": 672.8,
+          "right": 730,
+          "top": 319.9,
+          "width": 57.2
+        },
+        "text": "Inside Recovery ChamberSleep brain",
+        "verdict": "inside-recovery"
+      },
+      "expectedId": "recovery",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview76%Focused / Reset protocol quietRecovery and sleepRestorative districtInsightBedtime shifts explain tomorrow's focus forecast.SignalTraining load and stress set recovery priority.",
+      "phase": "focused-preview",
+      "scene": 12,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Recovery and sleep",
+          "districtId": "recovery",
+          "rect": {
+            "bottom": 382.2,
+            "height": 42.1,
+            "left": 576.4,
+            "right": 618.5,
+            "top": 340.1,
+            "width": 42.1
+          },
+          "status": "Reset protocol quiet"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 296.2,
+          "height": 59.8,
+          "left": 714.3,
+          "right": 847.2,
+          "top": 236.4,
+          "width": 132.9
+        },
+        "text": "Inside Recovery ChamberSleep brain",
+        "verdict": "inside-recovery"
+      },
+      "expectedId": "recovery",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 12 / exterior80%Recovery and sleepRecovery and sleepRecovery is not downtime. It is where today's patterns become tomorrow's plan.",
+      "phase": "threshold",
+      "scene": 12,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Recovery and sleep",
+          "districtId": "recovery",
+          "rect": {
+            "bottom": 365,
+            "height": 105.7,
+            "left": 480.1,
+            "right": 585.9,
+            "top": 259.3,
+            "width": 105.7
+          },
+          "status": "Reset protocol quiet"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 296.2,
+          "height": 59.8,
+          "left": 714.3,
+          "right": 847.2,
+          "top": 236.4,
+          "width": 132.9
+        },
+        "text": "Inside Recovery ChamberSleep brain",
+        "verdict": "inside-recovery"
+      },
+      "expectedId": "recovery",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 12 / exterior81%Recovery and sleepRecovery and sleepRecovery is not downtime. It is where today's patterns become tomorrow's plan.",
+      "phase": "interior-midpoint",
+      "scene": 12,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Recovery and sleep",
+          "districtId": "recovery",
+          "rect": {
+            "bottom": 365,
+            "height": 105.7,
+            "left": 480.1,
+            "right": 585.9,
+            "top": 259.3,
+            "width": 105.7
+          },
+          "status": "Reset protocol quiet"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 437.8,
+          "height": 27.9,
+          "left": 692.6,
+          "right": 742.6,
+          "top": 409.9,
+          "width": 50.1
+        },
+        "text": "Inside Data SanctumWhere SIA thinks",
+        "verdict": "inside-analytics"
+      },
+      "expectedId": "analytics",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 13 / exterior83%AI analyticsAI analyticsThis is where I think. Every pattern, prediction, and insight starts here.",
+      "phase": "scene-start",
+      "scene": 13,
+      "targets": [
+        {
+          "ariaLabel": "Inspect AI analytics",
+          "districtId": "analytics",
+          "rect": {
+            "bottom": 429.1,
+            "height": 36.6,
+            "left": 591.3,
+            "right": 627.9,
+            "top": 392.5,
+            "width": 36.6
+          },
+          "status": "Patterns consolidating"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 446,
+          "height": 29.9,
+          "left": 697,
+          "right": 750.7,
+          "top": 416,
+          "width": 53.7
+        },
+        "text": "Inside Data SanctumWhere SIA thinks",
+        "verdict": "inside-analytics"
+      },
+      "expectedId": "analytics",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview83%Focused / Patterns consolidatingAI analyticsInsight cathedralInsightOutliers become recommendations when signals repeat.SignalAll districts feed confidence and trend strength.",
+      "phase": "focused-preview",
+      "scene": 13,
+      "targets": [
+        {
+          "ariaLabel": "Inspect AI analytics",
+          "districtId": "analytics",
+          "rect": {
+            "bottom": 436.9,
+            "height": 39.4,
+            "left": 588.2,
+            "right": 627.7,
+            "top": 397.4,
+            "width": 39.4
+          },
+          "status": "Patterns consolidating"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 446.2,
+          "height": 30,
+          "left": 697.1,
+          "right": 750.9,
+          "top": 416.2,
+          "width": 53.8
+        },
+        "text": "Inside Data SanctumWhere SIA thinks",
+        "verdict": "inside-analytics"
+      },
+      "expectedId": "analytics",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview86%Focused / Patterns consolidatingAI analyticsInsight cathedralInsightOutliers become recommendations when signals repeat.SignalAll districts feed confidence and trend strength.",
+      "phase": "threshold",
+      "scene": 13,
+      "targets": [
+        {
+          "ariaLabel": "Inspect AI analytics",
+          "districtId": "analytics",
+          "rect": {
+            "bottom": 437,
+            "height": 39.5,
+            "left": 588.1,
+            "right": 627.6,
+            "top": 397.5,
+            "width": 39.5
+          },
+          "status": "Patterns consolidating"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 488.7,
+          "height": 73.6,
+          "left": 769.8,
+          "right": 901.8,
+          "top": 415.1,
+          "width": 132
+        },
+        "text": "Inside Data SanctumWhere SIA thinks",
+        "verdict": "inside-analytics"
+      },
+      "expectedId": "analytics",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 13 / exterior87%AI analyticsAI analyticsThis is where I think. Every pattern, prediction, and insight starts here.",
+      "phase": "interior-midpoint",
+      "scene": 13,
+      "targets": [
+        {
+          "ariaLabel": "Inspect AI analytics",
+          "districtId": "analytics",
+          "rect": {
+            "bottom": 395.8,
+            "height": 74,
+            "left": 510.9,
+            "right": 584.9,
+            "top": 321.8,
+            "width": 74
+          },
+          "status": "Patterns consolidating"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 373.6,
+          "height": 23.3,
+          "left": 690.5,
+          "right": 742.1,
+          "top": 350.3,
+          "width": 51.7
+        },
+        "text": "Inside Nourishment HallLiving market",
+        "verdict": "inside-nutrition"
+      },
+      "expectedId": "nutrition",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "Scene 14 / exterior88%Nutrition districtNutrition districtWhat you eat connects to how you sleep, think, and perform. I track the full chain.",
+      "phase": "scene-start",
+      "scene": 14,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Nutrition district",
+          "districtId": "nutrition",
+          "rect": {
+            "bottom": 394,
+            "height": 37.1,
+            "left": 580.3,
+            "right": 617.4,
+            "top": 356.9,
+            "width": 37.1
+          },
+          "status": "Meal rhythm syncing"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 377.3,
+          "height": 25,
+          "left": 694.8,
+          "right": 750.3,
+          "top": 352.4,
+          "width": 55.5
+        },
+        "text": "Inside Nourishment HallLiving market",
+        "verdict": "inside-nutrition"
+      },
+      "expectedId": "nutrition",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview88%Focused / Meal rhythm syncingNutrition districtFood and nourishment farmInsightProtein and hydration shape energy later in the day.SignalFitness load and sleep quality adjust meal timing.",
+      "phase": "focused-preview",
+      "scene": 14,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Nutrition district",
+          "districtId": "nutrition",
+          "rect": {
+            "bottom": 399.4,
+            "height": 40,
+            "left": 576.3,
+            "right": 616.3,
+            "top": 359.4,
+            "width": 40
+          },
+          "status": "Meal rhythm syncing"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 377.4,
+          "height": 25,
+          "left": 694.9,
+          "right": 750.4,
+          "top": 352.4,
+          "width": 55.6
+        },
+        "text": "Inside Nourishment HallLiving market",
+        "verdict": "inside-nutrition"
+      },
+      "expectedId": "nutrition",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview91%Focused / Meal rhythm syncingNutrition districtFood and nourishment farmInsightProtein and hydration shape energy later in the day.SignalFitness load and sleep quality adjust meal timing.",
+      "phase": "threshold",
+      "scene": 14,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Nutrition district",
+          "districtId": "nutrition",
+          "rect": {
+            "bottom": 399.5,
+            "height": 40,
+            "left": 576.2,
+            "right": 616.3,
+            "top": 359.4,
+            "width": 40
+          },
+          "status": "Meal rhythm syncing"
+        }
+      ]
+    },
+    {
+      "canvas": {
+        "height": 1260,
+        "mounted": true,
+        "width": 2240
+      },
+      "cue": {
+        "rect": {
+          "bottom": 339.6,
+          "height": 63.6,
+          "left": 780.3,
+          "right": 921.5,
+          "top": 276,
+          "width": 141.2
+        },
+        "text": "Inside Nourishment HallLiving market",
+        "verdict": "inside-nutrition"
+      },
+      "expectedId": "nutrition",
+      "overflow": [],
+      "overlaps": [],
+      "overlayText": "District preview91%Focused / Meal rhythm syncingNutrition districtFood and nourishment farmInsightProtein and hydration shape energy later in the day.SignalFitness load and sleep quality adjust meal timing.",
+      "phase": "interior-midpoint",
+      "scene": 14,
+      "targets": [
+        {
+          "ariaLabel": "Inspect Nutrition district",
+          "districtId": "nutrition",
+          "rect": {
+            "bottom": 380.4,
+            "height": 111.8,
+            "left": 460.6,
+            "right": 572.4,
+            "top": 268.6,
+            "width": 111.8
+          },
+          "status": "Meal rhythm syncing"
+        }
+      ]
+    }
+  ],
+  "consoleWarningsErrors": [],
+  "failures": []
+}

@@ -1,0 +1,4509 @@
+{
+  "session": 83,
+  "url": "http://localhost:3007/?qa-evidence=1",
+  "startedAt": "2026-05-26T21:35:30.136Z",
+  "completedAt": "2026-05-26T22:10:44.668Z",
+  "runtime": {
+    "playwrightSource": "node",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
+  "summary": {
+    "suiteCount": 2,
+    "captureCount": 56,
+    "imageCount": 56,
+    "failedCanvasCaptures": 0,
+    "textOverflow": 0,
+    "textOverlaps": 0,
+    "consoleWarningsOrErrors": 1,
+    "pageErrors": 0,
+    "viewportScreenshotFailures": 1,
+    "passed": false
+  },
+  "suites": [
+    {
+      "suite": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "viewportScreenshot": {
+        "path": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/viewport-smoke.png",
+        "ok": false,
+        "error": "page.screenshot: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n"
+      },
+      "captureCount": 46,
+      "captures": [
+        {
+          "scene": 1,
+          "slug": "arrival",
+          "focus": "City aerial",
+          "beat": "scene-start",
+          "localProgress": 0,
+          "progress": 0,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/01-s01-arrival-scene-start.png",
+          "dom": {
+            "activeScene": 1,
+            "overlayMeta": "Scene 01 / city0%",
+            "overlayFocus": "City aerial",
+            "overlayTitle": "The civilization revealed",
+            "overlayBody": "A living intelligence powering every dimension of your life.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 12,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 610.44,
+                  "y": 301.05,
+                  "width": 68.26,
+                  "height": 68.26,
+                  "right": 678.7,
+                  "bottom": 369.31
+                }
+              },
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 858.16,
+                  "y": 384.9,
+                  "width": 47.31,
+                  "height": 47.31,
+                  "right": 905.47,
+                  "bottom": 432.21
+                }
+              },
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 840.29,
+                  "y": 451.99,
+                  "width": 55.63,
+                  "height": 55.63,
+                  "right": 895.92,
+                  "bottom": 507.62
+                }
+              },
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 708.93,
+                  "y": 469.53,
+                  "width": 51.78,
+                  "height": 51.78,
+                  "right": 760.72,
+                  "bottom": 521.32
+                }
+              },
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 543.46,
+                  "y": 480.58,
+                  "width": 60.91,
+                  "height": 60.91,
+                  "right": 604.36,
+                  "bottom": 541.49
+                }
+              },
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 434.29,
+                  "y": 437.55,
+                  "width": 56.53,
+                  "height": 56.53,
+                  "right": 490.82,
+                  "bottom": 494.08
+                }
+              },
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": 385.61,
+                  "y": 375.68,
+                  "width": 48.52,
+                  "height": 48.52,
+                  "right": 434.13,
+                  "bottom": 424.19
+                }
+              },
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": 440.37,
+                  "y": 337.72,
+                  "width": 44.74,
+                  "height": 44.74,
+                  "right": 485.11,
+                  "bottom": 382.46
+                }
+              },
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 537.94,
+                  "y": 291.26,
+                  "width": 38.64,
+                  "height": 38.64,
+                  "right": 576.58,
+                  "bottom": 329.9
+                }
+              },
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 641.92,
+                  "y": 296.21,
+                  "width": 40.25,
+                  "height": 40.25,
+                  "right": 682.17,
+                  "bottom": 336.46
+                }
+              },
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 728.55,
+                  "y": 297.83,
+                  "width": 40.51,
+                  "height": 40.51,
+                  "right": 769.06,
+                  "bottom": 338.34
+                }
+              },
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 814.99,
+                  "y": 334.49,
+                  "width": 42.92,
+                  "height": 42.92,
+                  "right": 857.91,
+                  "bottom": 377.4
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 430630,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 72,
+              "litPixelRatio": 1,
+              "minLuma": 14.41,
+              "maxLuma": 106.48,
+              "meanLuma": 41.54
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 2,
+          "slug": "sia-tower-reveal",
+          "focus": "SIA Tower",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.0712,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/02-s02-sia-tower-reveal-scene-start.png",
+          "dom": {
+            "activeScene": 2,
+            "overlayMeta": "Scene 02 / exterior7%",
+            "overlayFocus": "SIA Tower",
+            "overlayTitle": "SIA Tower",
+            "overlayBody": "I am SIA. The intelligence core, emotional engine, and life operating system.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 575.4,
+                  "y": 447.47,
+                  "width": 75,
+                  "height": 75,
+                  "right": 650.4,
+                  "bottom": 522.47
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 393198,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 138,
+              "litPixelRatio": 0.9817,
+              "minLuma": 5.42,
+              "maxLuma": 255,
+              "meanLuma": 24.84
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 3,
+          "slug": "sia-neural-core",
+          "focus": "Inside SIA Tower",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.1314,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/03-s03-sia-neural-core-scene-start.png",
+          "dom": {
+            "activeScene": 3,
+            "overlayMeta": "Scene 03 / interior13%",
+            "overlayFocus": "Inside SIA Tower",
+            "overlayTitle": "Inside SIA Tower",
+            "overlayBody": "I see what no single app can. The atrium turns every signal into one living plan.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 606.81,
+                  "y": -756.91,
+                  "width": 66.09,
+                  "height": 66.09,
+                  "right": 672.9,
+                  "bottom": -690.82
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 440986,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 170,
+              "litPixelRatio": 0.9985,
+              "minLuma": 5.06,
+              "maxLuma": 170.23,
+              "meanLuma": 46.34
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 4,
+          "slug": "fitness-district",
+          "focus": "Fitness district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.2014,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/04-s04-fitness-district-scene-start.png",
+          "dom": {
+            "activeScene": 4,
+            "overlayMeta": "Scene 04 / exterior20%",
+            "overlayFocus": "Fitness district",
+            "overlayTitle": "Fitness district",
+            "overlayBody": "Your body tells a story every day. I read every chapter.",
+            "productRealityState": null,
+            "revealDistrictId": "fitness",
+            "revealVerdict": "inside-fitness",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 615.01,
+                  "y": 373.86,
+                  "width": 29.2,
+                  "height": 29.2,
+                  "right": 644.22,
+                  "bottom": 403.07
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 613206,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 152,
+              "litPixelRatio": 0.9836,
+              "minLuma": 2.21,
+              "maxLuma": 145.02,
+              "meanLuma": 37.96
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 5,
+          "slug": "yoga-sanctuary",
+          "focus": "Yoga and wellbeing",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.2714,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/05-s05-yoga-sanctuary-scene-start.png",
+          "dom": {
+            "activeScene": 5,
+            "overlayMeta": "Scene 05 / exterior27%",
+            "overlayFocus": "Yoga and wellbeing",
+            "overlayTitle": "Yoga and wellbeing",
+            "overlayBody": "Calm is not the absence of energy. It is energy perfectly directed.",
+            "productRealityState": null,
+            "revealDistrictId": "yoga",
+            "revealVerdict": "inside-yoga",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 587.37,
+                  "y": 341.38,
+                  "width": 41.98,
+                  "height": 41.98,
+                  "right": 629.35,
+                  "bottom": 383.37
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 563514,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 167,
+              "litPixelRatio": 0.9765,
+              "minLuma": 1,
+              "maxLuma": 175.54,
+              "meanLuma": 42.85
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 6,
+          "slug": "finance-tower",
+          "focus": "Finance district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.3414,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/06-s06-finance-tower-scene-start.png",
+          "dom": {
+            "activeScene": 6,
+            "overlayMeta": "Scene 06 / exterior34%",
+            "overlayFocus": "Finance district",
+            "overlayTitle": "Finance district",
+            "overlayBody": "Your money tells the truth about your stress. I see the pattern before your bank does.",
+            "productRealityState": null,
+            "revealDistrictId": "finance",
+            "revealVerdict": "inside-finance",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 626.54,
+                  "y": 402.99,
+                  "width": 37.26,
+                  "height": 37.26,
+                  "right": 663.8,
+                  "bottom": 440.25
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 719454,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 204,
+              "litPixelRatio": 0.9894,
+              "minLuma": 3.78,
+              "maxLuma": 186.9,
+              "meanLuma": 39.42
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 7,
+          "slug": "knowledgebase",
+          "focus": "Knowledgebase district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.4114,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/07-s07-knowledgebase-scene-start.png",
+          "dom": {
+            "activeScene": 7,
+            "overlayMeta": "Scene 07 / exterior41%",
+            "overlayFocus": "Knowledgebase district",
+            "overlayTitle": "Knowledgebase district",
+            "overlayBody": "I never forget what works for you. Every pattern, every insight, stored and connected.",
+            "productRealityState": null,
+            "revealDistrictId": "knowledgebase",
+            "revealVerdict": "inside-knowledgebase",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 607.9,
+                  "y": 365.7,
+                  "width": 38.06,
+                  "height": 38.06,
+                  "right": 645.96,
+                  "bottom": 403.75
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 602018,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 182,
+              "litPixelRatio": 0.9886,
+              "minLuma": 2.43,
+              "maxLuma": 168.33,
+              "meanLuma": 36.13
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 8,
+          "slug": "communication-hub",
+          "focus": "Chat and communication",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.4814,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/08-s08-communication-hub-scene-start.png",
+          "dom": {
+            "activeScene": 8,
+            "overlayMeta": "Scene 08 / exterior48%",
+            "overlayFocus": "Chat and communication",
+            "overlayTitle": "Chat and communication",
+            "overlayBody": "Every conversation teaches me something about you. I listen to understand, not just respond.",
+            "productRealityState": null,
+            "revealDistrictId": "chat",
+            "revealVerdict": "inside-chat",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 589.61,
+                  "y": 363.98,
+                  "width": 38.41,
+                  "height": 38.41,
+                  "right": 628.03,
+                  "bottom": 402.39
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 504974,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 137,
+              "litPixelRatio": 0.9917,
+              "minLuma": 2.21,
+              "maxLuma": 126.02,
+              "meanLuma": 35.84
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 9,
+          "slug": "leaderboard-arena",
+          "focus": "Leaderboard and competition",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.5514,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/09-s09-leaderboard-arena-scene-start.png",
+          "dom": {
+            "activeScene": 9,
+            "overlayMeta": "Scene 09 / exterior55%",
+            "overlayFocus": "Leaderboard and competition",
+            "overlayTitle": "Leaderboard and competition",
+            "overlayBody": "Twenty one days is not a streak. It is a habit. I saw it before you did.",
+            "productRealityState": null,
+            "revealDistrictId": "leaderboard",
+            "revealVerdict": "inside-leaderboard",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": 622.05,
+                  "y": 368.98,
+                  "width": 37.22,
+                  "height": 37.22,
+                  "right": 659.27,
+                  "bottom": 406.21
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 585594,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 161,
+              "litPixelRatio": 0.9977,
+              "minLuma": 4.21,
+              "maxLuma": 157.16,
+              "meanLuma": 35.09
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 10,
+          "slug": "relationships-garden",
+          "focus": "Relationships district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.6214,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/10-s10-relationships-garden-scene-start.png",
+          "dom": {
+            "activeScene": 10,
+            "overlayMeta": "Scene 10 / exterior62%",
+            "overlayFocus": "Relationships district",
+            "overlayTitle": "Relationships district",
+            "overlayBody": "The people in your life shape your health more than any workout. I track those connections too.",
+            "productRealityState": null,
+            "revealDistrictId": "relationships",
+            "revealVerdict": "inside-relationships",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": 605.52,
+                  "y": 352.58,
+                  "width": 39.01,
+                  "height": 39.01,
+                  "right": 644.53,
+                  "bottom": 391.58
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 410266,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 164,
+              "litPixelRatio": 0.9618,
+              "minLuma": 1,
+              "maxLuma": 143.02,
+              "meanLuma": 34.51
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 11,
+          "slug": "career-towers",
+          "focus": "Career district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.6914,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/11-s11-career-towers-scene-start.png",
+          "dom": {
+            "activeScene": 11,
+            "overlayMeta": "Scene 11 / exterior69%",
+            "overlayFocus": "Career district",
+            "overlayTitle": "Career district",
+            "overlayBody": "Your career does not exist in isolation. I see how sleep, stress, and relationships power your performance.",
+            "productRealityState": null,
+            "revealDistrictId": "career",
+            "revealVerdict": "inside-career",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 585.56,
+                  "y": 399.49,
+                  "width": 36.21,
+                  "height": 36.21,
+                  "right": 621.77,
+                  "bottom": 435.7
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 520626,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 170,
+              "litPixelRatio": 0.9948,
+              "minLuma": 2.28,
+              "maxLuma": 229.59,
+              "meanLuma": 35.25
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 12,
+          "slug": "recovery-dreamscape",
+          "focus": "Recovery and sleep",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.7614,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/12-s12-recovery-dreamscape-scene-start.png",
+          "dom": {
+            "activeScene": 12,
+            "overlayMeta": "Scene 12 / exterior76%",
+            "overlayFocus": "Recovery and sleep",
+            "overlayTitle": "Recovery and sleep",
+            "overlayBody": "Recovery is not downtime. It is where today's patterns become tomorrow's plan.",
+            "productRealityState": null,
+            "revealDistrictId": "recovery",
+            "revealVerdict": "inside-recovery",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 578.54,
+                  "y": 338.04,
+                  "width": 39.68,
+                  "height": 39.68,
+                  "right": 618.22,
+                  "bottom": 377.72
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 391738,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 158,
+              "litPixelRatio": 0.9946,
+              "minLuma": 3.79,
+              "maxLuma": 185.14,
+              "meanLuma": 36.81
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 13,
+          "slug": "analytics-cathedral",
+          "focus": "AI analytics",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.831,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/13-s13-analytics-cathedral-scene-start.png",
+          "dom": {
+            "activeScene": 13,
+            "overlayMeta": "Scene 13 / exterior83%",
+            "overlayFocus": "AI analytics",
+            "overlayTitle": "AI analytics",
+            "overlayBody": "This is where I think. Every pattern, prediction, and insight starts here.",
+            "productRealityState": null,
+            "revealDistrictId": "analytics",
+            "revealVerdict": "inside-analytics",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 593.08,
+                  "y": 392.3,
+                  "width": 36.98,
+                  "height": 36.98,
+                  "right": 630.06,
+                  "bottom": 429.28
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 592258,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 182,
+              "litPixelRatio": 0.9882,
+              "minLuma": 2.21,
+              "maxLuma": 156.04,
+              "meanLuma": 38.7
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 14,
+          "slug": "nutrition-farm",
+          "focus": "Nutrition district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.881,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/14-s14-nutrition-farm-scene-start.png",
+          "dom": {
+            "activeScene": 14,
+            "overlayMeta": "Scene 14 / exterior88%",
+            "overlayFocus": "Nutrition district",
+            "overlayTitle": "Nutrition district",
+            "overlayBody": "What you eat connects to how you sleep, think, and perform. I track the full chain.",
+            "productRealityState": null,
+            "revealDistrictId": "nutrition",
+            "revealVerdict": "inside-nutrition",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 582.2,
+                  "y": 356.32,
+                  "width": 37.46,
+                  "height": 37.46,
+                  "right": 619.66,
+                  "bottom": 393.78
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 453822,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 150,
+              "litPixelRatio": 0.9705,
+              "minLuma": 1.21,
+              "maxLuma": 129.11,
+              "meanLuma": 33.94
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 15,
+          "slug": "cross-pillar-revelation",
+          "focus": "Cross-pillar revelation",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.9306,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/15-s15-cross-pillar-revelation-scene-start.png",
+          "dom": {
+            "activeScene": 15,
+            "overlayMeta": "Scene 15 / climax93%",
+            "overlayFocus": "Cross-pillar revelation",
+            "overlayTitle": "Cross-pillar revelation",
+            "overlayBody": "This is the complete picture.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 12,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 828.23,
+                  "y": 337.07,
+                  "width": 45.87,
+                  "height": 45.87,
+                  "right": 874.1,
+                  "bottom": 382.94
+                }
+              },
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 610.12,
+                  "y": 303.89,
+                  "width": 74.44,
+                  "height": 74.44,
+                  "right": 684.55,
+                  "bottom": 378.33
+                }
+              },
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 879.91,
+                  "y": 393.73,
+                  "width": 50.88,
+                  "height": 50.88,
+                  "right": 930.79,
+                  "bottom": 444.61
+                }
+              },
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 866.11,
+                  "y": 470.47,
+                  "width": 60.31,
+                  "height": 60.31,
+                  "right": 926.42,
+                  "bottom": 530.78
+                }
+              },
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 724.43,
+                  "y": 493.78,
+                  "width": 57.02,
+                  "height": 57.02,
+                  "right": 781.45,
+                  "bottom": 550.8
+                }
+              },
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 540.76,
+                  "y": 508.57,
+                  "width": 67.5,
+                  "height": 67.5,
+                  "right": 608.26,
+                  "bottom": 576.07
+                }
+              },
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 418.35,
+                  "y": 458.39,
+                  "width": 62.14,
+                  "height": 62.14,
+                  "right": 480.48,
+                  "bottom": 520.53
+                }
+              },
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": 364.69,
+                  "y": 387.2,
+                  "width": 52.71,
+                  "height": 52.71,
+                  "right": 417.39,
+                  "bottom": 439.9
+                }
+              },
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": 424.68,
+                  "y": 343.1,
+                  "width": 48.17,
+                  "height": 48.17,
+                  "right": 472.85,
+                  "bottom": 391.26
+                }
+              },
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 529.37,
+                  "y": 291.45,
+                  "width": 41.43,
+                  "height": 41.43,
+                  "right": 570.79,
+                  "bottom": 332.87
+                }
+              },
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 640.36,
+                  "y": 295.69,
+                  "width": 42.96,
+                  "height": 42.96,
+                  "right": 683.32,
+                  "bottom": 338.65
+                }
+              },
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 733.79,
+                  "y": 297.43,
+                  "width": 43.29,
+                  "height": 43.29,
+                  "right": 777.08,
+                  "bottom": 340.72
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 478094,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 108,
+              "litPixelRatio": 1,
+              "minLuma": 14.41,
+              "maxLuma": 142.42,
+              "meanLuma": 41.68
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 16,
+          "slug": "today-screen-street",
+          "focus": "Today screen street corridor",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.9608,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/16-s16-today-screen-street-scene-start.png",
+          "dom": {
+            "activeScene": 16,
+            "overlayMeta": "Scene 16 / product96%",
+            "overlayFocus": "Today screen street corridor",
+            "overlayTitle": "The Today screen",
+            "overlayBody": "The city resolves back into one clear daily insight.",
+            "productRealityState": "today-screen",
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 0,
+            "targets": []
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 180706,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 68,
+              "litPixelRatio": 0.6329,
+              "minLuma": 1.07,
+              "maxLuma": 148.83,
+              "meanLuma": 18.29
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 17,
+          "slug": "sia-tower-return",
+          "focus": "SIA tower return",
+          "beat": "scene-start",
+          "localProgress": 0,
+          "progress": 1,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/17-s17-sia-tower-return-scene-start.png",
+          "dom": {
+            "activeScene": 17,
+            "overlayMeta": "Scene 17 / closing100%",
+            "overlayFocus": "SIA tower return",
+            "overlayTitle": "The closing",
+            "overlayBody": "Welcome to your civilization. Let us begin.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 12,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 595.13,
+                  "y": 318.28,
+                  "width": 89.8,
+                  "height": 89.8,
+                  "right": 684.93,
+                  "bottom": 408.08
+                }
+              },
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 834.13,
+                  "y": 359.41,
+                  "width": 51.51,
+                  "height": 51.51,
+                  "right": 885.65,
+                  "bottom": 410.93
+                }
+              },
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 916.13,
+                  "y": 416.84,
+                  "width": 59.5,
+                  "height": 59.5,
+                  "right": 975.63,
+                  "bottom": 476.34
+                }
+              },
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 890.55,
+                  "y": 464.96,
+                  "width": 60.21,
+                  "height": 60.21,
+                  "right": 950.77,
+                  "bottom": 525.17
+                }
+              },
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 776.15,
+                  "y": 538.9,
+                  "width": 83,
+                  "height": 83,
+                  "right": 859.15,
+                  "bottom": 621.9
+                }
+              },
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 547.26,
+                  "y": 552.28,
+                  "width": 88.85,
+                  "height": 88.85,
+                  "right": 636.11,
+                  "bottom": 641.13
+                }
+              },
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": 323.22,
+                  "y": 512.29,
+                  "width": 79.19,
+                  "height": 79.19,
+                  "right": 402.41,
+                  "bottom": 591.48
+                }
+              },
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": 289.29,
+                  "y": 451.59,
+                  "width": 67.59,
+                  "height": 67.59,
+                  "right": 356.88,
+                  "bottom": 519.17
+                }
+              },
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 363.44,
+                  "y": 360.73,
+                  "width": 53.62,
+                  "height": 53.62,
+                  "right": 417.06,
+                  "bottom": 414.34
+                }
+              },
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 470.79,
+                  "y": 343.44,
+                  "width": 51.58,
+                  "height": 51.58,
+                  "right": 522.37,
+                  "bottom": 395.03
+                }
+              },
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 589.81,
+                  "y": 318.5,
+                  "width": 49.08,
+                  "height": 49.08,
+                  "right": 638.89,
+                  "bottom": 367.58
+                }
+              },
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 712.03,
+                  "y": 332.64,
+                  "width": 48.95,
+                  "height": 48.95,
+                  "right": 760.98,
+                  "bottom": 381.59
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 463518,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 95,
+              "litPixelRatio": 1,
+              "minLuma": 15.69,
+              "maxLuma": 124.95,
+              "meanLuma": 42.49
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 3,
+          "slug": "sia-neural-core",
+          "focus": "Inside SIA Tower",
+          "beat": "threshold",
+          "localProgress": 0.28,
+          "progress": 0.1496,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/18-s03-sia-neural-core-threshold.png",
+          "dom": {
+            "activeScene": 3,
+            "overlayMeta": "Scene 03 / interior15%",
+            "overlayFocus": "Inside SIA Tower",
+            "overlayTitle": "Inside SIA Tower",
+            "overlayBody": "I see what no single app can. The atrium turns every signal into one living plan.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 243.18,
+                  "y": -3292.28,
+                  "width": 96.5,
+                  "height": 96.5,
+                  "right": 339.69,
+                  "bottom": -3195.78
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 504838,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 223,
+              "litPixelRatio": 0.9736,
+              "minLuma": 3.2,
+              "maxLuma": 189.11,
+              "meanLuma": 61.12
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 4,
+          "slug": "fitness-district",
+          "focus": "Fitness district",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.2392,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/19-s04-fitness-district-threshold.png",
+          "dom": {
+            "activeScene": 4,
+            "overlayMeta": "Scene 04 / exterior24%",
+            "overlayFocus": "Fitness district",
+            "overlayTitle": "Fitness district",
+            "overlayBody": "Your body tells a story every day. I read every chapter.",
+            "productRealityState": null,
+            "revealDistrictId": "fitness",
+            "revealVerdict": "inside-fitness",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 555.37,
+                  "y": 207.74,
+                  "width": 98.75,
+                  "height": 98.75,
+                  "right": 654.12,
+                  "bottom": 306.49
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 799750,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 190,
+              "litPixelRatio": 0.8792,
+              "minLuma": 1,
+              "maxLuma": 166.27,
+              "meanLuma": 50.11
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 5,
+          "slug": "yoga-sanctuary",
+          "focus": "Yoga and wellbeing",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.3092,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/20-s05-yoga-sanctuary-threshold.png",
+          "dom": {
+            "activeScene": 5,
+            "overlayMeta": "Scene 05 / exterior31%",
+            "overlayFocus": "Yoga and wellbeing",
+            "overlayTitle": "Yoga and wellbeing",
+            "overlayBody": "Calm is not the absence of energy. It is energy perfectly directed.",
+            "productRealityState": null,
+            "revealDistrictId": "yoga",
+            "revealVerdict": "inside-yoga",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 447.29,
+                  "y": 159,
+                  "width": 156.62,
+                  "height": 156.62,
+                  "right": 603.91,
+                  "bottom": 315.62
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 609878,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 203,
+              "litPixelRatio": 0.9518,
+              "minLuma": 2.86,
+              "maxLuma": 254.35,
+              "meanLuma": 56.98
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 6,
+          "slug": "finance-tower",
+          "focus": "Finance district",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.3792,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/21-s06-finance-tower-threshold.png",
+          "dom": {
+            "activeScene": 6,
+            "overlayMeta": "Scene 06 / exterior38%",
+            "overlayFocus": "Finance district",
+            "overlayTitle": "Finance district",
+            "overlayBody": "Your money tells the truth about your stress. I see the pattern before your bank does.",
+            "productRealityState": null,
+            "revealDistrictId": "finance",
+            "revealVerdict": "inside-finance",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 598.17,
+                  "y": 131.36,
+                  "width": 139,
+                  "height": 139,
+                  "right": 737.16,
+                  "bottom": 270.36
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 1070802,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 168,
+              "litPixelRatio": 1,
+              "minLuma": 8.2,
+              "maxLuma": 226.63,
+              "meanLuma": 64.74
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 7,
+          "slug": "knowledgebase",
+          "focus": "Knowledgebase district",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.4492,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/22-s07-knowledgebase-threshold.png",
+          "dom": {
+            "activeScene": 7,
+            "overlayMeta": "Scene 07 / exterior45%",
+            "overlayFocus": "Knowledgebase district",
+            "overlayTitle": "Knowledgebase district",
+            "overlayBody": "I never forget what works for you. Every pattern, every insight, stored and connected.",
+            "productRealityState": null,
+            "revealDistrictId": "knowledgebase",
+            "revealVerdict": "inside-knowledgebase",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 531.84,
+                  "y": 175.97,
+                  "width": 134.22,
+                  "height": 134.22,
+                  "right": 666.06,
+                  "bottom": 310.19
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 525882,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 218,
+              "litPixelRatio": 0.9327,
+              "minLuma": 1.64,
+              "maxLuma": 141.06,
+              "meanLuma": 36.71
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 8,
+          "slug": "communication-hub",
+          "focus": "Chat and communication",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.5192,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/23-s08-communication-hub-threshold.png",
+          "dom": {
+            "activeScene": 8,
+            "overlayMeta": "Scene 08 / exterior52%",
+            "overlayFocus": "Chat and communication",
+            "overlayTitle": "Chat and communication",
+            "overlayBody": "Every conversation teaches me something about you. I listen to understand, not just respond.",
+            "productRealityState": null,
+            "revealDistrictId": "chat",
+            "revealVerdict": "inside-chat",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 473.84,
+                  "y": 214.37,
+                  "width": 128.77,
+                  "height": 128.77,
+                  "right": 602.61,
+                  "bottom": 343.14
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 512590,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 156,
+              "litPixelRatio": 0.9514,
+              "minLuma": 2.28,
+              "maxLuma": 169.51,
+              "meanLuma": 39.48
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 9,
+          "slug": "leaderboard-arena",
+          "focus": "Leaderboard and competition",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.5892,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/24-s09-leaderboard-arena-threshold.png",
+          "dom": {
+            "activeScene": 9,
+            "overlayMeta": "Scene 09 / exterior59%",
+            "overlayFocus": "Leaderboard and competition",
+            "overlayTitle": "Leaderboard and competition",
+            "overlayBody": "Twenty one days is not a streak. It is a habit. I saw it before you did.",
+            "productRealityState": null,
+            "revealDistrictId": "leaderboard",
+            "revealVerdict": "inside-leaderboard",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": 589.4,
+                  "y": 243.36,
+                  "width": 116.65,
+                  "height": 116.65,
+                  "right": 706.06,
+                  "bottom": 360.01
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 566174,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 172,
+              "litPixelRatio": 0.9894,
+              "minLuma": 1.71,
+              "maxLuma": 164.39,
+              "meanLuma": 39.54
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 10,
+          "slug": "relationships-garden",
+          "focus": "Relationships district",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.6592,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/25-s10-relationships-garden-threshold.png",
+          "dom": {
+            "activeScene": 10,
+            "overlayMeta": "Scene 10 / exterior66%",
+            "overlayFocus": "Relationships district",
+            "overlayTitle": "Relationships district",
+            "overlayBody": "The people in your life shape your health more than any workout. I track those connections too.",
+            "productRealityState": null,
+            "revealDistrictId": "relationships",
+            "revealVerdict": "inside-relationships",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": 535.43,
+                  "y": 243.77,
+                  "width": 122.41,
+                  "height": 122.41,
+                  "right": 657.84,
+                  "bottom": 366.18
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 439782,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 190,
+              "litPixelRatio": 0.9898,
+              "minLuma": 2.43,
+              "maxLuma": 255,
+              "meanLuma": 37.65
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 11,
+          "slug": "career-towers",
+          "focus": "Career district",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.7292,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/26-s11-career-towers-threshold.png",
+          "dom": {
+            "activeScene": 11,
+            "overlayMeta": "Scene 11 / exterior73%",
+            "overlayFocus": "Career district",
+            "overlayTitle": "Career district",
+            "overlayBody": "Your career does not exist in isolation. I see how sleep, stress, and relationships power your performance.",
+            "productRealityState": null,
+            "revealDistrictId": "career",
+            "revealVerdict": "inside-career",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 481.09,
+                  "y": 238.36,
+                  "width": 104.95,
+                  "height": 104.95,
+                  "right": 586.03,
+                  "bottom": 343.31
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 487890,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 192,
+              "litPixelRatio": 0.9811,
+              "minLuma": 1.21,
+              "maxLuma": 137.5,
+              "meanLuma": 34
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 12,
+          "slug": "recovery-dreamscape",
+          "focus": "Recovery and sleep",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.7992,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/27-s12-recovery-dreamscape-threshold.png",
+          "dom": {
+            "activeScene": 12,
+            "overlayMeta": "Scene 12 / exterior80%",
+            "overlayFocus": "Recovery and sleep",
+            "overlayTitle": "Recovery and sleep",
+            "overlayBody": "Recovery is not downtime. It is where today's patterns become tomorrow's plan.",
+            "productRealityState": null,
+            "revealDistrictId": "recovery",
+            "revealVerdict": "inside-recovery",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 470.46,
+                  "y": 253.11,
+                  "width": 109.77,
+                  "height": 109.77,
+                  "right": 580.23,
+                  "bottom": 362.87
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 402634,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 189,
+              "litPixelRatio": 0.9815,
+              "minLuma": 1.21,
+              "maxLuma": 157.67,
+              "meanLuma": 36.44
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 13,
+          "slug": "analytics-cathedral",
+          "focus": "AI analytics",
+          "beat": "threshold",
+          "localProgress": 0.56,
+          "progress": 0.858,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/28-s13-analytics-cathedral-threshold.png",
+          "dom": {
+            "activeScene": 13,
+            "overlayMeta": "Scene 13 / exterior86%",
+            "overlayFocus": "AI analytics",
+            "overlayTitle": "AI analytics",
+            "overlayBody": "This is where I think. Every pattern, prediction, and insight starts here.",
+            "productRealityState": null,
+            "revealDistrictId": "analytics",
+            "revealVerdict": "inside-analytics",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 506.04,
+                  "y": 277.33,
+                  "width": 108.51,
+                  "height": 108.51,
+                  "right": 614.54,
+                  "bottom": 385.83
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 720826,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 230,
+              "litPixelRatio": 0.9763,
+              "minLuma": 2,
+              "maxLuma": 185.5,
+              "meanLuma": 43.88
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 14,
+          "slug": "nutrition-farm",
+          "focus": "Nutrition district",
+          "beat": "threshold",
+          "localProgress": 0.54,
+          "progress": 0.907,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/29-s14-nutrition-farm-threshold.png",
+          "dom": {
+            "activeScene": 14,
+            "overlayMeta": "Scene 14 / exterior91%",
+            "overlayFocus": "Nutrition district",
+            "overlayTitle": "Nutrition district",
+            "overlayBody": "What you eat connects to how you sleep, think, and perform. I track the full chain.",
+            "productRealityState": null,
+            "revealDistrictId": "nutrition",
+            "revealVerdict": "inside-nutrition",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 476.06,
+                  "y": 253.44,
+                  "width": 106.01,
+                  "height": 106.01,
+                  "right": 582.06,
+                  "bottom": 359.45
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 403326,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 144,
+              "litPixelRatio": 0.918,
+              "minLuma": 1.79,
+              "maxLuma": 160.34,
+              "meanLuma": 30.96
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 3,
+          "slug": "sia-neural-core",
+          "focus": "Inside SIA Tower",
+          "beat": "interior-midpoint",
+          "localProgress": 0.56,
+          "progress": 0.1692,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/30-s03-sia-neural-core-interior-midpoint.png",
+          "dom": {
+            "activeScene": 3,
+            "overlayMeta": "Scene 03 / interior17%",
+            "overlayFocus": "Inside SIA Tower",
+            "overlayTitle": "Inside SIA Tower",
+            "overlayBody": "I see what no single app can. The atrium turns every signal into one living plan.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "right": 0,
+                  "bottom": 0
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 373738,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 130,
+              "litPixelRatio": 0.9973,
+              "minLuma": 4,
+              "maxLuma": 180.81,
+              "meanLuma": 35.89
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 4,
+          "slug": "fitness-district",
+          "focus": "Fitness district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.2504,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/31-s04-fitness-district-interior-midpoint.png",
+          "dom": {
+            "activeScene": 4,
+            "overlayMeta": "Scene 04 / exterior25%",
+            "overlayFocus": "Fitness district",
+            "overlayTitle": "Fitness district",
+            "overlayBody": "Your body tells a story every day. I read every chapter.",
+            "productRealityState": null,
+            "revealDistrictId": "fitness",
+            "revealVerdict": "inside-fitness",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 370.25,
+                  "y": -470.27,
+                  "width": 343.52,
+                  "height": 343.52,
+                  "right": 713.77,
+                  "bottom": -126.74
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 158754,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 40,
+              "litPixelRatio": 0.4049,
+              "minLuma": 1,
+              "maxLuma": 168.64,
+              "meanLuma": 27.43
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 5,
+          "slug": "yoga-sanctuary",
+          "focus": "Yoga and wellbeing",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.3204,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/32-s05-yoga-sanctuary-interior-midpoint.png",
+          "dom": {
+            "activeScene": 5,
+            "overlayMeta": "Scene 05 / exterior32%",
+            "overlayFocus": "Yoga and wellbeing",
+            "overlayTitle": "Yoga and wellbeing",
+            "overlayBody": "Calm is not the absence of energy. It is energy perfectly directed.",
+            "productRealityState": null,
+            "revealDistrictId": "yoga",
+            "revealVerdict": "inside-yoga",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 148.81,
+                  "y": -177.75,
+                  "width": 326.35,
+                  "height": 326.35,
+                  "right": 475.16,
+                  "bottom": 148.6
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 514806,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 140,
+              "litPixelRatio": 0.9977,
+              "minLuma": 2.93,
+              "maxLuma": 253.72,
+              "meanLuma": 74.59
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 6,
+          "slug": "finance-tower",
+          "focus": "Finance district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.3904,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/33-s06-finance-tower-interior-midpoint.png",
+          "dom": {
+            "activeScene": 6,
+            "overlayMeta": "Scene 06 / exterior39%",
+            "overlayFocus": "Finance district",
+            "overlayTitle": "Finance district",
+            "overlayBody": "Your money tells the truth about your stress. I see the pattern before your bank does.",
+            "productRealityState": null,
+            "revealDistrictId": "finance",
+            "revealVerdict": "inside-finance",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 621.85,
+                  "y": -880.12,
+                  "width": 380.46,
+                  "height": 380.46,
+                  "right": 1002.31,
+                  "bottom": -499.66
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 613722,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 71,
+              "litPixelRatio": 1,
+              "minLuma": 12.83,
+              "maxLuma": 206.95,
+              "meanLuma": 93.54
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 7,
+          "slug": "knowledgebase",
+          "focus": "Knowledgebase district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.4604,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/34-s07-knowledgebase-interior-midpoint.png",
+          "dom": {
+            "activeScene": 7,
+            "overlayMeta": "Scene 07 / exterior46%",
+            "overlayFocus": "Knowledgebase district",
+            "overlayTitle": "Knowledgebase district",
+            "overlayBody": "I never forget what works for you. Every pattern, every insight, stored and connected.",
+            "productRealityState": null,
+            "revealDistrictId": "knowledgebase",
+            "revealVerdict": "inside-knowledgebase",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 265.92,
+                  "y": -627.04,
+                  "width": 436.97,
+                  "height": 436.97,
+                  "right": 702.89,
+                  "bottom": -190.06
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 323182,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 132,
+              "litPixelRatio": 0.8372,
+              "minLuma": 1,
+              "maxLuma": 131.45,
+              "meanLuma": 40.16
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 8,
+          "slug": "communication-hub",
+          "focus": "Chat and communication",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.5304,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/35-s08-communication-hub-interior-midpoint.png",
+          "dom": {
+            "activeScene": 8,
+            "overlayMeta": "Scene 08 / exterior53%",
+            "overlayFocus": "Chat and communication",
+            "overlayTitle": "Chat and communication",
+            "overlayBody": "Every conversation teaches me something about you. I listen to understand, not just respond.",
+            "productRealityState": null,
+            "revealDistrictId": "chat",
+            "revealVerdict": "inside-chat",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 100.19,
+                  "y": -340.63,
+                  "width": 356.11,
+                  "height": 356.11,
+                  "right": 456.29,
+                  "bottom": 15.48
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 302718,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 69,
+              "litPixelRatio": 0.5775,
+              "minLuma": 1.5,
+              "maxLuma": 240.83,
+              "meanLuma": 27.72
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 9,
+          "slug": "leaderboard-arena",
+          "focus": "Leaderboard and competition",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.6004,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/36-s09-leaderboard-arena-interior-midpoint.png",
+          "dom": {
+            "activeScene": 9,
+            "overlayMeta": "Scene 09 / exterior60%",
+            "overlayFocus": "Leaderboard and competition",
+            "overlayTitle": "Leaderboard and competition",
+            "overlayBody": "Twenty one days is not a streak. It is a habit. I saw it before you did.",
+            "productRealityState": null,
+            "revealDistrictId": "leaderboard",
+            "revealVerdict": "inside-leaderboard",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": 452.1,
+                  "y": -302.41,
+                  "width": 435.89,
+                  "height": 435.89,
+                  "right": 888,
+                  "bottom": 133.49
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 161926,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 47,
+              "litPixelRatio": 0.9846,
+              "minLuma": 0.28,
+              "maxLuma": 150.07,
+              "meanLuma": 25.91
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 10,
+          "slug": "relationships-garden",
+          "focus": "Relationships district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.6704,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/37-s10-relationships-garden-interior-midpoint.png",
+          "dom": {
+            "activeScene": 10,
+            "overlayMeta": "Scene 10 / exterior67%",
+            "overlayFocus": "Relationships district",
+            "overlayTitle": "Relationships district",
+            "overlayBody": "The people in your life shape your health more than any workout. I track those connections too.",
+            "productRealityState": null,
+            "revealDistrictId": "relationships",
+            "revealVerdict": "inside-relationships",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": 350.09,
+                  "y": -100.57,
+                  "width": 370.47,
+                  "height": 370.47,
+                  "right": 720.56,
+                  "bottom": 269.9
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 378074,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 156,
+              "litPixelRatio": 0.803,
+              "minLuma": 1,
+              "maxLuma": 202.59,
+              "meanLuma": 39.85
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 11,
+          "slug": "career-towers",
+          "focus": "Career district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.7404,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/38-s11-career-towers-interior-midpoint.png",
+          "dom": {
+            "activeScene": 11,
+            "overlayMeta": "Scene 11 / exterior74%",
+            "overlayFocus": "Career district",
+            "overlayTitle": "Career district",
+            "overlayBody": "Your career does not exist in isolation. I see how sleep, stress, and relationships power your performance.",
+            "productRealityState": null,
+            "revealDistrictId": "career",
+            "revealVerdict": "inside-career",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 141.16,
+                  "y": -416.28,
+                  "width": 274.43,
+                  "height": 274.43,
+                  "right": 415.59,
+                  "bottom": -141.86
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 310514,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 111,
+              "litPixelRatio": 0.9734,
+              "minLuma": 1.14,
+              "maxLuma": 139.36,
+              "meanLuma": 34.73
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 12,
+          "slug": "recovery-dreamscape",
+          "focus": "Recovery and sleep",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.8104,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/39-s12-recovery-dreamscape-interior-midpoint.png",
+          "dom": {
+            "activeScene": 12,
+            "overlayMeta": "Scene 12 / exterior81%",
+            "overlayFocus": "Recovery and sleep",
+            "overlayTitle": "Recovery and sleep",
+            "overlayBody": "Recovery is not downtime. It is where today's patterns become tomorrow's plan.",
+            "productRealityState": null,
+            "revealDistrictId": "recovery",
+            "revealVerdict": "inside-recovery",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 174.29,
+                  "y": 21.88,
+                  "width": 283.15,
+                  "height": 283.15,
+                  "right": 457.44,
+                  "bottom": 305.03
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 423042,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 182,
+              "litPixelRatio": 0.8625,
+              "minLuma": 1,
+              "maxLuma": 229.93,
+              "meanLuma": 44.53
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 13,
+          "slug": "analytics-cathedral",
+          "focus": "AI analytics",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.866,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/40-s13-analytics-cathedral-interior-midpoint.png",
+          "dom": {
+            "activeScene": 13,
+            "overlayMeta": "Scene 13 / exterior87%",
+            "overlayFocus": "AI analytics",
+            "overlayTitle": "AI analytics",
+            "overlayBody": "This is where I think. Every pattern, prediction, and insight starts here.",
+            "productRealityState": null,
+            "revealDistrictId": "analytics",
+            "revealVerdict": "inside-analytics",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 220.15,
+                  "y": -301.34,
+                  "width": 319.16,
+                  "height": 319.16,
+                  "right": 539.32,
+                  "bottom": 17.82
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 589158,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 130,
+              "litPixelRatio": 0.9238,
+              "minLuma": 3,
+              "maxLuma": 181.87,
+              "meanLuma": 46.26
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 14,
+          "slug": "nutrition-farm",
+          "focus": "Nutrition district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.68,
+          "progress": 0.914,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/41-s14-nutrition-farm-interior-midpoint.png",
+          "dom": {
+            "activeScene": 14,
+            "overlayMeta": "Scene 14 / exterior91%",
+            "overlayFocus": "Nutrition district",
+            "overlayTitle": "Nutrition district",
+            "overlayBody": "What you eat connects to how you sleep, think, and perform. I track the full chain.",
+            "productRealityState": null,
+            "revealDistrictId": "nutrition",
+            "revealVerdict": "inside-nutrition",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 161.96,
+                  "y": -79.08,
+                  "width": 289.54,
+                  "height": 289.54,
+                  "right": 451.5,
+                  "bottom": 210.46
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 292062,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 83,
+              "litPixelRatio": 0.918,
+              "minLuma": 1.21,
+              "maxLuma": 165.22,
+              "meanLuma": 30.52
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 3,
+          "slug": "sia-neural-core",
+          "focus": "Inside SIA Tower",
+          "beat": "exit-bridge",
+          "localProgress": 0.76,
+          "progress": 0.1832,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/42-s03-sia-neural-core-exit-bridge.png",
+          "dom": {
+            "activeScene": 3,
+            "overlayMeta": "Scene 03 / interior18%",
+            "overlayFocus": "Inside SIA Tower",
+            "overlayTitle": "Inside SIA Tower",
+            "overlayBody": "I see what no single app can. The atrium turns every signal into one living plan.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "right": 0,
+                  "bottom": 0
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 367754,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 119,
+              "litPixelRatio": 0.9925,
+              "minLuma": 2,
+              "maxLuma": 171.66,
+              "meanLuma": 35.06
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 13,
+          "slug": "analytics-cathedral",
+          "focus": "AI analytics",
+          "beat": "exit-bridge",
+          "localProgress": 0.84,
+          "progress": 0.872,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/43-s13-analytics-cathedral-exit-bridge.png",
+          "dom": {
+            "activeScene": 13,
+            "overlayMeta": "Scene 13 / exterior87%",
+            "overlayFocus": "AI analytics",
+            "overlayTitle": "AI analytics",
+            "overlayBody": "This is where I think. Every pattern, prediction, and insight starts here.",
+            "productRealityState": null,
+            "revealDistrictId": "analytics",
+            "revealVerdict": "inside-analytics",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 2385.17,
+                  "y": 541.74,
+                  "width": 80.16,
+                  "height": 80.16,
+                  "right": 2465.34,
+                  "bottom": 621.91
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 442678,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 138,
+              "litPixelRatio": 0.9637,
+              "minLuma": 2.28,
+              "maxLuma": 130.9,
+              "meanLuma": 35.38
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 14,
+          "slug": "nutrition-farm",
+          "focus": "Nutrition district",
+          "beat": "exit-bridge",
+          "localProgress": 0.84,
+          "progress": 0.922,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/44-s14-nutrition-farm-exit-bridge.png",
+          "dom": {
+            "activeScene": 14,
+            "overlayMeta": "Scene 14 / exterior92%",
+            "overlayFocus": "Nutrition district",
+            "overlayTitle": "Nutrition district",
+            "overlayBody": "What you eat connects to how you sleep, think, and perform. I track the full chain.",
+            "productRealityState": null,
+            "revealDistrictId": "nutrition",
+            "revealVerdict": "inside-nutrition",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 965.19,
+                  "y": 912.27,
+                  "width": 38.05,
+                  "height": 38.05,
+                  "right": 1003.24,
+                  "bottom": 950.33
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 393818,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 97,
+              "litPixelRatio": 1,
+              "minLuma": 35.34,
+              "maxLuma": 175.8,
+              "meanLuma": 119.39
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 15,
+          "slug": "cross-pillar-revelation",
+          "focus": "Cross-pillar revelation",
+          "beat": "exit-bridge",
+          "localProgress": 0.78,
+          "progress": 0.9534,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/45-s15-cross-pillar-revelation-exit-bridge.png",
+          "dom": {
+            "activeScene": 15,
+            "overlayMeta": "Scene 15 / climax95%",
+            "overlayFocus": "Cross-pillar revelation",
+            "overlayTitle": "Cross-pillar revelation",
+            "overlayBody": "Every dimension of human life becomes stronger when powered by intelligent AI.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 12,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 1780.86,
+                  "y": 205.23,
+                  "width": 79.93,
+                  "height": 79.93,
+                  "right": 1860.79,
+                  "bottom": 285.16
+                }
+              },
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 1175.83,
+                  "y": -28.43,
+                  "width": 171.74,
+                  "height": 171.74,
+                  "right": 1347.56,
+                  "bottom": 143.31
+                }
+              },
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 2391.15,
+                  "y": 389.69,
+                  "width": 93.9,
+                  "height": 93.9,
+                  "right": 2485.04,
+                  "bottom": 483.59
+                }
+              },
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 3013.18,
+                  "y": 826.42,
+                  "width": 123.88,
+                  "height": 123.88,
+                  "right": 3137.06,
+                  "bottom": 950.3
+                }
+              },
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 2199.19,
+                  "y": 770.66,
+                  "width": 164.13,
+                  "height": 164.13,
+                  "right": 2363.32,
+                  "bottom": 934.79
+                }
+              },
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 922.1,
+                  "y": 532.92,
+                  "width": 282.22,
+                  "height": 282.22,
+                  "right": 1204.32,
+                  "bottom": 815.14
+                }
+              },
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 511.03,
+                  "y": 264.1,
+                  "width": 195.82,
+                  "height": 195.82,
+                  "right": 706.85,
+                  "bottom": 459.92
+                }
+              },
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": 487.49,
+                  "y": 133.04,
+                  "width": 121.69,
+                  "height": 121.69,
+                  "right": 609.18,
+                  "bottom": 254.73
+                }
+              },
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": 653.73,
+                  "y": 110.14,
+                  "width": 96.28,
+                  "height": 96.28,
+                  "right": 750,
+                  "bottom": 206.42
+                }
+              },
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 881.57,
+                  "y": 53.59,
+                  "width": 76.49,
+                  "height": 76.49,
+                  "right": 958.06,
+                  "bottom": 130.08
+                }
+              },
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 1116.26,
+                  "y": 98.45,
+                  "width": 75.25,
+                  "height": 75.25,
+                  "right": 1191.51,
+                  "bottom": 173.7
+                }
+              },
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 1394.92,
+                  "y": 100.05,
+                  "width": 75.77,
+                  "height": 75.77,
+                  "right": 1470.69,
+                  "bottom": 175.81
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 605914,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 218,
+              "litPixelRatio": 0.9986,
+              "minLuma": 3.85,
+              "maxLuma": 171.6,
+              "meanLuma": 47.63
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 16,
+          "slug": "today-screen-street",
+          "focus": "Today screen street corridor",
+          "beat": "exit-bridge",
+          "localProgress": 0.68,
+          "progress": 0.9872,
+          "suite": "desktop",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/desktop/46-s16-today-screen-street-exit-bridge.png",
+          "dom": {
+            "activeScene": 16,
+            "overlayMeta": "Scene 16 / product99%",
+            "overlayFocus": "Today screen street corridor",
+            "overlayTitle": "The Today screen",
+            "overlayBody": "The city resolves back into one clear daily insight.",
+            "productRealityState": "today-screen",
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 0,
+            "targets": []
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "right": 1280,
+              "bottom": 720
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 168726,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 54,
+              "uniqueColorBuckets": 65,
+              "litPixelRatio": 0.6121,
+              "minLuma": 1.07,
+              "maxLuma": 145.63,
+              "meanLuma": 17.21
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        }
+      ]
+    },
+    {
+      "suite": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportScreenshot": {
+        "path": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/viewport-smoke.png",
+        "ok": true,
+        "error": null
+      },
+      "captureCount": 10,
+      "captures": [
+        {
+          "scene": 1,
+          "slug": "arrival",
+          "focus": "City aerial",
+          "beat": "scene-start",
+          "localProgress": 0,
+          "progress": 0,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/01-s01-arrival-scene-start.png",
+          "dom": {
+            "activeScene": 1,
+            "overlayMeta": "Scene 01 / city0%",
+            "overlayFocus": "City aerial",
+            "overlayTitle": "The civilization revealed",
+            "overlayBody": "A living intelligence powering every dimension of your life.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 12,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 181.25,
+                  "y": 373.8,
+                  "width": 38.22,
+                  "height": 38.22,
+                  "right": 219.47,
+                  "bottom": 412.02
+                }
+              },
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 465.22,
+                  "y": 465.67,
+                  "width": 26.49,
+                  "height": 26.49,
+                  "right": 491.71,
+                  "bottom": 492.16
+                }
+              },
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 446.81,
+                  "y": 546.87,
+                  "width": 31.15,
+                  "height": 31.15,
+                  "right": 477.96,
+                  "bottom": 578.02
+                }
+              },
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 291.66,
+                  "y": 566.25,
+                  "width": 29,
+                  "height": 29,
+                  "right": 320.65,
+                  "bottom": 595.24
+                }
+              },
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 100.47,
+                  "y": 581.99,
+                  "width": 34.11,
+                  "height": 34.11,
+                  "right": 134.58,
+                  "bottom": 616.1
+                }
+              },
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": -28.83,
+                  "y": 530.21,
+                  "width": 31.65,
+                  "height": 31.65,
+                  "right": 2.82,
+                  "bottom": 561.86
+                }
+              },
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": -88.35,
+                  "y": 455.23,
+                  "width": 27.17,
+                  "height": 27.17,
+                  "right": -61.18,
+                  "bottom": 482.4
+                }
+              },
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": -25.32,
+                  "y": 409.58,
+                  "width": 25.05,
+                  "height": 25.05,
+                  "right": -0.27,
+                  "bottom": 434.63
+                }
+              },
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": 87.19,
+                  "y": 353.25,
+                  "width": 21.64,
+                  "height": 21.64,
+                  "right": 108.83,
+                  "bottom": 374.89
+                }
+              },
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 209.58,
+                  "y": 359.55,
+                  "width": 22.54,
+                  "height": 22.54,
+                  "right": 232.11,
+                  "bottom": 382.08
+                }
+              },
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 311.2,
+                  "y": 361.52,
+                  "width": 22.68,
+                  "height": 22.68,
+                  "right": 333.89,
+                  "bottom": 384.21
+                }
+              },
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 413.27,
+                  "y": 405.23,
+                  "width": 24.03,
+                  "height": 24.03,
+                  "right": 437.3,
+                  "bottom": 429.26
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 228142,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 107,
+              "litPixelRatio": 1,
+              "minLuma": 14.2,
+              "maxLuma": 110.27,
+              "meanLuma": 38.63
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 3,
+          "slug": "sia-neural-core",
+          "focus": "Inside SIA Tower",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.1314,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/02-s03-sia-neural-core-scene-start.png",
+          "dom": {
+            "activeScene": 3,
+            "overlayMeta": "Scene 03 / interior13%",
+            "overlayFocus": "Inside SIA Tower",
+            "overlayTitle": "Inside SIA Tower",
+            "overlayBody": "I see what no single app can. The atrium turns every signal into one living plan.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 176.31,
+                  "y": -864.86,
+                  "width": 37,
+                  "height": 37,
+                  "right": 213.31,
+                  "bottom": -827.86
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 191002,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 117,
+              "litPixelRatio": 0.9919,
+              "minLuma": 1.85,
+              "maxLuma": 140.25,
+              "meanLuma": 58.56
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 4,
+          "slug": "fitness-district",
+          "focus": "Fitness district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.2014,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/03-s04-fitness-district-scene-start.png",
+          "dom": {
+            "activeScene": 4,
+            "overlayMeta": "Scene 04 / exterior20%",
+            "overlayFocus": "Fitness district",
+            "overlayTitle": "Fitness district",
+            "overlayBody": "Your body tells a story every day. I read every chapter.",
+            "productRealityState": null,
+            "revealDistrictId": "fitness",
+            "revealVerdict": "inside-fitness",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 174.63,
+                  "y": 447.2,
+                  "width": 16.36,
+                  "height": 16.36,
+                  "right": 190.99,
+                  "bottom": 463.55
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 305634,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 220,
+              "litPixelRatio": 0.9821,
+              "minLuma": 2.14,
+              "maxLuma": 255,
+              "meanLuma": 44.95
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 14,
+          "slug": "nutrition-farm",
+          "focus": "Nutrition district",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.881,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/04-s14-nutrition-farm-scene-start.png",
+          "dom": {
+            "activeScene": 14,
+            "overlayMeta": "Scene 14 / exterior88%",
+            "overlayFocus": "Nutrition district",
+            "overlayTitle": "Nutrition district",
+            "overlayBody": "What you eat connects to how you sleep, think, and perform. I track the full chain.",
+            "productRealityState": null,
+            "revealDistrictId": "nutrition",
+            "revealVerdict": "inside-nutrition",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 135.3,
+                  "y": 428.75,
+                  "width": 21,
+                  "height": 21,
+                  "right": 156.3,
+                  "bottom": 449.76
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 221050,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 188,
+              "litPixelRatio": 0.9809,
+              "minLuma": 4.64,
+              "maxLuma": 151.37,
+              "meanLuma": 33.94
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 16,
+          "slug": "today-screen-street",
+          "focus": "Today screen street corridor",
+          "beat": "scene-start",
+          "localProgress": 0.02,
+          "progress": 0.9608,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/05-s16-today-screen-street-scene-start.png",
+          "dom": {
+            "activeScene": 16,
+            "overlayMeta": "Scene 16 / product96%",
+            "overlayFocus": "Today screen street corridor",
+            "overlayTitle": "The Today screen",
+            "overlayBody": "The city resolves back into one clear daily insight.",
+            "productRealityState": "today-screen",
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 0,
+            "targets": []
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 119834,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 99,
+              "litPixelRatio": 0.4774,
+              "minLuma": 1.07,
+              "maxLuma": 215.74,
+              "meanLuma": 17.19
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 17,
+          "slug": "sia-tower-return",
+          "focus": "SIA tower return",
+          "beat": "scene-start",
+          "localProgress": 0,
+          "progress": 1,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/06-s17-sia-tower-return-scene-start.png",
+          "dom": {
+            "activeScene": 17,
+            "overlayMeta": "Scene 17 / closing100%",
+            "overlayFocus": "SIA tower return",
+            "overlayTitle": "The closing",
+            "overlayBody": "Welcome to your civilization. Let us begin.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 12,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 169.9,
+                  "y": 400.56,
+                  "width": 50.29,
+                  "height": 50.29,
+                  "right": 220.19,
+                  "bottom": 450.85
+                }
+              },
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": 438.36,
+                  "y": 437.07,
+                  "width": 28.85,
+                  "height": 28.85,
+                  "right": 467.21,
+                  "bottom": 465.92
+                }
+              },
+              {
+                "districtId": "yoga",
+                "label": "Yoga and wellbeing",
+                "rect": {
+                  "x": 536.93,
+                  "y": 506.83,
+                  "width": 33.32,
+                  "height": 33.32,
+                  "right": 570.25,
+                  "bottom": 540.15
+                }
+              },
+              {
+                "districtId": "finance",
+                "label": "Finance district",
+                "rect": {
+                  "x": 507.17,
+                  "y": 563.46,
+                  "width": 33.72,
+                  "height": 33.72,
+                  "right": 540.89,
+                  "bottom": 597.18
+                }
+              },
+              {
+                "districtId": "knowledgebase",
+                "label": "Knowledgebase district",
+                "rect": {
+                  "x": 380.03,
+                  "y": 657.12,
+                  "width": 46.48,
+                  "height": 46.48,
+                  "right": 426.51,
+                  "bottom": 703.6
+                }
+              },
+              {
+                "districtId": "chat",
+                "label": "Chat and communication",
+                "rect": {
+                  "x": 113.48,
+                  "y": 674.6,
+                  "width": 49.76,
+                  "height": 49.76,
+                  "right": 163.24,
+                  "bottom": 724.36
+                }
+              },
+              {
+                "districtId": "leaderboard",
+                "label": "Leaderboard and competition",
+                "rect": {
+                  "x": -152.13,
+                  "y": 624.76,
+                  "width": 44.35,
+                  "height": 44.35,
+                  "right": -107.78,
+                  "bottom": 669.11
+                }
+              },
+              {
+                "districtId": "relationships",
+                "label": "Relationships district",
+                "rect": {
+                  "x": -195.45,
+                  "y": 550.04,
+                  "width": 37.85,
+                  "height": 37.85,
+                  "right": -157.6,
+                  "bottom": 587.89
+                }
+              },
+              {
+                "districtId": "career",
+                "label": "Career district",
+                "rect": {
+                  "x": -112.79,
+                  "y": 439.25,
+                  "width": 30.03,
+                  "height": 30.03,
+                  "right": -82.77,
+                  "bottom": 469.28
+                }
+              },
+              {
+                "districtId": "recovery",
+                "label": "Recovery and sleep",
+                "rect": {
+                  "x": 12.44,
+                  "y": 418.37,
+                  "width": 28.88,
+                  "height": 28.88,
+                  "right": 41.32,
+                  "bottom": 447.25
+                }
+              },
+              {
+                "districtId": "analytics",
+                "label": "AI analytics",
+                "rect": {
+                  "x": 151.19,
+                  "y": 388.37,
+                  "width": 27.48,
+                  "height": 27.48,
+                  "right": 178.67,
+                  "bottom": 415.85
+                }
+              },
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": 294.43,
+                  "y": 404.9,
+                  "width": 27.41,
+                  "height": 27.41,
+                  "right": 321.84,
+                  "bottom": 432.31
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 211810,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 115,
+              "litPixelRatio": 1,
+              "minLuma": 13.97,
+              "maxLuma": 123.59,
+              "meanLuma": 38.9
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 3,
+          "slug": "sia-neural-core",
+          "focus": "Inside SIA Tower",
+          "beat": "interior-midpoint",
+          "localProgress": 0.56,
+          "progress": 0.1692,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/07-s03-sia-neural-core-interior-midpoint.png",
+          "dom": {
+            "activeScene": 3,
+            "overlayMeta": "Scene 03 / interior17%",
+            "overlayFocus": "Inside SIA Tower",
+            "overlayTitle": "Inside SIA Tower",
+            "overlayBody": "I see what no single app can. The atrium turns every signal into one living plan.",
+            "productRealityState": null,
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "sia-tower",
+                "label": "SIA Tower",
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "right": 0,
+                  "bottom": 0
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 211146,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 204,
+              "litPixelRatio": 0.9987,
+              "minLuma": 2.43,
+              "maxLuma": 175.81,
+              "meanLuma": 37.34
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 4,
+          "slug": "fitness-district",
+          "focus": "Fitness district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.72,
+          "progress": 0.2504,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/08-s04-fitness-district-interior-midpoint.png",
+          "dom": {
+            "activeScene": 4,
+            "overlayMeta": "Scene 04 / exterior25%",
+            "overlayFocus": "Fitness district",
+            "overlayTitle": "Fitness district",
+            "overlayBody": "Your body tells a story every day. I read every chapter.",
+            "productRealityState": null,
+            "revealDistrictId": "fitness",
+            "revealVerdict": "inside-fitness",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "fitness",
+                "label": "Fitness district",
+                "rect": {
+                  "x": -16.11,
+                  "y": -446.32,
+                  "width": 192.34,
+                  "height": 192.34,
+                  "right": 176.23,
+                  "bottom": -253.98
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 65138,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 28,
+              "litPixelRatio": 0.4779,
+              "minLuma": 1,
+              "maxLuma": 143.85,
+              "meanLuma": 35.27
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 14,
+          "slug": "nutrition-farm",
+          "focus": "Nutrition district",
+          "beat": "interior-midpoint",
+          "localProgress": 0.68,
+          "progress": 0.914,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/09-s14-nutrition-farm-interior-midpoint.png",
+          "dom": {
+            "activeScene": 14,
+            "overlayMeta": "Scene 14 / exterior91%",
+            "overlayFocus": "Nutrition district",
+            "overlayTitle": "Nutrition district",
+            "overlayBody": "What you eat connects to how you sleep, think, and perform. I track the full chain.",
+            "productRealityState": null,
+            "revealDistrictId": "nutrition",
+            "revealVerdict": "inside-nutrition",
+            "targetCount": 1,
+            "targets": [
+              {
+                "districtId": "nutrition",
+                "label": "Nutrition district",
+                "rect": {
+                  "x": -274.32,
+                  "y": 13.1,
+                  "width": 157.05,
+                  "height": 157.05,
+                  "right": -117.27,
+                  "bottom": 170.15
+                }
+              }
+            ]
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 99854,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 71,
+              "litPixelRatio": 0.772,
+              "minLuma": 1.21,
+              "maxLuma": 147.94,
+              "meanLuma": 21.03
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        },
+        {
+          "scene": 16,
+          "slug": "today-screen-street",
+          "focus": "Today screen street corridor",
+          "beat": "exit-bridge",
+          "localProgress": 0.68,
+          "progress": 0.9872,
+          "suite": "mobile",
+          "imagePath": "/Users/hamza/Desktop/balencia-city-v3/output/playwright/session83-evidence/mobile/10-s16-today-screen-street-exit-bridge.png",
+          "dom": {
+            "activeScene": 16,
+            "overlayMeta": "Scene 16 / product99%",
+            "overlayFocus": "Today screen street corridor",
+            "overlayTitle": "The Today screen",
+            "overlayBody": "The city resolves back into one clear daily insight.",
+            "productRealityState": "today-screen",
+            "revealDistrictId": null,
+            "revealVerdict": null,
+            "targetCount": 0,
+            "targets": []
+          },
+          "canvas": {
+            "present": true,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "right": 390,
+              "bottom": 844
+            },
+            "methods": {
+              "getContext": "function",
+              "toDataURL": "function"
+            },
+            "dataUrlLength": 94590,
+            "captureError": null,
+            "pixelStats": {
+              "sampleWidth": 96,
+              "sampleHeight": 208,
+              "uniqueColorBuckets": 76,
+              "litPixelRatio": 0.3783,
+              "minLuma": 1.07,
+              "maxLuma": 140.6,
+              "meanLuma": 11.77
+            },
+            "nonblank": true
+          },
+          "textHealth": {
+            "textOverflow": [],
+            "overlaps": []
+          }
+        }
+      ]
+    }
+  ],
+  "failures": {
+    "failedCanvasCaptures": [],
+    "textOverflow": [],
+    "textOverlaps": [],
+    "consoleMessages": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_NETWORK_CHANGED",
+        "location": {
+          "url": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        }
+      }
+    ],
+    "pageErrors": []
+  }
+}

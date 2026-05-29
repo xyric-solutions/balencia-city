@@ -1,0 +1,55 @@
+{
+  "session": 82,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "consoleWarningsErrors": [],
+    "screenshotCapture": "Page.captureScreenshot timed out in the heavy WebGL app, matching the known Phase 9 limitation. Runtime evidence used DOM state, mounted canvas geometry, scene navigation, target gates, product overlay state, text overflow/overlap checks, and console logs.",
+    "summary": {
+      "sceneCount": 17,
+      "allTargetsMatch": true,
+      "allCanvasVisible": true,
+      "anyTextOverflow": false,
+      "anyTextOverlap": false,
+      "mobileSpotCheck": "PASS",
+      "scene3SiaCueVisible": true,
+      "scene16ProductVisible": true,
+      "scene16ProductExitState": "today-screen",
+      "scene17ProductVisible": false
+    },
+    "mobileSpotCheck": {
+      "viewport": [390, 844],
+      "result": "PASS",
+      "consoleWarningsErrors": 0,
+      "scenes": [
+        { "scene": 1, "targetCount": 12, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0 },
+        { "scene": 3, "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0 },
+        { "scene": 4, "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0 },
+        { "scene": 13, "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0 },
+        { "scene": 14, "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0 },
+        { "scene": 15, "targetCount": 12, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0 },
+        { "scene": 16, "targetCount": 0, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0, "productVisible": true, "productExitState": "today-screen" },
+        { "scene": 17, "targetCount": 12, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "offscreenTextCount": 0, "productVisible": false }
+      ]
+    },
+    "scenes": [
+      { "scene": 1, "overlayTitle": "The civilization revealed", "targetCount": 12, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 2, "overlayTitle": "SIA Tower", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 3, "overlayTitle": "Inside SIA Tower", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0, "siaCueVisible": true },
+      { "scene": 4, "overlayTitle": "Fitness district", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 5, "overlayTitle": "Yoga and wellbeing", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 6, "overlayTitle": "Finance district", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 7, "overlayTitle": "Knowledgebase district", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 8, "overlayTitle": "Chat and communication", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 9, "overlayTitle": "Leaderboard and competition", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 10, "overlayTitle": "Relationships district", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 11, "overlayTitle": "Career district", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 12, "overlayTitle": "Recovery and sleep", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 13, "overlayTitle": "AI analytics", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 14, "overlayTitle": "Nutrition district", "targetCount": 1, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 15, "overlayTitle": "Cross-pillar revelation", "targetCount": 12, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0 },
+      { "scene": 16, "overlayTitle": "The Today screen", "targetCount": 0, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0, "productVisible": true, "productExitState": "today-screen" },
+      { "scene": 17, "overlayTitle": "The closing", "targetCount": 12, "targetsMatch": true, "canvasVisible": true, "textOverflowCount": 0, "textOverlapCount": 0, "productVisible": false }
+    ]
+  }
+}

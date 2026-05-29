@@ -1,0 +1,50 @@
+{
+  "session": 82,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "bridgeChecks": [
+      {
+        "scene": 3,
+        "label": "SIA to Fitness",
+        "exitAt": 0.76,
+        "mode": "interior",
+        "targetPlanarDistance": 0
+      },
+      {
+        "scene": 13,
+        "label": "Analytics to Nutrition",
+        "exitAt": 0.84,
+        "mode": "exterior",
+        "targetPlanarDistance": 0
+      },
+      {
+        "scene": 14,
+        "label": "Nutrition to Climax",
+        "exitAt": 0.84,
+        "mode": "exterior",
+        "targetPlanarDistance": 6
+      },
+      {
+        "scene": 15,
+        "label": "Climax to Product",
+        "exitAt": 0.78,
+        "mode": "climax",
+        "targetPlanarDistance": 0
+      },
+      {
+        "scene": 16,
+        "label": "Product to Closing",
+        "exitAt": 0.68,
+        "mode": "product",
+        "targetPlanarDistance": 0
+      }
+    ],
+    "interactionGatesPreserved": true,
+    "productExitFade": {
+      "hasExitProgress": true,
+      "hasSession82Attribute": true
+    },
+    "sceneCount": 17
+  }
+}

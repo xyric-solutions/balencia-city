@@ -1,6 +1,6 @@
 # Balencia City v3 — Quality Rubric
 
-Every structure must pass ALL 7 gates before moving to the next module.
+Every asset must pass all applicable gates before moving to the next module. Exterior approvals require Gates 1-6 and 8; interior approvals require Gates 3-5 and 7; integration work must preserve the relevant exterior, interior, and energy checks.
 
 ## Gate 1: Silhouette Clarity [CRITICAL]
 - [ ] Identifiable as its building type at 200px viewport height
@@ -53,6 +53,15 @@ Every structure must pass ALL 7 gates before moving to the next module.
 - [ ] 4-8 props present, each identifiable
 - [ ] Complete room shell (floor, walls, ceiling — one open/windowed wall)
 - [ ] Interior materials use same 7-slot system as exterior
+
+## Gate 8: Architectural Completion
+- [ ] Exterior has a finished facade envelope: solid skin, glazing, panels, or layered surfaces behind any exposed frame or exoskeleton
+- [ ] Base/plinth reads complete with visible entrance logic, threshold depth, civic edge, or district-specific ground connection
+- [ ] Roof/crown reads resolved with parapets, cap, equipment, beacon, canopy, or district-specific terminal detail
+- [ ] Floor/deck rhythm is believable from the app hero camera through mullions, bands, ledges, windows, terraces, or equivalent scale cues
+- [ ] Exoskeletons, lattice, rails, and energy frames read as intentional finished architecture, not construction scaffolding or a temporary wireframe shell
+- [ ] Primary app hero-camera view does not read as "under construction," "unfinished facade," "bare frame," or "placeholder shell"
+- [ ] Detail improves real architectural articulation and preserves silhouette, origin, energy endpoints, and the 7-slot material system
 
 ## Energy Integration Check (after pipeline session)
 - [ ] Pipeline connects cleanly from SIA crown to district

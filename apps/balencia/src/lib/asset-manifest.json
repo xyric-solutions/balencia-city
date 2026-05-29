@@ -1,11 +1,34 @@
 {
-  "session": 72,
+  "session": 89,
   "sourceOfTruth": {
     "assemblyBlend": "assembly/drafts/full-city-assembly.blend",
-    "assemblyAudit": "assembly/audit/session-72-fitness-finance-polish.md",
+    "assemblyAudit": "assembly/audit/session-89-final-phase-10-qa.md",
     "cityLayout": "shared/city-layout-v2.json",
+    "phase10Backlog": "apps/balencia/PHASE-10-BACKLOG.md",
     "scrollJourney": "SCROLL-JOURNEY.md",
     "shaderParams": "energy-system/SHADER-PARAMS.md"
+  },
+  "lodPolicy": {
+    "overviewScenes": [
+      1,
+      15,
+      17
+    ],
+    "focusedHeroScenes": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "exteriorHeroField": "exteriorHero"
   },
   "structures": [
     {
@@ -13,13 +36,27 @@
       "assemblyName": "SIA_Tower",
       "label": "SIA Tower",
       "hex": "#FF5E00",
-      "blenderPosition": [0, 0, 0],
-      "position": [0, 0, 0],
+      "blenderPosition": [
+        0,
+        0,
+        0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
       "exterior": {
         "name": "sia-tower-ext",
         "sourcePath": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
         "publicPath": "models/structures/00-sia-tower/sia-tower-ext.glb",
         "runtimePath": "/models/structures/00-sia-tower/sia-tower-ext.glb"
+      },
+      "exteriorHero": {
+        "name": "sia-tower-ext-hero",
+        "sourcePath": "modules/00-sia-tower/exterior/approved/sia-tower-ext-hero.glb",
+        "publicPath": "models/structures/00-sia-tower/sia-tower-ext-hero.glb",
+        "runtimePath": "/models/structures/00-sia-tower/sia-tower-ext-hero.glb"
       },
       "interior": {
         "name": "sia-tower-int",
@@ -33,8 +70,16 @@
       "assemblyName": "Fitness",
       "label": "Fitness",
       "hex": "#34A853",
-      "blenderPosition": [61, 36, 0],
-      "position": [61, 0, -36],
+      "blenderPosition": [
+        61,
+        36,
+        0
+      ],
+      "position": [
+        61,
+        0,
+        -36
+      ],
       "exterior": {
         "name": "fitness-ext",
         "sourcePath": "modules/01-fitness/exterior/approved/fitness-ext.glb",
@@ -46,6 +91,12 @@
         "sourcePath": "modules/01-fitness/interior/approved/fitness-int.glb",
         "publicPath": "models/structures/01-fitness/fitness-int.glb",
         "runtimePath": "/models/structures/01-fitness/fitness-int.glb"
+      },
+      "exteriorHero": {
+        "name": "fitness-ext-hero",
+        "sourcePath": "modules/01-fitness/exterior/approved/fitness-ext-hero.glb",
+        "publicPath": "models/structures/01-fitness/fitness-ext-hero.glb",
+        "runtimePath": "/models/structures/01-fitness/fitness-ext-hero.glb"
       }
     },
     {
@@ -53,8 +104,16 @@
       "assemblyName": "Yoga",
       "label": "Yoga and wellbeing",
       "hex": "#6EE7B7",
-      "blenderPosition": [74, 2, 0],
-      "position": [74, 0, -2],
+      "blenderPosition": [
+        74,
+        2,
+        0
+      ],
+      "position": [
+        74,
+        0,
+        -2
+      ],
       "exterior": {
         "name": "yoga-ext",
         "sourcePath": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
@@ -66,6 +125,12 @@
         "sourcePath": "modules/02-yoga-wellbeing/interior/approved/yoga-int.glb",
         "publicPath": "models/structures/02-yoga-wellbeing/yoga-int.glb",
         "runtimePath": "/models/structures/02-yoga-wellbeing/yoga-int.glb"
+      },
+      "exteriorHero": {
+        "name": "yoga-ext-hero",
+        "sourcePath": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext-hero.glb",
+        "publicPath": "models/structures/02-yoga-wellbeing/yoga-ext-hero.glb",
+        "runtimePath": "/models/structures/02-yoga-wellbeing/yoga-ext-hero.glb"
       }
     },
     {
@@ -73,13 +138,27 @@
       "assemblyName": "Finance",
       "label": "Finance",
       "hex": "#F59E0B",
-      "blenderPosition": [56, -34, 0],
-      "position": [56, 0, 34],
+      "blenderPosition": [
+        56,
+        -34,
+        0
+      ],
+      "position": [
+        56,
+        0,
+        34
+      ],
       "exterior": {
         "name": "finance-ext",
         "sourcePath": "modules/03-finance/exterior/approved/finance-ext.glb",
         "publicPath": "models/structures/03-finance/finance-ext.glb",
         "runtimePath": "/models/structures/03-finance/finance-ext.glb"
+      },
+      "exteriorHero": {
+        "name": "finance-ext-hero",
+        "sourcePath": "modules/03-finance/exterior/approved/finance-ext-hero.glb",
+        "publicPath": "models/structures/03-finance/finance-ext-hero.glb",
+        "runtimePath": "/models/structures/03-finance/finance-ext-hero.glb"
       },
       "interior": {
         "name": "finance-int-approved-s15",
@@ -93,13 +172,27 @@
       "assemblyName": "Knowledgebase",
       "label": "Knowledgebase",
       "hex": "#7F24FF",
-      "blenderPosition": [30, -63, 0],
-      "position": [30, 0, 63],
+      "blenderPosition": [
+        30,
+        -63,
+        0
+      ],
+      "position": [
+        30,
+        0,
+        63
+      ],
       "exterior": {
         "name": "knowledgebase-ext",
         "sourcePath": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
         "publicPath": "models/structures/04-knowledgebase/knowledgebase-ext.glb",
         "runtimePath": "/models/structures/04-knowledgebase/knowledgebase-ext.glb"
+      },
+      "exteriorHero": {
+        "name": "knowledgebase-ext-hero",
+        "sourcePath": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext-hero.glb",
+        "publicPath": "models/structures/04-knowledgebase/knowledgebase-ext-hero.glb",
+        "runtimePath": "/models/structures/04-knowledgebase/knowledgebase-ext-hero.glb"
       },
       "interior": {
         "name": "knowledgebase-int",
@@ -113,8 +206,16 @@
       "assemblyName": "Chat",
       "label": "Chat and communication",
       "hex": "#FF5E00",
-      "blenderPosition": [-8, -66, 0],
-      "position": [-8, 0, 66],
+      "blenderPosition": [
+        -8,
+        -66,
+        0
+      ],
+      "position": [
+        -8,
+        0,
+        66
+      ],
       "exterior": {
         "name": "chat-ext",
         "sourcePath": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
@@ -126,6 +227,12 @@
         "sourcePath": "modules/05-chat-communication/interior/approved/chat-int.glb",
         "publicPath": "models/structures/05-chat-communication/chat-int.glb",
         "runtimePath": "/models/structures/05-chat-communication/chat-int.glb"
+      },
+      "exteriorHero": {
+        "name": "chat-ext-hero",
+        "sourcePath": "modules/05-chat-communication/exterior/approved/chat-ext-hero.glb",
+        "publicPath": "models/structures/05-chat-communication/chat-ext-hero.glb",
+        "runtimePath": "/models/structures/05-chat-communication/chat-ext-hero.glb"
       }
     },
     {
@@ -133,8 +240,16 @@
       "assemblyName": "Leaderboard",
       "label": "Leaderboard and competition",
       "hex": "#FB7185",
-      "blenderPosition": [-50, -53, 0],
-      "position": [-50, 0, 53],
+      "blenderPosition": [
+        -50,
+        -53,
+        0
+      ],
+      "position": [
+        -50,
+        0,
+        53
+      ],
       "exterior": {
         "name": "leaderboard-ext",
         "sourcePath": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
@@ -146,6 +261,12 @@
         "sourcePath": "modules/06-leaderboard-competition/interior/approved/leaderboard-int.glb",
         "publicPath": "models/structures/06-leaderboard-competition/leaderboard-int.glb",
         "runtimePath": "/models/structures/06-leaderboard-competition/leaderboard-int.glb"
+      },
+      "exteriorHero": {
+        "name": "leaderboard-ext-hero",
+        "sourcePath": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext-hero.glb",
+        "publicPath": "models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb",
+        "runtimePath": "/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb"
       }
     },
     {
@@ -153,8 +274,16 @@
       "assemblyName": "Relationships",
       "label": "Relationships",
       "hex": "#F43F5E",
-      "blenderPosition": [-74, -16, 0],
-      "position": [-74, 0, 16],
+      "blenderPosition": [
+        -74,
+        -16,
+        0
+      ],
+      "position": [
+        -74,
+        0,
+        16
+      ],
       "exterior": {
         "name": "relationships-ext",
         "sourcePath": "modules/07-relationships/exterior/approved/relationships-ext.glb",
@@ -166,6 +295,12 @@
         "sourcePath": "modules/07-relationships/interior/approved/relationships-int.glb",
         "publicPath": "models/structures/07-relationships/relationships-int.glb",
         "runtimePath": "/models/structures/07-relationships/relationships-int.glb"
+      },
+      "exteriorHero": {
+        "name": "relationships-ext-hero",
+        "sourcePath": "modules/07-relationships/exterior/approved/relationships-ext-hero.glb",
+        "publicPath": "models/structures/07-relationships/relationships-ext-hero.glb",
+        "runtimePath": "/models/structures/07-relationships/relationships-ext-hero.glb"
       }
     },
     {
@@ -173,8 +308,16 @@
       "assemblyName": "Career",
       "label": "Career",
       "hex": "#3B82F6",
-      "blenderPosition": [-66, 25, 0],
-      "position": [-66, 0, -25],
+      "blenderPosition": [
+        -66,
+        25,
+        0
+      ],
+      "position": [
+        -66,
+        0,
+        -25
+      ],
       "exterior": {
         "name": "career-ext",
         "sourcePath": "modules/08-career/exterior/approved/career-ext.glb",
@@ -186,6 +329,12 @@
         "sourcePath": "modules/08-career/interior/approved/career-int.glb",
         "publicPath": "models/structures/08-career/career-int.glb",
         "runtimePath": "/models/structures/08-career/career-int.glb"
+      },
+      "exteriorHero": {
+        "name": "career-ext-hero",
+        "sourcePath": "modules/08-career/exterior/approved/career-ext-hero.glb",
+        "publicPath": "models/structures/08-career/career-ext-hero.glb",
+        "runtimePath": "/models/structures/08-career/career-ext-hero.glb"
       }
     },
     {
@@ -193,8 +342,16 @@
       "assemblyName": "Recovery",
       "label": "Recovery and sleep",
       "hex": "#6366F1",
-      "blenderPosition": [-44, 61, 0],
-      "position": [-44, 0, -61],
+      "blenderPosition": [
+        -44,
+        61,
+        0
+      ],
+      "position": [
+        -44,
+        0,
+        -61
+      ],
       "exterior": {
         "name": "recovery-ext",
         "sourcePath": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
@@ -206,6 +363,12 @@
         "sourcePath": "modules/09-recovery-sleep/interior/approved/recovery-int.glb",
         "publicPath": "models/structures/09-recovery-sleep/recovery-int.glb",
         "runtimePath": "/models/structures/09-recovery-sleep/recovery-int.glb"
+      },
+      "exteriorHero": {
+        "name": "recovery-ext-hero",
+        "sourcePath": "modules/09-recovery-sleep/exterior/approved/recovery-ext-hero.glb",
+        "publicPath": "models/structures/09-recovery-sleep/recovery-ext-hero.glb",
+        "runtimePath": "/models/structures/09-recovery-sleep/recovery-ext-hero.glb"
       }
     },
     {
@@ -213,8 +376,16 @@
       "assemblyName": "Analytics",
       "label": "AI analytics",
       "hex": "#14B8A6",
-      "blenderPosition": [-8, 68, 0],
-      "position": [-8, 0, -68],
+      "blenderPosition": [
+        -8,
+        68,
+        0
+      ],
+      "position": [
+        -8,
+        0,
+        -68
+      ],
       "exterior": {
         "name": "analytics-ext",
         "sourcePath": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
@@ -226,6 +397,12 @@
         "sourcePath": "modules/10-ai-analytics/interior/approved/analytics-int.glb",
         "publicPath": "models/structures/10-ai-analytics/analytics-int.glb",
         "runtimePath": "/models/structures/10-ai-analytics/analytics-int.glb"
+      },
+      "exteriorHero": {
+        "name": "analytics-ext-hero",
+        "sourcePath": "modules/10-ai-analytics/exterior/approved/analytics-ext-hero.glb",
+        "publicPath": "models/structures/10-ai-analytics/analytics-ext-hero.glb",
+        "runtimePath": "/models/structures/10-ai-analytics/analytics-ext-hero.glb"
       }
     },
     {
@@ -233,8 +410,16 @@
       "assemblyName": "Nutrition",
       "label": "Nutrition",
       "hex": "#D97706",
-      "blenderPosition": [30, 66, 0],
-      "position": [30, 0, -66],
+      "blenderPosition": [
+        30,
+        66,
+        0
+      ],
+      "position": [
+        30,
+        0,
+        -66
+      ],
       "exterior": {
         "name": "nutrition-ext",
         "sourcePath": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
@@ -246,6 +431,12 @@
         "sourcePath": "modules/11-nutrition/interior/approved/nutrition-int.glb",
         "publicPath": "models/structures/11-nutrition/nutrition-int.glb",
         "runtimePath": "/models/structures/11-nutrition/nutrition-int.glb"
+      },
+      "exteriorHero": {
+        "name": "nutrition-ext-hero",
+        "sourcePath": "modules/11-nutrition/exterior/approved/nutrition-ext-hero.glb",
+        "publicPath": "models/structures/11-nutrition/nutrition-ext-hero.glb",
+        "runtimePath": "/models/structures/11-nutrition/nutrition-ext-hero.glb"
       }
     }
   ],

@@ -19,7 +19,11 @@ export function ProductRealityOverlay() {
     return null;
   }
 
-  const stageStyle = { "--product-progress": sceneLocalProgress.toFixed(3) } as CSSProperties;
+  const exitProgress = Math.max(0, Math.min(1, (sceneLocalProgress - 0.72) / 0.24));
+  const stageStyle = {
+    "--product-exit": exitProgress.toFixed(3),
+    "--product-progress": sceneLocalProgress.toFixed(3),
+  } as CSSProperties;
   const activeSignal = Math.min(signalPath.length - 1, Math.floor(sceneLocalProgress * signalPath.length));
 
   return (
@@ -27,8 +31,9 @@ export function ProductRealityOverlay() {
       className="product-reality"
       aria-label="Balencia Today Screen"
       data-product-reality="true"
+      data-session82-product-exit={exitProgress > 0 ? "resolving-to-closing" : "today-screen"}
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 1 - exitProgress * 0.86 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.42, ease: "easeOut" }}
       style={stageStyle}
@@ -36,7 +41,7 @@ export function ProductRealityOverlay() {
       <motion.div
         className="product-reality__stage"
         initial={{ opacity: 0, x: 30, scale: 0.96 }}
-        animate={{ opacity: 1, x: 0, scale: 1 }}
+        animate={{ opacity: 1, x: -exitProgress * 18, scale: 1 - exitProgress * 0.035 }}
         transition={{ duration: 0.62, ease: [0.19, 1, 0.22, 1] }}
       >
         <div className="product-reality__depth" aria-hidden="true" />

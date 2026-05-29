@@ -10,6 +10,8 @@
 
 **Exterior Status**: Session 26 Complete -- QA APPROVED
 **Exterior Approved**: [x] Yes / Date: 2026-05-24
+**Phase 8 v2 Polish**: Session 75 Approved / Date: 2026-05-26 -- 19,928 tris, 6 mesh objects, 151.5 KB, one clean `leaderboard-ext` root, no cameras/lights, and exterior `holo` remains absent per SPEC.
+**Phase 10 Hero LOD**: Session 88 Approved / Date: 2026-05-27 -- 30,536 tris, 6 packed objects, 199.8 KB, clean `leaderboard-ext-hero` root, and Scene 9 focused hero budget 236,455 / 270,000 tris.
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -148,6 +150,69 @@
 - `screenshots/s26_distance_view.png` -- Distance view confirming colosseum silhouette after detail pass
 - `screenshots/s26_dark_first.png` -- Emissions disabled; structure remains readable by dark geometry alone
 - `screenshots/s26_cohesion_all7.png` -- SIA, Fitness, Yoga, Finance, Knowledgebase, Chat, and Leaderboard together for Gate 6
+
+#### Session 75 -- 2026-05-26 -- Phase 8 Signature Exterior Polish
+
+**Skill**: Session 75 build loop via Codex + Blender background runner
+**Blender Version**: 5.1.x
+**Scope**: Additive Phase 8 v2 exterior polish, approved/app GLB promotion, evidence renders, and import QA.
+
+**Build Actions**:
+- Rebuilt from the pre-polish Session 26 exterior draft to avoid compounding polish passes.
+- Added rim winner plinths, rank lights, seating guard rails, victory crown halos/spikes, arch score plates, competitor lane medals, and stronger apex lightning branchwork.
+- Preserved the open-top arena silhouette, bottom-centered origin, city-layout-v2 placement assumptions, and baked Leaderboard lightning route assumptions.
+- Kept the exterior material set to `accent`, `base`, `detail`, `emissive`, `energy`, and `glass`; `holo` remains absent per Leaderboard SPEC.
+
+**Export Metrics**:
+- Previous approved exterior: 17,424 tris, 180 mesh objects, 278,620 bytes.
+- Session 75 v2 exterior: 19,928 tris, 6 mesh objects, 155,148 bytes (151.5 KB).
+- Root: one clean root named `leaderboard-ext`.
+- Cameras/lights: none exported.
+- BBox min Z: within tolerance at ground plane.
+
+**Files**:
+- Prompt: `prompts/session-75-leaderboard-analytics-nutrition-signature-polish-wave.md`
+- Build script: `assembly/drafts/build-session-75-signature-polish.py`
+- Metrics: `exterior/drafts/session75-v2-metrics.json`
+- QA import report: `exterior/drafts/session75-qa-import.json`
+- Draft GLB: `exterior/drafts/leaderboard-ext-v2-draft-s75.glb`
+- Approved GLB: `exterior/approved/leaderboard-ext.glb`
+
+**Screenshots**:
+- `screenshots/session75-leaderboard-v2-front.png`
+- `screenshots/session75-leaderboard-v2-threequarter.png`
+- `screenshots/session75-leaderboard-v2-dark-first.png`
+- `assembly/screenshots/s75-exterior-finish-contact-sheet.png`
+
+**Final Verdict**: APPROVED for Phase 8 v2 exterior polish.
+
+#### Session 88 -- 2026-05-27 -- Phase 10 Organic/Signature Hero LOD
+
+**Scope**: Focused-scene hero exterior LOD for Phase 10. The overview exterior remains `exterior/approved/leaderboard-ext.glb`; Scene 9 can load `exteriorHero` on demand.
+
+**Build Actions**:
+- Added finished bowl seating cadence, guard rails, rim engineering, and scoreboard facade hardware.
+- Added grand entry depth, competitor lane steps, rank glyphs, victory pillar caps, and a more resolved lightning crown.
+- Preserved the open-top arena identity, approved root/origin assumptions, baked lightning endpoint, and no-`holo` material set.
+- Promoted the validated hero GLB to `exterior/approved/leaderboard-ext-hero.glb` and `apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb`.
+
+**Metrics**:
+- Overview exterior: 19,928 tris, 6 objects, 151.5 KB.
+- Session 88 hero exterior: 30,536 tris, 6 packed objects, 204,556 bytes (199.8 KB).
+- Focused Scene 9 budget: 236,455 / 270,000 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `leaderboard-ext-hero`.
+
+**Evidence**:
+- `screenshots/session88-leaderboard-hero-front.png`
+- `screenshots/session88-leaderboard-hero-three-quarter.png`
+- `screenshots/session88-leaderboard-hero-ground-up.png`
+- `screenshots/session88-leaderboard-hero-dark-first.png`
+- `assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-09-leaderboard-leaderboard-arena-hero-after.png`
+- `exterior/drafts/session88-hero-metrics.json`
+- `exterior/drafts/session88-hero-qa-import.json`
+
+**Final Verdict**: APPROVED for Phase 10 architectural completion hero LOD.
 
 ### QA Reviews
 <!-- DESIGN-08 appends gate results here -->

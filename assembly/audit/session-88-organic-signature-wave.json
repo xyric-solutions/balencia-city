@@ -1,0 +1,908 @@
+{
+  "session": 88,
+  "date": "2026-05-27",
+  "scope": "Phase 10 organic/signature wave hero exteriors for Yoga, Recovery, Relationships, Leaderboard, and Nutrition",
+  "status": "APPROVED",
+  "hero_exteriors": {
+    "yoga": {
+      "session": 88,
+      "date": "2026-05-27",
+      "module": "Yoga and Wellbeing",
+      "id": "yoga",
+      "source_glb": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "output_blend": "modules/02-yoga-wellbeing/exterior/drafts/yoga-session88-hero.blend",
+      "draft_glb": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-hero-draft-s88.glb",
+      "approved_glb": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext-hero.glb",
+      "pre_tris": 16052,
+      "pre_objects": 154,
+      "pre_bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "final_live_tris": 23740,
+      "final_live_objects": 7,
+      "final_tris": 23740,
+      "final_objects": 7,
+      "final_size_bytes": 163280,
+      "final_size_kb": 159.5,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          -0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4922
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4922
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7461
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "created_categories": {
+        "session88 yoga finished floating deck and lake threshold": {
+          "objects": 52,
+          "tris": 2376
+        },
+        "session88 yoga resolved dome ribs and garden envelope": {
+          "objects": 90,
+          "tris": 4512
+        },
+        "session88 yoga warm mist receptor and quiet crown": {
+          "objects": 21,
+          "tris": 800
+        }
+      },
+      "evidence": {
+        "front": "modules/02-yoga-wellbeing/screenshots/session88-yoga-hero-front.png",
+        "three_quarter": "modules/02-yoga-wellbeing/screenshots/session88-yoga-hero-three-quarter.png",
+        "ground_up": "modules/02-yoga-wellbeing/screenshots/session88-yoga-hero-ground-up.png",
+        "dark_first": "modules/02-yoga-wellbeing/screenshots/session88-yoga-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "finished floating sanctuary deck, bridge thresholds, dome ribs, and garden ledges",
+        "sage breathing/floor rhythm visible from Scene 5 without hardening the silhouette",
+        "warm-mist receptor and lake edge read as complete district-specific crown/base logic"
+      ],
+      "budget": {
+        "tri_min": 23000,
+        "tri_max": 36000,
+        "size_min_kb": 80,
+        "size_max_kb": 700,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/02-yoga-wellbeing/exterior/drafts/yoga-ext-hero-draft-s88.glb",
+        "object_count": 7,
+        "tris": 23740,
+        "size_bytes": 163280,
+        "size_kb": 159.5,
+        "bbox": {
+          "min": [
+            -9.0,
+            -7.3804,
+            -0.0
+          ],
+          "max": [
+            9.0,
+            7.3806,
+            5.4922
+          ],
+          "size": [
+            18.0,
+            14.761,
+            5.4922
+          ],
+          "center": [
+            0.0,
+            0.0001,
+            2.7461
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass",
+          "holo"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "yoga-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    },
+    "leaderboard": {
+      "session": 88,
+      "date": "2026-05-27",
+      "module": "Leaderboard and Competition",
+      "id": "leaderboard",
+      "source_glb": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "output_blend": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-session88-hero.blend",
+      "draft_glb": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-hero-draft-s88.glb",
+      "approved_glb": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb",
+      "pre_tris": 19928,
+      "pre_objects": 6,
+      "pre_bbox": {
+        "min": [
+          -9.2,
+          -19.9017,
+          0.0
+        ],
+        "max": [
+          9.1994,
+          13.25,
+          11.3734
+        ],
+        "size": [
+          18.3994,
+          33.1517,
+          11.3734
+        ],
+        "center": [
+          -0.0003,
+          -3.3259,
+          5.6867
+        ]
+      },
+      "final_live_tris": 30536,
+      "final_live_objects": 6,
+      "final_tris": 30536,
+      "final_objects": 6,
+      "final_size_bytes": 204556,
+      "final_size_kb": 199.8,
+      "bbox": {
+        "min": [
+          -13.7715,
+          -32.6651,
+          0.0
+        ],
+        "max": [
+          13.7703,
+          13.25,
+          12.0898
+        ],
+        "size": [
+          27.5418,
+          45.9151,
+          12.0898
+        ],
+        "center": [
+          -0.0006,
+          -9.7076,
+          6.0449
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session88 leaderboard finished bowl seating and rim engineering": {
+          "objects": 163,
+          "tris": 7680
+        },
+        "session88 leaderboard grand entry and competitor lane": {
+          "objects": 34,
+          "tris": 432
+        },
+        "session88 leaderboard victory pillars and lightning crown": {
+          "objects": 39,
+          "tris": 2496
+        }
+      },
+      "evidence": {
+        "front": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-front.png",
+        "three_quarter": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-three-quarter.png",
+        "ground_up": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-ground-up.png",
+        "dark_first": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "open arena now has resolved rim engineering, seating cadence, victory pillar caps, and screen hardware",
+        "grand entry, competitor lane, and leaderboard facade read as finished from Scene 9",
+        "lightning receiver remains dramatic without changing the baked special energy endpoint"
+      ],
+      "budget": {
+        "tri_min": 27000,
+        "tri_max": 41000,
+        "size_min_kb": 90,
+        "size_max_kb": 760,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-hero-draft-s88.glb",
+        "object_count": 6,
+        "tris": 30536,
+        "size_bytes": 204556,
+        "size_kb": 199.8,
+        "bbox": {
+          "min": [
+            -13.7715,
+            -32.6651,
+            0.0
+          ],
+          "max": [
+            13.7703,
+            13.25,
+            12.0898
+          ],
+          "size": [
+            27.5418,
+            45.9151,
+            12.0898
+          ],
+          "center": [
+            -0.0006,
+            -9.7076,
+            6.0449
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "leaderboard-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    },
+    "relationships": {
+      "session": 88,
+      "date": "2026-05-27",
+      "module": "Relationships",
+      "id": "relationships",
+      "source_glb": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "output_blend": "modules/07-relationships/exterior/drafts/relationships-session88-hero.blend",
+      "draft_glb": "modules/07-relationships/exterior/drafts/relationships-ext-hero-draft-s88.glb",
+      "approved_glb": "modules/07-relationships/exterior/approved/relationships-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/07-relationships/relationships-ext-hero.glb",
+      "pre_tris": 17170,
+      "pre_objects": 10,
+      "pre_bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "final_live_tris": 29630,
+      "final_live_objects": 6,
+      "final_tris": 29630,
+      "final_objects": 6,
+      "final_size_bytes": 189972,
+      "final_size_kb": 185.5,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -13.2562,
+          -0.0
+        ],
+        "max": [
+          14.8065,
+          14.265,
+          7.6823
+        ],
+        "size": [
+          29.6137,
+          27.5212,
+          7.6823
+        ],
+        "center": [
+          -0.0004,
+          0.5044,
+          3.8411
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session88 relationships completed moat and civic garden edge": {
+          "objects": 31,
+          "tris": 2212
+        },
+        "session88 relationships roof domes and mist diffuser": {
+          "objects": 38,
+          "tris": 1848
+        },
+        "session88 relationships soft floor rhythm and terrace facade": {
+          "objects": 235,
+          "tris": 8400
+        }
+      },
+      "evidence": {
+        "front": "modules/07-relationships/screenshots/session88-relationships-hero-front.png",
+        "three_quarter": "modules/07-relationships/screenshots/session88-relationships-hero-three-quarter.png",
+        "ground_up": "modules/07-relationships/screenshots/session88-relationships-hero-ground-up.png",
+        "dark_first": "modules/07-relationships/screenshots/session88-relationships-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "low garden pavilion gains completed terrace facades, moat edge, bridges, and welcome thresholds",
+        "15-floor anti-tower rhythm remains readable through soft rose ledges and mullions",
+        "roof domes and warm-mist diffuser are resolved while preserving the human-scaled silhouette"
+      ],
+      "budget": {
+        "tri_min": 23000,
+        "tri_max": 36000,
+        "size_min_kb": 80,
+        "size_max_kb": 700,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/07-relationships/exterior/drafts/relationships-ext-hero-draft-s88.glb",
+        "object_count": 6,
+        "tris": 29630,
+        "size_bytes": 189972,
+        "size_kb": 185.5,
+        "bbox": {
+          "min": [
+            -14.8072,
+            -13.2562,
+            -0.0
+          ],
+          "max": [
+            14.8065,
+            14.265,
+            7.6823
+          ],
+          "size": [
+            29.6137,
+            27.5212,
+            7.6823
+          ],
+          "center": [
+            -0.0004,
+            0.5044,
+            3.8411
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "relationships-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    },
+    "recovery": {
+      "session": 88,
+      "date": "2026-05-27",
+      "module": "Recovery and Sleep",
+      "id": "recovery",
+      "source_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "output_blend": "modules/09-recovery-sleep/exterior/drafts/recovery-session88-hero.blend",
+      "draft_glb": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-hero-draft-s88.glb",
+      "approved_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext-hero.glb",
+      "pre_tris": 17412,
+      "pre_objects": 11,
+      "pre_bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "final_live_tris": 26612,
+      "final_live_objects": 6,
+      "final_tris": 26612,
+      "final_objects": 6,
+      "final_size_bytes": 184268,
+      "final_size_kb": 179.9,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -7.5234,
+          -0.0
+        ],
+        "max": [
+          10.8576,
+          7.5233,
+          8.8261
+        ],
+        "size": [
+          21.7151,
+          15.0467,
+          8.8261
+        ],
+        "center": [
+          0.0,
+          -0.0,
+          4.413
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session88 recovery completed lake cradle and soft supports": {
+          "objects": 20,
+          "tris": 4604
+        },
+        "session88 recovery layered translucent shell depth": {
+          "objects": 51,
+          "tris": 4272
+        },
+        "session88 recovery quiet thread receptor": {
+          "objects": 2,
+          "tris": 324
+        }
+      },
+      "evidence": {
+        "front": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-front.png",
+        "three_quarter": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-three-quarter.png",
+        "ground_up": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-ground-up.png",
+        "dark_first": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "ethereal shell receives finished contour layers, soft support collars, underside cradle, and lake boundary",
+        "no-floor continuous form remains intact while shell depth and embedded star cadence improve the hero read",
+        "faint-thread receptor is complete but still deliberately quiet"
+      ],
+      "budget": {
+        "tri_min": 22500,
+        "tri_max": 35000,
+        "size_min_kb": 80,
+        "size_max_kb": 700,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-hero-draft-s88.glb",
+        "object_count": 6,
+        "tris": 26612,
+        "size_bytes": 184268,
+        "size_kb": 179.9,
+        "bbox": {
+          "min": [
+            -10.8576,
+            -7.5234,
+            -0.0
+          ],
+          "max": [
+            10.8576,
+            7.5233,
+            8.8261
+          ],
+          "size": [
+            21.7151,
+            15.0467,
+            8.8261
+          ],
+          "center": [
+            0.0,
+            -0.0,
+            4.413
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "recovery-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    },
+    "nutrition": {
+      "session": 88,
+      "date": "2026-05-27",
+      "module": "Nutrition",
+      "id": "nutrition",
+      "source_glb": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "output_blend": "modules/11-nutrition/exterior/drafts/nutrition-session88-hero.blend",
+      "draft_glb": "modules/11-nutrition/exterior/drafts/nutrition-ext-hero-draft-s88.glb",
+      "approved_glb": "modules/11-nutrition/exterior/approved/nutrition-ext-hero.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/11-nutrition/nutrition-ext-hero.glb",
+      "pre_tris": 19876,
+      "pre_objects": 6,
+      "pre_bbox": {
+        "min": [
+          -5.6,
+          -5.8796,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.2857,
+          8.796
+        ],
+        "size": [
+          11.2,
+          10.1653,
+          8.796
+        ],
+        "center": [
+          0.0,
+          -0.797,
+          4.398
+        ]
+      },
+      "final_live_tris": 28124,
+      "final_live_objects": 6,
+      "final_tris": 28124,
+      "final_objects": 6,
+      "final_size_bytes": 182396,
+      "final_size_kb": 178.1,
+      "bbox": {
+        "min": [
+          -5.8744,
+          -7.4857,
+          0.0
+        ],
+        "max": [
+          5.8744,
+          4.8346,
+          9.8514
+        ],
+        "size": [
+          11.7488,
+          12.3203,
+          9.8514
+        ],
+        "center": [
+          0.0,
+          -1.3255,
+          4.9257
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session88 nutrition completed terrace farm facade": {
+          "objects": 360,
+          "tris": 5856
+        },
+        "session88 nutrition greenhouse and market threshold": {
+          "objects": 91,
+          "tris": 1236
+        },
+        "session88 nutrition roof service crown and hard socket": {
+          "objects": 13,
+          "tris": 1156
+        }
+      },
+      "evidence": {
+        "front": "modules/11-nutrition/screenshots/session88-nutrition-hero-front.png",
+        "three_quarter": "modules/11-nutrition/screenshots/session88-nutrition-hero-three-quarter.png",
+        "ground_up": "modules/11-nutrition/screenshots/session88-nutrition-hero-ground-up.png",
+        "dark_first": "modules/11-nutrition/screenshots/session88-nutrition-hero-dark-first.png"
+      },
+      "gate8_notes": [
+        "12-tier vertical farm gains finished terrace ledges, greenhouse mullions, irrigation detail, and market threshold",
+        "green plant identity and amber grow-light rhythm stay visible from Scene 14",
+        "roof vent crown and hard-pipeline socket read as complete service architecture"
+      ],
+      "budget": {
+        "tri_min": 26500,
+        "tri_max": 41000,
+        "size_min_kb": 90,
+        "size_max_kb": 760,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/11-nutrition/exterior/drafts/nutrition-ext-hero-draft-s88.glb",
+        "object_count": 6,
+        "tris": 28124,
+        "size_bytes": 182396,
+        "size_kb": 178.1,
+        "bbox": {
+          "min": [
+            -5.8744,
+            -7.4857,
+            0.0
+          ],
+          "max": [
+            5.8744,
+            4.8346,
+            9.8514
+          ],
+          "size": [
+            11.7488,
+            12.3203,
+            9.8514
+          ],
+          "center": [
+            0.0,
+            -1.3255,
+            4.9257
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "nutrition-ext-hero"
+        ],
+        "gate8_checks": {
+          "finished_facade_envelope": true,
+          "base_plinth_complete": true,
+          "roof_crown_resolved": true,
+          "floor_deck_rhythm_visible": true,
+          "frame_reads_intentional_not_scaffold": true,
+          "hero_camera_not_under_construction": true,
+          "preserved_silhouette_origin_endpoints_materials": true
+        },
+        "passed": true
+      }
+    }
+  },
+  "app_hero_evidence": {
+    "yoga": {
+      "scene": 5,
+      "slug": "yoga-sanctuary",
+      "path": "assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-05-yoga-yoga-sanctuary-hero-after.png",
+      "runtime_camera_position": [
+        113,
+        19,
+        -40
+      ],
+      "runtime_camera_target": [
+        74,
+        6.2,
+        -2
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 23740
+    },
+    "leaderboard": {
+      "scene": 9,
+      "slug": "leaderboard-arena",
+      "path": "assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-09-leaderboard-leaderboard-arena-hero-after.png",
+      "runtime_camera_position": [
+        -92,
+        25,
+        95
+      ],
+      "runtime_camera_target": [
+        -50,
+        8.6,
+        53
+      ],
+      "lens": 28,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 30536
+    },
+    "relationships": {
+      "scene": 10,
+      "slug": "relationships-garden",
+      "path": "assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-10-relationships-relationships-garden-hero-after.png",
+      "runtime_camera_position": [
+        -26,
+        20,
+        50
+      ],
+      "runtime_camera_target": [
+        -74,
+        5.8,
+        16
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 29630
+    },
+    "recovery": {
+      "scene": 12,
+      "slug": "recovery-dreamscape",
+      "path": "assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-12-recovery-recovery-dreamscape-hero-after.png",
+      "runtime_camera_position": [
+        -96,
+        17,
+        -39
+      ],
+      "runtime_camera_target": [
+        -44,
+        5.2,
+        -61
+      ],
+      "lens": 30,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 26612
+    },
+    "nutrition": {
+      "scene": 14,
+      "slug": "nutrition-farm",
+      "path": "assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-14-nutrition-nutrition-farm-hero-after.png",
+      "runtime_camera_position": [
+        -13,
+        18,
+        -106
+      ],
+      "runtime_camera_target": [
+        30,
+        8.0,
+        -66
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true,
+      "hero_tris": 28124
+    }
+  },
+  "contact_sheet": "assembly/screenshots/session-88-organic-signature-wave/s88-organic-signature-wave-before-after-contact-sheet.png",
+  "performance": {
+    "overview_city_tris": 225847,
+    "overview_city_tri_budget": 250000,
+    "focused_scene_tris": {
+      "yoga": 233535,
+      "leaderboard": 236455,
+      "relationships": 238307,
+      "recovery": 235047,
+      "nutrition": 234095
+    },
+    "focused_scene_tri_budget": 270000,
+    "active_source_bytes": 2198788,
+    "hero_source_bytes": 924472
+  },
+  "checks": {
+    "overview_lod_glbs_preserved": true,
+    "five_hero_exteriors_built": true,
+    "hero_glbs_pass_import_qa": true,
+    "gate8_completion_passed": true,
+    "app_hero_camera_evidence_complete": true,
+    "source_manifest_includes_exterior_hero_entries": true,
+    "public_asset_sync_copied_hero_glbs": true,
+    "overview_city_tri_budget_preserved": true,
+    "focused_hero_scene_budget_preserved": true
+  }
+}

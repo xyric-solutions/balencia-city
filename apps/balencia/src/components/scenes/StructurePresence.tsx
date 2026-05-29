@@ -1,5 +1,5 @@
 import { useFrame } from "@react-three/fiber";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 import { BRAND_COLORS } from "../../lib/materials";
 import type { StructureAsset, Vec3 } from "../../lib/types";
@@ -18,6 +18,9 @@ type StructurePresenceProps = {
   structures: StructureAsset[];
   activeDistrict: string;
   activeInteriorId?: string;
+  clickedBuildingHidden?: boolean;
+  clickInteriorId?: string;
+  isClickInteriorActive?: boolean;
   sceneIndex: number;
 };
 
@@ -505,9 +508,27 @@ function AmbientParticleField({
   );
 }
 
-function WorldActivity() {
+function WorldActivity({ isClickInteriorActive }: { isClickInteriorActive?: boolean }) {
+  const [worldVisible, setWorldVisible] = useState(true);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    if (isClickInteriorActive) {
+      timeoutRef.current = setTimeout(() => setWorldVisible(false), 250);
+    } else {
+      setWorldVisible(true);
+    }
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+  }, [isClickInteriorActive]);
+
   return (
-    <group name="World_Activity">
+    <group name="World_Activity" visible={worldVisible}>
       <VehicleTraffic />
       <PedestrianField />
       <AmbientParticleField
@@ -547,6 +568,9 @@ function WorldActivity() {
 export function StructurePresence({
   activeDistrict,
   activeInteriorId,
+  clickedBuildingHidden,
+  clickInteriorId,
+  isClickInteriorActive,
   sceneIndex,
   structures,
 }: StructurePresenceProps) {
@@ -556,11 +580,14 @@ export function StructurePresence({
         <StructurePresenceItem
           key={structure.id}
           active={activeDistrict === "city" || activeDistrict === structure.id}
-          hidden={sceneIndex === 3 && activeInteriorId === structure.id}
+          hidden={
+            (sceneIndex === 3 && activeInteriorId === structure.id) ||
+            (!!clickedBuildingHidden && clickInteriorId === structure.id)
+          }
           structure={structure}
         />
       ))}
-      <WorldActivity />
+      <WorldActivity isClickInteriorActive={isClickInteriorActive} />
     </group>
   );
 }

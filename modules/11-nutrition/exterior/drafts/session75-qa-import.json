@@ -1,0 +1,44 @@
+{
+  "path": "modules/11-nutrition/exterior/drafts/nutrition-ext-v2-draft-s75.glb",
+  "object_count": 6,
+  "tris": 19876,
+  "size_bytes": 124572,
+  "size_kb": 121.7,
+  "bbox": {
+    "min": [
+      -5.6,
+      -5.8796,
+      0.0
+    ],
+    "max": [
+      5.6,
+      4.2857,
+      8.796
+    ],
+    "size": [
+      11.2,
+      10.1653,
+      8.796
+    ],
+    "center": [
+      0.0,
+      -0.797,
+      4.398
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "nutrition-ext"
+  ],
+  "passed": true,
+  "root_check_passed": true
+}

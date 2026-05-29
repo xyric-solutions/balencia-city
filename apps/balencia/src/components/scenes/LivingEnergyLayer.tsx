@@ -14,6 +14,7 @@ import type { StructureAsset, Vec3 } from "../../lib/types";
 import { useScrollStore } from "../../store/useScrollStore";
 
 type LivingEnergyLayerProps = {
+  isClickInteriorActive?: boolean;
   structures: StructureAsset[];
 };
 
@@ -128,9 +129,9 @@ function buildRoutes({
       id: `sia-to-${districtId}`,
       color: BRAND_COLORS.energy,
       curve: arcedCurve(hubOrigin.clone(), districtAnchor(structure), overview ? 0.8 : 1),
-      intensity: overview ? 0.48 : 0.74,
+      intensity: overview ? 0.32 : 0.52,
       kind: "hub",
-      lineWidth: overview ? 0.78 : 1.18,
+      lineWidth: overview ? 0.55 : 0.85,
       packetCount: overview ? 2 : 3,
       phase: index * 0.137,
       speed: overview ? 0.13 : 0.18,
@@ -166,15 +167,15 @@ function buildRoutes({
 
 function toneConfig(tone: DistrictActivityTone, fallbackColor: string): ToneConfig {
   if (tone === "core") {
-    return { color: BRAND_COLORS.energy, scanOpacity: 0.46, tempo: 1 };
+    return { color: BRAND_COLORS.energy, scanOpacity: 0.32, tempo: 1 };
   }
 
   if (tone === "surge") {
-    return { color: fallbackColor, scanOpacity: 0.38, tempo: 1.42 };
+    return { color: fallbackColor, scanOpacity: 0.26, tempo: 1.42 };
   }
 
   if (tone === "calm") {
-    return { color: "#6EE7B7", scanOpacity: 0.3, tempo: 0.68 };
+    return { color: "#6EE7B7", scanOpacity: 0.2, tempo: 0.68 };
   }
 
   return { color: fallbackColor, scanOpacity: 0.34, tempo: 0.86 };
@@ -224,7 +225,7 @@ function AnimatedDataRoute({ route }: { route: EnergyRoute }) {
         <meshStandardMaterial
           color={route.color}
           emissive={route.color}
-          emissiveIntensity={route.kind === "cross" ? 1.45 : 1.2}
+          emissiveIntensity={route.kind === "cross" ? 1.0 : 0.8}
           toneMapped={false}
         />
       </instancedMesh>
@@ -282,9 +283,9 @@ function EnergyRouteMotes({ routes }: { routes: EnergyRoute[] }) {
       </bufferGeometry>
       <pointsMaterial
         color={BRAND_COLORS.energy}
-        size={0.2}
+        size={0.14}
         transparent
-        opacity={0.66}
+        opacity={0.42}
         depthWrite={false}
         blending={THREE.AdditiveBlending}
         toneMapped={false}
@@ -632,7 +633,86 @@ function LayoutV2PulseRing({ sceneIndex }: { sceneIndex: number }) {
   );
 }
 
-export function LivingEnergyLayer({ structures }: LivingEnergyLayerProps) {
+function CityWideDustParticles() {
+  const geometryRef = useRef<THREE.BufferGeometry | null>(null);
+  const count = 250;
+  const positions = useMemo(() => {
+    const pos = new Float32Array(count * 3);
+    for (let i = 0; i < count; i++) {
+      pos[i * 3] = (seeded(i, 20.1) - 0.5) * 160;
+      pos[i * 3 + 1] = 0.3 + seeded(i, 22.4) * 7.7;
+      pos[i * 3 + 2] = (seeded(i, 24.7) - 0.5) * 160;
+    }
+    return pos;
+  }, []);
+
+  useFrame(({ clock }) => {
+    const geometry = geometryRef.current;
+    if (!geometry) return;
+    const attribute = geometry.getAttribute("position") as THREE.BufferAttribute;
+
+    for (let i = 0; i < count; i++) {
+      let y = attribute.getY(i) + 0.002;
+      const lateralX = Math.sin(clock.elapsedTime * 0.3 + seeded(i, 30.1) * Math.PI * 2) * 0.01;
+      const lateralZ = Math.cos(clock.elapsedTime * 0.25 + seeded(i, 32.4) * Math.PI * 2) * 0.01;
+      if (y > 8.0) y = 0.3;
+      attribute.setX(i, attribute.getX(i) + lateralX);
+      attribute.setY(i, y);
+      attribute.setZ(i, attribute.getZ(i) + lateralZ);
+    }
+
+    attribute.needsUpdate = true;
+  });
+
+  return (
+    <points name="City_Wide_Dust_Particles">
+      <bufferGeometry ref={geometryRef}>
+        <bufferAttribute attach="attributes-position" args={[positions, 3]} />
+      </bufferGeometry>
+      <pointsMaterial
+        color="#FFE4CC"
+        size={0.12}
+        transparent
+        opacity={0.6}
+        depthWrite={false}
+        blending={THREE.AdditiveBlending}
+        toneMapped={false}
+      />
+    </points>
+  );
+}
+
+function SiaVolumetricBeacon() {
+  const coneRef = useRef<THREE.Mesh | null>(null);
+  const materialRef = useRef<THREE.MeshBasicMaterial | null>(null);
+
+  useFrame(({ clock }) => {
+    if (coneRef.current) {
+      coneRef.current.rotation.y = clock.elapsedTime * 0.003;
+    }
+    if (materialRef.current) {
+      materialRef.current.opacity = 0.04 + Math.sin(clock.elapsedTime * 0.5) * 0.008;
+    }
+  });
+
+  return (
+    <mesh ref={coneRef} position={[0, 53, 0]}>
+      <cylinderGeometry args={[3.5, 0.8, 40, 24, 1, true]} />
+      <meshBasicMaterial
+        ref={materialRef}
+        color={BRAND_COLORS.energy}
+        opacity={0.04}
+        transparent
+        depthWrite={false}
+        side={THREE.DoubleSide}
+        blending={THREE.AdditiveBlending}
+        toneMapped={false}
+      />
+    </mesh>
+  );
+}
+
+export function LivingEnergyLayer({ isClickInteriorActive = false, structures }: LivingEnergyLayerProps) {
   const activeDistrict = useScrollStore((state) => state.activeDistrict);
   const focusedDistrictId = useScrollStore((state) => state.focusedDistrictId);
   const hoveredDistrictId = useScrollStore((state) => state.hoveredDistrictId);
@@ -642,8 +722,47 @@ export function LivingEnergyLayer({ structures }: LivingEnergyLayerProps) {
     [activeDistrict, focusedDistrictId, hoveredDistrictId, sceneIndex, structures],
   );
 
+  const layerRef = useRef<THREE.Group | null>(null);
+  const dimRef = useRef(1);
+
+  useFrame(() => {
+    const group = layerRef.current;
+    if (!group || dimRef.current > 0.999) return;
+    group.traverse((obj) => {
+      const mat = (obj as THREE.Mesh).material as THREE.Material | undefined;
+      if (mat?.userData?._leBase != null) {
+        mat.opacity = mat.userData._leBase;
+      }
+    });
+  }, -1);
+
+  useFrame((_, delta) => {
+    const target = isClickInteriorActive ? 0.15 : 1;
+    dimRef.current = THREE.MathUtils.lerp(dimRef.current, target, Math.min(delta * 4, 1));
+    const group = layerRef.current;
+    if (!group) return;
+    const dim = dimRef.current;
+    if (dim > 0.999) {
+      group.traverse((obj) => {
+        const mat = (obj as THREE.Mesh).material as THREE.Material | undefined;
+        if (mat?.userData?._leBase != null) {
+          mat.opacity = mat.userData._leBase;
+          delete mat.userData._leBase;
+        }
+      });
+      return;
+    }
+    group.traverse((obj) => {
+      const mat = (obj as THREE.Mesh).material as THREE.Material | undefined;
+      if (mat && "opacity" in mat && mat.transparent) {
+        mat.userData._leBase = mat.opacity;
+        (mat as THREE.MeshBasicMaterial).opacity *= dim;
+      }
+    });
+  });
+
   return (
-    <group name="Living_Energy_Layer">
+    <group ref={layerRef} name="Living_Energy_Layer">
       <IntelligenceFogVeils sceneIndex={sceneIndex} />
       <LayoutV2PulseRing sceneIndex={sceneIndex} />
       <group name="Animated_Data_Flow_Routes">
@@ -682,6 +801,8 @@ export function LivingEnergyLayer({ structures }: LivingEnergyLayerProps) {
         size={0.22}
         structures={structures}
       />
+      <CityWideDustParticles />
+      <SiaVolumetricBeacon />
     </group>
   );
 }

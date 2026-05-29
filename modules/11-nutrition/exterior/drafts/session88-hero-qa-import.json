@@ -1,0 +1,52 @@
+{
+  "path": "modules/11-nutrition/exterior/drafts/nutrition-ext-hero-draft-s88.glb",
+  "object_count": 6,
+  "tris": 28124,
+  "size_bytes": 182396,
+  "size_kb": 178.1,
+  "bbox": {
+    "min": [
+      -5.8744,
+      -7.4857,
+      0.0
+    ],
+    "max": [
+      5.8744,
+      4.8346,
+      9.8514
+    ],
+    "size": [
+      11.7488,
+      12.3203,
+      9.8514
+    ],
+    "center": [
+      0.0,
+      -1.3255,
+      4.9257
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "nutrition-ext-hero"
+  ],
+  "gate8_checks": {
+    "finished_facade_envelope": true,
+    "base_plinth_complete": true,
+    "roof_crown_resolved": true,
+    "floor_deck_rhythm_visible": true,
+    "frame_reads_intentional_not_scaffold": true,
+    "hero_camera_not_under_construction": true,
+    "preserved_silhouette_origin_endpoints_materials": true
+  },
+  "passed": true
+}

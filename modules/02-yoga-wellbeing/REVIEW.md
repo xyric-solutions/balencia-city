@@ -10,6 +10,7 @@
 
 **Exterior Status**: Session 10 Fix 1 -- APPROVED
 **Exterior Approved**: [x] Yes / Date: 2026-05-23
+**Phase 10 Hero LOD**: Session 88 Approved / Date: 2026-05-27 -- 23,740 tris, 7 packed objects, 159.5 KB, clean `yoga-ext-hero` root, and Scene 5 focused hero budget 233,535 / 270,000 tris.
 
 ### Build Sessions
 
@@ -903,3 +904,66 @@ All alignment checks pass. All 4 camera shots score Pass. Gate 6 cohesion check 
 
 ### QA Reviews
 <!-- DESIGN-08 appends energy review here -->
+
+---
+
+## Phase 8 Exterior Polish
+
+### Session 73 -- 2026-05-26 -- Organic Exterior Polish Wave
+
+**Scope**: Phase 8.5 v2 exterior polish for the approved organic districts. Yoga was upgraded in-place from the approved GLB while preserving origin, bottom-center alignment, city-layout-v2 placement, app path, and warm-mist endpoint assumptions.
+
+**Build Actions**:
+- Added layered breathing-platform lamellae and sage shadow trim to give the floating platform more finished architectural thickness.
+- Added underside ribs so the hovering disc reads as engineered from below without changing the approved silhouette.
+- Added dome leaf skirts, holo breath bands, and lighter meridian ribs across the three dome forms.
+- Added hanging garden vines, small leaf clusters, and additional lake stepping stones to enrich the organic/water read.
+- Promoted the validated v2 GLB to `exterior/approved/yoga-ext.glb` and `apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext.glb`.
+
+**Metrics**:
+- Previous approved exterior: 12,796 tris, 151 objects, 228.3 KB.
+- Session 73 v2 exterior: 16,052 tris, 154 objects, 247.2 KB.
+- Added geometry: 55 source objects, 3,256 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`, `holo`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `yoga-ext`.
+
+**Evidence**:
+- `screenshots/session73-yoga-v2-front.png`
+- `screenshots/session73-yoga-v2-threequarter.png`
+- `screenshots/session73-yoga-v2-dark-first.png`
+- `exterior/drafts/session73-v2-metrics.json`
+- `exterior/drafts/session73-qa-import.json`
+
+**Verdict**: APPROVED. Yoga v2 stays within Phase 8 exterior budget and preserves the approved floating dome sanctuary identity.
+
+---
+
+## Phase 10 Architectural Completion Hero LOD
+
+### Session 88 -- 2026-05-27 -- Organic/Signature Wave
+
+**Scope**: Focused-scene hero exterior LOD for Phase 10. The overview exterior remains `exterior/approved/yoga-ext.glb`; Scene 5 can load `exteriorHero` on demand.
+
+**Build Actions**:
+- Added finished floating deck thickness, bridge thresholds, lake edging, and sanctuary base rhythm.
+- Added resolved dome ribs, breathing bands, garden ledges, and restrained underside detail so the organic forms read complete from the Scene 5 hero camera.
+- Added a quiet warm-mist receptor/crown treatment while preserving the approved silhouette, origin, layout position, and energy endpoint assumptions.
+- Promoted the validated hero GLB to `exterior/approved/yoga-ext-hero.glb` and `apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext-hero.glb`.
+
+**Metrics**:
+- Overview exterior: 16,052 tris, 154 objects, 247.2 KB.
+- Session 88 hero exterior: 23,740 tris, 7 packed objects, 163,280 bytes (159.5 KB).
+- Focused Scene 5 budget: 233,535 / 270,000 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`, `holo`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `yoga-ext-hero`.
+
+**Evidence**:
+- `screenshots/session88-yoga-hero-front.png`
+- `screenshots/session88-yoga-hero-three-quarter.png`
+- `screenshots/session88-yoga-hero-ground-up.png`
+- `screenshots/session88-yoga-hero-dark-first.png`
+- `assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-05-yoga-yoga-sanctuary-hero-after.png`
+- `exterior/drafts/session88-hero-metrics.json`
+- `exterior/drafts/session88-hero-qa-import.json`
+
+**Verdict**: APPROVED. Yoga hero LOD passes Gate 8 while preserving the floating dome sanctuary identity and overview LOD.

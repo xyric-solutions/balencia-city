@@ -10,6 +10,7 @@
 
 **Exterior Status**: Session 72 v2 Phase 8 polish approved
 **Exterior Approved**: [x] Yes / Date: 2026-05-26 (v2 polish; original approval 2026-05-22 per PROGRESS.md)
+**Phase 10 Hero Exterior LOD Status**: Session 87 Approved / Date: 2026-05-27
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -50,6 +51,30 @@ Historical screenshots are present for Session 6 major forms and Session 7 detai
 - `screenshots/session72-fitness-v2-threequarter.png`
 - `screenshots/session72-fitness-v2-dark-first.png`
 
+#### Session 87 (2026-05-27) -- Phase 10 Hero Exterior LOD
+
+**Focus**: Build the focused-scene Fitness hero exterior for Scene 4 while preserving the Session 72 overview exterior, origin, layout position, and hard-pipeline assumptions.
+
+**Added completion signals**:
+- Glass and panel skin behind the angular gym exoskeleton where the hero camera exposes frame gaps.
+- Training-deck floor cadence, diagonal braces, green activity readouts, resolved athletic plinth, track lanes, triangular entry portal, and trophy wall.
+- Rooftop mechanical housings, vent slits, and a hard-pipeline socket collar.
+
+**Metrics**:
+- Overview exterior: 16,402 tris, 45 mesh objects, 103.8 KB.
+- Session 87 hero exterior: 29,590 tris, 7 mesh objects, 143.6 KB.
+- Focused Scene 4 budget result: 239,035 tris, below the 270K focused-scene cap.
+- Approved GLB: `exterior/approved/fitness-ext-hero.glb`
+- App GLB: `apps/balencia/public/models/structures/01-fitness/fitness-ext-hero.glb`
+- Metrics: `exterior/drafts/session87-hero-metrics.json`
+- QA import: `exterior/drafts/session87-hero-qa-import.json`
+
+**Screenshots**:
+- `screenshots/session87-fitness-hero-front.png`
+- `screenshots/session87-fitness-hero-three-quarter.png`
+- `screenshots/session87-fitness-hero-ground-up.png`
+- `screenshots/session87-fitness-hero-dark-first.png`
+
 ### QA Reviews
 <!-- DESIGN-08 appends gate results here -->
 
@@ -69,6 +94,21 @@ This is not a reconstructed gate-by-gate QA review. Approval status is reconcile
 | 6 | PASS | Refreshed contact sheet rendered at `assembly/screenshots/s72-exterior-finish-contact-sheet.png`. |
 
 **Overall Verdict**: APPROVED -- Session 72 v2 polish promoted to approved and app paths.
+
+#### QA Review -- Session 87 Phase 10 Hero Exterior LOD
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Gate 8 architectural completion | Finished focused-scene hero read | PASS | Added facade skin, training-deck rhythm, resolved base/entry, trophy wall, roof mechanical crown, and pipeline collar. |
+| Runtime compatibility | Overview LOD preservation | PASS | Existing `fitness-ext.glb` remains the overview LOD; `fitness-ext-hero.glb` is used through `exteriorHero` in focused scenes. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported with approved material slots only, one root named `fitness-ext-hero`, 7 mesh objects, and no cameras/lights. |
+| Budget | Hero exterior density/file size | PASS | 29,590 tris / 143.6 KB; focused Scene 4 stays under budget at 239,035 tris. |
+
+**Evidence**:
+- `assembly/screenshots/session-87-urban-vertical-wave/s87-urban-vertical-wave-before-after-contact-sheet.png`
+- `assembly/audit/session-87-urban-vertical-wave.json`
+
+**Overall Verdict**: APPROVED -- Session 87 hero exterior promoted to approved and app paths.
 
 ---
 

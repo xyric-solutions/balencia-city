@@ -36,6 +36,14 @@ export type ActiveLabelLayout = {
   labelOffset?: number;
 };
 
+export type OverviewLabelLayout = {
+  distanceFactor?: number;
+  height: number;
+  lateral?: number;
+  maxWidth?: number;
+  offset: number;
+};
+
 export type ScreenLabelLayout = {
   left: number;
   maxWidth?: number;
@@ -69,7 +77,7 @@ export const SIA_FOCUS_SCENES = new Set([1, 2, 3, 15, 17]);
 
 export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
   "sia-tower": {
-    label: "SIA tower",
+    label: "SIA Tower",
     place: "Civic intelligence core",
     padShape: "round",
     padSize: [29, 29],
@@ -94,8 +102,8 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
     boardDirection: [0, 0, 1],
   },
   fitness: {
-    label: "Fitness complex",
-    place: "Sports and movement district",
+    label: "Fitness district",
+    place: "Sports and movement complex",
     padShape: "rect",
     padSize: [22, 18],
     anchorHeight: 17,
@@ -118,8 +126,8 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
     mobileOverview: true,
   },
   yoga: {
-    label: "Yoga sanctuary",
-    place: "Wellbeing gardens",
+    label: "Yoga and wellbeing",
+    place: "Floating sanctuary",
     padShape: "oval",
     padSize: [23, 17],
     anchorHeight: 11,
@@ -138,11 +146,11 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
       insight: "Stress spikes pair with shorter reset sessions.",
       signal: "Calendar density changes calm prompts.",
     },
-    interactionTarget: false,
+    interactionTarget: true,
     mobileOverview: true,
   },
   finance: {
-    label: "Finance bank",
+    label: "Finance district",
     place: "Premium advisory tower",
     padShape: "octagon",
     padSize: [19, 19],
@@ -166,8 +174,8 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
     mobileOverview: true,
   },
   knowledgebase: {
-    label: "Knowledgebase library",
-    place: "Archive and learning district",
+    label: "Knowledgebase district",
+    place: "Archive and learning library",
     padShape: "rect",
     padSize: [22, 18],
     anchorHeight: 19,
@@ -186,12 +194,12 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
       insight: "Useful topics repeat when recent habits add context.",
       signal: "Career goals and chat questions steer recommendations.",
     },
-    interactionTarget: false,
+    interactionTarget: true,
     mobileOverview: true,
   },
   chat: {
-    label: "Chat hub",
-    place: "Communication district",
+    label: "Chat and communication",
+    place: "Conversation district",
     padShape: "rect",
     padSize: [23, 18],
     anchorHeight: 17,
@@ -210,21 +218,21 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
       insight: "Tone shifts flag where follow-up may help.",
       signal: "Relationships and recovery state adjust response timing.",
     },
-    interactionTarget: false,
+    interactionTarget: true,
     mobileOverview: true,
   },
   leaderboard: {
-    label: "Competition arena",
-    place: "Leaderboard district",
+    label: "Leaderboard and competition",
+    place: "Competition arena",
     padShape: "round",
     padSize: [23, 23],
-    anchorHeight: 12,
-    labelLift: 22,
+    anchorHeight: 18,
+    labelLift: 6,
     labelOffset: 18,
     labelTier: "standard",
     motif: "arena",
     motifColor: "#FB7185",
-    boardLift: 9,
+    boardLift: 7,
     boardOffset: 13,
     boardDistanceFactor: 22,
     boardWidth: 5.2,
@@ -234,21 +242,21 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
       insight: "Competition ramps only when consistency is stable.",
       signal: "Fitness streaks and sleep readiness shape difficulty.",
     },
-    interactionTarget: false,
+    interactionTarget: true,
     mobileOverview: true,
   },
   relationships: {
-    label: "Relationships garden",
+    label: "Relationships district",
     place: "Connection district",
     padShape: "oval",
     padSize: [24, 18],
     anchorHeight: 10,
-    labelLift: 50,
+    labelLift: 5,
     labelOffset: 20,
     labelTier: "standard",
     motif: "garden",
     motifColor: "#F43F5E",
-    boardLift: 10,
+    boardLift: 5,
     boardOffset: 14,
     boardDistanceFactor: 22,
     boardWidth: 5.6,
@@ -263,17 +271,17 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
     boardDirection: [0.55, 0, 0.84],
   },
   career: {
-    label: "Career towers",
-    place: "Professional growth district",
+    label: "Career district",
+    place: "Professional growth towers",
     padShape: "rect",
     padSize: [22, 19],
     anchorHeight: 23,
-    labelLift: 13,
+    labelLift: 6,
     labelOffset: 18,
     labelTier: "major",
     motif: "career",
     motifColor: "#3B82F6",
-    boardLift: 11,
+    boardLift: 8,
     boardOffset: 14,
     boardDistanceFactor: 22,
     boardWidth: 5.4,
@@ -292,7 +300,7 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
     padShape: "oval",
     padSize: [24, 18],
     anchorHeight: 10,
-    labelLift: 15,
+    labelLift: 5,
     labelOffset: 20,
     labelTier: "standard",
     motif: "sleep",
@@ -307,7 +315,7 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
       insight: "Bedtime shifts explain tomorrow's focus forecast.",
       signal: "Training load and stress set recovery priority.",
     },
-    interactionTarget: false,
+    interactionTarget: true,
     mobileOverview: true,
   },
   analytics: {
@@ -331,12 +339,12 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
       insight: "Outliers become recommendations when signals repeat.",
       signal: "All districts feed confidence and trend strength.",
     },
-    interactionTarget: false,
+    interactionTarget: true,
     mobileOverview: true,
   },
   nutrition: {
-    label: "Nutrition farm",
-    place: "Food and nourishment district",
+    label: "Nutrition district",
+    place: "Food and nourishment farm",
     padShape: "rect",
     padSize: [23, 18],
     anchorHeight: 14,
@@ -355,65 +363,89 @@ export const DISTRICT_PROFILES: Record<string, DistrictProfile> = {
       insight: "Protein and hydration shape energy later in the day.",
       signal: "Fitness load and sleep quality adjust meal timing.",
     },
-    interactionTarget: false,
+    interactionTarget: true,
     mobileOverview: true,
   },
 };
 
 export const ACTIVE_LABEL_LAYOUT_OVERRIDES: Record<number, Record<string, ActiveLabelLayout>> = {
   4: {
-    fitness: { distanceFactor: 21, labelHeight: 14, labelOffset: 2.8 },
+    fitness: { distanceFactor: 21, labelHeight: 14, labelOffset: 3.2 },
+  },
+  5: {
+    yoga: { distanceFactor: 22, labelHeight: 10.5, labelOffset: 3.1 },
   },
   6: {
-    finance: { distanceFactor: 20, labelHeight: 16, labelOffset: 2.4 },
+    finance: { distanceFactor: 20, labelHeight: 16, labelOffset: 3 },
+  },
+  7: {
+    knowledgebase: { distanceFactor: 22, labelHeight: 15, labelOffset: 3.3 },
+  },
+  8: {
+    chat: { distanceFactor: 22, labelHeight: 14, labelOffset: 3.4 },
+  },
+  9: {
+    leaderboard: { distanceFactor: 22, labelHeight: 12, labelOffset: 3.5 },
+  },
+  10: {
+    relationships: { distanceFactor: 22, labelHeight: 9, labelOffset: 3.2 },
   },
   11: {
-    career: { distanceFactor: 22, labelHeight: 20, labelOffset: 2.6 },
+    career: { distanceFactor: 22, labelHeight: 18.5, labelOffset: 3.4 },
+  },
+  12: {
+    recovery: { distanceFactor: 22, labelHeight: 8.8, labelOffset: 3.4 },
+  },
+  13: {
+    analytics: { distanceFactor: 22, labelHeight: 16, labelOffset: 3.2 },
+  },
+  14: {
+    nutrition: { distanceFactor: 22, labelHeight: 11.5, labelOffset: 3.4 },
   },
 };
 
-export const OVERVIEW_LABEL_LAYOUTS: Record<number, Record<string, ScreenLabelLayout>> = {
+export const OVERVIEW_LABEL_LAYOUTS: Record<number, Record<string, OverviewLabelLayout>> = {
   1: {
-    "sia-tower": { left: 50, maxWidth: 170, top: 28 },
-    recovery: { left: 32, maxWidth: 180, top: 34 },
-    analytics: { left: 45, top: 33 },
-    nutrition: { left: 58, top: 35 },
-    career: { left: 25, top: 45 },
-    fitness: { left: 74, top: 44 },
-    relationships: { left: 45, maxWidth: 188, top: 48 },
-    yoga: { left: 81, top: 54 },
-    leaderboard: { left: 45, maxWidth: 180, top: 62 },
-    finance: { left: 70, top: 64 },
-    chat: { left: 49, top: 76 },
-    knowledgebase: { left: 61, maxWidth: 188, top: 73 },
+    "sia-tower": { distanceFactor: 120, height: 56, maxWidth: 170, offset: 8 },
+    recovery: { height: 17, lateral: -5, maxWidth: 170, offset: 9 },
+    analytics: { height: 26, lateral: -4, offset: 8 },
+    nutrition: { height: 21, lateral: 4, offset: 9 },
+    career: { height: 31, lateral: -5, offset: 10 },
+    fitness: { height: 24, lateral: -4, offset: 10 },
+    relationships: { height: 17, lateral: -4, maxWidth: 188, offset: 10 },
+    yoga: { height: 17, lateral: 5, offset: 10 },
+    leaderboard: { height: 20, lateral: -5, maxWidth: 196, offset: 9 },
+    finance: { height: 27, lateral: 4, offset: 8 },
+    chat: { distanceFactor: 78, height: 27, lateral: -22, maxWidth: 188, offset: 9 },
+    knowledgebase: { height: 25, lateral: 3, maxWidth: 188, offset: 9 },
   },
   15: {
-    "sia-tower": { left: 50, maxWidth: 170, top: 25 },
-    recovery: { left: 27, maxWidth: 180, top: 34 },
-    analytics: { left: 43, top: 30 },
-    nutrition: { left: 61, top: 31 },
-    career: { left: 22, top: 48 },
-    fitness: { left: 78, top: 40 },
-    relationships: { left: 45, maxWidth: 188, top: 57 },
-    yoga: { left: 82, top: 52 },
-    leaderboard: { left: 40, maxWidth: 184, top: 72 },
-    finance: { left: 73, top: 66 },
-    chat: { left: 50, top: 78 },
-    knowledgebase: { left: 64, maxWidth: 190, top: 75 },
+    "sia-tower": { distanceFactor: 124, height: 58, maxWidth: 170, offset: 8 },
+    recovery: { height: 17, lateral: -7, maxWidth: 170, offset: 10 },
+    analytics: { height: 27, lateral: -5, offset: 9 },
+    nutrition: { height: 22, lateral: 5, offset: 10 },
+    career: { height: 32, lateral: -6, offset: 11 },
+    fitness: { height: 25, lateral: -5, offset: 11 },
+    relationships: { height: 17, lateral: -5, maxWidth: 188, offset: 11 },
+    yoga: { height: 17, lateral: 6, offset: 11 },
+    leaderboard: { height: 20, lateral: -6, maxWidth: 196, offset: 10 },
+    finance: { height: 28, lateral: 5, offset: 9 },
+    chat: { height: 24, lateral: 1, maxWidth: 188, offset: 10 },
+    knowledgebase: { height: 26, lateral: 4, maxWidth: 188, offset: 10 },
   },
   17: {
-    "sia-tower": { left: 50, maxWidth: 170, top: 26 },
-    recovery: { left: 29, maxWidth: 180, top: 36 },
-    analytics: { left: 43, top: 32 },
-    nutrition: { left: 61, top: 33 },
-    career: { left: 25, top: 44 },
-    fitness: { left: 76, top: 41 },
-    relationships: { left: 45, maxWidth: 188, top: 57 },
-    yoga: { left: 80, top: 53 },
-    leaderboard: { left: 40, maxWidth: 184, top: 72 },
-    finance: { left: 72, top: 65 },
-    chat: { left: 50, top: 78 },
-    knowledgebase: { left: 62, maxWidth: 190, top: 74 },
+    "sia-tower": { distanceFactor: 122, height: 58, maxWidth: 170, offset: 8 },
+    recovery: { height: 17, lateral: -6, maxWidth: 170, offset: 10 },
+    analytics: { height: 27, lateral: -5, offset: 9 },
+    nutrition: { height: 22, lateral: 5, offset: 10 },
+    career: { height: 31, lateral: -6, offset: 11 },
+    fitness: { height: 24, lateral: -5, offset: 11 },
+    relationships: { height: 17, lateral: -5, maxWidth: 188, offset: 11 },
+    yoga: { height: 17, lateral: 6, offset: 11 },
+    leaderboard: { height: 42, lateral: -14, maxWidth: 196, offset: 10 },
+    finance: { height: 28, lateral: 5, offset: 9 },
+    chat: { height: 24, lateral: 1, maxWidth: 188, offset: 10 },
+    knowledgebase: { height: 26, lateral: 4, maxWidth: 188, offset: 10 },
   },
 };
 
@@ -426,6 +458,40 @@ export const FOCUSED_LABEL_LAYOUTS: Record<number, { id: string } & ScreenLabelL
 export const INTERACTIVE_DISTRICT_IDS = Object.entries(DISTRICT_PROFILES)
   .filter(([, profile]) => profile.interactionTarget)
   .map(([id]) => id);
+
+export const FOCUSED_SCENE_INTERACTION_IDS: Record<number, string> = {
+  2: "sia-tower",
+  3: "sia-tower",
+  4: "fitness",
+  5: "yoga",
+  6: "finance",
+  7: "knowledgebase",
+  8: "chat",
+  9: "leaderboard",
+  10: "relationships",
+  11: "career",
+  12: "recovery",
+  13: "analytics",
+  14: "nutrition",
+};
+
+export function getInteractionDistrictIdsForScene(sceneIndex: number) {
+  if (OVERVIEW_SCENES.has(sceneIndex)) {
+    return INTERACTIVE_DISTRICT_IDS;
+  }
+
+  const activeDistrictId = FOCUSED_SCENE_INTERACTION_IDS[sceneIndex];
+
+  if (!activeDistrictId || !INTERACTIVE_DISTRICT_IDS.includes(activeDistrictId)) {
+    return [];
+  }
+
+  return [activeDistrictId];
+}
+
+export function canInteractWithDistrictInScene(districtId: string | undefined, sceneIndex: number) {
+  return !!districtId && getInteractionDistrictIdsForScene(sceneIndex).includes(districtId);
+}
 
 export function getDistrictProfile(id: string) {
   return DISTRICT_PROFILES[id] ?? DISTRICT_PROFILES["sia-tower"];

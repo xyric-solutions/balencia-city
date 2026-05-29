@@ -10,6 +10,7 @@
 
 **Exterior Status**: Approved -- Session 38 Complete
 **Exterior Approved**: [x] Yes / Date: 2026-05-24
+**Phase 10 Hero LOD**: Session 88 Approved / Date: 2026-05-27 -- 26,612 tris, 6 packed objects, 179.9 KB, clean `recovery-ext-hero` root, and Scene 12 focused hero budget 235,047 / 270,000 tris.
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -407,3 +408,66 @@ Recovery integration is approved. Exterior and interior assets align, Scene 12 c
 - `energy-system/screenshots/s51-faint-thread-recovery.png`
 
 **Overall Verdict**: APPROVED
+
+---
+
+## Phase 8 Exterior Polish
+
+### Session 73 -- 2026-05-26 -- Organic Exterior Polish Wave
+
+**Scope**: Phase 8.5 v2 exterior polish for the approved organic districts. Recovery was upgraded in-place from the approved GLB while preserving origin, bottom-center alignment, city-layout-v2 placement, app path, and faint-thread endpoint assumptions.
+
+**Build Actions**:
+- Added lake sleep ripples and dark reflection shelves to improve the mirror-lake base without turning it into Yoga's sanctuary water language.
+- Added soft-shell contour ribbons that strengthen the cloud-lobe finish while preserving the no-sharp-edges silhouette.
+- Added restrained pillar halos and glass sleeves around the indigo support beams.
+- Added muted star jewels and dissolving edge wisps to reinforce the dreamscape identity.
+- Promoted the validated v2 GLB to `exterior/approved/recovery-ext.glb` and `apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext.glb`.
+
+**Metrics**:
+- Previous approved exterior: 14,488 tris, 6 packed objects, 131.6 KB.
+- Session 73 v2 exterior: 17,412 tris, 11 objects, 147.3 KB.
+- Added geometry: 29 source objects, 2,924 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `recovery-ext`.
+
+**Evidence**:
+- `screenshots/session73-recovery-v2-front.png`
+- `screenshots/session73-recovery-v2-threequarter.png`
+- `screenshots/session73-recovery-v2-dark-first.png`
+- `exterior/drafts/session73-v2-metrics.json`
+- `exterior/drafts/session73-qa-import.json`
+
+**Verdict**: APPROVED. Recovery v2 stays within Phase 8 exterior budget and preserves the approved floating cloud-over-lake identity.
+
+---
+
+## Phase 10 Architectural Completion Hero LOD
+
+### Session 88 -- 2026-05-27 -- Organic/Signature Wave
+
+**Scope**: Focused-scene hero exterior LOD for Phase 10. The overview exterior remains `exterior/approved/recovery-ext.glb`; Scene 12 can load `exteriorHero` on demand.
+
+**Build Actions**:
+- Added layered shell contour depth, lake cradle finish, soft support collars, and reflection-ripple base details.
+- Added embedded star cadence, fading wisps, underside finish, and a restrained faint-thread receptor so the dream-cloud reads intentionally complete from the Scene 12 camera.
+- Preserved the soft floating cloud-over-lake silhouette, origin, layout position, and faint-thread endpoint assumptions.
+- Promoted the validated hero GLB to `exterior/approved/recovery-ext-hero.glb` and `apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext-hero.glb`.
+
+**Metrics**:
+- Overview exterior: 17,412 tris, 11 objects, 147.3 KB.
+- Session 88 hero exterior: 26,612 tris, 6 packed objects, 184,268 bytes (179.9 KB).
+- Focused Scene 12 budget: 235,047 / 270,000 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `recovery-ext-hero`.
+
+**Evidence**:
+- `screenshots/session88-recovery-hero-front.png`
+- `screenshots/session88-recovery-hero-three-quarter.png`
+- `screenshots/session88-recovery-hero-ground-up.png`
+- `screenshots/session88-recovery-hero-dark-first.png`
+- `assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-12-recovery-recovery-dreamscape-hero-after.png`
+- `exterior/drafts/session88-hero-metrics.json`
+- `exterior/drafts/session88-hero-qa-import.json`
+
+**Verdict**: APPROVED. Recovery hero LOD passes Gate 8 while preserving the floating cloud-over-lake identity and overview LOD.

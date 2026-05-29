@@ -1,0 +1,155 @@
+{
+  "session": 88,
+  "date": "2026-05-27",
+  "module": "Recovery and Sleep",
+  "id": "recovery",
+  "source_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+  "output_blend": "modules/09-recovery-sleep/exterior/drafts/recovery-session88-hero.blend",
+  "draft_glb": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-hero-draft-s88.glb",
+  "approved_glb": "modules/09-recovery-sleep/exterior/approved/recovery-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext-hero.glb",
+  "pre_tris": 17412,
+  "pre_objects": 11,
+  "pre_bbox": {
+    "min": [
+      -10.8576,
+      -6.5486,
+      0.0
+    ],
+    "max": [
+      10.8576,
+      6.5483,
+      7.9645
+    ],
+    "size": [
+      21.7151,
+      13.0969,
+      7.9645
+    ],
+    "center": [
+      0.0,
+      -0.0001,
+      3.9823
+    ]
+  },
+  "final_live_tris": 26612,
+  "final_live_objects": 6,
+  "final_tris": 26612,
+  "final_objects": 6,
+  "final_size_bytes": 184268,
+  "final_size_kb": 179.9,
+  "bbox": {
+    "min": [
+      -10.8576,
+      -7.5234,
+      -0.0
+    ],
+    "max": [
+      10.8576,
+      7.5233,
+      8.8261
+    ],
+    "size": [
+      21.7151,
+      15.0467,
+      8.8261
+    ],
+    "center": [
+      0.0,
+      -0.0,
+      4.413
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session88 recovery completed lake cradle and soft supports": {
+      "objects": 20,
+      "tris": 4604
+    },
+    "session88 recovery layered translucent shell depth": {
+      "objects": 51,
+      "tris": 4272
+    },
+    "session88 recovery quiet thread receptor": {
+      "objects": 2,
+      "tris": 324
+    }
+  },
+  "evidence": {
+    "front": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-front.png",
+    "three_quarter": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-three-quarter.png",
+    "ground_up": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-ground-up.png",
+    "dark_first": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "ethereal shell receives finished contour layers, soft support collars, underside cradle, and lake boundary",
+    "no-floor continuous form remains intact while shell depth and embedded star cadence improve the hero read",
+    "faint-thread receptor is complete but still deliberately quiet"
+  ],
+  "budget": {
+    "tri_min": 22500,
+    "tri_max": 35000,
+    "size_min_kb": 80,
+    "size_max_kb": 700,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/09-recovery-sleep/exterior/drafts/recovery-ext-hero-draft-s88.glb",
+    "object_count": 6,
+    "tris": 26612,
+    "size_bytes": 184268,
+    "size_kb": 179.9,
+    "bbox": {
+      "min": [
+        -10.8576,
+        -7.5234,
+        -0.0
+      ],
+      "max": [
+        10.8576,
+        7.5233,
+        8.8261
+      ],
+      "size": [
+        21.7151,
+        15.0467,
+        8.8261
+      ],
+      "center": [
+        0.0,
+        -0.0,
+        4.413
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "recovery-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

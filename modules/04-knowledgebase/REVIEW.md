@@ -10,6 +10,7 @@
 
 **Exterior Status**: QA Approved (Session 18 Fix 1)
 **Exterior Approved**: [x] Yes / Date: 2026-05-23
+**Phase 10 Hero Exterior LOD Status**: Session 86 Approved / Date: 2026-05-27
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -1074,3 +1075,68 @@ The interior is approved for integration. The module is now ready for energy int
 
 ### QA Reviews
 <!-- DESIGN-08 appends energy review here -->
+
+### QA Review -- Session 74 Phase 8 Exterior Polish
+
+**Date**: 2026-05-26
+**Reviewer**: Codex + Blender
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Phase 8 exterior finish | Urban/civic detail pass | PASS | Added archive column sleeves/fluting, recessed vault arches, holo catalog panels, waterfall strands, reservoir basin, and crown beacon signals. |
+| Runtime compatibility | Origin, layout, app path | PASS | Preserved approved origin and city-layout-v2 assumptions; promoted to module approved and app public model paths. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported cleanly with approved material slots only, one root named `knowledgebase-ext`, and no cameras/lights. |
+| Budget | Phase 8 exterior density/file size | PASS | 15,204 tris, 7 objects, 102.0 KB. |
+
+**Artifacts**:
+- `modules/04-knowledgebase/exterior/drafts/session74-v2-metrics.json`
+- `modules/04-knowledgebase/exterior/drafts/session74-qa-import.json`
+- `modules/04-knowledgebase/screenshots/session74-knowledgebase-v2-front.png`
+- `modules/04-knowledgebase/screenshots/session74-knowledgebase-v2-threequarter.png`
+- `modules/04-knowledgebase/screenshots/session74-knowledgebase-v2-dark-first.png`
+
+**Overall Verdict**: APPROVED
+
+### QA Review -- Session 86 Phase 10 Hero Exterior LOD
+
+**Date**: 2026-05-27
+**Reviewer**: Codex + Blender
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Gate 8 architectural completion | Finished focused-scene hero read | PASS | Added a stronger archive base, stairs/vault threshold, complete floating data-floor envelope, waterfall intake/reservoir, and crown termination. |
+| Runtime compatibility | Overview LOD preservation | PASS | Existing `knowledgebase-ext.glb` remains the overview LOD; `knowledgebase-ext-hero.glb` is used only through `exteriorHero` in focused scenes. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported with approved material slots only, one root named `knowledgebase-ext-hero`, and no cameras/lights. |
+| Budget | Hero exterior density/file size | PASS | 23,728 tris, 7 objects, 146.0 KB; focused Scene 7 stays under budget at 234,371 tris. |
+
+**Artifacts**:
+- `modules/04-knowledgebase/exterior/approved/knowledgebase-ext-hero.glb`
+- `apps/balencia/public/models/structures/04-knowledgebase/knowledgebase-ext-hero.glb`
+- `modules/04-knowledgebase/exterior/drafts/session86-hero-metrics.json`
+- `modules/04-knowledgebase/exterior/drafts/session86-hero-qa-import.json`
+- `modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-front.png`
+- `modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-three-quarter.png`
+- `modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-ground-up.png`
+- `modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-dark-first.png`
+- `assembly/screenshots/session-86-pilot-wave/s86-pilot-wave-before-after-contact-sheet.png`
+
+**Overall Verdict**: APPROVED -- Session 86 hero exterior promoted to approved and app paths.
+
+### QA Review -- Session 76 Material Slot Repair
+
+**Date**: 2026-05-26
+**Reviewer**: Codex + Blender
+
+| Gate | Criterion | Result | Notes |
+|------|-----------|--------|-------|
+| Material slot hygiene | Every mesh has an approved material slot | PASS | Assigned the approved `detail` material to `knowledgebase_s74_detail_combined_mesh`, the only mesh found without a material in the first Session 76 final city audit. |
+| Geometry preservation | No modeling/layout changes | PASS | Triangle count stayed at 15,204; origin, bounding box, and layout-v2 placement assumptions were preserved. |
+| Runtime compatibility | Approved and app GLBs refreshed | PASS | Updated `modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb` and `apps/balencia/public/models/structures/04-knowledgebase/knowledgebase-ext.glb`. |
+| Import/export hygiene | Materials, roots, cameras/lights | PASS | Reimported with approved material roots only, one root named `knowledgebase-ext`, and no cameras/lights. |
+
+**Artifacts**:
+- `assembly/drafts/fix-session-76-knowledgebase-material-slot.py`
+- `modules/04-knowledgebase/exterior/drafts/knowledgebase-ext-v2-draft-s76-material-fix.glb`
+- `modules/04-knowledgebase/exterior/drafts/session76-material-slot-fix.json`
+
+**Overall Verdict**: APPROVED

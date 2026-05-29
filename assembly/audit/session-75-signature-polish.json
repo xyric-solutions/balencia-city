@@ -1,0 +1,1368 @@
+{
+  "session": 75,
+  "date": "2026-05-26",
+  "scope": "Phase 8.7 Leaderboard + AI Analytics + Nutrition signature exterior polish wave",
+  "pre_audit": [
+    {
+      "id": "sia-tower",
+      "label": "SIA Tower",
+      "path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "tris": 14844,
+      "object_count": 357,
+      "size_bytes": 392296,
+      "size_kb": 383.1,
+      "bbox": {
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ],
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "tris": 16402,
+      "object_count": 45,
+      "size_bytes": 106308,
+      "size_kb": 103.8,
+      "bbox": {
+        "min": [
+          -12.0733,
+          -12.2806,
+          0.0
+        ],
+        "max": [
+          12.0734,
+          12.0922,
+          14.1505
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ],
+        "center": [
+          0.0001,
+          -0.0942,
+          7.0753
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "yoga",
+      "label": "Yoga & Wellbeing",
+      "path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "tris": 16052,
+      "object_count": 154,
+      "size_bytes": 253132,
+      "size_kb": 247.2,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "tris": 15370,
+      "object_count": 205,
+      "size_bytes": 254740,
+      "size_kb": 248.8,
+      "bbox": {
+        "min": [
+          -6.5987,
+          -6.5987,
+          0.0
+        ],
+        "max": [
+          6.5987,
+          7.771,
+          18.43
+        ],
+        "size": [
+          13.1974,
+          14.3697,
+          18.43
+        ],
+        "center": [
+          0.0,
+          0.5861,
+          9.215
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "knowledgebase",
+      "label": "Knowledgebase",
+      "path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "tris": 15204,
+      "object_count": 7,
+      "size_bytes": 104420,
+      "size_kb": 102.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -9.6483,
+          0.0
+        ],
+        "max": [
+          5.7893,
+          2.2,
+          14.0407
+        ],
+        "size": [
+          8.478,
+          11.8483,
+          14.0407
+        ],
+        "center": [
+          1.5503,
+          -3.7242,
+          7.0204
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "chat",
+      "label": "Chat & Communication",
+      "path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "tris": 20052,
+      "object_count": 7,
+      "size_bytes": 161944,
+      "size_kb": 158.1,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.3949,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.7899,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "tris": 19928,
+      "object_count": 6,
+      "size_bytes": 155148,
+      "size_kb": 151.5,
+      "bbox": {
+        "min": [
+          -9.2,
+          -19.9017,
+          0.0
+        ],
+        "max": [
+          9.1994,
+          13.25,
+          11.3734
+        ],
+        "size": [
+          18.3994,
+          33.1517,
+          11.3734
+        ],
+        "center": [
+          -0.0003,
+          -3.3259,
+          5.6867
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships",
+      "path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "tris": 17170,
+      "object_count": 10,
+      "size_bytes": 131248,
+      "size_kb": 128.2,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "career",
+      "label": "Career",
+      "path": "modules/08-career/exterior/approved/career-ext.glb",
+      "tris": 20288,
+      "object_count": 6,
+      "size_bytes": 116084,
+      "size_kb": 113.4,
+      "bbox": {
+        "min": [
+          -7.9,
+          -6.6051,
+          0.0
+        ],
+        "max": [
+          7.8999,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.7999,
+          13.2101,
+          18.36
+        ],
+        "center": [
+          -0.0,
+          -0.0001,
+          9.18
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "recovery",
+      "label": "Recovery & Sleep",
+      "path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "tris": 17412,
+      "object_count": 11,
+      "size_bytes": 150820,
+      "size_kb": 147.3,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "analytics",
+      "label": "AI Analytics",
+      "path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "tris": 19411,
+      "object_count": 7,
+      "size_bytes": 127428,
+      "size_kb": 124.4,
+      "bbox": {
+        "min": [
+          -6.5999,
+          -5.2292,
+          0.0
+        ],
+        "max": [
+          6.5997,
+          4.9162,
+          16.71
+        ],
+        "size": [
+          13.1996,
+          10.1455,
+          16.71
+        ],
+        "center": [
+          -0.0001,
+          -0.1565,
+          8.355
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "tris": 19876,
+      "object_count": 6,
+      "size_bytes": 124576,
+      "size_kb": 121.7,
+      "bbox": {
+        "min": [
+          -5.6,
+          -5.8796,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.2857,
+          8.796
+        ],
+        "size": [
+          11.2,
+          10.1653,
+          8.796
+        ],
+        "center": [
+          0.0,
+          -0.797,
+          4.398
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    }
+  ],
+  "post_audit": [
+    {
+      "id": "sia-tower",
+      "label": "SIA Tower",
+      "path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "tris": 14844,
+      "object_count": 357,
+      "size_bytes": 392296,
+      "size_kb": 383.1,
+      "bbox": {
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ],
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "tris": 16402,
+      "object_count": 45,
+      "size_bytes": 106308,
+      "size_kb": 103.8,
+      "bbox": {
+        "min": [
+          -12.0733,
+          -12.2806,
+          0.0
+        ],
+        "max": [
+          12.0734,
+          12.0922,
+          14.1505
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ],
+        "center": [
+          0.0001,
+          -0.0942,
+          7.0753
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "yoga",
+      "label": "Yoga & Wellbeing",
+      "path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "tris": 16052,
+      "object_count": 154,
+      "size_bytes": 253132,
+      "size_kb": 247.2,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "tris": 15370,
+      "object_count": 205,
+      "size_bytes": 254740,
+      "size_kb": 248.8,
+      "bbox": {
+        "min": [
+          -6.5987,
+          -6.5987,
+          0.0
+        ],
+        "max": [
+          6.5987,
+          7.771,
+          18.43
+        ],
+        "size": [
+          13.1974,
+          14.3697,
+          18.43
+        ],
+        "center": [
+          0.0,
+          0.5861,
+          9.215
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "knowledgebase",
+      "label": "Knowledgebase",
+      "path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "tris": 15204,
+      "object_count": 7,
+      "size_bytes": 104420,
+      "size_kb": 102.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -9.6483,
+          0.0
+        ],
+        "max": [
+          5.7893,
+          2.2,
+          14.0407
+        ],
+        "size": [
+          8.478,
+          11.8483,
+          14.0407
+        ],
+        "center": [
+          1.5503,
+          -3.7242,
+          7.0204
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "chat",
+      "label": "Chat & Communication",
+      "path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "tris": 20052,
+      "object_count": 7,
+      "size_bytes": 161944,
+      "size_kb": 158.1,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.3949,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.7899,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "tris": 19928,
+      "object_count": 6,
+      "size_bytes": 155148,
+      "size_kb": 151.5,
+      "bbox": {
+        "min": [
+          -9.2,
+          -19.9017,
+          0.0
+        ],
+        "max": [
+          9.1994,
+          13.25,
+          11.3734
+        ],
+        "size": [
+          18.3994,
+          33.1517,
+          11.3734
+        ],
+        "center": [
+          -0.0003,
+          -3.3259,
+          5.6867
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships",
+      "path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "tris": 17170,
+      "object_count": 10,
+      "size_bytes": 131248,
+      "size_kb": 128.2,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "career",
+      "label": "Career",
+      "path": "modules/08-career/exterior/approved/career-ext.glb",
+      "tris": 20288,
+      "object_count": 6,
+      "size_bytes": 116084,
+      "size_kb": 113.4,
+      "bbox": {
+        "min": [
+          -7.9,
+          -6.6051,
+          0.0
+        ],
+        "max": [
+          7.8999,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.7999,
+          13.2101,
+          18.36
+        ],
+        "center": [
+          -0.0,
+          -0.0001,
+          9.18
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "recovery",
+      "label": "Recovery & Sleep",
+      "path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "tris": 17412,
+      "object_count": 11,
+      "size_bytes": 150820,
+      "size_kb": 147.3,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "analytics",
+      "label": "AI Analytics",
+      "path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "tris": 19411,
+      "object_count": 7,
+      "size_bytes": 127428,
+      "size_kb": 124.4,
+      "bbox": {
+        "min": [
+          -6.5999,
+          -5.2292,
+          0.0
+        ],
+        "max": [
+          6.5997,
+          4.9162,
+          16.71
+        ],
+        "size": [
+          13.1996,
+          10.1455,
+          16.71
+        ],
+        "center": [
+          -0.0001,
+          -0.1565,
+          8.355
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": []
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "tris": 19876,
+      "object_count": 6,
+      "size_bytes": 124572,
+      "size_kb": 121.7,
+      "bbox": {
+        "min": [
+          -5.6,
+          -5.8796,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.2857,
+          8.796
+        ],
+        "size": [
+          11.2,
+          10.1653,
+          8.796
+        ],
+        "center": [
+          0.0,
+          -0.797,
+          4.398
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": []
+    }
+  ],
+  "polished_modules": {
+    "leaderboard": {
+      "session": 75,
+      "script_revision": "s75-nutrition-green-accent-v2",
+      "date": "2026-05-26",
+      "module": "Leaderboard & Competition",
+      "source_glb": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-draft-s26.glb",
+      "output_blend": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-session75-v2-polish.blend",
+      "draft_glb": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-v2-draft-s75.glb",
+      "approved_glb": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+      "pre_tris": 17424,
+      "pre_objects": 180,
+      "pre_bbox": {
+        "min": [
+          -9.2,
+          -13.25,
+          0.0
+        ],
+        "max": [
+          9.2,
+          13.25,
+          10.6842
+        ],
+        "size": [
+          18.4,
+          26.5,
+          10.6842
+        ],
+        "center": [
+          0.0,
+          0.0,
+          5.3421
+        ]
+      },
+      "final_live_tris": 19928,
+      "final_live_objects": 6,
+      "final_tris": 19928,
+      "final_objects": 6,
+      "final_size_bytes": 155148,
+      "final_size_kb": 151.5,
+      "bbox": {
+        "min": [
+          -9.2,
+          -19.9017,
+          0.0
+        ],
+        "max": [
+          9.1994,
+          13.25,
+          11.3734
+        ],
+        "size": [
+          18.3994,
+          33.1517,
+          11.3734
+        ],
+        "center": [
+          -0.0003,
+          -3.3259,
+          5.6867
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session75 leaderboard arena victory finish": {
+          "objects": 128,
+          "tris": 2504
+        }
+      },
+      "budget": {
+        "tri_min": 18000,
+        "tri_max": 20500,
+        "size_min_kb": 100,
+        "size_max_kb": 400,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-v2-draft-s75.glb",
+        "object_count": 6,
+        "tris": 19928,
+        "size_bytes": 155148,
+        "size_kb": 151.5,
+        "bbox": {
+          "min": [
+            -9.2,
+            -19.9017,
+            0.0
+          ],
+          "max": [
+            9.1994,
+            13.25,
+            11.3734
+          ],
+          "size": [
+            18.3994,
+            33.1517,
+            11.3734
+          ],
+          "center": [
+            -0.0003,
+            -3.3259,
+            5.6867
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "leaderboard-ext"
+        ],
+        "passed": true,
+        "root_check_passed": true
+      }
+    },
+    "analytics": {
+      "session": 75,
+      "script_revision": "s75-nutrition-green-accent-v2",
+      "date": "2026-05-26",
+      "module": "AI Analytics",
+      "source_glb": "modules/10-ai-analytics/exterior/drafts/analytics-ext-draft-s42.glb",
+      "output_blend": "modules/10-ai-analytics/exterior/drafts/analytics-session75-v2-polish.blend",
+      "draft_glb": "modules/10-ai-analytics/exterior/drafts/analytics-ext-v2-draft-s75.glb",
+      "approved_glb": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext.glb",
+      "pre_tris": 16259,
+      "pre_objects": 7,
+      "pre_bbox": {
+        "min": [
+          -5.6286,
+          -4.7151,
+          0.0
+        ],
+        "max": [
+          5.6282,
+          4.715,
+          16.71
+        ],
+        "size": [
+          11.2568,
+          9.4301,
+          16.71
+        ],
+        "center": [
+          -0.0002,
+          -0.0,
+          8.355
+        ]
+      },
+      "final_live_tris": 19411,
+      "final_live_objects": 7,
+      "final_tris": 19411,
+      "final_objects": 7,
+      "final_size_bytes": 127428,
+      "final_size_kb": 124.4,
+      "bbox": {
+        "min": [
+          -6.5999,
+          -5.2292,
+          0.0
+        ],
+        "max": [
+          6.5997,
+          4.9162,
+          16.71
+        ],
+        "size": [
+          13.1996,
+          10.1455,
+          16.71
+        ],
+        "center": [
+          -0.0001,
+          -0.1565,
+          8.355
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "created_categories": {
+        "session75 analytics data cathedral living finish": {
+          "objects": 173,
+          "tris": 3152
+        }
+      },
+      "budget": {
+        "tri_min": 18000,
+        "tri_max": 20500,
+        "size_min_kb": 100,
+        "size_max_kb": 400,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/10-ai-analytics/exterior/drafts/analytics-ext-v2-draft-s75.glb",
+        "object_count": 7,
+        "tris": 19411,
+        "size_bytes": 127428,
+        "size_kb": 124.4,
+        "bbox": {
+          "min": [
+            -6.5999,
+            -5.2292,
+            0.0
+          ],
+          "max": [
+            6.5997,
+            4.9162,
+            16.71
+          ],
+          "size": [
+            13.1996,
+            10.1455,
+            16.71
+          ],
+          "center": [
+            -0.0001,
+            -0.1565,
+            8.355
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass",
+          "holo"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "analytics-ext"
+        ],
+        "passed": true,
+        "root_check_passed": true
+      }
+    },
+    "nutrition": {
+      "session": 75,
+      "script_revision": "s75-nutrition-green-accent-v2",
+      "date": "2026-05-26",
+      "module": "Nutrition",
+      "source_glb": "modules/11-nutrition/exterior/drafts/nutrition-ext-draft-s46.glb",
+      "output_blend": "modules/11-nutrition/exterior/drafts/nutrition-session75-v2-polish.blend",
+      "draft_glb": "modules/11-nutrition/exterior/drafts/nutrition-ext-v2-draft-s75.glb",
+      "approved_glb": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "app_public_glb": "apps/balencia/public/models/structures/11-nutrition/nutrition-ext.glb",
+      "pre_tris": 17964,
+      "pre_objects": 6,
+      "pre_bbox": {
+        "min": [
+          -5.6,
+          -4.1002,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.1,
+          8.5952
+        ],
+        "size": [
+          11.2,
+          8.2002,
+          8.5952
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          4.2976
+        ]
+      },
+      "final_live_tris": 19876,
+      "final_live_objects": 6,
+      "final_tris": 19876,
+      "final_objects": 6,
+      "final_size_bytes": 124572,
+      "final_size_kb": 121.7,
+      "bbox": {
+        "min": [
+          -5.6,
+          -5.8796,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.2857,
+          8.796
+        ],
+        "size": [
+          11.2,
+          10.1653,
+          8.796
+        ],
+        "center": [
+          0.0,
+          -0.797,
+          4.398
+        ]
+      },
+      "material_slots": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "created_categories": {
+        "session75 nutrition vertical farm harvest finish": {
+          "objects": 124,
+          "tris": 1912
+        }
+      },
+      "budget": {
+        "tri_min": 18000,
+        "tri_max": 20500,
+        "size_min_kb": 100,
+        "size_max_kb": 400,
+        "status": "APPROVED"
+      },
+      "qa": {
+        "path": "modules/11-nutrition/exterior/drafts/nutrition-ext-v2-draft-s75.glb",
+        "object_count": 6,
+        "tris": 19876,
+        "size_bytes": 124572,
+        "size_kb": 121.7,
+        "bbox": {
+          "min": [
+            -5.6,
+            -5.8796,
+            0.0
+          ],
+          "max": [
+            5.6,
+            4.2857,
+            8.796
+          ],
+          "size": [
+            11.2,
+            10.1653,
+            8.796
+          ],
+          "center": [
+            0.0,
+            -0.797,
+            4.398
+          ]
+        },
+        "materials": [
+          "accent",
+          "base",
+          "detail",
+          "emissive",
+          "energy",
+          "glass"
+        ],
+        "invalid_materials": [],
+        "cameras_lights": [],
+        "roots": [
+          "nutrition-ext"
+        ],
+        "passed": true,
+        "root_check_passed": true
+      }
+    }
+  },
+  "verdict": "APPROVED - signature v2 exterior polish complete; origins and runtime paths preserved."
+}

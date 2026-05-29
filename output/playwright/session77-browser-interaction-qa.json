@@ -1,0 +1,26 @@
+{
+  "session": 77,
+  "url": "http://localhost:3005/",
+  "date": "2026-05-26",
+  "result": "PASS",
+  "desktop": {
+    "viewport": "1280x720",
+    "checks": {
+      "overview_preview_copy": "12 / 12",
+      "scene_target_gates": "17 / 17",
+      "knowledgebase_scene_7_target_found": true,
+      "knowledgebase_scene_7_status": "Learning queue tuned",
+      "knowledgebase_finance_copy_leak": false,
+      "canvas_mounted_visible": true,
+      "canvas_export_nonblank": true
+    }
+  },
+  "mobile": {
+    "viewport": "390x844",
+    "checks": {
+      "scene_1_target_coverage": "12 / 12",
+      "canvas_mounted_visible": true
+    }
+  },
+  "console_warnings_errors": []
+}

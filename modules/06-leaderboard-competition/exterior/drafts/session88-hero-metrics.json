@@ -1,0 +1,155 @@
+{
+  "session": 88,
+  "date": "2026-05-27",
+  "module": "Leaderboard and Competition",
+  "id": "leaderboard",
+  "source_glb": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+  "output_blend": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-session88-hero.blend",
+  "draft_glb": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-hero-draft-s88.glb",
+  "approved_glb": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb",
+  "pre_tris": 19928,
+  "pre_objects": 6,
+  "pre_bbox": {
+    "min": [
+      -9.2,
+      -19.9017,
+      0.0
+    ],
+    "max": [
+      9.1994,
+      13.25,
+      11.3734
+    ],
+    "size": [
+      18.3994,
+      33.1517,
+      11.3734
+    ],
+    "center": [
+      -0.0003,
+      -3.3259,
+      5.6867
+    ]
+  },
+  "final_live_tris": 30536,
+  "final_live_objects": 6,
+  "final_tris": 30536,
+  "final_objects": 6,
+  "final_size_bytes": 204556,
+  "final_size_kb": 199.8,
+  "bbox": {
+    "min": [
+      -13.7715,
+      -32.6651,
+      0.0
+    ],
+    "max": [
+      13.7703,
+      13.25,
+      12.0898
+    ],
+    "size": [
+      27.5418,
+      45.9151,
+      12.0898
+    ],
+    "center": [
+      -0.0006,
+      -9.7076,
+      6.0449
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "created_categories": {
+    "session88 leaderboard finished bowl seating and rim engineering": {
+      "objects": 163,
+      "tris": 7680
+    },
+    "session88 leaderboard grand entry and competitor lane": {
+      "objects": 34,
+      "tris": 432
+    },
+    "session88 leaderboard victory pillars and lightning crown": {
+      "objects": 39,
+      "tris": 2496
+    }
+  },
+  "evidence": {
+    "front": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-front.png",
+    "three_quarter": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-three-quarter.png",
+    "ground_up": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-ground-up.png",
+    "dark_first": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "open arena now has resolved rim engineering, seating cadence, victory pillar caps, and screen hardware",
+    "grand entry, competitor lane, and leaderboard facade read as finished from Scene 9",
+    "lightning receiver remains dramatic without changing the baked special energy endpoint"
+  ],
+  "budget": {
+    "tri_min": 27000,
+    "tri_max": 41000,
+    "size_min_kb": 90,
+    "size_max_kb": 760,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-hero-draft-s88.glb",
+    "object_count": 6,
+    "tris": 30536,
+    "size_bytes": 204556,
+    "size_kb": 199.8,
+    "bbox": {
+      "min": [
+        -13.7715,
+        -32.6651,
+        0.0
+      ],
+      "max": [
+        13.7703,
+        13.25,
+        12.0898
+      ],
+      "size": [
+        27.5418,
+        45.9151,
+        12.0898
+      ],
+      "center": [
+        -0.0006,
+        -9.7076,
+        6.0449
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "leaderboard-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

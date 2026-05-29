@@ -11,6 +11,7 @@
 **Exterior Status**: Session 72 v2 Phase 8 polish approved
 
 **Exterior Approved**: [x] Yes / Date: 2026-05-26 (v2 polish; original Session 14 approval 2026-05-23)
+**Phase 10 Hero Exterior LOD Status**: Session 86 Approved / Date: 2026-05-27
 
 ### Build Sessions
 
@@ -344,6 +345,42 @@ This is a minor documentation inaccuracy, non-blocking.
 | 6 | PASS | Refreshed contact sheet rendered at `assembly/screenshots/s72-exterior-finish-contact-sheet.png`. |
 
 **Overall Verdict**: APPROVED -- Session 72 v2 polish promoted to approved and app paths.
+
+#### Session 86 (2026-05-27) -- Phase 10 Hero Exterior LOD
+
+**Focus**: Build the focused-scene Finance hero exterior for Scene 6 while preserving the Session 72 overview exterior, origin, layout position, and hard-pipeline assumptions.
+
+**Completion signals added**:
+- Solid crystalline envelope behind the gold frame.
+- Premium plinth, lobby threshold, and civic edge.
+- Resolved data crown cap and market/wealth signal layer visible from the app hero camera.
+
+**Metrics**:
+- Overview exterior: 15,370 tris, 205 mesh objects, 248.8 KB.
+- Session 86 hero exterior: 28,446 tris, 6 mesh objects, 181.6 KB.
+- Focused Scene 6 budget result: 238,923 tris, below the 270K focused-scene cap.
+- Approved GLB: `exterior/approved/finance-ext-hero.glb`
+- App GLB: `apps/balencia/public/models/structures/03-finance/finance-ext-hero.glb`
+- Metrics: `exterior/drafts/session86-hero-metrics.json`
+- QA import: `exterior/drafts/session86-hero-qa-import.json`
+
+**QA Review -- Session 86 Phase 10 Hero Exterior**
+
+| Gate | Result | Notes |
+|------|--------|-------|
+| Gate 8 architectural completion | PASS | Facade envelope, base plinth, roof crown, floor rhythm, and non-scaffolded hero read all pass. |
+| Runtime compatibility | PASS | Overview GLB remains the default LOD; `exteriorHero` loads only for focused Finance scenes. |
+| Import/export hygiene | PASS | Reimported with approved material slots only, one root named `finance-ext-hero`, and no cameras/lights. |
+| Budget | PASS | 28,446 tris within the 22K-33K hero target; 181.6 KB within file-size budget. |
+
+**Evidence**:
+- `screenshots/session86-finance-hero-front.png`
+- `screenshots/session86-finance-hero-three-quarter.png`
+- `screenshots/session86-finance-hero-ground-up.png`
+- `screenshots/session86-finance-hero-dark-first.png`
+- `assembly/screenshots/session-86-pilot-wave/s86-pilot-wave-before-after-contact-sheet.png`
+
+**Overall Verdict**: APPROVED -- Session 86 hero exterior promoted to approved and app paths.
 
 ---
 

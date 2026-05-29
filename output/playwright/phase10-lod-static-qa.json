@@ -1,0 +1,14 @@
+{
+  "phase": 10,
+  "status": "passed",
+  "checks": {
+    "packageScript": true,
+    "manifestPolicy": true,
+    "optionalHeroExteriorType": true,
+    "syncCopiesHeroExteriorWhenPresent": true,
+    "overviewEagerPreloadPreserved": true,
+    "focusedHeroPreloadOnDemand": true,
+    "focusedSceneHeroSelection": true,
+    "heroExteriorCount": 12
+  }
+}

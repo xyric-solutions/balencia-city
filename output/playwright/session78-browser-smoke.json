@@ -1,0 +1,16 @@
+{
+  "session": 78,
+  "date": "2026-05-26",
+  "target": "http://localhost:3006/",
+  "result": "PASS_WITH_SCREENSHOT_LIMITATION",
+  "checks": {
+    "activeButton": "Jump to scene 3: SIA tower interior",
+    "verdictCount": 1,
+    "atriumCueCount": 1,
+    "overlayTitleCount": 2,
+    "canvasCount": 1,
+    "consoleWarningsErrors": 0,
+    "screenshotCapture": "TIMEOUT: in-app browser Page.captureScreenshot timed out on the heavy WebGL scene",
+    "canvasPixelProbe": "LIMITED: in-app browser read-only evaluate exposes canvas dimensions but not getContext/toDataURL"
+  }
+}

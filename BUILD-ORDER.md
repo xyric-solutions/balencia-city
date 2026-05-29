@@ -110,13 +110,40 @@ Strict sequential build. ONE module at a time. No skipping. No parallel building
 | 8.2 | Assembly and energy layout rebase: rebuild full-city Blender assembly and all endpoint energy GLBs from `shared/city-layout-v2.json` | Done (Session 70) |
 | 8.3 | Exterior finish audit plus SIA pilot polish | Done (Session 71) |
 | 8.4 | Fitness + Finance exterior polish wave | Done (Session 72) |
-| 8.5 | Yoga + Recovery + Relationships organic polish wave | Next |
-| 8.6 | Knowledgebase + Chat + Career urban polish wave | Queued |
-| 8.7 | Leaderboard + Analytics + Nutrition signature polish wave | Queued |
-| 8.8 | Final Phase 8 city QA contact sheets and performance review | Queued |
+| 8.5 | Yoga + Recovery + Relationships organic polish wave | Done (Session 73) |
+| 8.6 | Knowledgebase + Chat + Career urban polish wave | Done (Session 74) |
+| 8.7 | Leaderboard + Analytics + Nutrition signature polish wave | Done (Session 75) |
+| 8.8 | Final Phase 8 city QA contact sheets and performance review | Done (Session 76) |
+
+## Phase 9: App Experience Repair
+
+Source audit: `BALENCIA-CURRENT-AUDIT.md`. Run these sessions sequentially. Start with app-layer interaction, camera, label, flow, and QA harness work before considering any new model work.
+
+| Step | Session | Task | Priority | Status |
+|------|---------|------|----------|--------|
+| 9.1 | 77 | P0 Interaction Truth Pass: add missing district interaction targets, gate targets by overview/active scene relevance, align hit areas, and prove Knowledgebase never shows Finance copy | P0 | Done |
+| 9.2 | 78 | P0 SIA Interior Rewrite: make Scene 3 read as entering SIA Tower with clear atrium, neural core, city model, walls/platforms, and midpoint interior read | P0 | Done |
+| 9.3 | 79 | Label Anchoring And Naming Pass: attach labels to model anchors where practical and standardize naming across labels, panels, nav, and overlays | P1 | Done |
+| 9.4 | 80 | Interior Reveal Pass, Scenes 4-8: tune Fitness, Yoga, Finance, Knowledgebase, and Chat exterior-to-interior starts, thresholds, and midpoints | P1 | Done |
+| 9.5 | 81 | Interior Reveal Pass, Scenes 9-14: tune Leaderboard, Relationships, Career, Recovery, Analytics, and Nutrition exterior-to-interior starts, thresholds, and midpoints | P1 | Done |
+| 9.6 | 82 | Full Journey Flow Pass: smooth the complete 17-scene scroll, especially SIA to Fitness, Analytics to Nutrition, Climax to Product, and Product to Closing | P1 | Done |
+| 9.7 | 83 | QA Evidence Harness: restore stable DOM, canvas, console, and visual capture evidence for heavy WebGL scenes | P1/P2 | Done |
+| 9.8 | 84 | Final Demo Readiness Audit: re-score the repaired app, require 12 / 12 interaction coverage, 0 console warnings/errors, no P0s, and target overall score at or above 8.0 / 10 | P1/P2 | Done |
+
+## Phase 10: Architectural Completion And Facade LOD
+
+Source backlog: `apps/balencia/PHASE-10-BACKLOG.md`. Run after the Phase 9 final demo readiness audit. Preserve the current overview exteriors as LODs and introduce richer focused-scene hero exteriors only where the completion gate requires them.
+
+| Step | Session | Task | Priority | Status |
+|------|---------|------|----------|--------|
+| 10.1 | 85 | Completion Audit: capture baseline front, 3/4, ground-up, dark-first, and app hero-camera evidence for all 12 exteriors; score construction-read risk explicitly | P1 | Done |
+| 10.2 | 86 | Pilot Wave: Finance, SIA Tower, and Knowledgebase architectural completion hero exteriors | P1 | Done |
+| 10.3 | 87 | Urban/Vertical Wave: Fitness, Chat, Career, and AI Analytics facade/base/crown completion | P1 | Done |
+| 10.4 | 88 | Organic/Signature Wave: Yoga, Recovery, Relationships, Leaderboard, and Nutrition completion without over-busying silhouettes | P1 | Done |
+| 10.5 | 89 | Final Phase 10 QA: before/after contact sheets, scroll hero views, GLB QA, LOD loading, and performance review | P1/P2 | Next |
 
 ## Per-Module Workflow (applies to every structure)
 ```
-Exterior → Exterior Review (all 7 gates) → Interior → Interior Review → Integration Test
+Exterior → Exterior Review (all applicable exterior gates) → Interior → Interior Review → Integration Test
 ```
 No step can be skipped. Failure at any gate → fix → re-run ALL gates.

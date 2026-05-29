@@ -1,0 +1,197 @@
+{
+  "session": 89,
+  "date": "2026-05-27T02:48:30.588Z",
+  "status": "passed",
+  "method": "local HTTP reachability against the running Vite app plus Phase 10 LOD static QA",
+  "appUrl": "http://localhost:3006/",
+  "checks": {
+    "appRouteHttp200": true,
+    "phase10LodStaticQaPassed": true,
+    "allTwelveHeroGlbsHttp200": true,
+    "allTwelveOverviewGlbsHttp200": true,
+    "allHeroContentNonzero": true,
+    "allOverviewContentNonzero": true
+  },
+  "appRoute": {
+    "url": "http://localhost:3006/",
+    "status": 200,
+    "ok": true,
+    "contentLength": 739
+  },
+  "heroAssets": [
+    {
+      "id": "sia-tower",
+      "url": "http://localhost:3006/models/structures/00-sia-tower/sia-tower-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 144920
+    },
+    {
+      "id": "fitness",
+      "url": "http://localhost:3006/models/structures/01-fitness/fitness-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 147004
+    },
+    {
+      "id": "yoga",
+      "url": "http://localhost:3006/models/structures/02-yoga-wellbeing/yoga-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 163280
+    },
+    {
+      "id": "finance",
+      "url": "http://localhost:3006/models/structures/03-finance/finance-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 185960
+    },
+    {
+      "id": "knowledgebase",
+      "url": "http://localhost:3006/models/structures/04-knowledgebase/knowledgebase-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 149552
+    },
+    {
+      "id": "chat",
+      "url": "http://localhost:3006/models/structures/05-chat-communication/chat-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 237248
+    },
+    {
+      "id": "leaderboard",
+      "url": "http://localhost:3006/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 204556
+    },
+    {
+      "id": "relationships",
+      "url": "http://localhost:3006/models/structures/07-relationships/relationships-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 189972
+    },
+    {
+      "id": "career",
+      "url": "http://localhost:3006/models/structures/08-career/career-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 206368
+    },
+    {
+      "id": "recovery",
+      "url": "http://localhost:3006/models/structures/09-recovery-sleep/recovery-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 184268
+    },
+    {
+      "id": "analytics",
+      "url": "http://localhost:3006/models/structures/10-ai-analytics/analytics-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 182668
+    },
+    {
+      "id": "nutrition",
+      "url": "http://localhost:3006/models/structures/11-nutrition/nutrition-ext-hero.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 182396
+    }
+  ],
+  "overviewAssets": [
+    {
+      "id": "sia-tower",
+      "url": "http://localhost:3006/models/structures/00-sia-tower/sia-tower-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 392296
+    },
+    {
+      "id": "fitness",
+      "url": "http://localhost:3006/models/structures/01-fitness/fitness-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 106308
+    },
+    {
+      "id": "yoga",
+      "url": "http://localhost:3006/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 253132
+    },
+    {
+      "id": "finance",
+      "url": "http://localhost:3006/models/structures/03-finance/finance-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 254740
+    },
+    {
+      "id": "knowledgebase",
+      "url": "http://localhost:3006/models/structures/04-knowledgebase/knowledgebase-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 106508
+    },
+    {
+      "id": "chat",
+      "url": "http://localhost:3006/models/structures/05-chat-communication/chat-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 161944
+    },
+    {
+      "id": "leaderboard",
+      "url": "http://localhost:3006/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 155148
+    },
+    {
+      "id": "relationships",
+      "url": "http://localhost:3006/models/structures/07-relationships/relationships-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 131248
+    },
+    {
+      "id": "career",
+      "url": "http://localhost:3006/models/structures/08-career/career-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 116084
+    },
+    {
+      "id": "recovery",
+      "url": "http://localhost:3006/models/structures/09-recovery-sleep/recovery-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 150820
+    },
+    {
+      "id": "analytics",
+      "url": "http://localhost:3006/models/structures/10-ai-analytics/analytics-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 127428
+    },
+    {
+      "id": "nutrition",
+      "url": "http://localhost:3006/models/structures/11-nutrition/nutrition-ext.glb",
+      "status": 200,
+      "ok": true,
+      "contentLength": 124572
+    }
+  ],
+  "notes": [
+    "This smoke verifies runtime asset reachability, not a full visual browser screenshot sweep.",
+    "Final visual evidence is recorded by the Blender Session 89 app-hero and overview contact sheets."
+  ]
+}

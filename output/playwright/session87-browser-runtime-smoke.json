@@ -1,0 +1,26 @@
+{
+  "session": 87,
+  "date": "2026-05-27",
+  "url": "http://localhost:3005/?qa-evidence=1",
+  "status": "passed",
+  "method": "Codex in-app browser scene navigation plus pageAssets inventory",
+  "checks": {
+    "scene_4_active": true,
+    "scene_8_active": true,
+    "scene_11_active": true,
+    "scene_13_active": true,
+    "canvas_mounted": true,
+    "hero_glbs_observed": true,
+    "warning_error_logs": 0
+  },
+  "heroResources": [
+    "http://localhost:3005/models/structures/01-fitness/fitness-ext-hero.glb",
+    "http://localhost:3005/models/structures/05-chat-communication/chat-ext-hero.glb",
+    "http://localhost:3005/models/structures/08-career/career-ext-hero.glb",
+    "http://localhost:3005/models/structures/10-ai-analytics/analytics-ext-hero.glb"
+  ],
+  "notes": [
+    "Resource timing did not expose fetched GLBs in the limited in-app browser evaluate surface, so runtime asset proof uses the pageAssets capability inventory.",
+    "Browser screenshot capture timed out on the heavy WebGL scene; Blender app-hero evidence and contact sheet remain the visual evidence source for this session."
+  ]
+}

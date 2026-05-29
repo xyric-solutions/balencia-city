@@ -1,0 +1,14 @@
+{
+  "overview_city_tris": 225847,
+  "overview_city_tri_budget": 250000,
+  "focused_scene_tris": {
+    "yoga": 233535,
+    "leaderboard": 236455,
+    "relationships": 238307,
+    "recovery": 235047,
+    "nutrition": 234095
+  },
+  "focused_scene_tri_budget": 270000,
+  "active_source_bytes": 2198788,
+  "hero_source_bytes": 924472
+}

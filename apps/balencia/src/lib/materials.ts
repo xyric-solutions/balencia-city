@@ -33,6 +33,7 @@ type SlotAppearance = {
   opacity: number;
   transparent: boolean;
   toneMapped: boolean;
+  envMapIntensity: number;
 };
 
 function mixHexColors(first: string, second: string, amount: number) {
@@ -64,43 +65,47 @@ export function getSlotAppearance(
   const inactive: Record<MaterialSlot, SlotAppearance> = {
     base: {
       color: BRAND_COLORS.base,
-      roughness: 0.8,
-      metalness: 0.05,
+      roughness: 0.62,
+      metalness: 0.12,
       emissive: BRAND_COLORS.base,
-      emissiveIntensity: active ? 0.018 : 0.01,
+      emissiveIntensity: active ? 0.018 : 0.03,
       opacity: 1,
       transparent: false,
       toneMapped: true,
+      envMapIntensity: 0.4,
     },
     accent: {
       color: active ? districtColor : mixHexColors(BRAND_COLORS.accentIdle, districtColor, 0.18),
-      roughness: 0.5,
-      metalness: 0.1,
+      roughness: 0.38,
+      metalness: 0.35,
       emissive: districtColor,
       emissiveIntensity: active ? 0.34 : 0.035,
       opacity: 1,
       transparent: false,
       toneMapped: true,
+      envMapIntensity: 0.6,
     },
     glass: {
       color: BRAND_COLORS.glass,
-      roughness: 0.16,
-      metalness: 0.22,
+      roughness: 0.05,
+      metalness: 0.92,
       emissive: BRAND_COLORS.interiorWarmth,
-      emissiveIntensity: active ? 0.18 : 0.035,
+      emissiveIntensity: active ? 0.18 : 0.1,
       opacity: active ? 0.96 : 0.98,
       transparent: true,
       toneMapped: true,
+      envMapIntensity: 1.8,
     },
     detail: {
       color: BRAND_COLORS.detail,
-      roughness: 0.6,
-      metalness: 0.15,
+      roughness: 0.48,
+      metalness: 0.2,
       emissive: BRAND_COLORS.detail,
-      emissiveIntensity: active ? 0.012 : 0.006,
+      emissiveIntensity: active ? 0.012 : 0.015,
       opacity: 1,
       transparent: false,
       toneMapped: true,
+      envMapIntensity: 0.3,
     },
     emissive: {
       color: districtColor,
@@ -111,6 +116,7 @@ export function getSlotAppearance(
       opacity: 1,
       transparent: false,
       toneMapped: !active,
+      envMapIntensity: 0.1,
     },
     energy: {
       color: energyColor,
@@ -121,6 +127,7 @@ export function getSlotAppearance(
       opacity: 1,
       transparent: false,
       toneMapped: !active,
+      envMapIntensity: 0.15,
     },
     holo: {
       color: districtColor,
@@ -131,6 +138,7 @@ export function getSlotAppearance(
       opacity: active ? 0.6 : 0.4,
       transparent: true,
       toneMapped: true,
+      envMapIntensity: 0.5,
     },
   };
 
@@ -155,11 +163,15 @@ function applyAppearance(material: THREE.Material, appearance: SlotAppearance) {
   if ("emissiveIntensity" in standard) {
     standard.emissiveIntensity = appearance.emissiveIntensity;
   }
+  if ("envMapIntensity" in standard) {
+    standard.envMapIntensity = appearance.envMapIntensity;
+  }
 
   standard.opacity = appearance.opacity;
   standard.transparent = appearance.transparent;
   standard.depthWrite = !appearance.transparent;
   standard.toneMapped = appearance.toneMapped;
+  standard.side = THREE.DoubleSide;
   standard.needsUpdate = true;
 }
 
@@ -200,4 +212,32 @@ export function applyEnergyMaterialOverrides(
       toneMapped: false,
     });
   });
+}
+
+let cachedQualityTier: "high" | "medium" | "low" | null = null;
+
+export function getDeviceQualityTier(): "high" | "medium" | "low" {
+  if (cachedQualityTier) return cachedQualityTier;
+  if (typeof navigator === "undefined") {
+    cachedQualityTier = "high";
+    return cachedQualityTier;
+  }
+  const canvas = document.createElement("canvas");
+  const gl = canvas.getContext("webgl2") || canvas.getContext("webgl");
+  if (!gl) {
+    cachedQualityTier = "low";
+    return cachedQualityTier;
+  }
+  const debugInfo = gl.getExtension("WEBGL_debug_renderer_info");
+  const renderer = debugInfo ? gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL) : "";
+  if (/Mali|Adreno|PowerVR|Apple GPU/i.test(renderer)) {
+    cachedQualityTier = "medium";
+    return cachedQualityTier;
+  }
+  if (/Intel|Iris/i.test(renderer)) {
+    cachedQualityTier = "medium";
+    return cachedQualityTier;
+  }
+  cachedQualityTier = "high";
+  return cachedQualityTier;
 }

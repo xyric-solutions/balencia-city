@@ -1,0 +1,43 @@
+{
+  "path": "modules/08-career/exterior/drafts/career-ext-v2-draft-s74.glb",
+  "object_count": 6,
+  "tris": 20288,
+  "size_bytes": 116084,
+  "size_kb": 113.4,
+  "bbox": {
+    "min": [
+      -7.9,
+      -6.6051,
+      0.0
+    ],
+    "max": [
+      7.8999,
+      6.605,
+      18.36
+    ],
+    "size": [
+      15.7999,
+      13.2101,
+      18.36
+    ],
+    "center": [
+      -0.0,
+      -0.0001,
+      9.18
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "career-ext"
+  ],
+  "passed": true
+}

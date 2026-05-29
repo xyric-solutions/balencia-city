@@ -1,0 +1,1815 @@
+{
+  "session": 89,
+  "date": "2026-05-27",
+  "scope": "Final Phase 10 QA across all completed hero exterior LODs and overview LOD preservation",
+  "status": "APPROVED",
+  "checks": {
+    "all_12_hero_entries_present": true,
+    "all_12_hero_glbs_present": true,
+    "all_12_hero_public_glbs_present": true,
+    "public_asset_sync_copied_hero_glbs": true,
+    "all_12_hero_glbs_pass_import_qa": true,
+    "overview_lod_glbs_pass_import_qa": true,
+    "gate8_all_12_pass": true,
+    "no_structure_scaffold_or_unfinished": true,
+    "final_app_hero_evidence_complete": true,
+    "overview_lod_evidence_complete": true,
+    "final_contact_sheets_nonzero": true,
+    "manifest_lod_policy_complete": true,
+    "overview_city_tri_budget_preserved": true,
+    "focused_hero_scene_budget_preserved": true,
+    "final_evidence_complete": true
+  },
+  "app_runtime_qa": {
+    "phase10_lod_static_qa": "output/playwright/phase10-lod-static-qa.json",
+    "runtime_smoke": "output/playwright/session89-runtime-smoke.json",
+    "production_build": "passed",
+    "runtime_reachability": {
+      "app_route_http_200": true,
+      "hero_glbs_http_200": "12 / 12",
+      "overview_glbs_http_200": "12 / 12"
+    }
+  },
+  "completion_score": {
+    "overall": 9.6,
+    "scale": "10",
+    "breakdown": {
+      "lod_policy_and_loading": 10.0,
+      "performance_budget": 10.0,
+      "glb_hygiene": 10.0,
+      "gate8_architectural_completion": 9.4,
+      "evidence_completeness": 9.2,
+      "overview_cohesion": 9.1
+    },
+    "scaffold_read_blockers": 0,
+    "note": "Final QA score from import hygiene, Gate 8 records, Blender evidence, LOD policy, and performance budgets."
+  },
+  "overview_lod_metrics": {
+    "sia-tower": {
+      "kind": "overview",
+      "name": "sia-tower-ext",
+      "source_path": "modules/00-sia-tower/exterior/approved/sia-tower-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext.glb",
+      "runtime_path": "/models/structures/00-sia-tower/sia-tower-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 14844,
+      "size_bytes": 392296,
+      "size_kb": 383.1,
+      "bbox": {
+        "min": [
+          -15.4,
+          -15.4,
+          -0.0
+        ],
+        "max": [
+          15.4,
+          15.4,
+          67.1
+        ],
+        "size": [
+          30.8,
+          30.8,
+          67.1
+        ],
+        "center": [
+          0.0,
+          0.0,
+          33.55
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "sia-tower-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "SIA Tower",
+      "id": "sia-tower"
+    },
+    "fitness": {
+      "kind": "overview",
+      "name": "fitness-ext",
+      "source_path": "modules/01-fitness/exterior/approved/fitness-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/01-fitness/fitness-ext.glb",
+      "runtime_path": "/models/structures/01-fitness/fitness-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 16402,
+      "size_bytes": 106308,
+      "size_kb": 103.8,
+      "bbox": {
+        "min": [
+          -12.0733,
+          -12.2806,
+          0.0
+        ],
+        "max": [
+          12.0734,
+          12.0922,
+          14.1505
+        ],
+        "size": [
+          24.1467,
+          24.3728,
+          14.1505
+        ],
+        "center": [
+          0.0001,
+          -0.0942,
+          7.0753
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "fitness-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Fitness",
+      "id": "fitness"
+    },
+    "yoga": {
+      "kind": "overview",
+      "name": "yoga-ext",
+      "source_path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+      "runtime_path": "/models/structures/02-yoga-wellbeing/yoga-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 16052,
+      "size_bytes": 253132,
+      "size_kb": 247.2,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4668
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4668
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7334
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "yoga-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Yoga and wellbeing",
+      "id": "yoga"
+    },
+    "finance": {
+      "kind": "overview",
+      "name": "finance-ext",
+      "source_path": "modules/03-finance/exterior/approved/finance-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/03-finance/finance-ext.glb",
+      "runtime_path": "/models/structures/03-finance/finance-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 15370,
+      "size_bytes": 254740,
+      "size_kb": 248.8,
+      "bbox": {
+        "min": [
+          -6.5987,
+          -6.5987,
+          0.0
+        ],
+        "max": [
+          6.5987,
+          7.771,
+          18.43
+        ],
+        "size": [
+          13.1974,
+          14.3697,
+          18.43
+        ],
+        "center": [
+          0.0,
+          0.5861,
+          9.215
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "finance-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Finance",
+      "id": "finance"
+    },
+    "knowledgebase": {
+      "kind": "overview",
+      "name": "knowledgebase-ext",
+      "source_path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/04-knowledgebase/knowledgebase-ext.glb",
+      "runtime_path": "/models/structures/04-knowledgebase/knowledgebase-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 15204,
+      "size_bytes": 106508,
+      "size_kb": 104.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -9.6483,
+          0.0
+        ],
+        "max": [
+          5.7891,
+          2.2,
+          14.0407
+        ],
+        "size": [
+          8.4778,
+          11.8483,
+          14.0407
+        ],
+        "center": [
+          1.5502,
+          -3.7242,
+          7.0204
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "knowledgebase-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Knowledgebase",
+      "id": "knowledgebase"
+    },
+    "chat": {
+      "kind": "overview",
+      "name": "chat-ext",
+      "source_path": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/05-chat-communication/chat-ext.glb",
+      "runtime_path": "/models/structures/05-chat-communication/chat-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 20052,
+      "size_bytes": 161944,
+      "size_kb": 158.1,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.3949,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          14.5399
+        ],
+        "size": [
+          12.609,
+          8.7899,
+          14.5399
+        ],
+        "center": [
+          0.0,
+          0.0,
+          7.27
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "chat-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Chat and communication",
+      "id": "chat"
+    },
+    "leaderboard": {
+      "kind": "overview",
+      "name": "leaderboard-ext",
+      "source_path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+      "runtime_path": "/models/structures/06-leaderboard-competition/leaderboard-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 19928,
+      "size_bytes": 155148,
+      "size_kb": 151.5,
+      "bbox": {
+        "min": [
+          -9.2,
+          -19.9017,
+          0.0
+        ],
+        "max": [
+          9.1994,
+          13.25,
+          11.3734
+        ],
+        "size": [
+          18.3994,
+          33.1517,
+          11.3734
+        ],
+        "center": [
+          -0.0003,
+          -3.3259,
+          5.6867
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "leaderboard-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Leaderboard and competition",
+      "id": "leaderboard"
+    },
+    "relationships": {
+      "kind": "overview",
+      "name": "relationships-ext",
+      "source_path": "modules/07-relationships/exterior/approved/relationships-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/07-relationships/relationships-ext.glb",
+      "runtime_path": "/models/structures/07-relationships/relationships-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 17170,
+      "size_bytes": 131248,
+      "size_kb": 128.2,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -10.691,
+          0.0
+        ],
+        "max": [
+          14.8072,
+          10.6914,
+          7.3401
+        ],
+        "size": [
+          29.6145,
+          21.3824,
+          7.3401
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          3.67
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "relationships-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Relationships",
+      "id": "relationships"
+    },
+    "career": {
+      "kind": "overview",
+      "name": "career-ext",
+      "source_path": "modules/08-career/exterior/approved/career-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/08-career/career-ext.glb",
+      "runtime_path": "/models/structures/08-career/career-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 20288,
+      "size_bytes": 116084,
+      "size_kb": 113.4,
+      "bbox": {
+        "min": [
+          -7.9,
+          -6.6051,
+          0.0
+        ],
+        "max": [
+          7.8999,
+          6.605,
+          18.36
+        ],
+        "size": [
+          15.7999,
+          13.2101,
+          18.36
+        ],
+        "center": [
+          -0.0,
+          -0.0001,
+          9.18
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "career-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Career",
+      "id": "career"
+    },
+    "recovery": {
+      "kind": "overview",
+      "name": "recovery-ext",
+      "source_path": "modules/09-recovery-sleep/exterior/approved/recovery-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext.glb",
+      "runtime_path": "/models/structures/09-recovery-sleep/recovery-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 17412,
+      "size_bytes": 150820,
+      "size_kb": 147.3,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -6.5486,
+          0.0
+        ],
+        "max": [
+          10.8576,
+          6.5483,
+          7.9645
+        ],
+        "size": [
+          21.7151,
+          13.0969,
+          7.9645
+        ],
+        "center": [
+          0.0,
+          -0.0001,
+          3.9823
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "recovery-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Recovery and sleep",
+      "id": "recovery"
+    },
+    "analytics": {
+      "kind": "overview",
+      "name": "analytics-ext",
+      "source_path": "modules/10-ai-analytics/exterior/approved/analytics-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext.glb",
+      "runtime_path": "/models/structures/10-ai-analytics/analytics-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 19411,
+      "size_bytes": 127428,
+      "size_kb": 124.4,
+      "bbox": {
+        "min": [
+          -6.5999,
+          -5.2292,
+          0.0
+        ],
+        "max": [
+          6.5997,
+          4.9162,
+          16.71
+        ],
+        "size": [
+          13.1996,
+          10.1455,
+          16.71
+        ],
+        "center": [
+          -0.0001,
+          -0.1565,
+          8.355
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "analytics-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "AI analytics",
+      "id": "analytics"
+    },
+    "nutrition": {
+      "kind": "overview",
+      "name": "nutrition-ext",
+      "source_path": "modules/11-nutrition/exterior/approved/nutrition-ext.glb",
+      "public_path": "apps/balencia/public/models/structures/11-nutrition/nutrition-ext.glb",
+      "runtime_path": "/models/structures/11-nutrition/nutrition-ext.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 19876,
+      "size_bytes": 124572,
+      "size_kb": 121.7,
+      "bbox": {
+        "min": [
+          -5.6,
+          -5.8796,
+          0.0
+        ],
+        "max": [
+          5.6,
+          4.2857,
+          8.796
+        ],
+        "size": [
+          11.2,
+          10.1653,
+          8.796
+        ],
+        "center": [
+          0.0,
+          -0.797,
+          4.398
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "nutrition-ext"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Nutrition",
+      "id": "nutrition"
+    }
+  },
+  "hero_lod_metrics": {
+    "sia-tower": {
+      "kind": "hero",
+      "name": "sia-tower-ext-hero",
+      "source_path": "modules/00-sia-tower/exterior/approved/sia-tower-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext-hero.glb",
+      "runtime_path": "/models/structures/00-sia-tower/sia-tower-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 29904,
+      "size_bytes": 144920,
+      "size_kb": 141.5,
+      "bbox": {
+        "min": [
+          -15.4,
+          -17.18,
+          -0.0
+        ],
+        "max": [
+          15.3992,
+          15.4,
+          75.9572
+        ],
+        "size": [
+          30.7992,
+          32.58,
+          75.9572
+        ],
+        "center": [
+          -0.0004,
+          -0.89,
+          37.9786
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "sia-tower-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "SIA Tower",
+      "id": "sia-tower"
+    },
+    "fitness": {
+      "kind": "hero",
+      "name": "fitness-ext-hero",
+      "source_path": "modules/01-fitness/exterior/approved/fitness-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/01-fitness/fitness-ext-hero.glb",
+      "runtime_path": "/models/structures/01-fitness/fitness-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 29590,
+      "size_bytes": 147004,
+      "size_kb": 143.6,
+      "bbox": {
+        "min": [
+          -12.6287,
+          -16.5702,
+          0.0
+        ],
+        "max": [
+          12.6295,
+          13.7495,
+          15.1463
+        ],
+        "size": [
+          25.2581,
+          30.3198,
+          15.1463
+        ],
+        "center": [
+          0.0004,
+          -1.4103,
+          7.5732
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "fitness-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Fitness",
+      "id": "fitness"
+    },
+    "yoga": {
+      "kind": "hero",
+      "name": "yoga-ext-hero",
+      "source_path": "modules/02-yoga-wellbeing/exterior/approved/yoga-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/02-yoga-wellbeing/yoga-ext-hero.glb",
+      "runtime_path": "/models/structures/02-yoga-wellbeing/yoga-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 23740,
+      "size_bytes": 163280,
+      "size_kb": 159.5,
+      "bbox": {
+        "min": [
+          -9.0,
+          -7.3804,
+          -0.0
+        ],
+        "max": [
+          9.0,
+          7.3806,
+          5.4922
+        ],
+        "size": [
+          18.0,
+          14.761,
+          5.4922
+        ],
+        "center": [
+          0.0,
+          0.0001,
+          2.7461
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "yoga-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Yoga and wellbeing",
+      "id": "yoga"
+    },
+    "finance": {
+      "kind": "hero",
+      "name": "finance-ext-hero",
+      "source_path": "modules/03-finance/exterior/approved/finance-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/03-finance/finance-ext-hero.glb",
+      "runtime_path": "/models/structures/03-finance/finance-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 28446,
+      "size_bytes": 185960,
+      "size_kb": 181.6,
+      "bbox": {
+        "min": [
+          -8.4567,
+          -7.8706,
+          0.0
+        ],
+        "max": [
+          8.4567,
+          9.0428,
+          19.2813
+        ],
+        "size": [
+          16.9135,
+          16.9135,
+          19.2813
+        ],
+        "center": [
+          0.0,
+          0.5861,
+          9.6407
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "finance-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Finance",
+      "id": "finance"
+    },
+    "knowledgebase": {
+      "kind": "hero",
+      "name": "knowledgebase-ext-hero",
+      "source_path": "modules/04-knowledgebase/exterior/approved/knowledgebase-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/04-knowledgebase/knowledgebase-ext-hero.glb",
+      "runtime_path": "/models/structures/04-knowledgebase/knowledgebase-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 23728,
+      "size_bytes": 149552,
+      "size_kb": 146.0,
+      "bbox": {
+        "min": [
+          -2.6888,
+          -13.262,
+          0.0
+        ],
+        "max": [
+          5.7889,
+          2.2,
+          16.6003
+        ],
+        "size": [
+          8.4776,
+          15.462,
+          16.6003
+        ],
+        "center": [
+          1.5501,
+          -5.531,
+          8.3001
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "knowledgebase-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Knowledgebase",
+      "id": "knowledgebase"
+    },
+    "chat": {
+      "kind": "hero",
+      "name": "chat-ext-hero",
+      "source_path": "modules/05-chat-communication/exterior/approved/chat-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/05-chat-communication/chat-ext-hero.glb",
+      "runtime_path": "/models/structures/05-chat-communication/chat-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 34628,
+      "size_bytes": 237248,
+      "size_kb": 231.7,
+      "bbox": {
+        "min": [
+          -6.3045,
+          -4.3946,
+          0.0
+        ],
+        "max": [
+          6.3045,
+          4.395,
+          16.0422
+        ],
+        "size": [
+          12.609,
+          8.7896,
+          16.0422
+        ],
+        "center": [
+          0.0,
+          0.0002,
+          8.0211
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "chat-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Chat and communication",
+      "id": "chat"
+    },
+    "leaderboard": {
+      "kind": "hero",
+      "name": "leaderboard-ext-hero",
+      "source_path": "modules/06-leaderboard-competition/exterior/approved/leaderboard-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb",
+      "runtime_path": "/models/structures/06-leaderboard-competition/leaderboard-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 30536,
+      "size_bytes": 204556,
+      "size_kb": 199.8,
+      "bbox": {
+        "min": [
+          -13.7715,
+          -32.6651,
+          0.0
+        ],
+        "max": [
+          13.7703,
+          13.25,
+          12.0898
+        ],
+        "size": [
+          27.5418,
+          45.9151,
+          12.0898
+        ],
+        "center": [
+          -0.0006,
+          -9.7076,
+          6.0449
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "leaderboard-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Leaderboard and competition",
+      "id": "leaderboard"
+    },
+    "relationships": {
+      "kind": "hero",
+      "name": "relationships-ext-hero",
+      "source_path": "modules/07-relationships/exterior/approved/relationships-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/07-relationships/relationships-ext-hero.glb",
+      "runtime_path": "/models/structures/07-relationships/relationships-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 29630,
+      "size_bytes": 189972,
+      "size_kb": 185.5,
+      "bbox": {
+        "min": [
+          -14.8072,
+          -13.2562,
+          -0.0
+        ],
+        "max": [
+          14.8065,
+          14.265,
+          7.6823
+        ],
+        "size": [
+          29.6137,
+          27.5212,
+          7.6823
+        ],
+        "center": [
+          -0.0004,
+          0.5044,
+          3.8411
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "relationships-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Relationships",
+      "id": "relationships"
+    },
+    "career": {
+      "kind": "hero",
+      "name": "career-ext-hero",
+      "source_path": "modules/08-career/exterior/approved/career-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/08-career/career-ext-hero.glb",
+      "runtime_path": "/models/structures/08-career/career-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 37660,
+      "size_bytes": 206368,
+      "size_kb": 201.5,
+      "bbox": {
+        "min": [
+          -7.9,
+          -7.7938,
+          0.0
+        ],
+        "max": [
+          7.8999,
+          6.605,
+          19.3804
+        ],
+        "size": [
+          15.7999,
+          14.3988,
+          19.3804
+        ],
+        "center": [
+          -0.0,
+          -0.5944,
+          9.6902
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "career-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Career",
+      "id": "career"
+    },
+    "recovery": {
+      "kind": "hero",
+      "name": "recovery-ext-hero",
+      "source_path": "modules/09-recovery-sleep/exterior/approved/recovery-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/09-recovery-sleep/recovery-ext-hero.glb",
+      "runtime_path": "/models/structures/09-recovery-sleep/recovery-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 26612,
+      "size_bytes": 184268,
+      "size_kb": 179.9,
+      "bbox": {
+        "min": [
+          -10.8576,
+          -7.5234,
+          -0.0
+        ],
+        "max": [
+          10.8576,
+          7.5233,
+          8.8261
+        ],
+        "size": [
+          21.7151,
+          15.0467,
+          8.8261
+        ],
+        "center": [
+          0.0,
+          -0.0,
+          4.413
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "recovery-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Recovery and sleep",
+      "id": "recovery"
+    },
+    "analytics": {
+      "kind": "hero",
+      "name": "analytics-ext-hero",
+      "source_path": "modules/10-ai-analytics/exterior/approved/analytics-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/10-ai-analytics/analytics-ext-hero.glb",
+      "runtime_path": "/models/structures/10-ai-analytics/analytics-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 28293,
+      "size_bytes": 182668,
+      "size_kb": 178.4,
+      "bbox": {
+        "min": [
+          -6.5999,
+          -6.5986,
+          0.0
+        ],
+        "max": [
+          6.5995,
+          4.9162,
+          19.3836
+        ],
+        "size": [
+          13.1994,
+          11.5148,
+          19.3836
+        ],
+        "center": [
+          -0.0002,
+          -0.8412,
+          9.6918
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass",
+        "holo"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "analytics-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "AI analytics",
+      "id": "analytics"
+    },
+    "nutrition": {
+      "kind": "hero",
+      "name": "nutrition-ext-hero",
+      "source_path": "modules/11-nutrition/exterior/approved/nutrition-ext-hero.glb",
+      "public_path": "apps/balencia/public/models/structures/11-nutrition/nutrition-ext-hero.glb",
+      "runtime_path": "/models/structures/11-nutrition/nutrition-ext-hero.glb",
+      "exists": true,
+      "public_exists": true,
+      "public_size_matches_source": true,
+      "tris": 28124,
+      "size_bytes": 182396,
+      "size_kb": 178.1,
+      "bbox": {
+        "min": [
+          -5.8744,
+          -7.4857,
+          0.0
+        ],
+        "max": [
+          5.8744,
+          4.8346,
+          9.8514
+        ],
+        "size": [
+          11.7488,
+          12.3203,
+          9.8514
+        ],
+        "center": [
+          0.0,
+          -1.3255,
+          4.9257
+        ]
+      },
+      "materials": [
+        "accent",
+        "base",
+        "detail",
+        "emissive",
+        "energy",
+        "glass"
+      ],
+      "invalid_materials": [],
+      "cameras_lights": [],
+      "roots": [
+        "nutrition-ext-hero"
+      ],
+      "root_matches_reference": true,
+      "passed_import_qa": true,
+      "module": "Nutrition",
+      "id": "nutrition"
+    }
+  },
+  "prior_gate8_metrics": {
+    "sia-tower": {
+      "metric_path": "modules/00-sia-tower/exterior/drafts/session86-hero-metrics.json",
+      "source_session": 86,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "occupied facade rhythm behind vertical frame",
+        "stronger civic base and entrance threshold",
+        "resolved crown cap, beacon, and pipeline junction"
+      ],
+      "dark_first_evidence": "modules/00-sia-tower/screenshots/session86-sia-tower-hero-dark-first.png"
+    },
+    "fitness": {
+      "metric_path": "modules/01-fitness/exterior/drafts/session87-hero-metrics.json",
+      "source_session": 87,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "glass and panel skin behind the angular gym exoskeleton",
+        "resolved athletic plinth, track edge, entry portal, and trophy wall",
+        "roof mechanical crown and hard-pipeline collar visible from Scene 4"
+      ],
+      "dark_first_evidence": "modules/01-fitness/screenshots/session87-fitness-hero-dark-first.png"
+    },
+    "yoga": {
+      "metric_path": "modules/02-yoga-wellbeing/exterior/drafts/session88-hero-metrics.json",
+      "source_session": 88,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "finished floating sanctuary deck, bridge thresholds, dome ribs, and garden ledges",
+        "sage breathing/floor rhythm visible from Scene 5 without hardening the silhouette",
+        "warm-mist receptor and lake edge read as complete district-specific crown/base logic"
+      ],
+      "dark_first_evidence": "modules/02-yoga-wellbeing/screenshots/session88-yoga-hero-dark-first.png"
+    },
+    "finance": {
+      "metric_path": "modules/03-finance/exterior/drafts/session86-hero-metrics.json",
+      "source_session": 86,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "solid crystalline envelope behind gold frame",
+        "premium plinth, lobby threshold, and civic edge",
+        "resolved data crown visible from Scene 6"
+      ],
+      "dark_first_evidence": "modules/03-finance/screenshots/session86-finance-hero-dark-first.png"
+    },
+    "knowledgebase": {
+      "metric_path": "modules/04-knowledgebase/exterior/drafts/session86-hero-metrics.json",
+      "source_session": 86,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "finished ancient-to-future facade envelope",
+        "stronger archive stairs, vault threshold, and stone base",
+        "resolved waterfall intake and crown roof termination"
+      ],
+      "dark_first_evidence": "modules/04-knowledgebase/screenshots/session86-knowledgebase-hero-dark-first.png"
+    },
+    "chat": {
+      "metric_path": "modules/05-chat-communication/exterior/drafts/session87-hero-metrics.json",
+      "source_session": 87,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "finished multi-pod facade rhythm and occupied broadcast screens",
+        "bridge sleeves, conduit hardware, and signal nodes read as built",
+        "shared podium, signage, roof caps, antenna clusters, and satellite crown resolved"
+      ],
+      "dark_first_evidence": "modules/05-chat-communication/screenshots/session87-chat-hero-dark-first.png"
+    },
+    "leaderboard": {
+      "metric_path": "modules/06-leaderboard-competition/exterior/drafts/session88-hero-metrics.json",
+      "source_session": 88,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "open arena now has resolved rim engineering, seating cadence, victory pillar caps, and screen hardware",
+        "grand entry, competitor lane, and leaderboard facade read as finished from Scene 9",
+        "lightning receiver remains dramatic without changing the baked special energy endpoint"
+      ],
+      "dark_first_evidence": "modules/06-leaderboard-competition/screenshots/session88-leaderboard-hero-dark-first.png"
+    },
+    "relationships": {
+      "metric_path": "modules/07-relationships/exterior/drafts/session88-hero-metrics.json",
+      "source_session": 88,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "low garden pavilion gains completed terrace facades, moat edge, bridges, and welcome thresholds",
+        "15-floor anti-tower rhythm remains readable through soft rose ledges and mullions",
+        "roof domes and warm-mist diffuser are resolved while preserving the human-scaled silhouette"
+      ],
+      "dark_first_evidence": "modules/07-relationships/screenshots/session88-relationships-hero-dark-first.png"
+    },
+    "career": {
+      "metric_path": "modules/08-career/exterior/drafts/session87-hero-metrics.json",
+      "source_session": 87,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "occupied professional tower skins with visible floor cadence",
+        "elevator-tube machinery, bridge nodes, and executive deck hardware completed",
+        "shared networking podium and roof caps preserve the upward silhouette"
+      ],
+      "dark_first_evidence": "modules/08-career/screenshots/session87-career-hero-dark-first.png"
+    },
+    "recovery": {
+      "metric_path": "modules/09-recovery-sleep/exterior/drafts/session88-hero-metrics.json",
+      "source_session": 88,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "ethereal shell receives finished contour layers, soft support collars, underside cradle, and lake boundary",
+        "no-floor continuous form remains intact while shell depth and embedded star cadence improve the hero read",
+        "faint-thread receptor is complete but still deliberately quiet"
+      ],
+      "dark_first_evidence": "modules/09-recovery-sleep/screenshots/session88-recovery-hero-dark-first.png"
+    },
+    "analytics": {
+      "metric_path": "modules/10-ai-analytics/exterior/drafts/session87-hero-metrics.json",
+      "source_session": 87,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "finished data-cathedral facade skin rather than only exposed data paths",
+        "entry waterfall, pointed arch panels, buttress anchors, and display cadence resolved",
+        "spire telemetry crown and beacon remain readable from Scene 13"
+      ],
+      "dark_first_evidence": "modules/10-ai-analytics/screenshots/session87-analytics-hero-dark-first.png"
+    },
+    "nutrition": {
+      "metric_path": "modules/11-nutrition/exterior/drafts/session88-hero-metrics.json",
+      "source_session": 88,
+      "gate8_checks": {
+        "finished_facade_envelope": true,
+        "base_plinth_complete": true,
+        "roof_crown_resolved": true,
+        "floor_deck_rhythm_visible": true,
+        "frame_reads_intentional_not_scaffold": true,
+        "hero_camera_not_under_construction": true,
+        "preserved_silhouette_origin_endpoints_materials": true
+      },
+      "gate8_passed": true,
+      "gate8_notes": [
+        "12-tier vertical farm gains finished terrace ledges, greenhouse mullions, irrigation detail, and market threshold",
+        "green plant identity and amber grow-light rhythm stay visible from Scene 14",
+        "roof vent crown and hard-pipeline socket read as complete service architecture"
+      ],
+      "dark_first_evidence": "modules/11-nutrition/screenshots/session88-nutrition-hero-dark-first.png"
+    }
+  },
+  "app_hero_evidence": {
+    "sia-tower": {
+      "scene": 2,
+      "slug": "sia-tower-reveal",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-02-sia-tower-sia-tower-reveal-final-hero.png",
+      "runtime_camera_position": [
+        18,
+        7.8,
+        25
+      ],
+      "runtime_camera_target": [
+        0,
+        38,
+        0
+      ],
+      "lens": 30,
+      "frame": 12,
+      "nonzero": true
+    },
+    "fitness": {
+      "scene": 4,
+      "slug": "fitness-district",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-04-fitness-fitness-district-final-hero.png",
+      "runtime_camera_position": [
+        109,
+        25,
+        -90
+      ],
+      "runtime_camera_target": [
+        61,
+        10.5,
+        -36
+      ],
+      "lens": 28,
+      "frame": 96,
+      "nonzero": true
+    },
+    "yoga": {
+      "scene": 5,
+      "slug": "yoga-sanctuary",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-05-yoga-yoga-sanctuary-final-hero.png",
+      "runtime_camera_position": [
+        113,
+        19,
+        -40
+      ],
+      "runtime_camera_target": [
+        74,
+        6.2,
+        -2
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true
+    },
+    "finance": {
+      "scene": 6,
+      "slug": "finance-tower",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-06-finance-finance-tower-final-hero.png",
+      "runtime_camera_position": [
+        99,
+        24,
+        68
+      ],
+      "runtime_camera_target": [
+        56,
+        13,
+        34
+      ],
+      "lens": 30,
+      "frame": 96,
+      "nonzero": true
+    },
+    "knowledgebase": {
+      "scene": 7,
+      "slug": "knowledgebase",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-07-knowledgebase-knowledgebase-final-hero.png",
+      "runtime_camera_position": [
+        68,
+        25,
+        105
+      ],
+      "runtime_camera_target": [
+        30,
+        10.2,
+        63
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true
+    },
+    "chat": {
+      "scene": 8,
+      "slug": "communication-hub",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-08-chat-communication-hub-final-hero.png",
+      "runtime_camera_position": [
+        29,
+        23,
+        110
+      ],
+      "runtime_camera_target": [
+        -8,
+        9.8,
+        66
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true
+    },
+    "leaderboard": {
+      "scene": 9,
+      "slug": "leaderboard-arena",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-09-leaderboard-leaderboard-arena-final-hero.png",
+      "runtime_camera_position": [
+        -92,
+        25,
+        95
+      ],
+      "runtime_camera_target": [
+        -50,
+        8.6,
+        53
+      ],
+      "lens": 28,
+      "frame": 96,
+      "nonzero": true
+    },
+    "relationships": {
+      "scene": 10,
+      "slug": "relationships-garden",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-10-relationships-relationships-garden-final-hero.png",
+      "runtime_camera_position": [
+        -26,
+        20,
+        50
+      ],
+      "runtime_camera_target": [
+        -74,
+        5.8,
+        16
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true
+    },
+    "career": {
+      "scene": 11,
+      "slug": "career-towers",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-11-career-career-towers-final-hero.png",
+      "runtime_camera_position": [
+        -112,
+        27,
+        11
+      ],
+      "runtime_camera_target": [
+        -66,
+        15,
+        -25
+      ],
+      "lens": 30,
+      "frame": 96,
+      "nonzero": true
+    },
+    "recovery": {
+      "scene": 12,
+      "slug": "recovery-dreamscape",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-12-recovery-recovery-dreamscape-final-hero.png",
+      "runtime_camera_position": [
+        -96,
+        17,
+        -39
+      ],
+      "runtime_camera_target": [
+        -44,
+        5.2,
+        -61
+      ],
+      "lens": 30,
+      "frame": 96,
+      "nonzero": true
+    },
+    "analytics": {
+      "scene": 13,
+      "slug": "analytics-cathedral",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-13-analytics-analytics-cathedral-final-hero.png",
+      "runtime_camera_position": [
+        -54,
+        25,
+        -106
+      ],
+      "runtime_camera_target": [
+        -8,
+        13,
+        -68
+      ],
+      "lens": 28,
+      "frame": 96,
+      "nonzero": true
+    },
+    "nutrition": {
+      "scene": 14,
+      "slug": "nutrition-farm",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/app-hero-cameras/scene-14-nutrition-nutrition-farm-final-hero.png",
+      "runtime_camera_position": [
+        -13,
+        18,
+        -106
+      ],
+      "runtime_camera_target": [
+        30,
+        8.0,
+        -66
+      ],
+      "lens": 29,
+      "frame": 96,
+      "nonzero": true
+    }
+  },
+  "overview_lod_evidence": {
+    "citywide": {
+      "label": "Overview LOD citywide",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/overview-lod/s89-overview-citywide.png",
+      "nonzero": true
+    },
+    "north-skyline": {
+      "label": "Overview LOD skyline",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/overview-lod/s89-overview-north-skyline.png",
+      "nonzero": true
+    },
+    "topdown": {
+      "label": "Overview LOD topdown",
+      "path": "assembly/screenshots/session-89-final-phase-10-qa/overview-lod/s89-overview-topdown.png",
+      "nonzero": true
+    }
+  },
+  "evidence_contact_sheets": {
+    "final_app_hero_contact_sheet": "assembly/screenshots/session-89-final-phase-10-qa/s89-final-app-hero-contact-sheet.png",
+    "before_final_dark_contact_sheet": "assembly/screenshots/session-89-final-phase-10-qa/s89-before-final-dark-contact-sheet.png",
+    "overview_lod_contact_sheet": "assembly/screenshots/session-89-final-phase-10-qa/s89-overview-lod-contact-sheet.png"
+  },
+  "performance": {
+    "overview_city_tris": 225847,
+    "overview_city_tri_budget": 250000,
+    "focused_scene_tris": {
+      "sia-tower": 240907,
+      "fitness": 239035,
+      "yoga": 233535,
+      "finance": 238923,
+      "knowledgebase": 234371,
+      "chat": 240423,
+      "leaderboard": 236455,
+      "relationships": 238307,
+      "career": 243219,
+      "recovery": 235047,
+      "analytics": 234729,
+      "nutrition": 234095
+    },
+    "focused_scene_tri_budget": 270000,
+    "active_source_bytes": 2198788,
+    "hero_source_bytes": 2178192,
+    "hero_exterior_count": 12,
+    "max_focused_scene_tris": 243219
+  }
+}

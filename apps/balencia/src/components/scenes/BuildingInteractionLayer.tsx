@@ -1,8 +1,13 @@
 import { Html } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { useMemo, useRef, type CSSProperties } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import * as THREE from "three";
-import { getDistrictProfile, INTERACTIVE_DISTRICT_IDS } from "../../lib/district-metadata";
+import {
+  ACTIVE_LABEL_LAYOUT_OVERRIDES,
+  getDistrictProfile,
+  getInteractionDistrictIdsForScene,
+  OVERVIEW_SCENES,
+} from "../../lib/district-metadata";
 import type { StructureAsset, Vec3 } from "../../lib/types";
 import { useScrollStore } from "../../store/useScrollStore";
 
@@ -26,16 +31,40 @@ function targetDirectionFor(structure: StructureAsset) {
   return new THREE.Vector3(structure.position[0] / length, 0, structure.position[2] / length);
 }
 
-function targetPositionFor(structure: StructureAsset) {
+function targetPositionFor(structure: StructureAsset, sceneIndex: number) {
   const profile = getDistrictProfile(structure.id);
+  const override = ACTIVE_LABEL_LAYOUT_OVERRIDES[sceneIndex]?.[structure.id];
   const direction = targetDirectionFor(structure);
-  const offset = Math.max(profile.boardOffset * 0.26, structure.id === "sia-tower" ? 2.2 : 3.4);
+  const isOverviewScene = OVERVIEW_SCENES.has(sceneIndex);
+  const baseOffset = override?.labelOffset ?? profile.boardOffset;
+  const offset = Math.max(
+    baseOffset * (isOverviewScene ? 0.18 : 0.2),
+    structure.id === "sia-tower" ? 1.8 : 2.7,
+  );
+  const height = isOverviewScene
+    ? Math.max(2.8, profile.anchorHeight * (structure.id === "sia-tower" ? 0.62 : 0.58))
+    : Math.max(2.6, (override?.labelHeight ?? profile.anchorHeight) * 0.62);
 
   return new THREE.Vector3(
     structure.position[0] + direction.x * offset,
-    Math.max(2.4, profile.anchorHeight * 0.54),
+    height,
     structure.position[2] + direction.z * offset,
   );
+}
+
+function targetSizeFor(structure: StructureAsset, sceneIndex: number) {
+  const profile = getDistrictProfile(structure.id);
+  const padMax = Math.max(profile.padSize[0], profile.padSize[1]);
+
+  if (OVERVIEW_SCENES.has(sceneIndex)) {
+    return structure.id === "sia-tower" ? 148 : Math.round(THREE.MathUtils.clamp(padMax * 4.8, 92, 122));
+  }
+
+  if (structure.id === "sia-tower") {
+    return sceneIndex === 3 ? 74 : 88;
+  }
+
+  return Math.round(THREE.MathUtils.clamp(padMax * 3.2, 64, profile.labelTier === "major" ? 82 : 76));
 }
 
 function restoreHorizontalScroll() {
@@ -119,37 +148,58 @@ function InteractionPulse({
 }
 
 export function BuildingInteractionLayer({ sceneIndex, structures }: BuildingInteractionLayerProps) {
+  const isClickInteriorActive = useScrollStore((state) => state.isClickInteriorActive);
   const setHoveredDistrict = useScrollStore((state) => state.setHoveredDistrict);
   const clearHoveredDistrict = useScrollStore((state) => state.clearHoveredDistrict);
   const setFocusedDistrict = useScrollStore((state) => state.setFocusedDistrict);
   const clearFocusedDistrict = useScrollStore((state) => state.clearFocusedDistrict);
+  const enterInterior = useScrollStore((state) => state.enterInterior);
   const focusedDistrictId = useScrollStore((state) => state.focusedDistrictId);
   const hoveredDistrictId = useScrollStore((state) => state.hoveredDistrictId);
-  const targets = useMemo(
-    () => structures.filter((structure) => INTERACTIVE_DISTRICT_IDS.includes(structure.id)),
-    [structures],
-  );
+
+  const [gateInteraction, setGateInteraction] = useState(false);
+  const gateTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    if (gateTimeoutRef.current) {
+      clearTimeout(gateTimeoutRef.current);
+      gateTimeoutRef.current = null;
+    }
+
+    if (isClickInteriorActive) {
+      setGateInteraction(true);
+    } else {
+      gateTimeoutRef.current = setTimeout(() => {
+        setGateInteraction(false);
+      }, 1200);
+    }
+
+    return () => {
+      if (gateTimeoutRef.current) {
+        clearTimeout(gateTimeoutRef.current);
+        gateTimeoutRef.current = null;
+      }
+    };
+  }, [isClickInteriorActive]);
+
+  const targets = useMemo(() => {
+    const allowedDistrictIds = getInteractionDistrictIdsForScene(sceneIndex);
+
+    return structures.filter((structure) => allowedDistrictIds.includes(structure.id));
+  }, [sceneIndex, structures]);
   const activePreviewDistrictId = focusedDistrictId ?? hoveredDistrictId;
 
   return (
     <group name="Building_Interaction_Layer">
-      {targets.map((structure) => {
+      {!gateInteraction && targets.map((structure) => {
         const profile = getDistrictProfile(structure.id);
-        const targetPosition = targetPositionFor(structure);
+        const targetPosition = targetPositionFor(structure, sceneIndex);
         const isFocused = focusedDistrictId === structure.id;
         const isHovered = hoveredDistrictId === structure.id;
         const isActivePreview = activePreviewDistrictId === structure.id;
         const tooltipId = `${structure.id}-interaction-preview`;
-        const isOverviewScene = sceneIndex === 1 || sceneIndex === 15 || sceneIndex === 17;
-        const targetSize = isOverviewScene
-          ? structure.id === "sia-tower"
-            ? 160
-            : 132
-          : structure.id === "sia-tower"
-            ? 92
-            : profile.labelTier === "major"
-              ? 74
-              : 68;
+        const isOverviewScene = OVERVIEW_SCENES.has(sceneIndex);
+        const targetSize = targetSizeFor(structure, sceneIndex);
 
         return (
           <group key={`${structure.id}-interaction-target`}>
@@ -186,11 +236,16 @@ export function BuildingInteractionLayer({ sceneIndex, structures }: BuildingInt
                   aria-label={`Inspect ${profile.label}`}
                   aria-pressed={isFocused}
                   data-district-id={structure.id}
+                  data-district-insight={profile.preview.insight}
+                  data-district-label={profile.label}
+                  data-district-signal={profile.preview.signal}
+                  data-district-status={profile.preview.status}
                   onBlur={() => clearFocusedDistrict(structure.id)}
                   onClick={(event) => {
                     event.currentTarget.focus({ preventScroll: true });
                     restoreHorizontalScroll();
                     setFocusedDistrict(structure.id);
+                    enterInterior(structure.id);
                   }}
                   onFocus={() => {
                     restoreHorizontalScroll();

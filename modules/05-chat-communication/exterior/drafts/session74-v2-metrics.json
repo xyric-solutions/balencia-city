@@ -1,0 +1,128 @@
+{
+  "session": 74,
+  "date": "2026-05-26",
+  "module": "Chat & Communication",
+  "source_glb": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+  "output_blend": "modules/05-chat-communication/exterior/drafts/chat-session74-v2-polish.blend",
+  "draft_glb": "modules/05-chat-communication/exterior/drafts/chat-ext-v2-draft-s74.glb",
+  "approved_glb": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/05-chat-communication/chat-ext.glb",
+  "pre_tris": 18580,
+  "pre_objects": 192,
+  "pre_bbox": {
+    "min": [
+      -6.3045,
+      -4.395,
+      0.0
+    ],
+    "max": [
+      6.3045,
+      4.395,
+      14.5399
+    ],
+    "size": [
+      12.609,
+      8.79,
+      14.5399
+    ],
+    "center": [
+      0.0,
+      0.0,
+      7.27
+    ]
+  },
+  "final_live_tris": 20052,
+  "final_live_objects": 7,
+  "final_tris": 20052,
+  "final_objects": 7,
+  "final_size_bytes": 161944,
+  "final_size_kb": 158.1,
+  "bbox": {
+    "min": [
+      -6.3045,
+      -4.3949,
+      0.0
+    ],
+    "max": [
+      6.3045,
+      4.395,
+      14.5399
+    ],
+    "size": [
+      12.609,
+      8.7899,
+      14.5399
+    ],
+    "center": [
+      0.0,
+      0.0,
+      7.27
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "session74 chat communication signal finish": {
+      "objects": 68,
+      "tris": 1472
+    }
+  },
+  "budget": {
+    "tri_min": 15000,
+    "tri_max": 20500,
+    "size_min_kb": 120,
+    "size_max_kb": 400,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/05-chat-communication/exterior/drafts/chat-ext-v2-draft-s74.glb",
+    "object_count": 7,
+    "tris": 20052,
+    "size_bytes": 161944,
+    "size_kb": 158.1,
+    "bbox": {
+      "min": [
+        -6.3045,
+        -4.3949,
+        0.0
+      ],
+      "max": [
+        6.3045,
+        4.395,
+        14.5399
+      ],
+      "size": [
+        12.609,
+        8.7899,
+        14.5399
+      ],
+      "center": [
+        0.0,
+        0.0,
+        7.27
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "chat-ext"
+    ],
+    "passed": true
+  }
+}

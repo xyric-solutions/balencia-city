@@ -1,0 +1,44 @@
+{
+  "path": "modules/06-leaderboard-competition/exterior/drafts/leaderboard-ext-v2-draft-s75.glb",
+  "object_count": 6,
+  "tris": 19928,
+  "size_bytes": 155148,
+  "size_kb": 151.5,
+  "bbox": {
+    "min": [
+      -9.2,
+      -19.9017,
+      0.0
+    ],
+    "max": [
+      9.1994,
+      13.25,
+      11.3734
+    ],
+    "size": [
+      18.3994,
+      33.1517,
+      11.3734
+    ],
+    "center": [
+      -0.0003,
+      -3.3259,
+      5.6867
+    ]
+  },
+  "materials": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass"
+  ],
+  "invalid_materials": [],
+  "cameras_lights": [],
+  "roots": [
+    "leaderboard-ext"
+  ],
+  "passed": true,
+  "root_check_passed": true
+}

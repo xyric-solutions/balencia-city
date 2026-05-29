@@ -1,0 +1,75 @@
+{
+  "session": 84,
+  "url": "http://localhost:3007/?qa-evidence=1",
+  "capturedAt": "2026-05-27T03:18:59+05:00",
+  "summary": {
+    "passed": true,
+    "overallScore": 8.4,
+    "p0Blockers": 0,
+    "overviewInteractionCoverage": "12 / 12",
+    "desktopSceneCount": 17,
+    "desktopSceneFailures": 0,
+    "mobileSpotCount": 6,
+    "mobileSpotFailures": 0,
+    "consoleWarningsOrErrors": 0,
+    "pageErrors": 0,
+    "canvasFailures": 0,
+    "textOverflowOrOverlapFailures": 0
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "checks": {
+      "activeScenes": "17 / 17",
+      "overviewTargets": "12 / 12 in Scenes 1, 15, and 17",
+      "focusedTargets": "1 active district target in Scenes 2-14",
+      "productTargets": "0 district targets in Scene 16",
+      "canvas": "17 / 17 nonblank",
+      "textHealth": "0 overflow, 0 overlap"
+    },
+    "sceneTargetCounts": {
+      "1": 12,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 12,
+      "16": 0,
+      "17": 12
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "checkedScenes": [1, 3, 4, 14, 16, 17],
+    "checks": {
+      "activeScenes": "6 / 6",
+      "canvas": "6 / 6 nonblank",
+      "textHealth": "0 overflow, 0 offscreen text",
+      "productScene": "Scene 16 product overlay visible with no district targets"
+    }
+  },
+  "console": {
+    "totalMessages": 3,
+    "errors": 0,
+    "warnings": 0,
+    "notes": "Only React DevTools development info messages were present."
+  },
+  "fixAppliedDuringAudit": {
+    "file": "apps/balencia/src/styles.css",
+    "summary": "Removed the external Google Fonts import and kept typography on the local system UI stack so demos do not depend on network font loading."
+  }
+}

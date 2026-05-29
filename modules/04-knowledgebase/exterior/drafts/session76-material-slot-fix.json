@@ -1,0 +1,50 @@
+{
+  "session": 76,
+  "date": "2026-05-26",
+  "path": "modules/04-knowledgebase/exterior/drafts/knowledgebase-ext-v2-draft-s76-material-fix.glb",
+  "fixed_objects": [
+    "knowledgebase_s74_detail_combined_mesh"
+  ],
+  "object_count": 7,
+  "tris": 15204,
+  "size_bytes": 106508,
+  "size_kb": 104.0,
+  "bbox": {
+    "min": [
+      -2.6888,
+      -9.6483,
+      0.0
+    ],
+    "max": [
+      5.7891,
+      2.2,
+      14.0407
+    ],
+    "size": [
+      8.4778,
+      11.8483,
+      14.0407
+    ],
+    "center": [
+      1.5502,
+      -3.7242,
+      7.0204
+    ]
+  },
+  "material_roots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "missing_materials": [],
+  "invalid_materials": [],
+  "roots": [
+    "knowledgebase-ext"
+  ],
+  "cameras_lights": [],
+  "passed": true
+}

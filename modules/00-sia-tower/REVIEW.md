@@ -11,6 +11,7 @@
 **Exterior Status**: Session 3 Complete (Polish, Holo Mark, Export)
 **Exterior Approved**: [x] Yes / Date: 2026-05-22
 **Phase 8 Exterior v2 Status**: Session 71 Pilot Polish Approved / Date: 2026-05-26
+**Phase 10 Hero Exterior LOD Status**: Session 86 Approved / Date: 2026-05-27
 
 ### Session 1 — Major Forms (Complete)
 - 5 objects: Base Platform, Tower Glass, Tower Ledges, Crown, Spire
@@ -42,6 +43,15 @@
 - QA verdict: approved with a Phase 8 density exception. The pilot substantially improves facade, base, entrance, crown, and dark-first readability while leaving final density headroom for later citywide review.
 - Export: `modules/00-sia-tower/exterior/approved/sia-tower-ext.glb`, synced to `apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext.glb`.
 - Evidence: `modules/00-sia-tower/screenshots/session71-v2-front.png`, `session71-v2-threequarter.png`, `session71-v2-ground-up.png`, `session71-v2-dark-first.png`, and `assembly/screenshots/s71-exterior-finish-contact-sheet.png`.
+
+### Session 86 - Phase 10 Hero Exterior LOD (Approved, 2026-05-27)
+- Scope: focused-scene architectural completion hero exterior for Scene 2, preserving the approved overview exterior, origin, layout position, and energy endpoint assumptions.
+- Added occupied facade rhythm behind the exoskeleton, deeper civic base and entrance threshold, resolved crown beacon, and visible pipeline departure hardpoints.
+- Final hero exterior: 29,904 tris, 7 mesh objects, 141.5 KB GLB, bounding box 30.7992u x 32.58u x 75.9572u.
+- Materials: approved slots only (`accent`, `base`, `detail`, `emissive`, `energy`, `glass`, `holo`); one clean root named `sia-tower-ext-hero`; no exported cameras/lights.
+- Gate 8 verdict: approved. Scene 2 focused hero view reads as a finished central tower instead of a frame-only landmark.
+- Export: `modules/00-sia-tower/exterior/approved/sia-tower-ext-hero.glb`, synced to `apps/balencia/public/models/structures/00-sia-tower/sia-tower-ext-hero.glb`.
+- Evidence: `modules/00-sia-tower/screenshots/session86-sia-tower-hero-front.png`, `session86-sia-tower-hero-three-quarter.png`, `session86-sia-tower-hero-ground-up.png`, `session86-sia-tower-hero-dark-first.png`, and `assembly/screenshots/session-86-pilot-wave/s86-pilot-wave-before-after-contact-sheet.png`.
 
 ---
 

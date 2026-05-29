@@ -1,0 +1,210 @@
+{
+  "session": 79,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "activeBoardChecks": [
+      {
+        "scene": 4,
+        "districtId": "fitness",
+        "labelHeight": 14,
+        "labelOffset": 3.2
+      },
+      {
+        "scene": 5,
+        "districtId": "yoga",
+        "labelHeight": 10.5,
+        "labelOffset": 3.1
+      },
+      {
+        "scene": 6,
+        "districtId": "finance",
+        "labelHeight": 16,
+        "labelOffset": 3
+      },
+      {
+        "scene": 7,
+        "districtId": "knowledgebase",
+        "labelHeight": 15,
+        "labelOffset": 3.3
+      },
+      {
+        "scene": 8,
+        "districtId": "chat",
+        "labelHeight": 14,
+        "labelOffset": 3.4
+      },
+      {
+        "scene": 9,
+        "districtId": "leaderboard",
+        "labelHeight": 12,
+        "labelOffset": 3.5
+      },
+      {
+        "scene": 10,
+        "districtId": "relationships",
+        "labelHeight": 9,
+        "labelOffset": 3.2
+      },
+      {
+        "scene": 11,
+        "districtId": "career",
+        "labelHeight": 18.5,
+        "labelOffset": 3.4
+      },
+      {
+        "scene": 12,
+        "districtId": "recovery",
+        "labelHeight": 8.8,
+        "labelOffset": 3.4
+      },
+      {
+        "scene": 13,
+        "districtId": "analytics",
+        "labelHeight": 16,
+        "labelOffset": 3.2
+      },
+      {
+        "scene": 14,
+        "districtId": "nutrition",
+        "labelHeight": 11.5,
+        "labelOffset": 3.4
+      }
+    ],
+    "interactionCoverage": "12 / 12",
+    "knowledgebaseRegression": {
+      "expectedStatus": "Learning queue tuned",
+      "actualStatus": "Learning queue tuned",
+      "financeCopyMatches": []
+    },
+    "namingChecks": [
+      {
+        "scene": 2,
+        "districtId": "sia-tower",
+        "expected": "SIA Tower",
+        "focus": "SIA Tower",
+        "title": "SIA Tower",
+        "result": "PASS"
+      },
+      {
+        "scene": 3,
+        "districtId": "sia-tower",
+        "expected": "Inside SIA Tower",
+        "focus": "Inside SIA Tower",
+        "title": "Inside SIA Tower",
+        "result": "PASS"
+      },
+      {
+        "scene": 4,
+        "districtId": "fitness",
+        "expected": "Fitness district",
+        "focus": "Fitness district",
+        "title": "Fitness district",
+        "result": "PASS"
+      },
+      {
+        "scene": 5,
+        "districtId": "yoga",
+        "expected": "Yoga and wellbeing",
+        "focus": "Yoga and wellbeing",
+        "title": "Yoga and wellbeing",
+        "result": "PASS"
+      },
+      {
+        "scene": 6,
+        "districtId": "finance",
+        "expected": "Finance district",
+        "focus": "Finance district",
+        "title": "Finance district",
+        "result": "PASS"
+      },
+      {
+        "scene": 7,
+        "districtId": "knowledgebase",
+        "expected": "Knowledgebase district",
+        "focus": "Knowledgebase district",
+        "title": "Knowledgebase district",
+        "result": "PASS"
+      },
+      {
+        "scene": 8,
+        "districtId": "chat",
+        "expected": "Chat and communication",
+        "focus": "Chat and communication",
+        "title": "Chat and communication",
+        "result": "PASS"
+      },
+      {
+        "scene": 9,
+        "districtId": "leaderboard",
+        "expected": "Leaderboard and competition",
+        "focus": "Leaderboard and competition",
+        "title": "Leaderboard and competition",
+        "result": "PASS"
+      },
+      {
+        "scene": 10,
+        "districtId": "relationships",
+        "expected": "Relationships district",
+        "focus": "Relationships district",
+        "title": "Relationships district",
+        "result": "PASS"
+      },
+      {
+        "scene": 11,
+        "districtId": "career",
+        "expected": "Career district",
+        "focus": "Career district",
+        "title": "Career district",
+        "result": "PASS"
+      },
+      {
+        "scene": 12,
+        "districtId": "recovery",
+        "expected": "Recovery and sleep",
+        "focus": "Recovery and sleep",
+        "title": "Recovery and sleep",
+        "result": "PASS"
+      },
+      {
+        "scene": 13,
+        "districtId": "analytics",
+        "expected": "AI analytics",
+        "focus": "AI analytics",
+        "title": "AI analytics",
+        "result": "PASS"
+      },
+      {
+        "scene": 14,
+        "districtId": "nutrition",
+        "expected": "Nutrition district",
+        "focus": "Nutrition district",
+        "title": "Nutrition district",
+        "result": "PASS"
+      }
+    ],
+    "overviewChecks": [
+      {
+        "scene": 1,
+        "labelCount": 12,
+        "minAnchorDistance": 19.12,
+        "missing": [],
+        "staleScreenSpace": []
+      },
+      {
+        "scene": 15,
+        "labelCount": 12,
+        "minAnchorDistance": 39.89,
+        "missing": [],
+        "staleScreenSpace": []
+      },
+      {
+        "scene": 17,
+        "labelCount": 12,
+        "minAnchorDistance": 36.96,
+        "missing": [],
+        "staleScreenSpace": []
+      }
+    ]
+  }
+}

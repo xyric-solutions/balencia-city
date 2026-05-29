@@ -1,5 +1,6 @@
-import { Html } from "@react-three/drei";
+import { Html, Line } from "@react-three/drei";
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useScrollStore } from "../../store/useScrollStore";
 import * as THREE from "three";
 import {
   getDistrictProfile,
@@ -7,6 +8,7 @@ import {
   OVERVIEW_SCENES,
   SIA_FOCUS_SCENES,
   type DistrictProfile,
+  type OverviewLabelLayout,
 } from "../../lib/district-metadata";
 import { CITY_LAYOUT_ISLAND } from "../../lib/city-layout-v2";
 import { BRAND_COLORS } from "../../lib/materials";
@@ -135,7 +137,7 @@ function GroundStrip({
   width: number;
 }) {
   return (
-    <mesh position={position} rotation={[0, rotationY, 0]}>
+    <mesh receiveShadow position={position} rotation={[0, rotationY, 0]}>
       <boxGeometry args={[length, 0.03, width]} />
       <meshStandardMaterial
         color={color}
@@ -154,30 +156,37 @@ function GroundStrip({
 function FlatRing({
   color,
   emissiveIntensity = 0,
+  envMapIntensity,
   inner,
+  metalness = 0.08,
   opacity = 1,
   outer,
+  roughness = 0.58,
   segments = 192,
   y = 0.055,
 }: {
   color: string;
   emissiveIntensity?: number;
+  envMapIntensity?: number;
   inner: number;
+  metalness?: number;
   opacity?: number;
   outer: number;
+  roughness?: number;
   segments?: number;
   y?: number;
 }) {
   return (
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, y, 0]}>
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, y, 0]} receiveShadow>
       <ringGeometry args={[inner, outer, segments]} />
       <meshStandardMaterial
         color={color}
         emissive={color}
         emissiveIntensity={emissiveIntensity}
-        metalness={0.08}
+        envMapIntensity={envMapIntensity}
+        metalness={metalness}
         opacity={opacity}
-        roughness={0.58}
+        roughness={roughness}
         side={THREE.DoubleSide}
         toneMapped={emissiveIntensity === 0}
         transparent={opacity < 1}
@@ -351,7 +360,7 @@ function CentralCivicPlaza({ sceneIndex }: { sceneIndex: number }) {
     <group name="SIA_Civic_Plaza">
       <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.076, 0]}>
         <circleGeometry args={[15.8, 128]} />
-        <meshStandardMaterial color={SURFACE.plaza} metalness={0.16} roughness={0.46} />
+        <meshStandardMaterial color={SURFACE.plaza} metalness={0.24} roughness={0.38} envMapIntensity={0.3} />
       </mesh>
       <FlatRing color={SURFACE.sidewalk} inner={10.6} outer={11.28} y={0.095} />
       <FlatRing
@@ -1113,9 +1122,9 @@ function UrbanAtlasGround({ sceneIndex, structures }: { sceneIndex: number; stru
     <group name="Urban_Atlas_Ground">
       <IslandGround />
       <OuterDepthBands sceneIndex={sceneIndex} />
-      <FlatRing color={SURFACE.roadPrimary} inner={20.8} outer={25.4} y={0.045} />
-      <FlatRing color={SURFACE.roadPrimary} inner={48.0} outer={53.8} y={0.047} />
-      <FlatRing color={SURFACE.road} inner={82.4} outer={88.4} y={0.049} />
+      <FlatRing color={SURFACE.roadPrimary} inner={20.8} outer={25.4} y={0.045} metalness={0.14} roughness={0.55} />
+      <FlatRing color={SURFACE.roadPrimary} inner={48.0} outer={53.8} y={0.047} metalness={0.14} roughness={0.55} />
+      <FlatRing color={SURFACE.road} inner={82.4} outer={88.4} y={0.049} metalness={0.14} roughness={0.55} />
       <FlatRing color={SURFACE.sidewalk} inner={25.45} outer={26.05} y={0.072} />
       <FlatRing color={SURFACE.sidewalk} inner={47.28} outer={47.82} y={0.072} />
       <FlatRing color={SURFACE.sidewalk} inner={54.0} outer={54.55} y={0.073} />
@@ -1128,8 +1137,8 @@ function UrbanAtlasGround({ sceneIndex, structures }: { sceneIndex: number; stru
         outer={91.12}
         y={0.082}
       />
-      <FlatRing color={SURFACE.canal} emissiveIntensity={0.04} inner={36.8} opacity={0.82} outer={37.9} y={0.052} />
-      <FlatRing color={SURFACE.canal} emissiveIntensity={0.04} inner={66.8} opacity={0.78} outer={68.1} y={0.052} />
+      <FlatRing color={SURFACE.canal} emissiveIntensity={0.04} inner={36.8} opacity={0.82} outer={37.9} y={0.052} metalness={0.35} roughness={0.3} envMapIntensity={0.4} />
+      <FlatRing color={SURFACE.canal} emissiveIntensity={0.04} inner={66.8} opacity={0.78} outer={68.1} y={0.052} metalness={0.35} roughness={0.3} envMapIntensity={0.4} />
       <CentralCivicPlaza sceneIndex={sceneIndex} />
       <SiaHierarchyBeacon sceneIndex={sceneIndex} />
       {structures.map((structure) => (
@@ -1158,43 +1167,112 @@ function CuratedOverviewLabels({
   const layout = OVERVIEW_LABEL_LAYOUTS[sceneIndex] ?? OVERVIEW_LABEL_LAYOUTS[1];
 
   return (
-    <Html fullscreen className="city-label-map-anchor" zIndexRange={[6, 0]}>
-      <div className="city-label-map" aria-label="City district labels">
-        {structures.map((structure) => {
-          const profile = profileFor(structure);
-          const screenPosition = layout[structure.id];
+    <group name="Overview_Anchor_Labels">
+      {structures.map((structure) => {
+        const labelLayout = layout[structure.id];
 
-          if (!screenPosition) {
-            return null;
+        if (!labelLayout) {
+          return null;
+        }
+
+        return (
+          <OverviewAnchorLabel
+            key={`${structure.id}-overview-anchor-label`}
+            labelLayout={labelLayout}
+            sceneIndex={sceneIndex}
+            structure={structure}
+          />
+        );
+      })}
+    </group>
+  );
+}
+
+function overviewLabelDirectionFor(structure: StructureAsset) {
+  const profile = profileFor(structure);
+
+  if (profile.boardDirection) {
+    return new THREE.Vector3(...profile.boardDirection).normalize();
+  }
+
+  const [x, , z] = normalizePlanar(structure.position);
+  return new THREE.Vector3(x, 0, z).normalize();
+}
+
+function OverviewAnchorLabel({
+  labelLayout,
+  sceneIndex,
+  structure,
+}: {
+  labelLayout: OverviewLabelLayout;
+  sceneIndex: number;
+  structure: StructureAsset;
+}) {
+  const profile = profileFor(structure);
+  const direction = overviewLabelDirectionFor(structure);
+  const tangent = new THREE.Vector3(-direction.z, 0, direction.x);
+  const labelPosition = new THREE.Vector3(
+    structure.position[0] + direction.x * labelLayout.offset + tangent.x * (labelLayout.lateral ?? 0),
+    labelLayout.height,
+    structure.position[2] + direction.z * labelLayout.offset + tangent.z * (labelLayout.lateral ?? 0),
+  );
+  const tetherStart = new THREE.Vector3(
+    structure.position[0],
+    Math.max(1.3, profile.anchorHeight * 0.68),
+    structure.position[2],
+  );
+  const baseAnchor = new THREE.Vector3(structure.position[0], 0.22, structure.position[2]);
+  const color = profile.motifColor;
+
+  return (
+    <group name={`${structure.id}_overview_anchor_label`} userData={{ districtId: structure.id, sceneIndex }}>
+      <Line points={[tetherStart, labelPosition]} color={color} lineWidth={0.9} transparent opacity={0.62} />
+      <mesh position={baseAnchor.toArray()} rotation={[-Math.PI / 2, 0, 0]}>
+        <ringGeometry args={[0.42, 0.62, 32]} />
+        <meshStandardMaterial
+          color={color}
+          emissive={color}
+          emissiveIntensity={0.36}
+          opacity={0.72}
+          side={THREE.DoubleSide}
+          toneMapped={false}
+          transparent
+        />
+      </mesh>
+      <mesh position={tetherStart.toArray()}>
+        <sphereGeometry args={[0.2, 12, 12]} />
+        <meshStandardMaterial color={color} emissive={color} emissiveIntensity={0.72} toneMapped={false} />
+      </mesh>
+      <Html
+        center
+        className="city-label-anchor"
+        distanceFactor={labelLayout.distanceFactor ?? 112}
+        occlude={false}
+        position={labelPosition.toArray()}
+        zIndexRange={[6, 0]}
+      >
+        <div
+          className={[
+            "city-label",
+            "city-label--overview",
+            "city-label--anchor",
+            `city-label--${profile.labelTier}`,
+          ].join(" ")}
+          data-district-id={structure.id}
+          data-label-anchor="model"
+          data-label-scene={sceneIndex}
+          style={
+            {
+              "--district-color": color,
+              "--label-max-width": `${labelLayout.maxWidth ?? 184}px`,
+            } as CSSProperties
           }
-
-          return (
-            <div
-              key={`${structure.id}-screen-label`}
-              className="city-label-map__item"
-              style={{
-                left: `${screenPosition.left}%`,
-                maxWidth: screenPosition.maxWidth ? `${screenPosition.maxWidth}px` : undefined,
-                top: `${screenPosition.top}%`,
-              }}
-            >
-              <div
-                className={[
-                  "city-label",
-                  "city-label--overview",
-                  "city-label--screen",
-                  `city-label--${profile.labelTier}`,
-                ].join(" ")}
-                style={{ "--district-color": profile.motifColor } as CSSProperties}
-              >
-                <span>{profile.label}</span>
-                <small>{profile.place}</small>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </Html>
+        >
+          <span>{profile.label}</span>
+          <small>{profile.place}</small>
+        </div>
+      </Html>
+    </group>
   );
 }
 
@@ -1323,17 +1401,21 @@ export function CityContext({
   sceneIndex,
   structures,
 }: CityContextProps) {
+  const isClickInteriorActive = useScrollStore((state) => state.isClickInteriorActive);
+
   return (
     <group name="City_Context">
       <UrbanAtlasGround sceneIndex={sceneIndex} structures={structures} />
       <DistrictLabels
         activeDistrict={activeDistrict}
-        focusedDistrictId={focusedDistrictId}
-        hoveredDistrictId={hoveredDistrictId}
+        focusedDistrictId={isClickInteriorActive ? undefined : focusedDistrictId}
+        hoveredDistrictId={isClickInteriorActive ? undefined : hoveredDistrictId}
         sceneIndex={sceneIndex}
         structures={structures}
       />
-      <BuildingInteractionLayer sceneIndex={sceneIndex} structures={structures} />
+      {!isClickInteriorActive && (
+        <BuildingInteractionLayer sceneIndex={sceneIndex} structures={structures} />
+      )}
     </group>
   );
 }

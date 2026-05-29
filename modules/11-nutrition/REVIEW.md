@@ -10,6 +10,8 @@
 
 **Exterior Status**: Approved -- Session 46 Complete
 **Exterior Approved**: [x] Yes / Date: 2026-05-25
+**Phase 8 v2 Polish**: Session 75 Approved / Date: 2026-05-26 -- 19,876 tris, 6 mesh objects, 121.7 KB, one clean `nutrition-ext` root, no cameras/lights, green plant `accent` restored, and amber grow-light signals preserved.
+**Phase 10 Hero LOD**: Session 88 Approved / Date: 2026-05-27 -- 28,124 tris, 6 packed objects, 178.1 KB, clean `nutrition-ext-hero` root, and Scene 14 focused hero budget 234,095 / 270,000 tris.
 
 ### Build Sessions
 <!-- DESIGN-05 appends session logs here -->
@@ -147,6 +149,69 @@
 
 **Next Session**:
 - Proceed to Nutrition interior Session 47: Nourishment Hall.
+
+#### Session 75 -- 2026-05-26 -- Phase 8 Signature Exterior Polish
+
+**Skill**: Session 75 build loop via Codex + Blender background runner
+**Blender Version**: 5.1.x
+**Scope**: Additive Phase 8 v2 exterior polish, approved/app GLB promotion, evidence renders, and import QA.
+
+**Build Actions**:
+- Rebuilt from the pre-polish Session 46 exterior draft to avoid compounding polish passes.
+- Added terrace planter lips, amber seedling glows, hanging vine lines, leaf clusters, greenhouse diagonal mullions, market produce crates, irrigation droplet nodes, and roof vent warm finish rings.
+- Preserved the stepped vertical-farm silhouette, bottom-centered origin, city-layout-v2 placement assumptions, and baked hard-pipeline endpoint assumptions.
+- Restored Nutrition's green plant `accent` read while preserving amber grow-light and roof signals on `emissive`.
+
+**Export Metrics**:
+- Previous approved exterior: 17,964 tris, 6 mesh objects, 108,788 bytes.
+- Session 75 v2 exterior: 19,876 tris, 6 mesh objects, 124,572 bytes (121.7 KB).
+- Root: one clean root named `nutrition-ext`.
+- Cameras/lights: none exported.
+- BBox min Z: within tolerance at ground plane.
+
+**Files**:
+- Prompt: `prompts/session-75-leaderboard-analytics-nutrition-signature-polish-wave.md`
+- Build script: `assembly/drafts/build-session-75-signature-polish.py`
+- Metrics: `exterior/drafts/session75-v2-metrics.json`
+- QA import report: `exterior/drafts/session75-qa-import.json`
+- Draft GLB: `exterior/drafts/nutrition-ext-v2-draft-s75.glb`
+- Approved GLB: `exterior/approved/nutrition-ext.glb`
+
+**Screenshots**:
+- `screenshots/session75-nutrition-v2-front.png`
+- `screenshots/session75-nutrition-v2-threequarter.png`
+- `screenshots/session75-nutrition-v2-dark-first.png`
+- `assembly/screenshots/s75-exterior-finish-contact-sheet.png`
+
+**Final Verdict**: APPROVED for Phase 8 v2 exterior polish.
+
+#### Session 88 -- 2026-05-27 -- Phase 10 Organic/Signature Hero LOD
+
+**Scope**: Focused-scene hero exterior LOD for Phase 10. The overview exterior remains `exterior/approved/nutrition-ext.glb`; Scene 14 can load `exteriorHero` on demand.
+
+**Build Actions**:
+- Added completed terrace ledges, greenhouse mullions, irrigation droplet detail, and layered farm facade cadence.
+- Added market produce threshold depth, vine/plant rhythm, amber grow-light refinement, and roof service crown details.
+- Preserved the stepped vertical-farm silhouette, green plant `accent` read, approved origin/layout position, and hard-pipeline endpoint assumptions.
+- Promoted the validated hero GLB to `exterior/approved/nutrition-ext-hero.glb` and `apps/balencia/public/models/structures/11-nutrition/nutrition-ext-hero.glb`.
+
+**Metrics**:
+- Overview exterior: 19,876 tris, 6 objects, 121.7 KB.
+- Session 88 hero exterior: 28,124 tris, 6 packed objects, 182,396 bytes (178.1 KB).
+- Focused Scene 14 budget: 234,095 / 270,000 tris.
+- Material slots: `accent`, `base`, `detail`, `emissive`, `energy`, `glass`.
+- Import QA: no rogue materials, no cameras/lights, bbox min z 0.0, root `nutrition-ext-hero`.
+
+**Evidence**:
+- `screenshots/session88-nutrition-hero-front.png`
+- `screenshots/session88-nutrition-hero-three-quarter.png`
+- `screenshots/session88-nutrition-hero-ground-up.png`
+- `screenshots/session88-nutrition-hero-dark-first.png`
+- `assembly/screenshots/session-88-organic-signature-wave/app-hero-cameras/scene-14-nutrition-nutrition-farm-hero-after.png`
+- `exterior/drafts/session88-hero-metrics.json`
+- `exterior/drafts/session88-hero-qa-import.json`
+
+**Final Verdict**: APPROVED for Phase 10 architectural completion hero LOD.
 
 ### QA Reviews
 <!-- DESIGN-08 appends gate results here -->

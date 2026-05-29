@@ -1,0 +1,116 @@
+{
+  "session": 81,
+  "date": "2026-05-26",
+  "result": "PASS",
+  "checks": {
+    "interactionChecks": [
+      {
+        "scene": 9,
+        "expectedOnly": "leaderboard",
+        "focusedSceneMap": "leaderboard",
+        "interactive": true
+      },
+      {
+        "scene": 10,
+        "expectedOnly": "relationships",
+        "focusedSceneMap": "relationships",
+        "interactive": true
+      },
+      {
+        "scene": 11,
+        "expectedOnly": "career",
+        "focusedSceneMap": "career",
+        "interactive": true
+      },
+      {
+        "scene": 12,
+        "expectedOnly": "recovery",
+        "focusedSceneMap": "recovery",
+        "interactive": true
+      },
+      {
+        "scene": 13,
+        "expectedOnly": "analytics",
+        "focusedSceneMap": "analytics",
+        "interactive": true
+      },
+      {
+        "scene": 14,
+        "expectedOnly": "nutrition",
+        "focusedSceneMap": "nutrition",
+        "interactive": true
+      }
+    ],
+    "noFinanceLeakageChecks": {
+      "knowledgebaseStatus": "Learning queue tuned",
+      "financeStatus": "Spend pattern watch",
+      "knowledgebaseContainsFinanceStatus": false
+    },
+    "sceneChecks": [
+      {
+        "scene": 9,
+        "districtId": "leaderboard",
+        "startDistance": 59.4,
+        "approachDistance": 41.01,
+        "thresholdDistance": 21.93,
+        "interiorDistance": 7.57,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 10,
+        "districtId": "relationships",
+        "startDistance": 58.82,
+        "approachDistance": 41.23,
+        "thresholdDistance": 21.4,
+        "interiorDistance": 8.64,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 11,
+        "districtId": "career",
+        "startDistance": 58.41,
+        "approachDistance": 41.77,
+        "thresholdDistance": 22.02,
+        "interiorDistance": 7.92,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 12,
+        "districtId": "recovery",
+        "startDistance": 56.46,
+        "approachDistance": 39.81,
+        "thresholdDistance": 21.54,
+        "interiorDistance": 7.96,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 13,
+        "districtId": "analytics",
+        "startDistance": 59.67,
+        "approachDistance": 42.52,
+        "thresholdDistance": 22.67,
+        "interiorDistance": 8.35,
+        "interiorStart": 0.56,
+        "interiorCameraAt": 0.72
+      },
+      {
+        "scene": 14,
+        "districtId": "nutrition",
+        "startDistance": 58.73,
+        "approachDistance": 41.73,
+        "thresholdDistance": 21.93,
+        "interiorDistance": 7.99,
+        "interiorStart": 0.54,
+        "interiorCameraAt": 0.68
+      }
+    ],
+    "textOverlapGuard": {
+      "hasInteriorCueCss": true,
+      "wrapsCueText": true
+    }
+  }
+}

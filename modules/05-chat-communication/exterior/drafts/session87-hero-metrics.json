@@ -1,0 +1,157 @@
+{
+  "session": 87,
+  "date": "2026-05-27",
+  "module": "Chat and Communication",
+  "id": "chat",
+  "source_glb": "modules/05-chat-communication/exterior/approved/chat-ext.glb",
+  "output_blend": "modules/05-chat-communication/exterior/drafts/chat-session87-hero.blend",
+  "draft_glb": "modules/05-chat-communication/exterior/drafts/chat-ext-hero-draft-s87.glb",
+  "approved_glb": "modules/05-chat-communication/exterior/approved/chat-ext-hero.glb",
+  "app_public_glb": "apps/balencia/public/models/structures/05-chat-communication/chat-ext-hero.glb",
+  "pre_tris": 20052,
+  "pre_objects": 7,
+  "pre_bbox": {
+    "min": [
+      -6.3045,
+      -4.3949,
+      0.0
+    ],
+    "max": [
+      6.3045,
+      4.395,
+      14.5399
+    ],
+    "size": [
+      12.609,
+      8.7899,
+      14.5399
+    ],
+    "center": [
+      0.0,
+      0.0,
+      7.27
+    ]
+  },
+  "final_live_tris": 34628,
+  "final_live_objects": 7,
+  "final_tris": 34628,
+  "final_objects": 7,
+  "final_size_bytes": 237248,
+  "final_size_kb": 231.7,
+  "bbox": {
+    "min": [
+      -6.3045,
+      -4.3946,
+      0.0
+    ],
+    "max": [
+      6.3045,
+      4.395,
+      16.0422
+    ],
+    "size": [
+      12.609,
+      8.7896,
+      16.0422
+    ],
+    "center": [
+      0.0,
+      0.0002,
+      8.0211
+    ]
+  },
+  "material_slots": [
+    "accent",
+    "base",
+    "detail",
+    "emissive",
+    "energy",
+    "glass",
+    "holo"
+  ],
+  "created_categories": {
+    "session87 chat bridge sleeves and conduit hardware": {
+      "objects": 16,
+      "tris": 1616
+    },
+    "session87 chat finished multi-pod broadcast facades": {
+      "objects": 952,
+      "tris": 12304
+    },
+    "session87 chat public plaza and communication threshold": {
+      "objects": 27,
+      "tris": 656
+    }
+  },
+  "evidence": {
+    "front": "modules/05-chat-communication/screenshots/session87-chat-hero-front.png",
+    "three_quarter": "modules/05-chat-communication/screenshots/session87-chat-hero-three-quarter.png",
+    "ground_up": "modules/05-chat-communication/screenshots/session87-chat-hero-ground-up.png",
+    "dark_first": "modules/05-chat-communication/screenshots/session87-chat-hero-dark-first.png"
+  },
+  "gate8_notes": [
+    "finished multi-pod facade rhythm and occupied broadcast screens",
+    "bridge sleeves, conduit hardware, and signal nodes read as built",
+    "shared podium, signage, roof caps, antenna clusters, and satellite crown resolved"
+  ],
+  "budget": {
+    "tri_min": 27000,
+    "tri_max": 39000,
+    "size_min_kb": 90,
+    "size_max_kb": 680,
+    "status": "APPROVED"
+  },
+  "qa": {
+    "path": "modules/05-chat-communication/exterior/drafts/chat-ext-hero-draft-s87.glb",
+    "object_count": 7,
+    "tris": 34628,
+    "size_bytes": 237248,
+    "size_kb": 231.7,
+    "bbox": {
+      "min": [
+        -6.3045,
+        -4.3946,
+        0.0
+      ],
+      "max": [
+        6.3045,
+        4.395,
+        16.0422
+      ],
+      "size": [
+        12.609,
+        8.7896,
+        16.0422
+      ],
+      "center": [
+        0.0,
+        0.0002,
+        8.0211
+      ]
+    },
+    "materials": [
+      "accent",
+      "base",
+      "detail",
+      "emissive",
+      "energy",
+      "glass",
+      "holo"
+    ],
+    "invalid_materials": [],
+    "cameras_lights": [],
+    "roots": [
+      "chat-ext-hero"
+    ],
+    "gate8_checks": {
+      "finished_facade_envelope": true,
+      "base_plinth_complete": true,
+      "roof_crown_resolved": true,
+      "floor_deck_rhythm_visible": true,
+      "frame_reads_intentional_not_scaffold": true,
+      "hero_camera_not_under_construction": true,
+      "preserved_silhouette_origin_endpoints_materials": true
+    },
+    "passed": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "active_scene": {
+    "budget": "<=250K",
+    "energy_tris": 12142,
+    "environment_tris": 1696,
+    "result": "PASS",
+    "structure_exterior_tris": 212009,
+    "total_tris": 225847
+  },
+  "date": "2026-05-26",
+  "layout": {
+    "budget": ">=36u",
+    "minimum_spacing": 36.4005
+  },
+  "loaded_for_verification": {
+    "interior_tris_hidden_by_default": 86184,
+    "total_tris_with_all_interiors": 312031
+  },
+  "session": 76,
+  "sia_dominance_ratio": 3.6408,
+  "source_glb_bytes": {
+    "active_exteriors_plus_energy": 2198788,
+    "active_exteriors_plus_energy_kb": 2147.3,
+    "interiors": 1562980,
+    "interiors_kb": 1526.3
+  }
+}

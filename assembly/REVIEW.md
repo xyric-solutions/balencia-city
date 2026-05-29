@@ -147,3 +147,104 @@
 
 **Phase 8.3 Approved**: Yes / Date: 2026-05-26
 **Next Work**: Fitness + Finance exterior polish wave.
+
+## Session 76 - Final Phase 8 City QA
+
+**Date**: 2026-05-26
+**Scope**: Phase 8.8 final evidence pass across current approved exteriors, hidden interiors, approved energy assets, layout-v2 spacing, refreshed contact sheets, target scroll frames, and active-city performance.
+
+### Artifacts
+
+| Artifact | Path |
+|----------|------|
+| Build script | `assembly/drafts/build-session-76-final-phase-8-city-qa.py` |
+| Audit JSON | `assembly/audit/session-76-final-phase-8-city-qa.json` |
+| Audit report | `assembly/audit/session-76-final-phase-8-city-qa.md` |
+| Performance report | `assembly/performance-reports/session-76-performance.json` |
+| Exterior contact sheet | `assembly/screenshots/s76-exterior-finish-contact-sheet.png` |
+| City overview contact sheet | `assembly/screenshots/s76-city-overview-contact-sheet.png` |
+| Overview screenshots | `assembly/screenshots/s76-*.png` |
+| Target scroll screenshots | `assembly/scroll-verification/session-76/` |
+
+### Metrics
+
+| Metric | Result |
+|--------|--------|
+| Approved structure exteriors present | 12 / 12 |
+| Approved structure interiors present | 12 / 12 |
+| Approved energy assets present | 7 / 7 |
+| Minimum district spacing | 36.4005u |
+| Active city tris | 225,847 |
+| Active source GLB size | 2,198,788 bytes |
+| Hidden interior tris | 86,184 |
+| SIA dominance ratio | 3.6408x |
+| Overview screenshots | 7 |
+| Target scroll screenshots | 7 |
+| Overall verdict | APPROVED |
+
+### Assembly Checks
+
+| Check | Result | Evidence |
+|-------|--------|----------|
+| All current approved assets present | PASS | All 12 exteriors, all 12 interiors, all app exterior copies, and all 7 approved energy GLBs were found and imported. |
+| Layout-v2 spacing maintained | PASS | Minimum district-center spacing remains 36.4005u. |
+| Material slot roots valid | PASS | Final audit found no material roots outside `base`, `accent`, `glass`, `detail`, `emissive`, `energy`, or `holo`. |
+| Active triangle budget | PASS | Current exterior + energy + context scene is 225,847 tris, below the 250K Phase 8 cap. |
+| Active source file budget | PASS | Current exterior + energy source GLBs total 2,147.3 KB, below the 5 MB active-scene target. |
+| SIA central dominance | PASS | SIA remains the central tallest landmark at 3.6408x over the tallest district. |
+| Evidence renders | PASS | Exterior sheet, city overview sheet, 7 overview stills, and 7 target scroll frames are nonzero. |
+
+### Notes
+
+- The first Session 76 audit caught one Knowledgebase exterior mesh with a missing material slot. `assembly/drafts/fix-session-76-knowledgebase-material-slot.py` assigned the approved `detail` slot to `knowledgebase_s74_detail_combined_mesh`, then refreshed the approved and app GLBs without changing geometry, origin, layout position, or triangle count.
+- Target scroll frames cover Scenes 1, 4, 6, 11, 15, 16, and 17, matching the final app-facing Phase 8 evidence set.
+
+**Phase 8.8 Approved**: Yes / Date: 2026-05-26
+**Phase 8 Complete**: Yes
+**Next Work**: Final handoff or app packaging polish if requested.
+
+## Session 89 - Final Phase 10 QA
+
+**Date**: 2026-05-27
+**Scope**: Final Phase 10 evidence pass across all completed hero exterior LODs and the preserved overview LOD city. This session changed no model geometry.
+
+### Artifacts
+
+| Artifact | Path |
+|----------|------|
+| Build script | `assembly/drafts/build-session-89-final-phase-10-qa.py` |
+| Audit JSON | `assembly/audit/session-89-final-phase-10-qa.json` |
+| Audit report | `assembly/audit/session-89-final-phase-10-qa.md` |
+| Performance report | `assembly/performance-reports/session-89-performance.json` |
+| Final app hero contact sheet | `assembly/screenshots/session-89-final-phase-10-qa/s89-final-app-hero-contact-sheet.png` |
+| Before/final/dark-first contact sheet | `assembly/screenshots/session-89-final-phase-10-qa/s89-before-final-dark-contact-sheet.png` |
+| Overview LOD contact sheet | `assembly/screenshots/session-89-final-phase-10-qa/s89-overview-lod-contact-sheet.png` |
+| Runtime smoke report | `output/playwright/session89-runtime-smoke.json` |
+
+### Metrics
+
+| Metric | Result |
+|--------|--------|
+| Hero exterior LODs present | 12 / 12 |
+| Overview exterior LODs preserved | 12 / 12 |
+| Overview city tris | 225,847 / 250,000 |
+| Max focused hero scene tris | 243,219 / 270,000 |
+| Hero exterior source GLB size | 2,178,192 bytes |
+| Architectural completion score | 9.6 / 10 |
+| Scaffold/unfinished-read blockers | 0 |
+| Overall verdict | APPROVED |
+
+### Assembly Checks
+
+| Check | Result | Evidence |
+|-------|--------|----------|
+| All hero GLBs imported | PASS | Every `exteriorHero` source and public GLB exists, imports cleanly, and matches the manifest root name. |
+| Overview LOD preserved | PASS | Scenes 1, 15, and 17 continue to use overview exteriors; overview active city remains 225,847 tris. |
+| Focused hero budgets | PASS | All focused hero scenes remain below the 270K cap; the highest is Career at 243,219 tris. |
+| Gate 8 completion | PASS | All 12 prior hero LOD Gate 8 records pass, including no scaffold/unfinished hero-camera read. |
+| Runtime reachability | PASS | `npm run qa:session89-runtime` confirmed app route HTTP 200 plus 12 / 12 hero GLBs and 12 / 12 overview GLBs reachable from the running Vite app. |
+| App build | PASS | `npm run qa:phase10-lod` and `npm run build` passed after the Session 89 manifest update. |
+
+**Phase 10 Approved**: Yes / Date: 2026-05-27
+**Phase 10 Complete**: Yes
+**Next Work**: Final handoff or Phase 11 if requested.
